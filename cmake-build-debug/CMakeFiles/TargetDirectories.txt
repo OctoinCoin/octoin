@@ -1,3 +1,0 @@
-/home/beon/Projects/Euiko/spaceko/octoin/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/beon/Projects/Euiko/spaceko/octoin/cmake-build-debug/CMakeFiles/octoin.dir
-/home/beon/Projects/Euiko/spaceko/octoin/cmake-build-debug/CMakeFiles/edit_cache.dir
