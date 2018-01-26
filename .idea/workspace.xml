@@ -12,23 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1071219-5423-4f43-a6bc-8fcae2d703ee" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/bench/Examples.cpp" afterPath="$PROJECT_DIR$/src/bench/Examples.cpp" />
-      <change beforePath="$PROJECT_DIR$/src/bench/base58.cpp" afterPath="$PROJECT_DIR$/src/bench/base58.cpp" />
-      <change beforePath="$PROJECT_DIR$/src/bench/bench_bitcoin.cpp" afterPath="$PROJECT_DIR$/src/bench/bench_bitcoin.cpp" />
-      <change beforePath="$PROJECT_DIR$/src/bench/crypto_hash.cpp" afterPath="$PROJECT_DIR$/src/bench/crypto_hash.cpp" />
-      <change beforePath="$PROJECT_DIR$/src/bench/rollingbloom.cpp" afterPath="$PROJECT_DIR$/src/bench/rollingbloom.cpp" />
-      <change beforePath="$PROJECT_DIR$/src/compat/endian.h" afterPath="$PROJECT_DIR$/src/compat/endian.h" />
-      <change beforePath="$PROJECT_DIR$/src/compat/glibc_compat.cpp" afterPath="$PROJECT_DIR$/src/compat/glibc_compat.cpp" />
-      <change beforePath="$PROJECT_DIR$/src/consensus/params.h" afterPath="$PROJECT_DIR$/src/consensus/params.h" />
-      <change beforePath="$PROJECT_DIR$/src/crypto/common.h" afterPath="$PROJECT_DIR$/src/crypto/common.h" />
-      <change beforePath="$PROJECT_DIR$/src/primitives/block.h" afterPath="$PROJECT_DIR$/src/primitives/block.h" />
-      <change beforePath="$PROJECT_DIR$/src/primitives/transaction.h" afterPath="$PROJECT_DIR$/src/primitives/transaction.h" />
-      <change beforePath="$PROJECT_DIR$/src/script/interpreter.h" afterPath="$PROJECT_DIR$/src/script/interpreter.h" />
-      <change beforePath="$PROJECT_DIR$/src/script/script.h" afterPath="$PROJECT_DIR$/src/script/script.h" />
-      <change beforePath="$PROJECT_DIR$/src/script/standard.h" afterPath="$PROJECT_DIR$/src/script/standard.h" />
-      <change beforePath="$PROJECT_DIR$/src/support/allocators/secure.h" afterPath="$PROJECT_DIR$/src/support/allocators/secure.h" />
-      <change beforePath="$PROJECT_DIR$/src/support/allocators/zeroafterfree.h" afterPath="$PROJECT_DIR$/src/support/allocators/zeroafterfree.h" />
-      <change beforePath="$PROJECT_DIR$/src/support/pagelocker.h" afterPath="$PROJECT_DIR$/src/support/pagelocker.h" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,7 +26,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="glibc_compat.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="glibc_compat.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/compat/glibc_compat.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
@@ -49,6 +34,16 @@
               <folding>
                 <element signature="e#316#339#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="135" column="19" lean-forward="false" selection-start-line="135" selection-start-column="19" selection-end-line="135" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -86,6 +81,7 @@
         <option value="$PROJECT_DIR$/src/bench/Examples.cpp" />
         <option value="$PROJECT_DIR$/src/bench/rollingbloom.cpp" />
         <option value="$PROJECT_DIR$/src/compat/glibc_compat.cpp" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -180,24 +176,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1516972043268</updated>
-      <workItem from="1516972048664" duration="1738000" />
+      <workItem from="1516972048664" duration="1959000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1738000" />
+    <option name="totallyTimeSpent" value="1959000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1366" height="742" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -422,6 +417,14 @@
           <folding>
             <element signature="e#316#339#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="135" column="19" lean-forward="false" selection-start-line="135" selection-start-column="19" selection-end-line="135" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
