@@ -6,7 +6,7 @@
 #ifndef BITCOIN_SUPPORT_ALLOCATORS_SECURE_H
 #define BITCOIN_SUPPORT_ALLOCATORS_SECURE_H
 
-#include "support/pagelocker.h"
+#include "../pagelocker.h"
 
 #include <string>
 

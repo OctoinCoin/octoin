@@ -7,7 +7,7 @@
 #define BITCOIN_SCRIPT_INTERPRETER_H
 
 #include "script_error.h"
-#include "primitives/transaction.h"
+#include "../primitives/transaction.h"
 
 #include <vector>
 #include <stdint.h>

@@ -6,10 +6,10 @@
 #ifndef BITCOIN_PRIMITIVES_TRANSACTION_H
 #define BITCOIN_PRIMITIVES_TRANSACTION_H
 
-#include "amount.h"
-#include "script/script.h"
-#include "serialize.h"
-#include "uint256.h"
+#include "../amount.h"
+#include "../script/script.h"
+#include "../serialize.h"
+#include "../uint256.h"
 
 static const int SERIALIZE_TRANSACTION_NO_WITNESS = 0x40000000;
 

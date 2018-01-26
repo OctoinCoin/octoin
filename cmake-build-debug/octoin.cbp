@@ -1,0 +1,1874 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="octoin"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/beon/Projects/Euiko/spaceko/octoin/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/beon/Projects/Euiko/spaceko/octoin/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/beon/Projects/Euiko/spaceko/octoin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/beon/Projects/Euiko/spaceko/octoin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/beon/Projects/Euiko/spaceko/octoin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/beon/Projects/Euiko/spaceko/octoin/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/beon/Projects/Euiko/spaceko/octoin/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/beon/Projects/Euiko/spaceko/octoin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/beon/Projects/Euiko/spaceko/octoin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/beon/Projects/Euiko/spaceko/octoin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="octoin">
+				<Option output="/home/beon/Projects/Euiko/spaceko/octoin/cmake-build-debug/octoin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/beon/Projects/Euiko/spaceko/octoin/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.1/../../../../include/c++/7.2.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.1/../../../../include/c++/7.2.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.1/../../../../include/c++/7.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/beon/Projects/Euiko/spaceko/octoin/cmake-build-debug/Makefile&quot;  VERBOSE=1 octoin"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/beon/Projects/Euiko/spaceko/octoin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/beon/Projects/Euiko/spaceko/octoin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/beon/Projects/Euiko/spaceko/octoin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="octoin/fast">
+				<Option output="/home/beon/Projects/Euiko/spaceko/octoin/cmake-build-debug/octoin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/beon/Projects/Euiko/spaceko/octoin/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.1/../../../../include/c++/7.2.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.1/../../../../include/c++/7.2.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.1/../../../../include/c++/7.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/beon/Projects/Euiko/spaceko/octoin/cmake-build-debug/Makefile&quot;  VERBOSE=1 octoin/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/beon/Projects/Euiko/spaceko/octoin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/beon/Projects/Euiko/spaceko/octoin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/beon/Projects/Euiko/spaceko/octoin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/beon/Projects/Euiko/spaceko/octoin/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/beon/Projects/Euiko/spaceko/octoin/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/beon/Projects/Euiko/spaceko/octoin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/beon/Projects/Euiko/spaceko/octoin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/beon/Projects/Euiko/spaceko/octoin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/addrman.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/addrman.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/amount.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/amount.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/arith_uint256.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/arith_uint256.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/base58.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/base58.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/bench/Examples.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/bench/base58.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/bench/bench.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/bench/bench.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/bench/bench_bitcoin.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/bench/crypto_hash.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/bench/rollingbloom.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/bitcoin-cli.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/bitcoin-tx.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/bitcoind.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/blockencodings.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/blockencodings.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/bloom.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/bloom.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/chain.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/chain.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/chainparams.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/chainparams.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/chainparamsbase.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/chainparamsbase.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/chainparamsseeds.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/checkpoints.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/checkpoints.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/checkqueue.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/clientversion.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/clientversion.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/coincontrol.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/coins.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/coins.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/compat.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/compat/byteswap.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/compat/endian.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/compat/glibc_compat.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/compat/glibc_sanity.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/compat/glibcxx_sanity.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/compat/sanity.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/compat/strnlen.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/compressor.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/compressor.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/consensus/consensus.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/consensus/merkle.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/consensus/merkle.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/consensus/params.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/consensus/validation.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/core_io.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/core_memusage.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/core_read.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/core_write.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/crowdsale.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/crowdsale.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/crypto/aes.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/crypto/aes.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/crypto/common.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/crypto/ctaes/bench.c">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/crypto/ctaes/ctaes.c">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/crypto/ctaes/ctaes.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/crypto/ctaes/test.c">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/crypto/hmac_sha256.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/crypto/hmac_sha256.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/crypto/hmac_sha512.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/crypto/hmac_sha512.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/crypto/ripemd160.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/crypto/ripemd160.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/crypto/sha1.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/crypto/sha1.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/crypto/sha256.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/crypto/sha256.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/crypto/sha512.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/crypto/sha512.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/dbwrapper.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/dbwrapper.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/hash.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/hash.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/httprpc.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/httprpc.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/httpserver.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/httpserver.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/indirectmap.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/init.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/init.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/key.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/key.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/keystore.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/keystore.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/db/autocompact_test.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/db/builder.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/db/builder.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/db/c.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/db/c_test.c">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/db/corruption_test.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/db/db_bench.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/db/db_impl.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/db/db_impl.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/db/db_iter.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/db/db_iter.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/db/db_test.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/db/dbformat.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/db/dbformat.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/db/dbformat_test.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/db/dumpfile.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/db/filename.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/db/filename.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/db/filename_test.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/db/leveldb_main.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/db/log_format.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/db/log_reader.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/db/log_reader.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/db/log_test.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/db/log_writer.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/db/log_writer.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/db/memtable.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/db/memtable.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/db/repair.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/db/skiplist.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/db/skiplist_test.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/db/snapshot.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/db/table_cache.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/db/table_cache.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/db/version_edit.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/db/version_edit.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/db/version_edit_test.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/db/version_set.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/db/version_set.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/db/version_set_test.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/db/write_batch.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/db/write_batch_internal.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/db/write_batch_test.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/doc/bench/db_bench_sqlite3.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/doc/bench/db_bench_tree_db.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/helpers/memenv/memenv.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/helpers/memenv/memenv.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/helpers/memenv/memenv_test.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/include/leveldb/c.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/include/leveldb/cache.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/include/leveldb/comparator.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/include/leveldb/db.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/include/leveldb/dumpfile.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/include/leveldb/env.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/include/leveldb/filter_policy.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/include/leveldb/iterator.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/include/leveldb/options.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/include/leveldb/slice.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/include/leveldb/status.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/include/leveldb/table.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/include/leveldb/table_builder.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/include/leveldb/write_batch.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/issues/issue178_test.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/issues/issue200_test.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/port/atomic_pointer.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/port/port.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/port/port_example.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/port/port_posix.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/port/port_posix.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/port/port_win.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/port/port_win.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/port/thread_annotations.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/port/win/stdint.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/table/block.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/table/block.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/table/block_builder.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/table/block_builder.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/table/filter_block.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/table/filter_block.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/table/filter_block_test.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/table/format.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/table/format.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/table/iterator.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/table/iterator_wrapper.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/table/merger.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/table/merger.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/table/table.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/table/table_builder.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/table/table_test.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/table/two_level_iterator.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/table/two_level_iterator.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/util/arena.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/util/arena.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/util/arena_test.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/util/bloom.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/util/bloom_test.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/util/cache.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/util/cache_test.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/util/coding.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/util/coding.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/util/coding_test.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/util/comparator.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/util/crc32c.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/util/crc32c.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/util/crc32c_test.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/util/env.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/util/env_posix.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/util/env_test.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/util/env_win.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/util/filter_policy.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/util/hash.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/util/hash.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/util/hash_test.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/util/histogram.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/util/histogram.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/util/logging.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/util/logging.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/util/mutexlock.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/util/options.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/util/posix_logger.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/util/random.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/util/status.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/util/testharness.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/util/testharness.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/util/testutil.cc">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/leveldb/util/testutil.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/limitedmap.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/main.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/main.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/memusage.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/merkleblock.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/merkleblock.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/miner.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/miner.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/net.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/net.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/netbase.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/netbase.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/noui.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/noui.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/policy/fees.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/policy/fees.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/policy/policy.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/policy/policy.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/policy/rbf.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/policy/rbf.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/pos.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/pos.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/pow.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/pow.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/prevector.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/primitives/block.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/primitives/block.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/primitives/transaction.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/primitives/transaction.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/protocol.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/protocol.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/pubkey.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/pubkey.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/ShareDialog.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/ShareDialog.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/addressbookpage.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/addressbookpage.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/addresstablemodel.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/addresstablemodel.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/askpassphrasedialog.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/askpassphrasedialog.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/backgroundimage.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/backgroundimage.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/bantablemodel.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/bantablemodel.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/bitcoin.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/bitcoinaddressvalidator.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/bitcoinaddressvalidator.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/bitcoinamountfield.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/bitcoinamountfield.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/bitcoingui.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/bitcoingui.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/bitcoinstrings.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/bitcoinunits.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/bitcoinunits.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/bonuscodetab.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/bonuscodetab.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/clientmodel.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/clientmodel.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/coincontroldialog.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/coincontroldialog.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/coincontroltreewidget.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/coincontroltreewidget.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/css.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/css.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/csvmodelwriter.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/csvmodelwriter.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/editaddressdialog.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/editaddressdialog.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/guiconstants.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/guiutil.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/guiutil.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/header.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/header.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/informationdialog.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/informationdialog.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/intro.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/intro.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/macdockiconhandler.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/macnotificationhandler.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/networkstyle.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/networkstyle.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/notificator.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/notificator.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/openuridialog.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/openuridialog.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/optionsdialog.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/optionsdialog.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/optionsmodel.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/optionsmodel.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/overviewpage.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/overviewpage.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/paymentrequestplus.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/paymentrequestplus.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/paymentserver.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/paymentserver.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/peertablemodel.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/peertablemodel.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/platformstyle.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/platformstyle.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/previewcodedialog.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/previewcodedialog.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/qvalidatedlineedit.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/qvalidatedlineedit.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/qvaluecombobox.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/qvaluecombobox.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/receivecoinsdialog.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/receivecoinsdialog.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/receiverequestdialog.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/receiverequestdialog.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/recentrequeststablemodel.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/recentrequeststablemodel.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/rpcconsole.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/rpcconsole.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/sendcoinsdialog.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/sendcoinsdialog.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/sendcoinsentry.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/sendcoinsentry.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/signverifymessagedialog.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/signverifymessagedialog.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/splashscreen.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/splashscreen.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/test/paymentrequestdata.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/test/paymentservertests.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/test/paymentservertests.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/test/test_main.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/test/uritests.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/test/uritests.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/trafficgraphwidget.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/trafficgraphwidget.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/transactiondesc.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/transactiondesc.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/transactiondescdialog.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/transactiondescdialog.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/transactionfilterproxy.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/transactionfilterproxy.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/transactionrecord.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/transactionrecord.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/transactiontablemodel.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/transactiontablemodel.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/transactionview.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/transactionview.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/utilitydialog.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/utilitydialog.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/walletframe.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/walletframe.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/walletmodel.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/walletmodel.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/walletmodeltransaction.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/walletmodeltransaction.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/walletview.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/walletview.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/winshutdownmonitor.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/qt/winshutdownmonitor.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/random.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/random.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/rest.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/reverselock.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/rpc/blockchain.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/rpc/client.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/rpc/client.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/rpc/mining.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/rpc/misc.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/rpc/net.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/rpc/protocol.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/rpc/protocol.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/rpc/rawtransaction.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/rpc/register.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/rpc/server.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/rpc/server.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/scheduler.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/scheduler.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/script/bitcoinconsensus.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/script/bitcoinconsensus.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/script/interpreter.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/script/interpreter.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/script/ismine.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/script/ismine.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/script/script.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/script/script.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/script/script_error.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/script/script_error.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/script/sigcache.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/script/sigcache.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/script/sign.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/script/sign.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/script/standard.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/script/standard.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/contrib/lax_der_parsing.c">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/contrib/lax_der_parsing.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/contrib/lax_der_privatekey_parsing.c">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/contrib/lax_der_privatekey_parsing.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/include/secp256k1.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/include/secp256k1_ecdh.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/include/secp256k1_recovery.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/include/secp256k1_schnorr.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/src/basic-config.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/src/bench.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/src/bench_ecdh.c">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/src/bench_internal.c">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/src/bench_recover.c">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/src/bench_schnorr_verify.c">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/src/bench_sign.c">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/src/bench_verify.c">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/src/ecdsa.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/src/ecdsa_impl.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/src/eckey.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/src/eckey_impl.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/src/ecmult.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/src/ecmult_const.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/src/ecmult_const_impl.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/src/ecmult_gen.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/src/ecmult_gen_impl.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/src/ecmult_impl.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/src/field.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/src/field_10x26.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/src/field_10x26_impl.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/src/field_5x52.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/src/field_5x52_asm_impl.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/src/field_5x52_impl.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/src/field_5x52_int128_impl.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/src/field_impl.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/src/gen_context.c">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/src/group.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/src/group_impl.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/src/hash.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/src/hash_impl.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.c">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/src/modules/ecdh/main_impl.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/src/modules/ecdh/tests_impl.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/src/modules/recovery/main_impl.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/src/modules/recovery/tests_impl.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/src/modules/schnorr/main_impl.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/src/modules/schnorr/schnorr.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/src/modules/schnorr/schnorr_impl.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/src/modules/schnorr/tests_impl.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/src/num.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/src/num_gmp.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/src/num_gmp_impl.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/src/num_impl.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/src/scalar.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/src/scalar_4x64.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/src/scalar_4x64_impl.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/src/scalar_8x32.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/src/scalar_8x32_impl.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/src/scalar_impl.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/src/secp256k1.c">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/src/testrand.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/src/testrand_impl.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/src/tests.c">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/secp256k1/src/util.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/serialize.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/streams.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/support/allocators/secure.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/support/allocators/zeroafterfree.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/support/cleanse.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/support/cleanse.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/support/pagelocker.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/support/pagelocker.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/sync.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/sync.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/test/Checkpoints_tests.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/test/DoS_tests.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/test/addrman_tests.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/test/allocator_tests.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/test/amount_tests.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/test/arith_uint256_tests.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/test/base32_tests.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/test/base58_tests.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/test/base64_tests.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/test/bip32_tests.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/test/blockencodings_tests.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/test/bloom_tests.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/test/coins_tests.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/test/compress_tests.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/test/crypto_tests.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/test/dbwrapper_tests.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/test/getarg_tests.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/test/hash_tests.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/test/key_tests.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/test/limitedmap_tests.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/test/main_tests.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/test/mempool_tests.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/test/merkle_tests.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/test/miner_tests.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/test/multisig_tests.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/test/net_tests.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/test/netbase_tests.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/test/pmt_tests.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/test/policyestimator_tests.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/test/pos_tests.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/test/pow_tests.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/test/prevector_tests.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/test/reverselock_tests.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/test/rpc_tests.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/test/sanity_tests.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/test/scheduler_tests.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/test/script_P2SH_tests.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/test/script_tests.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/test/scriptnum10.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/test/scriptnum_tests.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/test/serialize_tests.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/test/sighash_tests.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/test/sigopcount_tests.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/test/skiplist_tests.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/test/streams_tests.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/test/test_bitcoin.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/test/test_bitcoin.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/test/testutil.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/test/testutil.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/test/timedata_tests.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/test/transaction_tests.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/test/txvalidationcache_tests.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/test/uint256_tests.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/test/univalue_tests.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/test/util_tests.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/test/versionbits_tests.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/threadsafety.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/timedata.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/timedata.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/tinyformat.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/torcontrol.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/torcontrol.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/txdb.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/txdb.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/txmempool.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/txmempool.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/ui_interface.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/ui_interface.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/uint256.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/uint256.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/undo.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/univalue/include/univalue.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/univalue/lib/univalue.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/univalue/lib/univalue_escapes.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/univalue/lib/univalue_read.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/univalue/lib/univalue_utffilter.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/univalue/lib/univalue_write.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/univalue/test/unitester.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/util.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/util.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/utilmoneystr.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/utilmoneystr.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/utilstrencodings.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/utilstrencodings.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/utiltime.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/utiltime.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/validationinterface.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/validationinterface.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/version.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/versionbits.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/versionbits.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/wallet/crypter.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/wallet/crypter.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/wallet/db.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/wallet/db.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/wallet/rpcdump.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/wallet/rpcwallet.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/wallet/rpcwallet.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/wallet/test/accounting_tests.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/wallet/test/crypto_tests.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/wallet/test/rpc_wallet_tests.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/wallet/test/wallet_test_fixture.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/wallet/test/wallet_test_fixture.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/wallet/test/wallet_tests.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/wallet/wallet.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/wallet/wallet.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/wallet/walletdb.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/wallet/walletdb.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/zmq/zmqabstractnotifier.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/zmq/zmqabstractnotifier.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/zmq/zmqconfig.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/zmq/zmqnotificationinterface.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/zmq/zmqnotificationinterface.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/zmq/zmqpublishnotifier.cpp">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/src/zmq/zmqpublishnotifier.h">
+			<Option target="octoin"/>
+		</Unit>
+		<Unit filename="/home/beon/Projects/Euiko/spaceko/octoin/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
