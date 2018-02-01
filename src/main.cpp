@@ -75,7 +75,7 @@ CChain chainActive;
 
 
 set<pair<COutPoint, unsigned int> > setStakeSeen;
-int nStakeMinConfirmations = 576 * 5;
+int nStakeMinConfirmations = 576 * 1;
 unsigned int nModifierInterval = 10 * 60; // time to elapse before new modifier is computed
 
 
