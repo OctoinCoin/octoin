@@ -326,7 +326,7 @@
 #define PACKAGE_NAME "OctoinCoin Core"
 
 /* Define to the full name and version of this package. */
-#define PACKAGE_STRING "OctoinCoin Core 1.1.0"
+#define PACKAGE_STRING "OctoinCoin Core 1.2.1"
 
 /* Define to the one symbol short name of this package. */
 #define PACKAGE_TARNAME "octoin"
