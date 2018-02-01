@@ -1511,7 +1511,7 @@ void BitcoinGUI::startLightning() {
     if (network == "test")
         network += "net";
     QString zmqport = QString::fromStdString(
-        GetArg("-zmqpubhashblock", DEFAULT_ZMQPUBHASHBLOCK));
+        GetArg("-zmqpubhashblock", "tcp://127.0.0.1:28332"));
 
     QString program = "java";
     QStringList arguments;

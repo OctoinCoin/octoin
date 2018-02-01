@@ -1,0 +1,581 @@
+<!DOCTYPE html >
+<html>
+        <head>
+          <title>blockchain - eclair-core_2.11 0.2-SNAPSHOT API - fr.acinq.eclair.blockchain</title>
+          <meta name="description" content="blockchain - eclair - core 2.11 0.2 - SNAPSHOT API - fr.acinq.eclair.blockchain" />
+          <meta name="keywords" content="blockchain eclair core 2.11 0.2 SNAPSHOT API fr.acinq.eclair.blockchain" />
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link href="../../../../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../../../../lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
+      <script type="text/javascript" src="../../../../lib/jquery.js" id="jquery-js"></script>
+      <script type="text/javascript" src="../../../../lib/jquery-ui.js"></script>
+      <script type="text/javascript" src="../../../../lib/template.js"></script>
+      <script type="text/javascript" src="../../../../lib/tools.tooltip.js"></script>
+      
+      <script type="text/javascript">
+         if(top === self) {
+            var url = '../../../../index.html';
+            var hash = 'fr.acinq.eclair.blockchain.package';
+            var anchor = window.location.hash;
+            var anchor_opt = '';
+            if (anchor.length >= 1)
+              anchor_opt = '@' + anchor.substring(1);
+            window.location.href = url + '#' + hash + anchor_opt;
+         }
+   	  </script>
+    
+        </head>
+        <body class="value">
+      <div id="definition">
+        <img alt="Package" src="../../../../lib/package_big.png" />
+        <p id="owner"><a href="../../../package.html" class="extype" name="fr">fr</a>.<a href="../../package.html" class="extype" name="fr.acinq">acinq</a>.<a href="../package.html" class="extype" name="fr.acinq.eclair">eclair</a></p>
+        <h1>blockchain</h1><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.blockchain.package" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      </div>
+
+      <h4 id="signature" class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <span class="name">blockchain</span>
+      </span>
+      </h4>
+      
+          <div id="comment" class="fullcommenttop"></div>
+        
+
+      <div id="mbrsel">
+        <div id="textfilter"><span class="pre"></span><span class="input"><input id="mbrsel-input" type="text" accesskey="/" /></span><span class="post"></span></div>
+        
+        
+        <div id="visbl">
+            <span class="filtertype">Visibility</span>
+            <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+          </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        
+
+        <div id="types" class="types members">
+              <h3>Type Members</h3>
+              <ol><li name="fr.acinq.eclair.blockchain.BlockchainEvent" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="BlockchainEventextendsAnyRef"></a>
+      <a id="BlockchainEvent:BlockchainEvent"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="BlockchainEvent.html"><span class="name">BlockchainEvent</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.blockchain.package@BlockchainEventextendsAnyRef" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Created by PM on 24/08/2016.</p>
+    </li><li name="fr.acinq.eclair.blockchain.CurrentBlockCount" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="CurrentBlockCountextendsBlockchainEventwithProductwithSerializable"></a>
+      <a id="CurrentBlockCount:CurrentBlockCount"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="CurrentBlockCount.html"><span class="name">CurrentBlockCount</span></a><span class="params">(<span name="blockCount">blockCount: <span class="extype" name="scala.Long">Long</span></span>)</span><span class="result"> extends <a href="BlockchainEvent.html" class="extype" name="fr.acinq.eclair.blockchain.BlockchainEvent">BlockchainEvent</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.blockchain.package@CurrentBlockCountextendsBlockchainEventwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.blockchain.CurrentFeerates" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="CurrentFeeratesextendsBlockchainEventwithProductwithSerializable"></a>
+      <a id="CurrentFeerates:CurrentFeerates"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="CurrentFeerates.html"><span class="name">CurrentFeerates</span></a><span class="params">(<span name="feeratesPerKw">feeratesPerKw: <a href="fee/FeeratesPerKw.html" class="extype" name="fr.acinq.eclair.blockchain.fee.FeeratesPerKw">FeeratesPerKw</a></span>)</span><span class="result"> extends <a href="BlockchainEvent.html" class="extype" name="fr.acinq.eclair.blockchain.BlockchainEvent">BlockchainEvent</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.blockchain.package@CurrentFeeratesextendsBlockchainEventwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.blockchain.EclairWallet" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="EclairWalletextendsAnyRef"></a>
+      <a id="EclairWallet:EclairWallet"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="EclairWallet.html"><span class="name">EclairWallet</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.blockchain.package@EclairWalletextendsAnyRef" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Created by PM on 06/07/2017.</p>
+    </li><li name="fr.acinq.eclair.blockchain.IndividualResult" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="IndividualResultextendsProductwithSerializable"></a>
+      <a id="IndividualResult:IndividualResult"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="IndividualResult.html"><span class="name">IndividualResult</span></a><span class="params">(<span name="c">c: <a href="../wire/ChannelAnnouncement.html" class="extype" name="fr.acinq.eclair.wire.ChannelAnnouncement">ChannelAnnouncement</a></span>, <span name="tx">tx: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="fr.acinq.bitcoin.Transaction">Transaction</span>]</span>, <span name="unspent">unspent: <span class="extype" name="scala.Boolean">Boolean</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.blockchain.package@IndividualResultextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.blockchain.MakeFundingTxResponse" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="MakeFundingTxResponseextendsProductwithSerializable"></a>
+      <a id="MakeFundingTxResponse:MakeFundingTxResponse"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="MakeFundingTxResponse.html"><span class="name">MakeFundingTxResponse</span></a><span class="params">(<span name="fundingTx">fundingTx: <span class="extype" name="fr.acinq.bitcoin.Transaction">Transaction</span></span>, <span name="fundingTxOutputIndex">fundingTxOutputIndex: <span class="extype" name="scala.Int">Int</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.blockchain.package@MakeFundingTxResponseextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.blockchain.NewBlock" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="NewBlockextendsBlockchainEventwithProductwithSerializable"></a>
+      <a id="NewBlock:NewBlock"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="NewBlock.html"><span class="name">NewBlock</span></a><span class="params">(<span name="block">block: <a href="../../bitcoin/Block.html" class="extype" name="fr.acinq.bitcoin.Block">Block</a></span>)</span><span class="result"> extends <a href="BlockchainEvent.html" class="extype" name="fr.acinq.eclair.blockchain.BlockchainEvent">BlockchainEvent</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.blockchain.package@NewBlockextendsBlockchainEventwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.blockchain.NewTransaction" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="NewTransactionextendsBlockchainEventwithProductwithSerializable"></a>
+      <a id="NewTransaction:NewTransaction"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="NewTransaction.html"><span class="name">NewTransaction</span></a><span class="params">(<span name="tx">tx: <span class="extype" name="fr.acinq.bitcoin.Transaction">Transaction</span></span>)</span><span class="result"> extends <a href="BlockchainEvent.html" class="extype" name="fr.acinq.eclair.blockchain.BlockchainEvent">BlockchainEvent</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.blockchain.package@NewTransactionextendsBlockchainEventwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.blockchain.ParallelGetRequest" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ParallelGetRequestextendsProductwithSerializable"></a>
+      <a id="ParallelGetRequest:ParallelGetRequest"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="ParallelGetRequest.html"><span class="name">ParallelGetRequest</span></a><span class="params">(<span name="ann">ann: <span class="extype" name="scala.Seq">Seq</span>[<a href="../wire/ChannelAnnouncement.html" class="extype" name="fr.acinq.eclair.wire.ChannelAnnouncement">ChannelAnnouncement</a>]</span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.blockchain.package@ParallelGetRequestextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.blockchain.ParallelGetResponse" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ParallelGetResponseextendsProductwithSerializable"></a>
+      <a id="ParallelGetResponse:ParallelGetResponse"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="ParallelGetResponse.html"><span class="name">ParallelGetResponse</span></a><span class="params">(<span name="r">r: <span class="extype" name="scala.Seq">Seq</span>[<a href="IndividualResult.html" class="extype" name="fr.acinq.eclair.blockchain.IndividualResult">IndividualResult</a>]</span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.blockchain.package@ParallelGetResponseextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.blockchain.PublishAsap" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="PublishAsapextendsProductwithSerializable"></a>
+      <a id="PublishAsap:PublishAsap"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="PublishAsap.html"><span class="name">PublishAsap</span></a><span class="params">(<span name="tx">tx: <span class="extype" name="fr.acinq.bitcoin.Transaction">Transaction</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.blockchain.package@PublishAsapextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Publish the provided tx as soon as possible depending on locktime and csv
+</p>
+    </li><li name="fr.acinq.eclair.blockchain.Watch" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="WatchextendsAnyRef"></a>
+      <a id="Watch:Watch"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">sealed </span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="Watch.html"><span class="name">Watch</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.blockchain.package@WatchextendsAnyRef" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Created by PM on 19/01/2016.</p>
+    </li><li name="fr.acinq.eclair.blockchain.WatchConfirmed" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="WatchConfirmedextendsWatchwithProductwithSerializable"></a>
+      <a id="WatchConfirmed:WatchConfirmed"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="WatchConfirmed.html"><span class="name">WatchConfirmed</span></a><span class="params">(<span name="channel">channel: <span class="extype" name="akka.actor.ActorRef">ActorRef</span></span>, <span name="txId">txId: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>, <span name="publicKeyScript">publicKeyScript: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>, <span name="minDepth">minDepth: <span class="extype" name="scala.Long">Long</span></span>, <span name="event">event: <a href="../channel/BitcoinEvent.html" class="extype" name="fr.acinq.eclair.channel.BitcoinEvent">BitcoinEvent</a></span>)</span><span class="result"> extends <a href="Watch.html" class="extype" name="fr.acinq.eclair.blockchain.Watch">Watch</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.blockchain.package@WatchConfirmedextendsWatchwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.blockchain.WatchEvent" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="WatchEventextendsAnyRef"></a>
+      <a id="WatchEvent:WatchEvent"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="WatchEvent.html"><span class="name">WatchEvent</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.blockchain.package@WatchEventextendsAnyRef" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.blockchain.WatchEventConfirmed" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="WatchEventConfirmedextendsWatchEventwithProductwithSerializable"></a>
+      <a id="WatchEventConfirmed:WatchEventConfirmed"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="WatchEventConfirmed.html"><span class="name">WatchEventConfirmed</span></a><span class="params">(<span name="event">event: <a href="../channel/BitcoinEvent.html" class="extype" name="fr.acinq.eclair.channel.BitcoinEvent">BitcoinEvent</a></span>, <span name="blockHeight">blockHeight: <span class="extype" name="scala.Int">Int</span></span>, <span name="txIndex">txIndex: <span class="extype" name="scala.Int">Int</span></span>)</span><span class="result"> extends <a href="WatchEvent.html" class="extype" name="fr.acinq.eclair.blockchain.WatchEvent">WatchEvent</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.blockchain.package@WatchEventConfirmedextendsWatchEventwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.blockchain.WatchEventLost" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="WatchEventLostextendsWatchEventwithProductwithSerializable"></a>
+      <a id="WatchEventLost:WatchEventLost"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="WatchEventLost.html"><span class="name">WatchEventLost</span></a><span class="params">(<span name="event">event: <a href="../channel/BitcoinEvent.html" class="extype" name="fr.acinq.eclair.channel.BitcoinEvent">BitcoinEvent</a></span>)</span><span class="result"> extends <a href="WatchEvent.html" class="extype" name="fr.acinq.eclair.blockchain.WatchEvent">WatchEvent</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.blockchain.package@WatchEventLostextendsWatchEventwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.blockchain.WatchEventSpent" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="WatchEventSpentextendsWatchEventwithProductwithSerializable"></a>
+      <a id="WatchEventSpent:WatchEventSpent"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="WatchEventSpent.html"><span class="name">WatchEventSpent</span></a><span class="params">(<span name="event">event: <a href="../channel/BitcoinEvent.html" class="extype" name="fr.acinq.eclair.channel.BitcoinEvent">BitcoinEvent</a></span>, <span name="tx">tx: <span class="extype" name="fr.acinq.bitcoin.Transaction">Transaction</span></span>)</span><span class="result"> extends <a href="WatchEvent.html" class="extype" name="fr.acinq.eclair.blockchain.WatchEvent">WatchEvent</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.blockchain.package@WatchEventSpentextendsWatchEventwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.blockchain.WatchEventSpentBasic" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="WatchEventSpentBasicextendsWatchEventwithProductwithSerializable"></a>
+      <a id="WatchEventSpentBasic:WatchEventSpentBasic"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="WatchEventSpentBasic.html"><span class="name">WatchEventSpentBasic</span></a><span class="params">(<span name="event">event: <a href="../channel/BitcoinEvent.html" class="extype" name="fr.acinq.eclair.channel.BitcoinEvent">BitcoinEvent</a></span>)</span><span class="result"> extends <a href="WatchEvent.html" class="extype" name="fr.acinq.eclair.blockchain.WatchEvent">WatchEvent</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.blockchain.package@WatchEventSpentBasicextendsWatchEventwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.blockchain.WatchLost" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="WatchLostextendsWatchwithProductwithSerializable"></a>
+      <a id="WatchLost:WatchLost"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="WatchLost.html"><span class="name">WatchLost</span></a><span class="params">(<span name="channel">channel: <span class="extype" name="akka.actor.ActorRef">ActorRef</span></span>, <span name="txId">txId: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>, <span name="minDepth">minDepth: <span class="extype" name="scala.Long">Long</span></span>, <span name="event">event: <a href="../channel/BitcoinEvent.html" class="extype" name="fr.acinq.eclair.channel.BitcoinEvent">BitcoinEvent</a></span>)</span><span class="result"> extends <a href="Watch.html" class="extype" name="fr.acinq.eclair.blockchain.Watch">Watch</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.blockchain.package@WatchLostextendsWatchwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.blockchain.WatchSpent" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="WatchSpentextendsWatchwithProductwithSerializable"></a>
+      <a id="WatchSpent:WatchSpent"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="WatchSpent.html"><span class="name">WatchSpent</span></a><span class="params">(<span name="channel">channel: <span class="extype" name="akka.actor.ActorRef">ActorRef</span></span>, <span name="txId">txId: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>, <span name="outputIndex">outputIndex: <span class="extype" name="scala.Int">Int</span></span>, <span name="publicKeyScript">publicKeyScript: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>, <span name="event">event: <a href="../channel/BitcoinEvent.html" class="extype" name="fr.acinq.eclair.channel.BitcoinEvent">BitcoinEvent</a></span>)</span><span class="result"> extends <a href="Watch.html" class="extype" name="fr.acinq.eclair.blockchain.Watch">Watch</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.blockchain.package@WatchSpentextendsWatchwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.blockchain.WatchSpentBasic" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="WatchSpentBasicextendsWatchwithProductwithSerializable"></a>
+      <a id="WatchSpentBasic:WatchSpentBasic"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="WatchSpentBasic.html"><span class="name">WatchSpentBasic</span></a><span class="params">(<span name="channel">channel: <span class="extype" name="akka.actor.ActorRef">ActorRef</span></span>, <span name="txId">txId: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>, <span name="outputIndex">outputIndex: <span class="extype" name="scala.Int">Int</span></span>, <span name="publicKeyScript">publicKeyScript: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>, <span name="event">event: <a href="../channel/BitcoinEvent.html" class="extype" name="fr.acinq.eclair.channel.BitcoinEvent">BitcoinEvent</a></span>)</span><span class="result"> extends <a href="Watch.html" class="extype" name="fr.acinq.eclair.blockchain.Watch">Watch</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.blockchain.package@WatchSpentBasicextendsWatchwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li></ol>
+            </div>
+
+        
+
+        <div id="values" class="values members">
+              <h3>Value Members</h3>
+              <ol><li name="fr.acinq.eclair.blockchain.WatchConfirmed" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="WatchConfirmed"></a>
+      <a id="WatchConfirmed:WatchConfirmed"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="WatchConfirmed$.html"><span class="name">WatchConfirmed</span></a><span class="result"> extends <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.blockchain.package@WatchConfirmed" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.blockchain.WatchSpent" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="WatchSpent"></a>
+      <a id="WatchSpent:WatchSpent"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="WatchSpent$.html"><span class="name">WatchSpent</span></a><span class="result"> extends <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.blockchain.package@WatchSpent" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.blockchain.WatchSpentBasic" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="WatchSpentBasic"></a>
+      <a id="WatchSpentBasic:WatchSpentBasic"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="WatchSpentBasic$.html"><span class="name">WatchSpentBasic</span></a><span class="result"> extends <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.blockchain.package@WatchSpentBasic" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.blockchain.bitcoind" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="bitcoind"></a>
+      <a id="bitcoind:bitcoind"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <a href="bitcoind/package.html"><span class="name">bitcoind</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.blockchain.package@bitcoind" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.blockchain.bitcoinj" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="bitcoinj"></a>
+      <a id="bitcoinj:bitcoinj"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <a href="bitcoinj/package.html"><span class="name">bitcoinj</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.blockchain.package@bitcoinj" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.blockchain.electrum" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="electrum"></a>
+      <a id="electrum:electrum"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <a href="electrum/package.html"><span class="name">electrum</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.blockchain.package@electrum" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.blockchain.fee" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="fee"></a>
+      <a id="fee:fee"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <a href="fee/package.html"><span class="name">fee</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.blockchain.package@fee" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li></ol>
+            </div>
+
+        
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        
+        
+        </div>
+
+        <div id="groupedMembers">
+        <div class="group" name="Ungrouped">
+              <h3>Ungrouped</h3>
+              
+            </div>
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">  </div>
+
+
+    </body>
+      </html>

@@ -1,0 +1,533 @@
+<!DOCTYPE html >
+<html>
+        <head>
+          <title>io - eclair-core_2.11 0.2-SNAPSHOT API - fr.acinq.eclair.io</title>
+          <meta name="description" content="io - eclair - core 2.11 0.2 - SNAPSHOT API - fr.acinq.eclair.io" />
+          <meta name="keywords" content="io eclair core 2.11 0.2 SNAPSHOT API fr.acinq.eclair.io" />
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link href="../../../../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../../../../lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
+      <script type="text/javascript" src="../../../../lib/jquery.js" id="jquery-js"></script>
+      <script type="text/javascript" src="../../../../lib/jquery-ui.js"></script>
+      <script type="text/javascript" src="../../../../lib/template.js"></script>
+      <script type="text/javascript" src="../../../../lib/tools.tooltip.js"></script>
+      
+      <script type="text/javascript">
+         if(top === self) {
+            var url = '../../../../index.html';
+            var hash = 'fr.acinq.eclair.io.package';
+            var anchor = window.location.hash;
+            var anchor_opt = '';
+            if (anchor.length >= 1)
+              anchor_opt = '@' + anchor.substring(1);
+            window.location.href = url + '#' + hash + anchor_opt;
+         }
+   	  </script>
+    
+        </head>
+        <body class="value">
+      <div id="definition">
+        <img alt="Package" src="../../../../lib/package_big.png" />
+        <p id="owner"><a href="../../../package.html" class="extype" name="fr">fr</a>.<a href="../../package.html" class="extype" name="fr.acinq">acinq</a>.<a href="../package.html" class="extype" name="fr.acinq.eclair">eclair</a></p>
+        <h1>io</h1><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.io.package" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      </div>
+
+      <h4 id="signature" class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <span class="name">io</span>
+      </span>
+      </h4>
+      
+          <div id="comment" class="fullcommenttop"></div>
+        
+
+      <div id="mbrsel">
+        <div id="textfilter"><span class="pre"></span><span class="input"><input id="mbrsel-input" type="text" accesskey="/" /></span><span class="post"></span></div>
+        
+        
+        <div id="visbl">
+            <span class="filtertype">Visibility</span>
+            <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+          </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        
+
+        <div id="types" class="types members">
+              <h3>Type Members</h3>
+              <ol><li name="fr.acinq.eclair.io.BrandNewChannel" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="BrandNewChannelextendsOfflineChannelwithProductwithSerializable"></a>
+      <a id="BrandNewChannel:BrandNewChannel"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="BrandNewChannel.html"><span class="name">BrandNewChannel</span></a><span class="params">(<span name="c">c: <a href="Switchboard$$NewChannel.html" class="extype" name="fr.acinq.eclair.io.Switchboard.NewChannel">NewChannel</a></span>)</span><span class="result"> extends <a href="OfflineChannel.html" class="extype" name="fr.acinq.eclair.io.OfflineChannel">OfflineChannel</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.io.package@BrandNewChannelextendsOfflineChannelwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.io.ChannelId" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="ChannelIdextendsAnyRef"></a>
+      <a id="ChannelId:ChannelId"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">sealed </span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="ChannelId.html"><span class="name">ChannelId</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.io.package@ChannelIdextendsAnyRef" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.io.Client" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ClientextendsActorwithActorLogging"></a>
+      <a id="Client:Client"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="Client.html"><span class="name">Client</span></a><span class="result"> extends <span class="extype" name="akka.actor.Actor">Actor</span> with <span class="extype" name="akka.actor.ActorLogging">ActorLogging</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.io.package@ClientextendsActorwithActorLogging" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Created by PM on 27/10/2015.</p>
+    </li><li name="fr.acinq.eclair.io.ConnectedData" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ConnectedDataextendsDatawithProductwithSerializable"></a>
+      <a id="ConnectedData:ConnectedData"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="ConnectedData.html"><span class="name">ConnectedData</span></a><span class="params">(<span name="transport">transport: <span class="extype" name="akka.actor.ActorRef">ActorRef</span></span>, <span name="remoteInit">remoteInit: <a href="../wire/Init.html" class="extype" name="fr.acinq.eclair.wire.Init">Init</a></span>, <span name="channels">channels: <span class="extype" name="scala.Predef.Map">Map</span>[<a href="ChannelId.html" class="extype" name="fr.acinq.eclair.io.ChannelId">ChannelId</a>, <span class="extype" name="akka.actor.ActorRef">ActorRef</span>]</span>)</span><span class="result"> extends <a href="Data.html" class="extype" name="fr.acinq.eclair.io.Data">Data</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.io.package@ConnectedDataextendsDatawithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.io.Data" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="DataextendsAnyRef"></a>
+      <a id="Data:Data"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">sealed </span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="Data.html"><span class="name">Data</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.io.package@DataextendsAnyRef" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.io.DisconnectedData" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="DisconnectedDataextendsDatawithProductwithSerializable"></a>
+      <a id="DisconnectedData:DisconnectedData"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="DisconnectedData.html"><span class="name">DisconnectedData</span></a><span class="params">(<span name="offlineChannels">offlineChannels: <span class="extype" name="scala.Predef.Set">Set</span>[<a href="OfflineChannel.html" class="extype" name="fr.acinq.eclair.io.OfflineChannel">OfflineChannel</a>]</span>, <span name="attempts">attempts: <span class="extype" name="scala.Int">Int</span> = <span class="symbol">0</span></span>)</span><span class="result"> extends <a href="Data.html" class="extype" name="fr.acinq.eclair.io.Data">Data</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.io.package@DisconnectedDataextendsDatawithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.io.FinalChannelId" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="FinalChannelIdextendsChannelIdwithProductwithSerializable"></a>
+      <a id="FinalChannelId:FinalChannelId"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="FinalChannelId.html"><span class="name">FinalChannelId</span></a><span class="params">(<span name="id">id: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>)</span><span class="result"> extends <a href="ChannelId.html" class="extype" name="fr.acinq.eclair.io.ChannelId">ChannelId</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.io.package@FinalChannelIdextendsChannelIdwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.io.HotChannel" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="HotChannelextendsOfflineChannelwithProductwithSerializable"></a>
+      <a id="HotChannel:HotChannel"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="HotChannel.html"><span class="name">HotChannel</span></a><span class="params">(<span name="channelId">channelId: <a href="ChannelId.html" class="extype" name="fr.acinq.eclair.io.ChannelId">ChannelId</a></span>, <span name="a">a: <span class="extype" name="akka.actor.ActorRef">ActorRef</span></span>)</span><span class="result"> extends <a href="OfflineChannel.html" class="extype" name="fr.acinq.eclair.io.OfflineChannel">OfflineChannel</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.io.package@HotChannelextendsOfflineChannelwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.io.InitializingData" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="InitializingDataextendsDatawithProductwithSerializable"></a>
+      <a id="InitializingData:InitializingData"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="InitializingData.html"><span class="name">InitializingData</span></a><span class="params">(<span name="transport">transport: <span class="extype" name="akka.actor.ActorRef">ActorRef</span></span>, <span name="offlineChannels">offlineChannels: <span class="extype" name="scala.Predef.Set">Set</span>[<a href="OfflineChannel.html" class="extype" name="fr.acinq.eclair.io.OfflineChannel">OfflineChannel</a>]</span>)</span><span class="result"> extends <a href="Data.html" class="extype" name="fr.acinq.eclair.io.Data">Data</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.io.package@InitializingDataextendsDatawithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.io.OfflineChannel" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="OfflineChannelextendsAnyRef"></a>
+      <a id="OfflineChannel:OfflineChannel"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">sealed </span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="OfflineChannel.html"><span class="name">OfflineChannel</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.io.package@OfflineChannelextendsAnyRef" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.io.Peer" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="PeerextendsLoggingFSM[fr.acinq.eclair.io.State,fr.acinq.eclair.io.Data]"></a>
+      <a id="Peer:Peer"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="Peer.html"><span class="name">Peer</span></a><span class="result"> extends <span class="extype" name="akka.actor.LoggingFSM">LoggingFSM</span>[<a href="State.html" class="extype" name="fr.acinq.eclair.io.State">State</a>, <a href="Data.html" class="extype" name="fr.acinq.eclair.io.Data">Data</a>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.io.package@PeerextendsLoggingFSM[fr.acinq.eclair.io.State,fr.acinq.eclair.io.Data]" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Created by PM on 26/08/2016.</p>
+    </li><li name="fr.acinq.eclair.io.Server" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ServerextendsActorwithActorLogging"></a>
+      <a id="Server:Server"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="Server.html"><span class="name">Server</span></a><span class="result"> extends <span class="extype" name="akka.actor.Actor">Actor</span> with <span class="extype" name="akka.actor.ActorLogging">ActorLogging</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.io.package@ServerextendsActorwithActorLogging" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Created by PM on 27/10/2015.</p>
+    </li><li name="fr.acinq.eclair.io.State" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="StateextendsAnyRef"></a>
+      <a id="State:State"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">sealed </span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="State.html"><span class="name">State</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.io.package@StateextendsAnyRef" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.io.Switchboard" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="SwitchboardextendsActorwithActorLogging"></a>
+      <a id="Switchboard:Switchboard"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="Switchboard.html"><span class="name">Switchboard</span></a><span class="result"> extends <span class="extype" name="akka.actor.Actor">Actor</span> with <span class="extype" name="akka.actor.ActorLogging">ActorLogging</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.io.package@SwitchboardextendsActorwithActorLogging" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Ties network connections to peers.</p><div class="fullcomment"><div class="comment cmt"><p>Ties network connections to peers.
+Created by PM on 14/02/2017.
+</p></div></div>
+    </li><li name="fr.acinq.eclair.io.TemporaryChannelId" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="TemporaryChannelIdextendsChannelIdwithProductwithSerializable"></a>
+      <a id="TemporaryChannelId:TemporaryChannelId"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="TemporaryChannelId.html"><span class="name">TemporaryChannelId</span></a><span class="params">(<span name="id">id: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>)</span><span class="result"> extends <a href="ChannelId.html" class="extype" name="fr.acinq.eclair.io.ChannelId">ChannelId</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.io.package@TemporaryChannelIdextendsChannelIdwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.io.WriteAckSender" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="WriteAckSenderextendsActorwithActorLogging"></a>
+      <a id="WriteAckSender:WriteAckSender"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="WriteAckSender.html"><span class="name">WriteAckSender</span></a><span class="result"> extends <span class="extype" name="akka.actor.Actor">Actor</span> with <span class="extype" name="akka.actor.ActorLogging">ActorLogging</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.io.package@WriteAckSenderextendsActorwithActorLogging" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">This implements an ACK-based throttling mechanism
+See https://doc.akka.io/docs/akka/snapshot/scala/io-tcp.html#throttling-reads-and-writes
+</p>
+    </li></ol>
+            </div>
+
+        
+
+        <div id="values" class="values members">
+              <h3>Value Members</h3>
+              <ol><li name="fr.acinq.eclair.io.CONNECTED" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="CONNECTED"></a>
+      <a id="CONNECTED:CONNECTED"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="CONNECTED$.html"><span class="name">CONNECTED</span></a><span class="result"> extends <a href="State.html" class="extype" name="fr.acinq.eclair.io.State">State</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.io.package@CONNECTED" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.io.Client" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Client"></a>
+      <a id="Client:Client"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Client$.html"><span class="name">Client</span></a><span class="result"> extends <span class="extype" name="scala.App">App</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.io.package@Client" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.io.DISCONNECTED" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="DISCONNECTED"></a>
+      <a id="DISCONNECTED:DISCONNECTED"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="DISCONNECTED$.html"><span class="name">DISCONNECTED</span></a><span class="result"> extends <a href="State.html" class="extype" name="fr.acinq.eclair.io.State">State</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.io.package@DISCONNECTED" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.io.Disconnect" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Disconnect"></a>
+      <a id="Disconnect:Disconnect"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Disconnect$.html"><span class="name">Disconnect</span></a><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.io.package@Disconnect" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.io.INITIALIZING" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="INITIALIZING"></a>
+      <a id="INITIALIZING:INITIALIZING"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="INITIALIZING$.html"><span class="name">INITIALIZING</span></a><span class="result"> extends <a href="State.html" class="extype" name="fr.acinq.eclair.io.State">State</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.io.package@INITIALIZING" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.io.Peer" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Peer"></a>
+      <a id="Peer:Peer"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Peer$.html"><span class="name">Peer</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.io.package@Peer" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.io.Reconnect" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Reconnect"></a>
+      <a id="Reconnect:Reconnect"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Reconnect$.html"><span class="name">Reconnect</span></a><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.io.package@Reconnect" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.io.Server" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Server"></a>
+      <a id="Server:Server"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Server$.html"><span class="name">Server</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.io.package@Server" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.io.Switchboard" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Switchboard"></a>
+      <a id="Switchboard:Switchboard"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Switchboard$.html"><span class="name">Switchboard</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.io.package@Switchboard" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li></ol>
+            </div>
+
+        
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        
+        
+        </div>
+
+        <div id="groupedMembers">
+        <div class="group" name="Ungrouped">
+              <h3>Ungrouped</h3>
+              
+            </div>
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">  </div>
+
+
+    </body>
+      </html>

@@ -1,0 +1,804 @@
+<!DOCTYPE html >
+<html>
+        <head>
+          <title>bitcoin - eclair-core_2.11 0.2-SNAPSHOT API - fr.acinq.bitcoin</title>
+          <meta name="description" content="bitcoin - eclair - core 2.11 0.2 - SNAPSHOT API - fr.acinq.bitcoin" />
+          <meta name="keywords" content="bitcoin eclair core 2.11 0.2 SNAPSHOT API fr.acinq.bitcoin" />
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link href="../../../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../../../lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
+      <script type="text/javascript" src="../../../lib/jquery.js" id="jquery-js"></script>
+      <script type="text/javascript" src="../../../lib/jquery-ui.js"></script>
+      <script type="text/javascript" src="../../../lib/template.js"></script>
+      <script type="text/javascript" src="../../../lib/tools.tooltip.js"></script>
+      
+      <script type="text/javascript">
+         if(top === self) {
+            var url = '../../../index.html';
+            var hash = 'fr.acinq.bitcoin.package';
+            var anchor = window.location.hash;
+            var anchor_opt = '';
+            if (anchor.length >= 1)
+              anchor_opt = '@' + anchor.substring(1);
+            window.location.href = url + '#' + hash + anchor_opt;
+         }
+   	  </script>
+    
+        </head>
+        <body class="value">
+      <div id="definition">
+        <img alt="Package" src="../../../lib/package_big.png" />
+        <p id="owner"><a href="../../package.html" class="extype" name="fr">fr</a>.<a href="../package.html" class="extype" name="fr.acinq">acinq</a></p>
+        <h1>bitcoin</h1><span class="permalink">
+      <a href="../../../index.html#fr.acinq.bitcoin.package" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      </div>
+
+      <h4 id="signature" class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <span class="name">bitcoin</span>
+      </span>
+      </h4>
+      
+          <div id="comment" class="fullcommenttop"><div class="toggleContainer block">
+          <span class="toggle">Linear Supertypes</span>
+          <div class="superTypes hiddenContent"><span class="extype" name="scala.AnyRef">AnyRef</span>, <span class="extype" name="scala.Any">Any</span></div>
+        </div></div>
+        
+
+      <div id="mbrsel">
+        <div id="textfilter"><span class="pre"></span><span class="input"><input id="mbrsel-input" type="text" accesskey="/" /></span><span class="post"></span></div>
+        <div id="order">
+              <span class="filtertype">Ordering</span>
+              <ol>
+                
+                <li class="alpha in"><span>Alphabetic</span></li>
+                <li class="inherit out"><span>By Inheritance</span></li>
+              </ol>
+            </div>
+        <div id="ancestors">
+                <span class="filtertype">Inherited<br />
+                </span>
+                <ol id="linearization">
+                  <li class="in" name="fr.acinq.bitcoin"><span>bitcoin</span></li><li class="in" name="scala.AnyRef"><span>AnyRef</span></li><li class="in" name="scala.Any"><span>Any</span></li>
+                </ol>
+              </div><div id="ancestors">
+            <span class="filtertype"></span>
+            <ol>
+              <li class="hideall out"><span>Hide All</span></li>
+              <li class="showall in"><span>Show All</span></li>
+            </ol>
+          </div>
+        <div id="visbl">
+            <span class="filtertype">Visibility</span>
+            <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+          </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        
+
+        <div id="types" class="types members">
+              <h3>Type Members</h3>
+              <ol><li name="fr.acinq.bitcoin.Block" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="BlockextendsBtcSerializable[fr.acinq.bitcoin.Block]withProductwithSerializable"></a>
+      <a id="Block:Block"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Block.html"><span class="name">Block</span></a><span class="params">(<span name="header">header: <a href="BlockHeader.html" class="extype" name="fr.acinq.bitcoin.BlockHeader">BlockHeader</a></span>, <span name="tx">tx: <span class="extype" name="scala.Seq">Seq</span>[<span class="extype" name="fr.acinq.bitcoin.Transaction">Transaction</span>]</span>)</span><span class="result"> extends <span class="extype" name="fr.acinq.bitcoin.BtcSerializable">BtcSerializable</span>[<a href="Block.html" class="extype" name="fr.acinq.bitcoin.Block">Block</a>] with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#fr.acinq.bitcoin.package@BlockextendsBtcSerializable[fr.acinq.bitcoin.Block]withProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Bitcoin block
+</p><div class="fullcomment"><div class="comment cmt"><p>Bitcoin block
+</p></div><dl class="paramcmts block"><dt class="param">header</dt><dd class="cmt"><p>block header</p></dd><dt class="param">tx</dt><dd class="cmt"><p>transactions</p></dd></dl></div>
+    </li><li name="fr.acinq.bitcoin.BlockHeader" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="BlockHeaderextendsBtcSerializable[fr.acinq.bitcoin.BlockHeader]withProductwithSerializable"></a>
+      <a id="BlockHeader:BlockHeader"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="BlockHeader.html"><span class="name">BlockHeader</span></a><span class="params">(<span name="version">version: <span class="extype" name="scala.Long">Long</span></span>, <span name="hashPreviousBlock">hashPreviousBlock: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>, <span name="hashMerkleRoot">hashMerkleRoot: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>, <span name="time">time: <span class="extype" name="scala.Long">Long</span></span>, <span name="bits">bits: <span class="extype" name="scala.Long">Long</span></span>, <span name="nonce">nonce: <span class="extype" name="scala.Long">Long</span></span>)</span><span class="result"> extends <span class="extype" name="fr.acinq.bitcoin.BtcSerializable">BtcSerializable</span>[<a href="BlockHeader.html" class="extype" name="fr.acinq.bitcoin.BlockHeader">BlockHeader</a>] with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#fr.acinq.bitcoin.package@BlockHeaderextendsBtcSerializable[fr.acinq.bitcoin.BlockHeader]withProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt"></p><div class="fullcomment"><div class="comment cmt"></div><dl class="paramcmts block"><dt class="param">version</dt><dd class="cmt"><p>Block version information, based upon the software version creating this block</p></dd><dt class="param">hashPreviousBlock</dt><dd class="cmt"><p>The hash value of the previous block this particular block references. Please not that
+                         this hash is not reversed (as opposed to Block.hash)</p></dd><dt class="param">hashMerkleRoot</dt><dd class="cmt"><p>The reference to a Merkle tree collection which is a hash of all transactions related to this block</p></dd><dt class="param">time</dt><dd class="cmt"><p>A timestamp recording when this block was created (Will overflow in 2106[2])</p></dd><dt class="param">bits</dt><dd class="cmt"><p>The calculated difficulty target being used for this block</p></dd><dt class="param">nonce</dt><dd class="cmt"><p>The nonce used to generate this block… to allow variations of the header and compute different hashes</p></dd></dl></div>
+    </li></ol>
+            </div>
+
+        
+
+        <div id="values" class="values members">
+              <h3>Value Members</h3>
+              <ol><li name="fr.acinq.bitcoin.Base58" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Base58"></a>
+      <a id="Base58:Base58"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Base58$.html"><span class="name">Base58</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#fr.acinq.bitcoin.package@Base58" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.bitcoin.Base58Check" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="Base58Check"></a>
+      <a id="Base58Check:Base58Check"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Base58Check$.html"><span class="name">Base58Check</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#fr.acinq.bitcoin.package@Base58Check" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">https://en.bitcoin.it/wiki/Base58Check_encoding
+Base58Check is a format based on Base58 and used a lot in bitcoin, for encoding addresses and private keys for
+example.</p><div class="fullcomment"><div class="comment cmt"><p>https://en.bitcoin.it/wiki/Base58Check_encoding
+Base58Check is a format based on Base58 and used a lot in bitcoin, for encoding addresses and private keys for
+example. It includes a prefix (usually a single byte) and a checksum so you know what has been encoded, and that it has
+been transmitted correctly.
+For example, to create an address for a public key you could write:</p><pre><span class="kw">val</span> pub: BinaryData = <span class="lit">"0202a406624211f2abbdc68da3df929f938c3399dd79fac1b51b0e4ad1d26a47aa"</span>
+<span class="kw">val</span> address = Base58Check.encode(Base58.Prefix.PubkeyAddress, Crypto.hash160(pub))</pre><p>And to decode a private key you could write:</p><pre><span class="cmt">// check that is it a mainnet private key</span>
+<span class="kw">val</span> (Base58.Prefix.SecretKey, priv) = Base58Check.decode(<span class="lit">"5J3mBbAH58CpQ3Y5RNJpUKPE62SQ5tfcvU2JpbnkeyhfsYB1Jcn"</span>)</pre></div></div>
+    </li><li name="fr.acinq.bitcoin.Block" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Block"></a>
+      <a id="Block:Block"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Block$.html"><span class="name">Block</span></a><span class="result"> extends <span class="extype" name="fr.acinq.bitcoin.BtcSerializer">BtcSerializer</span>[<a href="Block.html" class="extype" name="fr.acinq.bitcoin.Block">Block</a>] with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#fr.acinq.bitcoin.package@Block" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.bitcoin.BlockHeader" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="BlockHeader"></a>
+      <a id="BlockHeader:BlockHeader"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="BlockHeader$.html"><span class="name">BlockHeader</span></a><span class="result"> extends <span class="extype" name="fr.acinq.bitcoin.BtcSerializer">BtcSerializer</span>[<a href="BlockHeader.html" class="extype" name="fr.acinq.bitcoin.BlockHeader">BlockHeader</a>] with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#fr.acinq.bitcoin.package@BlockHeader" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.bitcoin#Cent" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Cent:Long"></a>
+      <a id="Cent:Long"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">Cent</span><span class="result">: <span class="extype" name="scala.Long">Long</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#fr.acinq.bitcoin.package@Cent:Long" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.bitcoin#Coin" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Coin:Long"></a>
+      <a id="Coin:Long"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">Coin</span><span class="result">: <span class="extype" name="scala.Long">Long</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#fr.acinq.bitcoin.package@Coin:Long" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.bitcoin#LockTimeThreshold" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="LockTimeThreshold:Long"></a>
+      <a id="LockTimeThreshold:Long"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">LockTimeThreshold</span><span class="result">: <span class="extype" name="scala.Long">Long</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#fr.acinq.bitcoin.package@LockTimeThreshold:Long" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.bitcoin#MaxBlockSize" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="MaxBlockSize:Int"></a>
+      <a id="MaxBlockSize:Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">MaxBlockSize</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#fr.acinq.bitcoin.package@MaxBlockSize:Int" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.bitcoin#MaxMoney" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="MaxMoney:Long"></a>
+      <a id="MaxMoney:Long"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">MaxMoney</span><span class="result">: <span class="extype" name="scala.Long">Long</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#fr.acinq.bitcoin.package@MaxMoney:Long" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.bitcoin#MaxScriptElementSize" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="MaxScriptElementSize:Int"></a>
+      <a id="MaxScriptElementSize:Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">MaxScriptElementSize</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#fr.acinq.bitcoin.package@MaxScriptElementSize:Int" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.bitcoin#SIGHASH_ALL" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="SIGHASH_ALL:Int"></a>
+      <a id="SIGHASH_ALL:Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">SIGHASH_ALL</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#fr.acinq.bitcoin.package@SIGHASH_ALL:Int" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.bitcoin#SIGHASH_ANYONECANPAY" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="SIGHASH_ANYONECANPAY:Int"></a>
+      <a id="SIGHASH_ANYONECANPAY:Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">SIGHASH_ANYONECANPAY</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#fr.acinq.bitcoin.package@SIGHASH_ANYONECANPAY:Int" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.bitcoin#SIGHASH_NONE" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="SIGHASH_NONE:Int"></a>
+      <a id="SIGHASH_NONE:Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">SIGHASH_NONE</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#fr.acinq.bitcoin.package@SIGHASH_NONE:Int" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.bitcoin#SIGHASH_SINGLE" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="SIGHASH_SINGLE:Int"></a>
+      <a id="SIGHASH_SINGLE:Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">SIGHASH_SINGLE</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#fr.acinq.bitcoin.package@SIGHASH_SINGLE:Int" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.bitcoin#array2binaryData" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="array2binaryData(input:Array[Byte]):fr.acinq.bitcoin.BinaryData"></a>
+      <a id="array2binaryData(Array[Byte]):BinaryData"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">array2binaryData</span><span class="params">(<span name="input">input: <span class="extype" name="scala.Array">Array</span>[<span class="extype" name="scala.Byte">Byte</span>]</span>)</span><span class="result">: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#fr.acinq.bitcoin.package@array2binaryData(input:Array[Byte]):fr.acinq.bitcoin.BinaryData" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.bitcoin#binaryData2Seq" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="binaryData2Seq(input:fr.acinq.bitcoin.BinaryData):Seq[Byte]"></a>
+      <a id="binaryData2Seq(BinaryData):Seq[Byte]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">binaryData2Seq</span><span class="params">(<span name="input">input: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>)</span><span class="result">: <span class="extype" name="scala.Seq">Seq</span>[<span class="extype" name="scala.Byte">Byte</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#fr.acinq.bitcoin.package@binaryData2Seq(input:fr.acinq.bitcoin.BinaryData):Seq[Byte]" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.bitcoin#binaryData2array" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="binaryData2array(input:fr.acinq.bitcoin.BinaryData):Array[Byte]"></a>
+      <a id="binaryData2array(BinaryData):Array[Byte]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">binaryData2array</span><span class="params">(<span name="input">input: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>)</span><span class="result">: <span class="extype" name="scala.Array">Array</span>[<span class="extype" name="scala.Byte">Byte</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#fr.acinq.bitcoin.package@binaryData2array(input:fr.acinq.bitcoin.BinaryData):Array[Byte]" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.bitcoin#btc2millibtc" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="btc2millibtc(input:fr.acinq.bitcoin.Btc):fr.acinq.bitcoin.MilliBtc"></a>
+      <a id="btc2millibtc(Btc):MilliBtc"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">btc2millibtc</span><span class="params">(<span name="input">input: <span class="extype" name="fr.acinq.bitcoin.Btc">Btc</span></span>)</span><span class="result">: <span class="extype" name="fr.acinq.bitcoin.MilliBtc">MilliBtc</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#fr.acinq.bitcoin.package@btc2millibtc(input:fr.acinq.bitcoin.Btc):fr.acinq.bitcoin.MilliBtc" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.bitcoin#btc2millisatoshi" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="btc2millisatoshi(input:fr.acinq.bitcoin.Btc):fr.acinq.bitcoin.MilliSatoshi"></a>
+      <a id="btc2millisatoshi(Btc):MilliSatoshi"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">btc2millisatoshi</span><span class="params">(<span name="input">input: <span class="extype" name="fr.acinq.bitcoin.Btc">Btc</span></span>)</span><span class="result">: <span class="extype" name="fr.acinq.bitcoin.MilliSatoshi">MilliSatoshi</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#fr.acinq.bitcoin.package@btc2millisatoshi(input:fr.acinq.bitcoin.Btc):fr.acinq.bitcoin.MilliSatoshi" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.bitcoin#btc2satoshi" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="btc2satoshi(input:fr.acinq.bitcoin.Btc):fr.acinq.bitcoin.Satoshi"></a>
+      <a id="btc2satoshi(Btc):Satoshi"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">btc2satoshi</span><span class="params">(<span name="input">input: <span class="extype" name="fr.acinq.bitcoin.Btc">Btc</span></span>)</span><span class="result">: <span class="extype" name="fr.acinq.bitcoin.Satoshi">Satoshi</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#fr.acinq.bitcoin.package@btc2satoshi(input:fr.acinq.bitcoin.Btc):fr.acinq.bitcoin.Satoshi" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.bitcoin#decodeCompact" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="decodeCompact(input:Long):(java.math.BigInteger,Boolean,Boolean)"></a>
+      <a id="decodeCompact(Long):(BigInteger,Boolean,Boolean)"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">decodeCompact</span><span class="params">(<span name="input">input: <span class="extype" name="scala.Long">Long</span></span>)</span><span class="result">: (<span class="extype" name="java.math.BigInteger">BigInteger</span>, <span class="extype" name="scala.Boolean">Boolean</span>, <span class="extype" name="scala.Boolean">Boolean</span>)</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#fr.acinq.bitcoin.package@decodeCompact(input:Long):(java.math.BigInteger,Boolean,Boolean)" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.bitcoin#fromHexString" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="fromHexString(hex:&lt;?&gt;):fr.acinq.bitcoin.BinaryData"></a>
+      <a id="fromHexString(String):BinaryData"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">fromHexString</span><span class="params">(<span name="hex">hex: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result">: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#fr.acinq.bitcoin.package@fromHexString(hex:String):fr.acinq.bitcoin.BinaryData" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.bitcoin#isAnyoneCanPay" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="isAnyoneCanPay(sighashType:&lt;?&gt;):Boolean"></a>
+      <a id="isAnyoneCanPay(Int):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">isAnyoneCanPay</span><span class="params">(<span name="sighashType">sighashType: <span class="extype" name="scala.Int">Int</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#fr.acinq.bitcoin.package@isAnyoneCanPay(sighashType:Int):Boolean" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.bitcoin#isHashNone" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="isHashNone(sighashType:&lt;?&gt;):Boolean"></a>
+      <a id="isHashNone(Int):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">isHashNone</span><span class="params">(<span name="sighashType">sighashType: <span class="extype" name="scala.Int">Int</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#fr.acinq.bitcoin.package@isHashNone(sighashType:Int):Boolean" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.bitcoin#isHashSingle" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="isHashSingle(sighashType:&lt;?&gt;):Boolean"></a>
+      <a id="isHashSingle(Int):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">isHashSingle</span><span class="params">(<span name="sighashType">sighashType: <span class="extype" name="scala.Int">Int</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#fr.acinq.bitcoin.package@isHashSingle(sighashType:Int):Boolean" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.bitcoin#millibtc2btc" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="millibtc2btc(input:fr.acinq.bitcoin.MilliBtc):fr.acinq.bitcoin.Btc"></a>
+      <a id="millibtc2btc(MilliBtc):Btc"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">millibtc2btc</span><span class="params">(<span name="input">input: <span class="extype" name="fr.acinq.bitcoin.MilliBtc">MilliBtc</span></span>)</span><span class="result">: <span class="extype" name="fr.acinq.bitcoin.Btc">Btc</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#fr.acinq.bitcoin.package@millibtc2btc(input:fr.acinq.bitcoin.MilliBtc):fr.acinq.bitcoin.Btc" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.bitcoin#millibtc2millisatoshi" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="millibtc2millisatoshi(input:fr.acinq.bitcoin.MilliBtc):fr.acinq.bitcoin.MilliSatoshi"></a>
+      <a id="millibtc2millisatoshi(MilliBtc):MilliSatoshi"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">millibtc2millisatoshi</span><span class="params">(<span name="input">input: <span class="extype" name="fr.acinq.bitcoin.MilliBtc">MilliBtc</span></span>)</span><span class="result">: <span class="extype" name="fr.acinq.bitcoin.MilliSatoshi">MilliSatoshi</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#fr.acinq.bitcoin.package@millibtc2millisatoshi(input:fr.acinq.bitcoin.MilliBtc):fr.acinq.bitcoin.MilliSatoshi" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.bitcoin#millibtc2satoshi" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="millibtc2satoshi(input:fr.acinq.bitcoin.MilliBtc):fr.acinq.bitcoin.Satoshi"></a>
+      <a id="millibtc2satoshi(MilliBtc):Satoshi"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">millibtc2satoshi</span><span class="params">(<span name="input">input: <span class="extype" name="fr.acinq.bitcoin.MilliBtc">MilliBtc</span></span>)</span><span class="result">: <span class="extype" name="fr.acinq.bitcoin.Satoshi">Satoshi</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#fr.acinq.bitcoin.package@millibtc2satoshi(input:fr.acinq.bitcoin.MilliBtc):fr.acinq.bitcoin.Satoshi" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.bitcoin#millisatoshi2btc" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="millisatoshi2btc(input:fr.acinq.bitcoin.MilliSatoshi):fr.acinq.bitcoin.Btc"></a>
+      <a id="millisatoshi2btc(MilliSatoshi):Btc"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">millisatoshi2btc</span><span class="params">(<span name="input">input: <span class="extype" name="fr.acinq.bitcoin.MilliSatoshi">MilliSatoshi</span></span>)</span><span class="result">: <span class="extype" name="fr.acinq.bitcoin.Btc">Btc</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#fr.acinq.bitcoin.package@millisatoshi2btc(input:fr.acinq.bitcoin.MilliSatoshi):fr.acinq.bitcoin.Btc" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.bitcoin#millisatoshi2millibtc" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="millisatoshi2millibtc(input:fr.acinq.bitcoin.MilliSatoshi):fr.acinq.bitcoin.MilliBtc"></a>
+      <a id="millisatoshi2millibtc(MilliSatoshi):MilliBtc"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">millisatoshi2millibtc</span><span class="params">(<span name="input">input: <span class="extype" name="fr.acinq.bitcoin.MilliSatoshi">MilliSatoshi</span></span>)</span><span class="result">: <span class="extype" name="fr.acinq.bitcoin.MilliBtc">MilliBtc</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#fr.acinq.bitcoin.package@millisatoshi2millibtc(input:fr.acinq.bitcoin.MilliSatoshi):fr.acinq.bitcoin.MilliBtc" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.bitcoin#millisatoshi2satoshi" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="millisatoshi2satoshi(input:fr.acinq.bitcoin.MilliSatoshi):fr.acinq.bitcoin.Satoshi"></a>
+      <a id="millisatoshi2satoshi(MilliSatoshi):Satoshi"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">millisatoshi2satoshi</span><span class="params">(<span name="input">input: <span class="extype" name="fr.acinq.bitcoin.MilliSatoshi">MilliSatoshi</span></span>)</span><span class="result">: <span class="extype" name="fr.acinq.bitcoin.Satoshi">Satoshi</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#fr.acinq.bitcoin.package@millisatoshi2satoshi(input:fr.acinq.bitcoin.MilliSatoshi):fr.acinq.bitcoin.Satoshi" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.bitcoin#satoshi2btc" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="satoshi2btc(input:fr.acinq.bitcoin.Satoshi):fr.acinq.bitcoin.Btc"></a>
+      <a id="satoshi2btc(Satoshi):Btc"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">satoshi2btc</span><span class="params">(<span name="input">input: <span class="extype" name="fr.acinq.bitcoin.Satoshi">Satoshi</span></span>)</span><span class="result">: <span class="extype" name="fr.acinq.bitcoin.Btc">Btc</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#fr.acinq.bitcoin.package@satoshi2btc(input:fr.acinq.bitcoin.Satoshi):fr.acinq.bitcoin.Btc" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.bitcoin#satoshi2millibtc" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="satoshi2millibtc(input:fr.acinq.bitcoin.Satoshi):fr.acinq.bitcoin.MilliBtc"></a>
+      <a id="satoshi2millibtc(Satoshi):MilliBtc"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">satoshi2millibtc</span><span class="params">(<span name="input">input: <span class="extype" name="fr.acinq.bitcoin.Satoshi">Satoshi</span></span>)</span><span class="result">: <span class="extype" name="fr.acinq.bitcoin.MilliBtc">MilliBtc</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#fr.acinq.bitcoin.package@satoshi2millibtc(input:fr.acinq.bitcoin.Satoshi):fr.acinq.bitcoin.MilliBtc" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.bitcoin#satoshi2millisatoshi" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="satoshi2millisatoshi(input:fr.acinq.bitcoin.Satoshi):fr.acinq.bitcoin.MilliSatoshi"></a>
+      <a id="satoshi2millisatoshi(Satoshi):MilliSatoshi"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">satoshi2millisatoshi</span><span class="params">(<span name="input">input: <span class="extype" name="fr.acinq.bitcoin.Satoshi">Satoshi</span></span>)</span><span class="result">: <span class="extype" name="fr.acinq.bitcoin.MilliSatoshi">MilliSatoshi</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#fr.acinq.bitcoin.package@satoshi2millisatoshi(input:fr.acinq.bitcoin.Satoshi):fr.acinq.bitcoin.MilliSatoshi" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.bitcoin#seq2binaryData" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="seq2binaryData(input:Seq[Byte]):fr.acinq.bitcoin.BinaryData"></a>
+      <a id="seq2binaryData(Seq[Byte]):BinaryData"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">seq2binaryData</span><span class="params">(<span name="input">input: <span class="extype" name="scala.Seq">Seq</span>[<span class="extype" name="scala.Byte">Byte</span>]</span>)</span><span class="result">: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#fr.acinq.bitcoin.package@seq2binaryData(input:Seq[Byte]):fr.acinq.bitcoin.BinaryData" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.bitcoin#string2binaryData" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="string2binaryData(input:String):fr.acinq.bitcoin.BinaryData"></a>
+      <a id="string2binaryData(String):BinaryData"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">string2binaryData</span><span class="params">(<span name="input">input: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result">: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#fr.acinq.bitcoin.package@string2binaryData(input:String):fr.acinq.bitcoin.BinaryData" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.bitcoin#toHexString" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="toHexString(blob:fr.acinq.bitcoin.BinaryData):String"></a>
+      <a id="toHexString(BinaryData):String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">toHexString</span><span class="params">(<span name="blob">blob: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>)</span><span class="result">: <span class="extype" name="java.lang.String">String</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../index.html#fr.acinq.bitcoin.package@toHexString(blob:fr.acinq.bitcoin.BinaryData):String" title="Permalink" target="_top">
+        <img src="../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li></ol>
+            </div>
+
+        
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        <div class="parent" name="scala.AnyRef">
+              <h3>Inherited from <span class="extype" name="scala.AnyRef">AnyRef</span></h3>
+            </div><div class="parent" name="scala.Any">
+              <h3>Inherited from <span class="extype" name="scala.Any">Any</span></h3>
+            </div>
+        
+        </div>
+
+        <div id="groupedMembers">
+        <div class="group" name="Ungrouped">
+              <h3>Ungrouped</h3>
+              
+            </div>
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">  </div>
+
+
+    </body>
+      </html>

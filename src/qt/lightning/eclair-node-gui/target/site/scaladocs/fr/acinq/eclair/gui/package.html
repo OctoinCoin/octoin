@@ -1,0 +1,291 @@
+<!DOCTYPE html >
+<html>
+        <head>
+          <title>gui - eclair-node-gui 0.2-SNAPSHOT API - fr.acinq.eclair.gui</title>
+          <meta name="description" content="gui - eclair - node - gui 0.2 - SNAPSHOT API - fr.acinq.eclair.gui" />
+          <meta name="keywords" content="gui eclair node gui 0.2 SNAPSHOT API fr.acinq.eclair.gui" />
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link href="../../../../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../../../../lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
+      <script type="text/javascript" src="../../../../lib/jquery.js" id="jquery-js"></script>
+      <script type="text/javascript" src="../../../../lib/jquery-ui.js"></script>
+      <script type="text/javascript" src="../../../../lib/template.js"></script>
+      <script type="text/javascript" src="../../../../lib/tools.tooltip.js"></script>
+      
+      <script type="text/javascript">
+         if(top === self) {
+            var url = '../../../../index.html';
+            var hash = 'fr.acinq.eclair.gui.package';
+            var anchor = window.location.hash;
+            var anchor_opt = '';
+            if (anchor.length >= 1)
+              anchor_opt = '@' + anchor.substring(1);
+            window.location.href = url + '#' + hash + anchor_opt;
+         }
+   	  </script>
+    
+        </head>
+        <body class="value">
+      <div id="definition">
+        <img alt="Package" src="../../../../lib/package_big.png" />
+        <p id="owner"><a href="../../../package.html" class="extype" name="fr">fr</a>.<a href="../../package.html" class="extype" name="fr.acinq">acinq</a>.<a href="../package.html" class="extype" name="fr.acinq.eclair">eclair</a></p>
+        <h1>gui</h1><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.gui.package" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      </div>
+
+      <h4 id="signature" class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <span class="name">gui</span>
+      </span>
+      </h4>
+      
+          <div id="comment" class="fullcommenttop"></div>
+        
+
+      <div id="mbrsel">
+        <div id="textfilter"><span class="pre"></span><span class="input"><input id="mbrsel-input" type="text" accesskey="/" /></span><span class="post"></span></div>
+        
+        
+        <div id="visbl">
+            <span class="filtertype">Visibility</span>
+            <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+          </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        
+
+        <div id="types" class="types members">
+              <h3>Type Members</h3>
+              <ol><li name="fr.acinq.eclair.gui.AppNotification" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="AppNotificationextendsPreloader.PreloaderNotificationwithProductwithSerializable"></a>
+      <a id="AppNotification:AppNotification"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="AppNotification.html"><span class="name">AppNotification</span></a><span class="params">(<span name="notificationType">notificationType: <a href="AppNotificationType.html" class="extype" name="fr.acinq.eclair.gui.AppNotificationType">AppNotificationType</a></span>, <span name="message">message: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result"> extends <span class="extype" name="javafx.application.Preloader.PreloaderNotification">PreloaderNotification</span> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.gui.package@AppNotificationextendsPreloader.PreloaderNotificationwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.gui.AppNotificationType" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="AppNotificationTypeextendsAnyRef"></a>
+      <a id="AppNotificationType:AppNotificationType"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">sealed </span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="AppNotificationType.html"><span class="name">AppNotificationType</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.gui.package@AppNotificationTypeextendsAnyRef" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.gui.FxApp" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="FxAppextendsApplicationwithLogging"></a>
+      <a id="FxApp:FxApp"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="FxApp.html"><span class="name">FxApp</span></a><span class="result"> extends <span class="extype" name="javafx.application.Application">Application</span> with <span class="extype" name="grizzled.slf4j.Logging">Logging</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.gui.package@FxAppextendsApplicationwithLogging" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Created by PM on 16/08/2016.</p>
+    </li><li name="fr.acinq.eclair.gui.FxPreloader" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="FxPreloaderextendsPreloaderwithLogging"></a>
+      <a id="FxPreloader:FxPreloader"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="FxPreloader.html"><span class="name">FxPreloader</span></a><span class="result"> extends <span class="extype" name="javafx.application.Preloader">Preloader</span> with <span class="extype" name="grizzled.slf4j.Logging">Logging</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.gui.package@FxPreloaderextendsPreloaderwithLogging" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Created by DPA on 15/03/2017.</p>
+    </li><li name="fr.acinq.eclair.gui.GUIUpdater" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="GUIUpdaterextendsActorwithActorLogging"></a>
+      <a id="GUIUpdater:GUIUpdater"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="GUIUpdater.html"><span class="name">GUIUpdater</span></a><span class="result"> extends <span class="extype" name="akka.actor.Actor">Actor</span> with <span class="extype" name="akka.actor.ActorLogging">ActorLogging</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.gui.package@GUIUpdaterextendsActorwithActorLogging" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Created by PM on 16/08/2016.</p>
+    </li><li name="fr.acinq.eclair.gui.Handlers" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="HandlersextendsLogging"></a>
+      <a id="Handlers:Handlers"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="Handlers.html"><span class="name">Handlers</span></a><span class="result"> extends <span class="extype" name="grizzled.slf4j.Logging">Logging</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.gui.package@HandlersextendsLogging" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Created by PM on 16/08/2016.</p>
+    </li></ol>
+            </div>
+
+        
+
+        <div id="values" class="values members">
+              <h3>Value Members</h3>
+              <ol><li name="fr.acinq.eclair.gui.InfoAppNotification" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="InfoAppNotification"></a>
+      <a id="InfoAppNotification:InfoAppNotification"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="InfoAppNotification$.html"><span class="name">InfoAppNotification</span></a><span class="result"> extends <a href="AppNotificationType.html" class="extype" name="fr.acinq.eclair.gui.AppNotificationType">AppNotificationType</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.gui.package@InfoAppNotification" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.gui.SuccessAppNotification" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="SuccessAppNotification"></a>
+      <a id="SuccessAppNotification:SuccessAppNotification"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="SuccessAppNotification$.html"><span class="name">SuccessAppNotification</span></a><span class="result"> extends <a href="AppNotificationType.html" class="extype" name="fr.acinq.eclair.gui.AppNotificationType">AppNotificationType</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.gui.package@SuccessAppNotification" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.gui.controllers" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="controllers"></a>
+      <a id="controllers:controllers"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <a href="controllers/package.html"><span class="name">controllers</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.gui.package@controllers" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.gui.stages" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="stages"></a>
+      <a id="stages:stages"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <a href="stages/package.html"><span class="name">stages</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.gui.package@stages" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.gui.utils" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="utils"></a>
+      <a id="utils:utils"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <a href="utils/package.html"><span class="name">utils</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.gui.package@utils" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li></ol>
+            </div>
+
+        
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        
+        
+        </div>
+
+        <div id="groupedMembers">
+        <div class="group" name="Ungrouped">
+              <h3>Ungrouped</h3>
+              
+            </div>
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">  </div>
+
+
+    </body>
+      </html>

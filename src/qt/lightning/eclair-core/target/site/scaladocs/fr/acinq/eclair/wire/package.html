@@ -1,0 +1,1179 @@
+<!DOCTYPE html >
+<html>
+        <head>
+          <title>wire - eclair-core_2.11 0.2-SNAPSHOT API - fr.acinq.eclair.wire</title>
+          <meta name="description" content="wire - eclair - core 2.11 0.2 - SNAPSHOT API - fr.acinq.eclair.wire" />
+          <meta name="keywords" content="wire eclair core 2.11 0.2 SNAPSHOT API fr.acinq.eclair.wire" />
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link href="../../../../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../../../../lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
+      <script type="text/javascript" src="../../../../lib/jquery.js" id="jquery-js"></script>
+      <script type="text/javascript" src="../../../../lib/jquery-ui.js"></script>
+      <script type="text/javascript" src="../../../../lib/template.js"></script>
+      <script type="text/javascript" src="../../../../lib/tools.tooltip.js"></script>
+      
+      <script type="text/javascript">
+         if(top === self) {
+            var url = '../../../../index.html';
+            var hash = 'fr.acinq.eclair.wire.package';
+            var anchor = window.location.hash;
+            var anchor_opt = '';
+            if (anchor.length >= 1)
+              anchor_opt = '@' + anchor.substring(1);
+            window.location.href = url + '#' + hash + anchor_opt;
+         }
+   	  </script>
+    
+        </head>
+        <body class="value">
+      <div id="definition">
+        <img alt="Package" src="../../../../lib/package_big.png" />
+        <p id="owner"><a href="../../../package.html" class="extype" name="fr">fr</a>.<a href="../../package.html" class="extype" name="fr.acinq">acinq</a>.<a href="../package.html" class="extype" name="fr.acinq.eclair">eclair</a></p>
+        <h1>wire</h1><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      </div>
+
+      <h4 id="signature" class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <span class="name">wire</span>
+      </span>
+      </h4>
+      
+          <div id="comment" class="fullcommenttop"></div>
+        
+
+      <div id="mbrsel">
+        <div id="textfilter"><span class="pre"></span><span class="input"><input id="mbrsel-input" type="text" accesskey="/" /></span><span class="post"></span></div>
+        
+        
+        <div id="visbl">
+            <span class="filtertype">Visibility</span>
+            <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+          </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        
+
+        <div id="types" class="types members">
+              <h3>Type Members</h3>
+              <ol><li name="fr.acinq.eclair.wire.AcceptChannel" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="AcceptChannelextendsChannelMessagewithHasTemporaryChannelIdwithProductwithSerializable"></a>
+      <a id="AcceptChannel:AcceptChannel"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="AcceptChannel.html"><span class="name">AcceptChannel</span></a><span class="params">(<span name="temporaryChannelId">temporaryChannelId: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>, <span name="dustLimitSatoshis">dustLimitSatoshis: <span class="extype" name="scala.Long">Long</span></span>, <span name="maxHtlcValueInFlightMsat">maxHtlcValueInFlightMsat: <a href="../UInt64.html" class="extype" name="fr.acinq.eclair.UInt64">UInt64</a></span>, <span name="channelReserveSatoshis">channelReserveSatoshis: <span class="extype" name="scala.Long">Long</span></span>, <span name="htlcMinimumMsat">htlcMinimumMsat: <span class="extype" name="scala.Long">Long</span></span>, <span name="minimumDepth">minimumDepth: <span class="extype" name="scala.Long">Long</span></span>, <span name="toSelfDelay">toSelfDelay: <span class="extype" name="scala.Int">Int</span></span>, <span name="maxAcceptedHtlcs">maxAcceptedHtlcs: <span class="extype" name="scala.Int">Int</span></span>, <span name="fundingPubkey">fundingPubkey: <span class="extype" name="fr.acinq.bitcoin.Crypto.PublicKey">PublicKey</span></span>, <span name="revocationBasepoint">revocationBasepoint: <span class="extype" name="fr.acinq.bitcoin.Crypto.Point">Point</span></span>, <span name="paymentBasepoint">paymentBasepoint: <span class="extype" name="fr.acinq.bitcoin.Crypto.Point">Point</span></span>, <span name="delayedPaymentBasepoint">delayedPaymentBasepoint: <span class="extype" name="fr.acinq.bitcoin.Crypto.Point">Point</span></span>, <span name="htlcBasepoint">htlcBasepoint: <span class="extype" name="fr.acinq.bitcoin.Crypto.Point">Point</span></span>, <span name="firstPerCommitmentPoint">firstPerCommitmentPoint: <span class="extype" name="fr.acinq.bitcoin.Crypto.Point">Point</span></span>)</span><span class="result"> extends <a href="ChannelMessage.html" class="extype" name="fr.acinq.eclair.wire.ChannelMessage">ChannelMessage</a> with <a href="HasTemporaryChannelId.html" class="extype" name="fr.acinq.eclair.wire.HasTemporaryChannelId">HasTemporaryChannelId</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@AcceptChannelextendsChannelMessagewithHasTemporaryChannelIdwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.wire.AmountBelowMinimum" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="AmountBelowMinimumextendsUpdatewithProductwithSerializable"></a>
+      <a id="AmountBelowMinimum:AmountBelowMinimum"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="AmountBelowMinimum.html"><span class="name">AmountBelowMinimum</span></a><span class="params">(<span name="amountMsat">amountMsat: <span class="extype" name="scala.Long">Long</span></span>, <span name="update">update: <a href="ChannelUpdate.html" class="extype" name="fr.acinq.eclair.wire.ChannelUpdate">ChannelUpdate</a></span>)</span><span class="result"> extends <a href="Update.html" class="extype" name="fr.acinq.eclair.wire.Update">Update</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@AmountBelowMinimumextendsUpdatewithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.wire.AnnouncementSignatures" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="AnnouncementSignaturesextendsRoutingMessagewithHasChannelIdwithProductwithSerializable"></a>
+      <a id="AnnouncementSignatures:AnnouncementSignatures"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="AnnouncementSignatures.html"><span class="name">AnnouncementSignatures</span></a><span class="params">(<span name="channelId">channelId: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>, <span name="shortChannelId">shortChannelId: <span class="extype" name="scala.Long">Long</span></span>, <span name="nodeSignature">nodeSignature: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>, <span name="bitcoinSignature">bitcoinSignature: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>)</span><span class="result"> extends <a href="RoutingMessage.html" class="extype" name="fr.acinq.eclair.wire.RoutingMessage">RoutingMessage</a> with <a href="HasChannelId.html" class="extype" name="fr.acinq.eclair.wire.HasChannelId">HasChannelId</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@AnnouncementSignaturesextendsRoutingMessagewithHasChannelIdwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.wire.BadOnion" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="BadOnionextendsFailureMessage"></a>
+      <a id="BadOnion:BadOnion"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">sealed </span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="BadOnion.html"><span class="name">BadOnion</span></a><span class="result"> extends <a href="FailureMessage.html" class="extype" name="fr.acinq.eclair.wire.FailureMessage">FailureMessage</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@BadOnionextendsFailureMessage" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.wire.ChannelAnnouncement" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ChannelAnnouncementextendsRoutingMessagewithProductwithSerializable"></a>
+      <a id="ChannelAnnouncement:ChannelAnnouncement"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="ChannelAnnouncement.html"><span class="name">ChannelAnnouncement</span></a><span class="params">(<span name="nodeSignature1">nodeSignature1: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>, <span name="nodeSignature2">nodeSignature2: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>, <span name="bitcoinSignature1">bitcoinSignature1: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>, <span name="bitcoinSignature2">bitcoinSignature2: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>, <span name="features">features: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>, <span name="chainHash">chainHash: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>, <span name="shortChannelId">shortChannelId: <span class="extype" name="scala.Long">Long</span></span>, <span name="nodeId1">nodeId1: <span class="extype" name="fr.acinq.bitcoin.Crypto.PublicKey">PublicKey</span></span>, <span name="nodeId2">nodeId2: <span class="extype" name="fr.acinq.bitcoin.Crypto.PublicKey">PublicKey</span></span>, <span name="bitcoinKey1">bitcoinKey1: <span class="extype" name="fr.acinq.bitcoin.Crypto.PublicKey">PublicKey</span></span>, <span name="bitcoinKey2">bitcoinKey2: <span class="extype" name="fr.acinq.bitcoin.Crypto.PublicKey">PublicKey</span></span>)</span><span class="result"> extends <a href="RoutingMessage.html" class="extype" name="fr.acinq.eclair.wire.RoutingMessage">RoutingMessage</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@ChannelAnnouncementextendsRoutingMessagewithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.wire.ChannelDisabled" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ChannelDisabledextendsUpdatewithProductwithSerializable"></a>
+      <a id="ChannelDisabled:ChannelDisabled"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="ChannelDisabled.html"><span class="name">ChannelDisabled</span></a><span class="params">(<span name="flags">flags: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>, <span name="update">update: <a href="ChannelUpdate.html" class="extype" name="fr.acinq.eclair.wire.ChannelUpdate">ChannelUpdate</a></span>)</span><span class="result"> extends <a href="Update.html" class="extype" name="fr.acinq.eclair.wire.Update">Update</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@ChannelDisabledextendsUpdatewithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.wire.ChannelMessage" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="ChannelMessageextendsLightningMessage"></a>
+      <a id="ChannelMessage:ChannelMessage"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">sealed </span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="ChannelMessage.html"><span class="name">ChannelMessage</span></a><span class="result"> extends <a href="LightningMessage.html" class="extype" name="fr.acinq.eclair.wire.LightningMessage">LightningMessage</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@ChannelMessageextendsLightningMessage" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.wire.ChannelReestablish" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ChannelReestablishextendsChannelMessagewithHasChannelIdwithProductwithSerializable"></a>
+      <a id="ChannelReestablish:ChannelReestablish"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="ChannelReestablish.html"><span class="name">ChannelReestablish</span></a><span class="params">(<span name="channelId">channelId: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>, <span name="nextLocalCommitmentNumber">nextLocalCommitmentNumber: <span class="extype" name="scala.Long">Long</span></span>, <span name="nextRemoteRevocationNumber">nextRemoteRevocationNumber: <span class="extype" name="scala.Long">Long</span></span>)</span><span class="result"> extends <a href="ChannelMessage.html" class="extype" name="fr.acinq.eclair.wire.ChannelMessage">ChannelMessage</a> with <a href="HasChannelId.html" class="extype" name="fr.acinq.eclair.wire.HasChannelId">HasChannelId</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@ChannelReestablishextendsChannelMessagewithHasChannelIdwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.wire.ChannelUpdate" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ChannelUpdateextendsRoutingMessagewithProductwithSerializable"></a>
+      <a id="ChannelUpdate:ChannelUpdate"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="ChannelUpdate.html"><span class="name">ChannelUpdate</span></a><span class="params">(<span name="signature">signature: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>, <span name="chainHash">chainHash: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>, <span name="shortChannelId">shortChannelId: <span class="extype" name="scala.Long">Long</span></span>, <span name="timestamp">timestamp: <span class="extype" name="scala.Long">Long</span></span>, <span name="flags">flags: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>, <span name="cltvExpiryDelta">cltvExpiryDelta: <span class="extype" name="scala.Int">Int</span></span>, <span name="htlcMinimumMsat">htlcMinimumMsat: <span class="extype" name="scala.Long">Long</span></span>, <span name="feeBaseMsat">feeBaseMsat: <span class="extype" name="scala.Long">Long</span></span>, <span name="feeProportionalMillionths">feeProportionalMillionths: <span class="extype" name="scala.Long">Long</span></span>)</span><span class="result"> extends <a href="RoutingMessage.html" class="extype" name="fr.acinq.eclair.wire.RoutingMessage">RoutingMessage</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@ChannelUpdateextendsRoutingMessagewithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.wire.ClosingSigned" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ClosingSignedextendsChannelMessagewithHasChannelIdwithProductwithSerializable"></a>
+      <a id="ClosingSigned:ClosingSigned"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="ClosingSigned.html"><span class="name">ClosingSigned</span></a><span class="params">(<span name="channelId">channelId: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>, <span name="feeSatoshis">feeSatoshis: <span class="extype" name="scala.Long">Long</span></span>, <span name="signature">signature: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>)</span><span class="result"> extends <a href="ChannelMessage.html" class="extype" name="fr.acinq.eclair.wire.ChannelMessage">ChannelMessage</a> with <a href="HasChannelId.html" class="extype" name="fr.acinq.eclair.wire.HasChannelId">HasChannelId</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@ClosingSignedextendsChannelMessagewithHasChannelIdwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.wire.CommitSig" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="CommitSigextendsHtlcMessagewithHasChannelIdwithProductwithSerializable"></a>
+      <a id="CommitSig:CommitSig"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="CommitSig.html"><span class="name">CommitSig</span></a><span class="params">(<span name="channelId">channelId: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>, <span name="signature">signature: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>, <span name="htlcSignatures">htlcSignatures: <span class="extype" name="scala.List">List</span>[<span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span>]</span>)</span><span class="result"> extends <a href="HtlcMessage.html" class="extype" name="fr.acinq.eclair.wire.HtlcMessage">HtlcMessage</a> with <a href="HasChannelId.html" class="extype" name="fr.acinq.eclair.wire.HasChannelId">HasChannelId</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@CommitSigextendsHtlcMessagewithHasChannelIdwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.wire.Error" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ErrorextendsSetupMessagewithHasChannelIdwithProductwithSerializable"></a>
+      <a id="Error:Error"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Error.html"><span class="name">Error</span></a><span class="params">(<span name="channelId">channelId: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>, <span name="data">data: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>)</span><span class="result"> extends <a href="SetupMessage.html" class="extype" name="fr.acinq.eclair.wire.SetupMessage">SetupMessage</a> with <a href="HasChannelId.html" class="extype" name="fr.acinq.eclair.wire.HasChannelId">HasChannelId</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@ErrorextendsSetupMessagewithHasChannelIdwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.wire.ExpiryTooSoon" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ExpiryTooSoonextendsUpdatewithProductwithSerializable"></a>
+      <a id="ExpiryTooSoon:ExpiryTooSoon"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="ExpiryTooSoon.html"><span class="name">ExpiryTooSoon</span></a><span class="params">(<span name="update">update: <a href="ChannelUpdate.html" class="extype" name="fr.acinq.eclair.wire.ChannelUpdate">ChannelUpdate</a></span>)</span><span class="result"> extends <a href="Update.html" class="extype" name="fr.acinq.eclair.wire.Update">Update</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@ExpiryTooSoonextendsUpdatewithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.wire.FailureMessage" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="FailureMessageextendsAnyRef"></a>
+      <a id="FailureMessage:FailureMessage"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">sealed </span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="FailureMessage.html"><span class="name">FailureMessage</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@FailureMessageextendsAnyRef" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">see https://github.com/lightningnetwork/lightning-rfc/blob/master/04-onion-routing.md
+Created by fabrice on 14/03/17.</p>
+    </li><li name="fr.acinq.eclair.wire.FeeInsufficient" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="FeeInsufficientextendsUpdatewithProductwithSerializable"></a>
+      <a id="FeeInsufficient:FeeInsufficient"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="FeeInsufficient.html"><span class="name">FeeInsufficient</span></a><span class="params">(<span name="amountMsat">amountMsat: <span class="extype" name="scala.Long">Long</span></span>, <span name="update">update: <a href="ChannelUpdate.html" class="extype" name="fr.acinq.eclair.wire.ChannelUpdate">ChannelUpdate</a></span>)</span><span class="result"> extends <a href="Update.html" class="extype" name="fr.acinq.eclair.wire.Update">Update</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@FeeInsufficientextendsUpdatewithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.wire.FinalIncorrectCltvExpiry" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="FinalIncorrectCltvExpiryextendsFailureMessagewithProductwithSerializable"></a>
+      <a id="FinalIncorrectCltvExpiry:FinalIncorrectCltvExpiry"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="FinalIncorrectCltvExpiry.html"><span class="name">FinalIncorrectCltvExpiry</span></a><span class="params">(<span name="expiry">expiry: <span class="extype" name="scala.Long">Long</span></span>)</span><span class="result"> extends <a href="FailureMessage.html" class="extype" name="fr.acinq.eclair.wire.FailureMessage">FailureMessage</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@FinalIncorrectCltvExpiryextendsFailureMessagewithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.wire.FinalIncorrectHtlcAmount" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="FinalIncorrectHtlcAmountextendsFailureMessagewithProductwithSerializable"></a>
+      <a id="FinalIncorrectHtlcAmount:FinalIncorrectHtlcAmount"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="FinalIncorrectHtlcAmount.html"><span class="name">FinalIncorrectHtlcAmount</span></a><span class="params">(<span name="amountMsat">amountMsat: <span class="extype" name="scala.Long">Long</span></span>)</span><span class="result"> extends <a href="FailureMessage.html" class="extype" name="fr.acinq.eclair.wire.FailureMessage">FailureMessage</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@FinalIncorrectHtlcAmountextendsFailureMessagewithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.wire.FixedSizeStrictCodec" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="FixedSizeStrictCodec[A]extendsCodec[A]"></a>
+      <a id="FixedSizeStrictCodec[A]:FixedSizeStrictCodec[A]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="FixedSizeStrictCodec.html"><span class="name">FixedSizeStrictCodec</span></a><span class="tparams">[<span name="A">A</span>]</span><span class="result"> extends <span class="extype" name="scodec.Codec">Codec</span>[<span class="extype" name="fr.acinq.eclair.wire.FixedSizeStrictCodec.A">A</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@FixedSizeStrictCodec[A]extendsCodec[A]" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">REMOVE THIS A NEW VERSION OF SCODEC IS RELEASED THAT INCLUDES CHANGES MADE IN
+https://github.com/scodec/scodec/pull/99/files</p><div class="fullcomment"><div class="comment cmt"><p>REMOVE THIS A NEW VERSION OF SCODEC IS RELEASED THAT INCLUDES CHANGES MADE IN
+https://github.com/scodec/scodec/pull/99/files</p><p>Created by PM on 02/06/2017.
+</p></div></div>
+    </li><li name="fr.acinq.eclair.wire.FundingCreated" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="FundingCreatedextendsChannelMessagewithHasTemporaryChannelIdwithProductwithSerializable"></a>
+      <a id="FundingCreated:FundingCreated"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="FundingCreated.html"><span class="name">FundingCreated</span></a><span class="params">(<span name="temporaryChannelId">temporaryChannelId: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>, <span name="fundingTxid">fundingTxid: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>, <span name="fundingOutputIndex">fundingOutputIndex: <span class="extype" name="scala.Int">Int</span></span>, <span name="signature">signature: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>)</span><span class="result"> extends <a href="ChannelMessage.html" class="extype" name="fr.acinq.eclair.wire.ChannelMessage">ChannelMessage</a> with <a href="HasTemporaryChannelId.html" class="extype" name="fr.acinq.eclair.wire.HasTemporaryChannelId">HasTemporaryChannelId</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@FundingCreatedextendsChannelMessagewithHasTemporaryChannelIdwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.wire.FundingLocked" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="FundingLockedextendsChannelMessagewithHasChannelIdwithProductwithSerializable"></a>
+      <a id="FundingLocked:FundingLocked"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="FundingLocked.html"><span class="name">FundingLocked</span></a><span class="params">(<span name="channelId">channelId: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>, <span name="nextPerCommitmentPoint">nextPerCommitmentPoint: <span class="extype" name="fr.acinq.bitcoin.Crypto.Point">Point</span></span>)</span><span class="result"> extends <a href="ChannelMessage.html" class="extype" name="fr.acinq.eclair.wire.ChannelMessage">ChannelMessage</a> with <a href="HasChannelId.html" class="extype" name="fr.acinq.eclair.wire.HasChannelId">HasChannelId</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@FundingLockedextendsChannelMessagewithHasChannelIdwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.wire.FundingSigned" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="FundingSignedextendsChannelMessagewithHasChannelIdwithProductwithSerializable"></a>
+      <a id="FundingSigned:FundingSigned"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="FundingSigned.html"><span class="name">FundingSigned</span></a><span class="params">(<span name="channelId">channelId: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>, <span name="signature">signature: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>)</span><span class="result"> extends <a href="ChannelMessage.html" class="extype" name="fr.acinq.eclair.wire.ChannelMessage">ChannelMessage</a> with <a href="HasChannelId.html" class="extype" name="fr.acinq.eclair.wire.HasChannelId">HasChannelId</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@FundingSignedextendsChannelMessagewithHasChannelIdwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.wire.HasChannelId" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="HasChannelIdextendsLightningMessage"></a>
+      <a id="HasChannelId:HasChannelId"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">sealed </span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="HasChannelId.html"><span class="name">HasChannelId</span></a><span class="result"> extends <a href="LightningMessage.html" class="extype" name="fr.acinq.eclair.wire.LightningMessage">LightningMessage</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@HasChannelIdextendsLightningMessage" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.wire.HasTemporaryChannelId" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="HasTemporaryChannelIdextendsLightningMessage"></a>
+      <a id="HasTemporaryChannelId:HasTemporaryChannelId"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">sealed </span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="HasTemporaryChannelId.html"><span class="name">HasTemporaryChannelId</span></a><span class="result"> extends <a href="LightningMessage.html" class="extype" name="fr.acinq.eclair.wire.LightningMessage">LightningMessage</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@HasTemporaryChannelIdextendsLightningMessage" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.wire.HtlcMessage" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="HtlcMessageextendsLightningMessage"></a>
+      <a id="HtlcMessage:HtlcMessage"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">sealed </span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="HtlcMessage.html"><span class="name">HtlcMessage</span></a><span class="result"> extends <a href="LightningMessage.html" class="extype" name="fr.acinq.eclair.wire.LightningMessage">LightningMessage</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@HtlcMessageextendsLightningMessage" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.wire.IncorrectCltvExpiry" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="IncorrectCltvExpiryextendsUpdatewithProductwithSerializable"></a>
+      <a id="IncorrectCltvExpiry:IncorrectCltvExpiry"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="IncorrectCltvExpiry.html"><span class="name">IncorrectCltvExpiry</span></a><span class="params">(<span name="expiry">expiry: <span class="extype" name="scala.Long">Long</span></span>, <span name="update">update: <a href="ChannelUpdate.html" class="extype" name="fr.acinq.eclair.wire.ChannelUpdate">ChannelUpdate</a></span>)</span><span class="result"> extends <a href="Update.html" class="extype" name="fr.acinq.eclair.wire.Update">Update</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@IncorrectCltvExpiryextendsUpdatewithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.wire.Init" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="InitextendsSetupMessagewithProductwithSerializable"></a>
+      <a id="Init:Init"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Init.html"><span class="name">Init</span></a><span class="params">(<span name="globalFeatures">globalFeatures: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>, <span name="localFeatures">localFeatures: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>)</span><span class="result"> extends <a href="SetupMessage.html" class="extype" name="fr.acinq.eclair.wire.SetupMessage">SetupMessage</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@InitextendsSetupMessagewithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.wire.InvalidOnionHmac" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="InvalidOnionHmacextendsBadOnionwithPermwithProductwithSerializable"></a>
+      <a id="InvalidOnionHmac:InvalidOnionHmac"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="InvalidOnionHmac.html"><span class="name">InvalidOnionHmac</span></a><span class="params">(<span name="onionHash">onionHash: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>)</span><span class="result"> extends <a href="BadOnion.html" class="extype" name="fr.acinq.eclair.wire.BadOnion">BadOnion</a> with <a href="Perm.html" class="extype" name="fr.acinq.eclair.wire.Perm">Perm</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@InvalidOnionHmacextendsBadOnionwithPermwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.wire.InvalidOnionKey" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="InvalidOnionKeyextendsBadOnionwithPermwithProductwithSerializable"></a>
+      <a id="InvalidOnionKey:InvalidOnionKey"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="InvalidOnionKey.html"><span class="name">InvalidOnionKey</span></a><span class="params">(<span name="onionHash">onionHash: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>)</span><span class="result"> extends <a href="BadOnion.html" class="extype" name="fr.acinq.eclair.wire.BadOnion">BadOnion</a> with <a href="Perm.html" class="extype" name="fr.acinq.eclair.wire.Perm">Perm</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@InvalidOnionKeyextendsBadOnionwithPermwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.wire.InvalidOnionVersion" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="InvalidOnionVersionextendsBadOnionwithPermwithProductwithSerializable"></a>
+      <a id="InvalidOnionVersion:InvalidOnionVersion"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="InvalidOnionVersion.html"><span class="name">InvalidOnionVersion</span></a><span class="params">(<span name="onionHash">onionHash: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>)</span><span class="result"> extends <a href="BadOnion.html" class="extype" name="fr.acinq.eclair.wire.BadOnion">BadOnion</a> with <a href="Perm.html" class="extype" name="fr.acinq.eclair.wire.Perm">Perm</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@InvalidOnionVersionextendsBadOnionwithPermwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.wire.LightningMessage" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="LightningMessageextendsAnyRef"></a>
+      <a id="LightningMessage:LightningMessage"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">sealed </span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="LightningMessage.html"><span class="name">LightningMessage</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@LightningMessageextendsAnyRef" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Created by PM on 15/11/2016.</p>
+    </li><li name="fr.acinq.eclair.wire.Node" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="NodeextendsFailureMessage"></a>
+      <a id="Node:Node"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">sealed </span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="Node.html"><span class="name">Node</span></a><span class="result"> extends <a href="FailureMessage.html" class="extype" name="fr.acinq.eclair.wire.FailureMessage">FailureMessage</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@NodeextendsFailureMessage" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.wire.NodeAnnouncement" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="NodeAnnouncementextendsRoutingMessagewithProductwithSerializable"></a>
+      <a id="NodeAnnouncement:NodeAnnouncement"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="NodeAnnouncement.html"><span class="name">NodeAnnouncement</span></a><span class="params">(<span name="signature">signature: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>, <span name="features">features: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>, <span name="timestamp">timestamp: <span class="extype" name="scala.Long">Long</span></span>, <span name="nodeId">nodeId: <span class="extype" name="fr.acinq.bitcoin.Crypto.PublicKey">PublicKey</span></span>, <span name="rgbColor">rgbColor: (<span class="extype" name="scala.Byte">Byte</span>, <span class="extype" name="scala.Byte">Byte</span>, <span class="extype" name="scala.Byte">Byte</span>)</span>, <span name="alias">alias: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="addresses">addresses: <span class="extype" name="scala.List">List</span>[<span class="extype" name="java.net.InetSocketAddress">InetSocketAddress</span>]</span>)</span><span class="result"> extends <a href="RoutingMessage.html" class="extype" name="fr.acinq.eclair.wire.RoutingMessage">RoutingMessage</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@NodeAnnouncementextendsRoutingMessagewithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.wire.OpenChannel" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="OpenChannelextendsChannelMessagewithHasTemporaryChannelIdwithProductwithSerializable"></a>
+      <a id="OpenChannel:OpenChannel"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="OpenChannel.html"><span class="name">OpenChannel</span></a><span class="params">(<span name="chainHash">chainHash: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>, <span name="temporaryChannelId">temporaryChannelId: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>, <span name="fundingSatoshis">fundingSatoshis: <span class="extype" name="scala.Long">Long</span></span>, <span name="pushMsat">pushMsat: <span class="extype" name="scala.Long">Long</span></span>, <span name="dustLimitSatoshis">dustLimitSatoshis: <span class="extype" name="scala.Long">Long</span></span>, <span name="maxHtlcValueInFlightMsat">maxHtlcValueInFlightMsat: <a href="../UInt64.html" class="extype" name="fr.acinq.eclair.UInt64">UInt64</a></span>, <span name="channelReserveSatoshis">channelReserveSatoshis: <span class="extype" name="scala.Long">Long</span></span>, <span name="htlcMinimumMsat">htlcMinimumMsat: <span class="extype" name="scala.Long">Long</span></span>, <span name="feeratePerKw">feeratePerKw: <span class="extype" name="scala.Long">Long</span></span>, <span name="toSelfDelay">toSelfDelay: <span class="extype" name="scala.Int">Int</span></span>, <span name="maxAcceptedHtlcs">maxAcceptedHtlcs: <span class="extype" name="scala.Int">Int</span></span>, <span name="fundingPubkey">fundingPubkey: <span class="extype" name="fr.acinq.bitcoin.Crypto.PublicKey">PublicKey</span></span>, <span name="revocationBasepoint">revocationBasepoint: <span class="extype" name="fr.acinq.bitcoin.Crypto.Point">Point</span></span>, <span name="paymentBasepoint">paymentBasepoint: <span class="extype" name="fr.acinq.bitcoin.Crypto.Point">Point</span></span>, <span name="delayedPaymentBasepoint">delayedPaymentBasepoint: <span class="extype" name="fr.acinq.bitcoin.Crypto.Point">Point</span></span>, <span name="htlcBasepoint">htlcBasepoint: <span class="extype" name="fr.acinq.bitcoin.Crypto.Point">Point</span></span>, <span name="firstPerCommitmentPoint">firstPerCommitmentPoint: <span class="extype" name="fr.acinq.bitcoin.Crypto.Point">Point</span></span>, <span name="channelFlags">channelFlags: <span class="extype" name="scala.Byte">Byte</span></span>)</span><span class="result"> extends <a href="ChannelMessage.html" class="extype" name="fr.acinq.eclair.wire.ChannelMessage">ChannelMessage</a> with <a href="HasTemporaryChannelId.html" class="extype" name="fr.acinq.eclair.wire.HasTemporaryChannelId">HasTemporaryChannelId</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@OpenChannelextendsChannelMessagewithHasTemporaryChannelIdwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.wire.PerHopPayload" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="PerHopPayloadextendsProductwithSerializable"></a>
+      <a id="PerHopPayload:PerHopPayload"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="PerHopPayload.html"><span class="name">PerHopPayload</span></a><span class="params">(<span name="channel_id">channel_id: <span class="extype" name="scala.Long">Long</span></span>, <span name="amtToForward">amtToForward: <span class="extype" name="scala.Long">Long</span></span>, <span name="outgoingCltvValue">outgoingCltvValue: <span class="extype" name="scala.Int">Int</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@PerHopPayloadextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.wire.Perm" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="PermextendsFailureMessage"></a>
+      <a id="Perm:Perm"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">sealed </span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="Perm.html"><span class="name">Perm</span></a><span class="result"> extends <a href="FailureMessage.html" class="extype" name="fr.acinq.eclair.wire.FailureMessage">FailureMessage</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@PermextendsFailureMessage" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.wire.Ping" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="PingextendsSetupMessagewithProductwithSerializable"></a>
+      <a id="Ping:Ping"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Ping.html"><span class="name">Ping</span></a><span class="params">(<span name="pongLength">pongLength: <span class="extype" name="scala.Int">Int</span></span>, <span name="data">data: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>)</span><span class="result"> extends <a href="SetupMessage.html" class="extype" name="fr.acinq.eclair.wire.SetupMessage">SetupMessage</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@PingextendsSetupMessagewithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.wire.Pong" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="PongextendsSetupMessagewithProductwithSerializable"></a>
+      <a id="Pong:Pong"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Pong.html"><span class="name">Pong</span></a><span class="params">(<span name="data">data: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>)</span><span class="result"> extends <a href="SetupMessage.html" class="extype" name="fr.acinq.eclair.wire.SetupMessage">SetupMessage</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@PongextendsSetupMessagewithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.wire.RevokeAndAck" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RevokeAndAckextendsHtlcMessagewithHasChannelIdwithProductwithSerializable"></a>
+      <a id="RevokeAndAck:RevokeAndAck"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="RevokeAndAck.html"><span class="name">RevokeAndAck</span></a><span class="params">(<span name="channelId">channelId: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>, <span name="perCommitmentSecret">perCommitmentSecret: <span class="extype" name="fr.acinq.bitcoin.Crypto.Scalar">Scalar</span></span>, <span name="nextPerCommitmentPoint">nextPerCommitmentPoint: <span class="extype" name="fr.acinq.bitcoin.Crypto.Point">Point</span></span>)</span><span class="result"> extends <a href="HtlcMessage.html" class="extype" name="fr.acinq.eclair.wire.HtlcMessage">HtlcMessage</a> with <a href="HasChannelId.html" class="extype" name="fr.acinq.eclair.wire.HasChannelId">HasChannelId</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@RevokeAndAckextendsHtlcMessagewithHasChannelIdwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.wire.RoutingMessage" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="RoutingMessageextendsLightningMessage"></a>
+      <a id="RoutingMessage:RoutingMessage"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">sealed </span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="RoutingMessage.html"><span class="name">RoutingMessage</span></a><span class="result"> extends <a href="LightningMessage.html" class="extype" name="fr.acinq.eclair.wire.LightningMessage">LightningMessage</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@RoutingMessageextendsLightningMessage" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.wire.SetupMessage" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="SetupMessageextendsLightningMessage"></a>
+      <a id="SetupMessage:SetupMessage"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">sealed </span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="SetupMessage.html"><span class="name">SetupMessage</span></a><span class="result"> extends <a href="LightningMessage.html" class="extype" name="fr.acinq.eclair.wire.LightningMessage">LightningMessage</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@SetupMessageextendsLightningMessage" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.wire.Shutdown" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ShutdownextendsChannelMessagewithHasChannelIdwithProductwithSerializable"></a>
+      <a id="Shutdown:Shutdown"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Shutdown.html"><span class="name">Shutdown</span></a><span class="params">(<span name="channelId">channelId: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>, <span name="scriptPubKey">scriptPubKey: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>)</span><span class="result"> extends <a href="ChannelMessage.html" class="extype" name="fr.acinq.eclair.wire.ChannelMessage">ChannelMessage</a> with <a href="HasChannelId.html" class="extype" name="fr.acinq.eclair.wire.HasChannelId">HasChannelId</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@ShutdownextendsChannelMessagewithHasChannelIdwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.wire.TemporaryChannelFailure" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="TemporaryChannelFailureextendsUpdatewithProductwithSerializable"></a>
+      <a id="TemporaryChannelFailure:TemporaryChannelFailure"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="TemporaryChannelFailure.html"><span class="name">TemporaryChannelFailure</span></a><span class="params">(<span name="update">update: <a href="ChannelUpdate.html" class="extype" name="fr.acinq.eclair.wire.ChannelUpdate">ChannelUpdate</a></span>)</span><span class="result"> extends <a href="Update.html" class="extype" name="fr.acinq.eclair.wire.Update">Update</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@TemporaryChannelFailureextendsUpdatewithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.wire.Update" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="UpdateextendsFailureMessage"></a>
+      <a id="Update:Update"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">sealed </span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="Update.html"><span class="name">Update</span></a><span class="result"> extends <a href="FailureMessage.html" class="extype" name="fr.acinq.eclair.wire.FailureMessage">FailureMessage</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@UpdateextendsFailureMessage" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.wire.UpdateAddHtlc" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="UpdateAddHtlcextendsHtlcMessagewithUpdateMessagewithHasChannelIdwithProductwithSerializable"></a>
+      <a id="UpdateAddHtlc:UpdateAddHtlc"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="UpdateAddHtlc.html"><span class="name">UpdateAddHtlc</span></a><span class="params">(<span name="channelId">channelId: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>, <span name="id">id: <span class="extype" name="scala.Long">Long</span></span>, <span name="amountMsat">amountMsat: <span class="extype" name="scala.Long">Long</span></span>, <span name="paymentHash">paymentHash: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>, <span name="expiry">expiry: <span class="extype" name="scala.Long">Long</span></span>, <span name="onionRoutingPacket">onionRoutingPacket: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>)</span><span class="result"> extends <a href="HtlcMessage.html" class="extype" name="fr.acinq.eclair.wire.HtlcMessage">HtlcMessage</a> with <a href="UpdateMessage.html" class="extype" name="fr.acinq.eclair.wire.UpdateMessage">UpdateMessage</a> with <a href="HasChannelId.html" class="extype" name="fr.acinq.eclair.wire.HasChannelId">HasChannelId</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@UpdateAddHtlcextendsHtlcMessagewithUpdateMessagewithHasChannelIdwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.wire.UpdateFailHtlc" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="UpdateFailHtlcextendsHtlcMessagewithUpdateMessagewithHasChannelIdwithProductwithSerializable"></a>
+      <a id="UpdateFailHtlc:UpdateFailHtlc"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="UpdateFailHtlc.html"><span class="name">UpdateFailHtlc</span></a><span class="params">(<span name="channelId">channelId: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>, <span name="id">id: <span class="extype" name="scala.Long">Long</span></span>, <span name="reason">reason: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>)</span><span class="result"> extends <a href="HtlcMessage.html" class="extype" name="fr.acinq.eclair.wire.HtlcMessage">HtlcMessage</a> with <a href="UpdateMessage.html" class="extype" name="fr.acinq.eclair.wire.UpdateMessage">UpdateMessage</a> with <a href="HasChannelId.html" class="extype" name="fr.acinq.eclair.wire.HasChannelId">HasChannelId</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@UpdateFailHtlcextendsHtlcMessagewithUpdateMessagewithHasChannelIdwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.wire.UpdateFailMalformedHtlc" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="UpdateFailMalformedHtlcextendsHtlcMessagewithUpdateMessagewithHasChannelIdwithProductwithSerializable"></a>
+      <a id="UpdateFailMalformedHtlc:UpdateFailMalformedHtlc"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="UpdateFailMalformedHtlc.html"><span class="name">UpdateFailMalformedHtlc</span></a><span class="params">(<span name="channelId">channelId: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>, <span name="id">id: <span class="extype" name="scala.Long">Long</span></span>, <span name="onionHash">onionHash: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>, <span name="failureCode">failureCode: <span class="extype" name="scala.Int">Int</span></span>)</span><span class="result"> extends <a href="HtlcMessage.html" class="extype" name="fr.acinq.eclair.wire.HtlcMessage">HtlcMessage</a> with <a href="UpdateMessage.html" class="extype" name="fr.acinq.eclair.wire.UpdateMessage">UpdateMessage</a> with <a href="HasChannelId.html" class="extype" name="fr.acinq.eclair.wire.HasChannelId">HasChannelId</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@UpdateFailMalformedHtlcextendsHtlcMessagewithUpdateMessagewithHasChannelIdwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.wire.UpdateFee" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="UpdateFeeextendsChannelMessagewithUpdateMessagewithHasChannelIdwithProductwithSerializable"></a>
+      <a id="UpdateFee:UpdateFee"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="UpdateFee.html"><span class="name">UpdateFee</span></a><span class="params">(<span name="channelId">channelId: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>, <span name="feeratePerKw">feeratePerKw: <span class="extype" name="scala.Long">Long</span></span>)</span><span class="result"> extends <a href="ChannelMessage.html" class="extype" name="fr.acinq.eclair.wire.ChannelMessage">ChannelMessage</a> with <a href="UpdateMessage.html" class="extype" name="fr.acinq.eclair.wire.UpdateMessage">UpdateMessage</a> with <a href="HasChannelId.html" class="extype" name="fr.acinq.eclair.wire.HasChannelId">HasChannelId</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@UpdateFeeextendsChannelMessagewithUpdateMessagewithHasChannelIdwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.wire.UpdateFulfillHtlc" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="UpdateFulfillHtlcextendsHtlcMessagewithUpdateMessagewithHasChannelIdwithProductwithSerializable"></a>
+      <a id="UpdateFulfillHtlc:UpdateFulfillHtlc"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="UpdateFulfillHtlc.html"><span class="name">UpdateFulfillHtlc</span></a><span class="params">(<span name="channelId">channelId: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>, <span name="id">id: <span class="extype" name="scala.Long">Long</span></span>, <span name="paymentPreimage">paymentPreimage: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>)</span><span class="result"> extends <a href="HtlcMessage.html" class="extype" name="fr.acinq.eclair.wire.HtlcMessage">HtlcMessage</a> with <a href="UpdateMessage.html" class="extype" name="fr.acinq.eclair.wire.UpdateMessage">UpdateMessage</a> with <a href="HasChannelId.html" class="extype" name="fr.acinq.eclair.wire.HasChannelId">HasChannelId</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@UpdateFulfillHtlcextendsHtlcMessagewithUpdateMessagewithHasChannelIdwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.wire.UpdateMessage" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="UpdateMessageextendsHtlcMessage"></a>
+      <a id="UpdateMessage:UpdateMessage"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">sealed </span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="UpdateMessage.html"><span class="name">UpdateMessage</span></a><span class="result"> extends <a href="HtlcMessage.html" class="extype" name="fr.acinq.eclair.wire.HtlcMessage">HtlcMessage</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@UpdateMessageextendsHtlcMessage" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li></ol>
+            </div>
+
+        
+
+        <div id="values" class="values members">
+              <h3>Value Members</h3>
+              <ol><li name="fr.acinq.eclair.wire.ChannelCodecs" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ChannelCodecs"></a>
+      <a id="ChannelCodecs:ChannelCodecs"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="ChannelCodecs$.html"><span class="name">ChannelCodecs</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@ChannelCodecs" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Created by PM on 02/06/2017.</p>
+    </li><li name="fr.acinq.eclair.wire.FailureMessageCodecs" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="FailureMessageCodecs"></a>
+      <a id="FailureMessageCodecs:FailureMessageCodecs"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="FailureMessageCodecs$.html"><span class="name">FailureMessageCodecs</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@FailureMessageCodecs" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.wire.FinalExpiryTooSoon" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="FinalExpiryTooSoon"></a>
+      <a id="FinalExpiryTooSoon:FinalExpiryTooSoon"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="FinalExpiryTooSoon$.html"><span class="name">FinalExpiryTooSoon</span></a><span class="result"> extends <a href="FailureMessage.html" class="extype" name="fr.acinq.eclair.wire.FailureMessage">FailureMessage</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@FinalExpiryTooSoon" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.wire.FixedSizeStrictCodec" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="FixedSizeStrictCodec"></a>
+      <a id="FixedSizeStrictCodec:FixedSizeStrictCodec"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="FixedSizeStrictCodec$.html"><span class="name">FixedSizeStrictCodec</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@FixedSizeStrictCodec" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.wire.IncorrectPaymentAmount" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="IncorrectPaymentAmount"></a>
+      <a id="IncorrectPaymentAmount:IncorrectPaymentAmount"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="IncorrectPaymentAmount$.html"><span class="name">IncorrectPaymentAmount</span></a><span class="result"> extends <a href="Perm.html" class="extype" name="fr.acinq.eclair.wire.Perm">Perm</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@IncorrectPaymentAmount" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.wire.InvalidRealm" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="InvalidRealm"></a>
+      <a id="InvalidRealm:InvalidRealm"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="InvalidRealm$.html"><span class="name">InvalidRealm</span></a><span class="result"> extends <a href="Perm.html" class="extype" name="fr.acinq.eclair.wire.Perm">Perm</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@InvalidRealm" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.wire.LightningMessageCodecs" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="LightningMessageCodecs"></a>
+      <a id="LightningMessageCodecs:LightningMessageCodecs"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="LightningMessageCodecs$.html"><span class="name">LightningMessageCodecs</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@LightningMessageCodecs" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Created by PM on 15/11/2016.</p>
+    </li><li name="fr.acinq.eclair.wire.PermanentChannelFailure" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="PermanentChannelFailure"></a>
+      <a id="PermanentChannelFailure:PermanentChannelFailure"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="PermanentChannelFailure$.html"><span class="name">PermanentChannelFailure</span></a><span class="result"> extends <a href="Perm.html" class="extype" name="fr.acinq.eclair.wire.Perm">Perm</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@PermanentChannelFailure" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.wire.PermanentNodeFailure" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="PermanentNodeFailure"></a>
+      <a id="PermanentNodeFailure:PermanentNodeFailure"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="PermanentNodeFailure$.html"><span class="name">PermanentNodeFailure</span></a><span class="result"> extends <a href="Perm.html" class="extype" name="fr.acinq.eclair.wire.Perm">Perm</a> with <a href="Node.html" class="extype" name="fr.acinq.eclair.wire.Node">Node</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@PermanentNodeFailure" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.wire.RequiredChannelFeatureMissing" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RequiredChannelFeatureMissing"></a>
+      <a id="RequiredChannelFeatureMissing:RequiredChannelFeatureMissing"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="RequiredChannelFeatureMissing$.html"><span class="name">RequiredChannelFeatureMissing</span></a><span class="result"> extends <a href="Perm.html" class="extype" name="fr.acinq.eclair.wire.Perm">Perm</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@RequiredChannelFeatureMissing" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.wire.RequiredNodeFeatureMissing" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RequiredNodeFeatureMissing"></a>
+      <a id="RequiredNodeFeatureMissing:RequiredNodeFeatureMissing"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="RequiredNodeFeatureMissing$.html"><span class="name">RequiredNodeFeatureMissing</span></a><span class="result"> extends <a href="Perm.html" class="extype" name="fr.acinq.eclair.wire.Perm">Perm</a> with <a href="Node.html" class="extype" name="fr.acinq.eclair.wire.Node">Node</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@RequiredNodeFeatureMissing" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.wire.TemporaryNodeFailure" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="TemporaryNodeFailure"></a>
+      <a id="TemporaryNodeFailure:TemporaryNodeFailure"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="TemporaryNodeFailure$.html"><span class="name">TemporaryNodeFailure</span></a><span class="result"> extends <a href="Node.html" class="extype" name="fr.acinq.eclair.wire.Node">Node</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@TemporaryNodeFailure" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.wire.UnknownNextPeer" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="UnknownNextPeer"></a>
+      <a id="UnknownNextPeer:UnknownNextPeer"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="UnknownNextPeer$.html"><span class="name">UnknownNextPeer</span></a><span class="result"> extends <a href="Perm.html" class="extype" name="fr.acinq.eclair.wire.Perm">Perm</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@UnknownNextPeer" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.wire.UnknownPaymentHash" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="UnknownPaymentHash"></a>
+      <a id="UnknownPaymentHash:UnknownPaymentHash"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="UnknownPaymentHash$.html"><span class="name">UnknownPaymentHash</span></a><span class="result"> extends <a href="Perm.html" class="extype" name="fr.acinq.eclair.wire.Perm">Perm</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.wire.package@UnknownPaymentHash" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li></ol>
+            </div>
+
+        
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        
+        
+        </div>
+
+        <div id="groupedMembers">
+        <div class="group" name="Ungrouped">
+              <h3>Ungrouped</h3>
+              
+            </div>
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">  </div>
+
+
+    </body>
+      </html>

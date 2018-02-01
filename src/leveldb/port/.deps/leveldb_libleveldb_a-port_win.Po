@@ -1,0 +1,712 @@
+leveldb/port/leveldb_libleveldb_a-port_win.o: leveldb/port/port_win.cc \
+ leveldb/port/port_win.h /usr/include/c++/4.8/string \
+ /usr/include/c++/4.8/x86_64-w64-mingw32/bits/c++config.h \
+ /usr/include/c++/4.8/x86_64-w64-mingw32/bits/os_defines.h \
+ /usr/include/c++/4.8/x86_64-w64-mingw32/bits/cpu_defines.h \
+ /usr/include/c++/4.8/bits/stringfwd.h \
+ /usr/include/c++/4.8/bits/memoryfwd.h \
+ /usr/include/c++/4.8/bits/char_traits.h \
+ /usr/include/c++/4.8/bits/stl_algobase.h \
+ /usr/include/c++/4.8/bits/functexcept.h \
+ /usr/include/c++/4.8/bits/exception_defines.h \
+ /usr/include/c++/4.8/bits/cpp_type_traits.h \
+ /usr/include/c++/4.8/ext/type_traits.h \
+ /usr/include/c++/4.8/ext/numeric_traits.h \
+ /usr/include/c++/4.8/bits/stl_pair.h /usr/include/c++/4.8/bits/move.h \
+ /usr/include/c++/4.8/bits/concept_check.h \
+ /usr/include/c++/4.8/type_traits \
+ /usr/include/c++/4.8/bits/stl_iterator_base_types.h \
+ /usr/include/c++/4.8/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/4.8/debug/debug.h \
+ /usr/include/c++/4.8/bits/stl_iterator.h \
+ /usr/include/c++/4.8/bits/postypes.h /usr/include/c++/4.8/cwchar \
+ /usr/share/mingw-w64/include/wchar.h \
+ /usr/share/mingw-w64/include/crtdefs.h \
+ /usr/share/mingw-w64/include/_mingw.h \
+ /usr/share/mingw-w64/include/_mingw_mac.h \
+ /usr/share/mingw-w64/include/_mingw_secapi.h \
+ /usr/share/mingw-w64/include/vadefs.h \
+ /usr/share/mingw-w64/include/sdks/_mingw_directx.h \
+ /usr/share/mingw-w64/include/sdks/_mingw_ddk.h \
+ /usr/share/mingw-w64/include/_mingw_print_push.h \
+ /usr/share/mingw-w64/include/_mingw_off_t.h \
+ /usr/share/mingw-w64/include/_mingw_stat64.h \
+ /usr/x86_64-w64-mingw32/include/swprintf.inl \
+ /usr/share/mingw-w64/include/sec_api/wchar_s.h \
+ /usr/share/mingw-w64/include/_mingw_print_pop.h \
+ /usr/include/c++/4.8/cstdint \
+ /usr/lib/gcc/x86_64-w64-mingw32/4.8/include/stdint.h \
+ /usr/share/mingw-w64/include/stdint.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/4.8/include/stddef.h \
+ /usr/share/mingw-w64/include/stddef.h \
+ /usr/include/c++/4.8/bits/allocator.h \
+ /usr/include/c++/4.8/x86_64-w64-mingw32/bits/c++allocator.h \
+ /usr/include/c++/4.8/ext/new_allocator.h /usr/include/c++/4.8/new \
+ /usr/include/c++/4.8/exception \
+ /usr/include/c++/4.8/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/4.8/bits/exception_ptr.h \
+ /usr/include/c++/4.8/bits/nested_exception.h \
+ /usr/include/c++/4.8/bits/localefwd.h \
+ /usr/include/c++/4.8/x86_64-w64-mingw32/bits/c++locale.h \
+ /usr/include/c++/4.8/clocale /usr/share/mingw-w64/include/locale.h \
+ /usr/share/mingw-w64/include/stdio.h \
+ /usr/share/mingw-w64/include/sec_api/stdio_s.h \
+ /usr/include/c++/4.8/iosfwd /usr/include/c++/4.8/cctype \
+ /usr/share/mingw-w64/include/ctype.h \
+ /usr/include/c++/4.8/bits/ostream_insert.h \
+ /usr/include/c++/4.8/bits/cxxabi_forced.h \
+ /usr/include/c++/4.8/bits/stl_function.h \
+ /usr/include/c++/4.8/backward/binders.h \
+ /usr/include/c++/4.8/bits/range_access.h \
+ /usr/include/c++/4.8/bits/basic_string.h \
+ /usr/include/c++/4.8/ext/atomicity.h \
+ /usr/include/c++/4.8/x86_64-w64-mingw32/bits/gthr.h \
+ /usr/include/c++/4.8/x86_64-w64-mingw32/bits/gthr-default.h \
+ /usr/share/mingw-w64/include/pthread.h \
+ /usr/share/mingw-w64/include/errno.h \
+ /usr/share/mingw-w64/include/sys/types.h \
+ /usr/share/mingw-w64/include/process.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/4.8/include-fixed/limits.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/4.8/include-fixed/syslimits.h \
+ /usr/share/mingw-w64/include/limits.h \
+ /usr/share/mingw-w64/include/signal.h \
+ /usr/share/mingw-w64/include/pthread_signal.h \
+ /usr/share/mingw-w64/include/sys/timeb.h \
+ /usr/share/mingw-w64/include/sec_api/sys/timeb_s.h \
+ /usr/share/mingw-w64/include/pthread_compat.h \
+ /usr/share/mingw-w64/include/pthread_unistd.h \
+ /usr/include/c++/4.8/x86_64-w64-mingw32/bits/atomic_word.h \
+ /usr/include/c++/4.8/initializer_list \
+ /usr/include/c++/4.8/ext/string_conversions.h \
+ /usr/include/c++/4.8/cstdlib /usr/share/mingw-w64/include/stdlib.h \
+ /usr/share/mingw-w64/include/sec_api/stdlib_s.h \
+ /usr/share/mingw-w64/include/malloc.h /usr/include/c++/4.8/cstdio \
+ /usr/include/c++/4.8/cerrno /usr/include/c++/4.8/bits/functional_hash.h \
+ /usr/include/c++/4.8/bits/hash_bytes.h \
+ /usr/include/c++/4.8/bits/basic_string.tcc \
+ /usr/share/mingw-w64/include/windows.h \
+ /usr/share/mingw-w64/include/sdkddkver.h \
+ /usr/share/mingw-w64/include/excpt.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/4.8/include/stdarg.h \
+ /usr/share/mingw-w64/include/stdarg.h \
+ /usr/share/mingw-w64/include/_mingw_stdarg.h \
+ /usr/share/mingw-w64/include/windef.h \
+ /usr/share/mingw-w64/include/minwindef.h \
+ /usr/share/mingw-w64/include/winapifamily.h \
+ /usr/share/mingw-w64/include/specstrings.h \
+ /usr/share/mingw-w64/include/sal.h /usr/share/mingw-w64/include/winnt.h \
+ /usr/share/mingw-w64/include/_mingw_unicode.h \
+ /usr/share/mingw-w64/include/apiset.h \
+ /usr/share/mingw-w64/include/psdk_inc/intrin-impl.h \
+ /usr/share/mingw-w64/include/basetsd.h \
+ /usr/share/mingw-w64/include/guiddef.h \
+ /usr/share/mingw-w64/include/string.h \
+ /usr/share/mingw-w64/include/sec_api/string_s.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/4.8/include/x86intrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/4.8/include/ia32intrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/4.8/include/mmintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/4.8/include/xmmintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/4.8/include/mm_malloc.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/4.8/include/emmintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/4.8/include/immintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/4.8/include/fxsrintrin.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/4.8/include/adxintrin.h \
+ /usr/share/mingw-w64/include/pshpack4.h \
+ /usr/share/mingw-w64/include/poppack.h \
+ /usr/share/mingw-w64/include/pshpack4.h \
+ /usr/share/mingw-w64/include/pshpack2.h \
+ /usr/share/mingw-w64/include/poppack.h \
+ /usr/share/mingw-w64/include/pshpack2.h \
+ /usr/share/mingw-w64/include/pshpack8.h \
+ /usr/share/mingw-w64/include/pshpack8.h \
+ /usr/share/mingw-w64/include/ktmtypes.h \
+ /usr/share/mingw-w64/include/winbase.h \
+ /usr/share/mingw-w64/include/apisetcconv.h \
+ /usr/share/mingw-w64/include/minwinbase.h \
+ /usr/share/mingw-w64/include/bemapiset.h \
+ /usr/share/mingw-w64/include/debugapi.h \
+ /usr/share/mingw-w64/include/errhandlingapi.h \
+ /usr/share/mingw-w64/include/fibersapi.h \
+ /usr/share/mingw-w64/include/fileapi.h \
+ /usr/share/mingw-w64/include/handleapi.h \
+ /usr/share/mingw-w64/include/heapapi.h \
+ /usr/share/mingw-w64/include/ioapiset.h \
+ /usr/share/mingw-w64/include/interlockedapi.h \
+ /usr/share/mingw-w64/include/jobapi.h \
+ /usr/share/mingw-w64/include/libloaderapi.h \
+ /usr/share/mingw-w64/include/memoryapi.h \
+ /usr/share/mingw-w64/include/namedpipeapi.h \
+ /usr/share/mingw-w64/include/namespaceapi.h \
+ /usr/share/mingw-w64/include/processenv.h \
+ /usr/share/mingw-w64/include/processthreadsapi.h \
+ /usr/share/mingw-w64/include/processtopologyapi.h \
+ /usr/share/mingw-w64/include/profileapi.h \
+ /usr/share/mingw-w64/include/realtimeapiset.h \
+ /usr/share/mingw-w64/include/securityappcontainer.h \
+ /usr/share/mingw-w64/include/securitybaseapi.h \
+ /usr/share/mingw-w64/include/synchapi.h \
+ /usr/share/mingw-w64/include/sysinfoapi.h \
+ /usr/share/mingw-w64/include/systemtopologyapi.h \
+ /usr/share/mingw-w64/include/threadpoolapiset.h \
+ /usr/share/mingw-w64/include/threadpoollegacyapiset.h \
+ /usr/share/mingw-w64/include/utilapiset.h \
+ /usr/share/mingw-w64/include/wow64apiset.h \
+ /usr/share/mingw-w64/include/winerror.h \
+ /usr/share/mingw-w64/include/fltwinerror.h \
+ /usr/share/mingw-w64/include/timezoneapi.h \
+ /usr/share/mingw-w64/include/wingdi.h \
+ /usr/share/mingw-w64/include/pshpack1.h \
+ /usr/share/mingw-w64/include/winuser.h \
+ /usr/share/mingw-w64/include/tvout.h \
+ /usr/share/mingw-w64/include/winnls.h \
+ /usr/share/mingw-w64/include/datetimeapi.h \
+ /usr/share/mingw-w64/include/stringapiset.h \
+ /usr/share/mingw-w64/include/wincon.h \
+ /usr/share/mingw-w64/include/winver.h \
+ /usr/share/mingw-w64/include/winreg.h \
+ /usr/share/mingw-w64/include/reason.h \
+ /usr/share/mingw-w64/include/winnetwk.h \
+ /usr/share/mingw-w64/include/wnnc.h \
+ /usr/share/mingw-w64/include/virtdisk.h \
+ /usr/share/mingw-w64/include/cderr.h /usr/share/mingw-w64/include/dde.h \
+ /usr/share/mingw-w64/include/ddeml.h /usr/share/mingw-w64/include/dlgs.h \
+ /usr/share/mingw-w64/include/lzexpand.h \
+ /usr/share/mingw-w64/include/mmsystem.h \
+ /usr/share/mingw-w64/include/nb30.h /usr/share/mingw-w64/include/rpc.h \
+ /usr/share/mingw-w64/include/rpcdce.h \
+ /usr/share/mingw-w64/include/rpcdcep.h \
+ /usr/share/mingw-w64/include/rpcnsi.h \
+ /usr/share/mingw-w64/include/rpcnterr.h \
+ /usr/share/mingw-w64/include/rpcasync.h \
+ /usr/share/mingw-w64/include/shellapi.h \
+ /usr/share/mingw-w64/include/winperf.h \
+ /usr/share/mingw-w64/include/winsock.h \
+ /usr/share/mingw-w64/include/_timeval.h \
+ /usr/share/mingw-w64/include/_bsd_types.h \
+ /usr/share/mingw-w64/include/inaddr.h \
+ /usr/share/mingw-w64/include/psdk_inc/_socket_types.h \
+ /usr/share/mingw-w64/include/psdk_inc/_fd_types.h \
+ /usr/share/mingw-w64/include/psdk_inc/_ip_types.h \
+ /usr/share/mingw-w64/include/psdk_inc/_ip_mreq1.h \
+ /usr/share/mingw-w64/include/psdk_inc/_wsadata.h \
+ /usr/share/mingw-w64/include/psdk_inc/_xmitfile.h \
+ /usr/share/mingw-w64/include/psdk_inc/_wsa_errnos.h \
+ /usr/share/mingw-w64/include/wincrypt.h \
+ /usr/share/mingw-w64/include/bcrypt.h \
+ /usr/share/mingw-w64/include/ncrypt.h \
+ /usr/share/mingw-w64/include/winefs.h \
+ /usr/share/mingw-w64/include/winscard.h \
+ /usr/share/mingw-w64/include/wtypes.h \
+ /usr/share/mingw-w64/include/rpcndr.h \
+ /usr/share/mingw-w64/include/rpcnsip.h \
+ /usr/share/mingw-w64/include/rpcsal.h \
+ /usr/share/mingw-w64/include/ole2.h \
+ /usr/share/mingw-w64/include/objbase.h \
+ /usr/share/mingw-w64/include/combaseapi.h \
+ /usr/share/mingw-w64/include/wtypesbase.h \
+ /usr/share/mingw-w64/include/unknwnbase.h \
+ /usr/share/mingw-w64/include/objidlbase.h \
+ /usr/share/mingw-w64/include/cguid.h \
+ /usr/share/mingw-w64/include/objidl.h \
+ /usr/share/mingw-w64/include/unknwn.h \
+ /usr/share/mingw-w64/include/urlmon.h \
+ /usr/share/mingw-w64/include/oleidl.h \
+ /usr/share/mingw-w64/include/servprov.h \
+ /usr/share/mingw-w64/include/msxml.h \
+ /usr/share/mingw-w64/include/oaidl.h \
+ /usr/share/mingw-w64/include/propidl.h \
+ /usr/share/mingw-w64/include/oleauto.h \
+ /usr/share/mingw-w64/include/winioctl.h \
+ /usr/share/mingw-w64/include/winsmcrd.h \
+ /usr/share/mingw-w64/include/winspool.h \
+ /usr/share/mingw-w64/include/prsht.h \
+ /usr/share/mingw-w64/include/commdlg.h \
+ /usr/share/mingw-w64/include/stralign.h \
+ /usr/share/mingw-w64/include/sec_api/stralign_s.h \
+ /usr/share/mingw-w64/include/winsvc.h /usr/share/mingw-w64/include/mcx.h \
+ /usr/share/mingw-w64/include/imm.h /usr/include/c++/4.8/cassert \
+ /usr/share/mingw-w64/include/assert.h
+
+leveldb/port/port_win.h:
+
+/usr/include/c++/4.8/string:
+
+/usr/include/c++/4.8/x86_64-w64-mingw32/bits/c++config.h:
+
+/usr/include/c++/4.8/x86_64-w64-mingw32/bits/os_defines.h:
+
+/usr/include/c++/4.8/x86_64-w64-mingw32/bits/cpu_defines.h:
+
+/usr/include/c++/4.8/bits/stringfwd.h:
+
+/usr/include/c++/4.8/bits/memoryfwd.h:
+
+/usr/include/c++/4.8/bits/char_traits.h:
+
+/usr/include/c++/4.8/bits/stl_algobase.h:
+
+/usr/include/c++/4.8/bits/functexcept.h:
+
+/usr/include/c++/4.8/bits/exception_defines.h:
+
+/usr/include/c++/4.8/bits/cpp_type_traits.h:
+
+/usr/include/c++/4.8/ext/type_traits.h:
+
+/usr/include/c++/4.8/ext/numeric_traits.h:
+
+/usr/include/c++/4.8/bits/stl_pair.h:
+
+/usr/include/c++/4.8/bits/move.h:
+
+/usr/include/c++/4.8/bits/concept_check.h:
+
+/usr/include/c++/4.8/type_traits:
+
+/usr/include/c++/4.8/bits/stl_iterator_base_types.h:
+
+/usr/include/c++/4.8/bits/stl_iterator_base_funcs.h:
+
+/usr/include/c++/4.8/debug/debug.h:
+
+/usr/include/c++/4.8/bits/stl_iterator.h:
+
+/usr/include/c++/4.8/bits/postypes.h:
+
+/usr/include/c++/4.8/cwchar:
+
+/usr/share/mingw-w64/include/wchar.h:
+
+/usr/share/mingw-w64/include/crtdefs.h:
+
+/usr/share/mingw-w64/include/_mingw.h:
+
+/usr/share/mingw-w64/include/_mingw_mac.h:
+
+/usr/share/mingw-w64/include/_mingw_secapi.h:
+
+/usr/share/mingw-w64/include/vadefs.h:
+
+/usr/share/mingw-w64/include/sdks/_mingw_directx.h:
+
+/usr/share/mingw-w64/include/sdks/_mingw_ddk.h:
+
+/usr/share/mingw-w64/include/_mingw_print_push.h:
+
+/usr/share/mingw-w64/include/_mingw_off_t.h:
+
+/usr/share/mingw-w64/include/_mingw_stat64.h:
+
+/usr/x86_64-w64-mingw32/include/swprintf.inl:
+
+/usr/share/mingw-w64/include/sec_api/wchar_s.h:
+
+/usr/share/mingw-w64/include/_mingw_print_pop.h:
+
+/usr/include/c++/4.8/cstdint:
+
+/usr/lib/gcc/x86_64-w64-mingw32/4.8/include/stdint.h:
+
+/usr/share/mingw-w64/include/stdint.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/4.8/include/stddef.h:
+
+/usr/share/mingw-w64/include/stddef.h:
+
+/usr/include/c++/4.8/bits/allocator.h:
+
+/usr/include/c++/4.8/x86_64-w64-mingw32/bits/c++allocator.h:
+
+/usr/include/c++/4.8/ext/new_allocator.h:
+
+/usr/include/c++/4.8/new:
+
+/usr/include/c++/4.8/exception:
+
+/usr/include/c++/4.8/bits/atomic_lockfree_defines.h:
+
+/usr/include/c++/4.8/bits/exception_ptr.h:
+
+/usr/include/c++/4.8/bits/nested_exception.h:
+
+/usr/include/c++/4.8/bits/localefwd.h:
+
+/usr/include/c++/4.8/x86_64-w64-mingw32/bits/c++locale.h:
+
+/usr/include/c++/4.8/clocale:
+
+/usr/share/mingw-w64/include/locale.h:
+
+/usr/share/mingw-w64/include/stdio.h:
+
+/usr/share/mingw-w64/include/sec_api/stdio_s.h:
+
+/usr/include/c++/4.8/iosfwd:
+
+/usr/include/c++/4.8/cctype:
+
+/usr/share/mingw-w64/include/ctype.h:
+
+/usr/include/c++/4.8/bits/ostream_insert.h:
+
+/usr/include/c++/4.8/bits/cxxabi_forced.h:
+
+/usr/include/c++/4.8/bits/stl_function.h:
+
+/usr/include/c++/4.8/backward/binders.h:
+
+/usr/include/c++/4.8/bits/range_access.h:
+
+/usr/include/c++/4.8/bits/basic_string.h:
+
+/usr/include/c++/4.8/ext/atomicity.h:
+
+/usr/include/c++/4.8/x86_64-w64-mingw32/bits/gthr.h:
+
+/usr/include/c++/4.8/x86_64-w64-mingw32/bits/gthr-default.h:
+
+/usr/share/mingw-w64/include/pthread.h:
+
+/usr/share/mingw-w64/include/errno.h:
+
+/usr/share/mingw-w64/include/sys/types.h:
+
+/usr/share/mingw-w64/include/process.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/4.8/include-fixed/limits.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/4.8/include-fixed/syslimits.h:
+
+/usr/share/mingw-w64/include/limits.h:
+
+/usr/share/mingw-w64/include/signal.h:
+
+/usr/share/mingw-w64/include/pthread_signal.h:
+
+/usr/share/mingw-w64/include/sys/timeb.h:
+
+/usr/share/mingw-w64/include/sec_api/sys/timeb_s.h:
+
+/usr/share/mingw-w64/include/pthread_compat.h:
+
+/usr/share/mingw-w64/include/pthread_unistd.h:
+
+/usr/include/c++/4.8/x86_64-w64-mingw32/bits/atomic_word.h:
+
+/usr/include/c++/4.8/initializer_list:
+
+/usr/include/c++/4.8/ext/string_conversions.h:
+
+/usr/include/c++/4.8/cstdlib:
+
+/usr/share/mingw-w64/include/stdlib.h:
+
+/usr/share/mingw-w64/include/sec_api/stdlib_s.h:
+
+/usr/share/mingw-w64/include/malloc.h:
+
+/usr/include/c++/4.8/cstdio:
+
+/usr/include/c++/4.8/cerrno:
+
+/usr/include/c++/4.8/bits/functional_hash.h:
+
+/usr/include/c++/4.8/bits/hash_bytes.h:
+
+/usr/include/c++/4.8/bits/basic_string.tcc:
+
+/usr/share/mingw-w64/include/windows.h:
+
+/usr/share/mingw-w64/include/sdkddkver.h:
+
+/usr/share/mingw-w64/include/excpt.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/4.8/include/stdarg.h:
+
+/usr/share/mingw-w64/include/stdarg.h:
+
+/usr/share/mingw-w64/include/_mingw_stdarg.h:
+
+/usr/share/mingw-w64/include/windef.h:
+
+/usr/share/mingw-w64/include/minwindef.h:
+
+/usr/share/mingw-w64/include/winapifamily.h:
+
+/usr/share/mingw-w64/include/specstrings.h:
+
+/usr/share/mingw-w64/include/sal.h:
+
+/usr/share/mingw-w64/include/winnt.h:
+
+/usr/share/mingw-w64/include/_mingw_unicode.h:
+
+/usr/share/mingw-w64/include/apiset.h:
+
+/usr/share/mingw-w64/include/psdk_inc/intrin-impl.h:
+
+/usr/share/mingw-w64/include/basetsd.h:
+
+/usr/share/mingw-w64/include/guiddef.h:
+
+/usr/share/mingw-w64/include/string.h:
+
+/usr/share/mingw-w64/include/sec_api/string_s.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/4.8/include/x86intrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/4.8/include/ia32intrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/4.8/include/mmintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/4.8/include/xmmintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/4.8/include/mm_malloc.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/4.8/include/emmintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/4.8/include/immintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/4.8/include/fxsrintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/4.8/include/adxintrin.h:
+
+/usr/share/mingw-w64/include/pshpack4.h:
+
+/usr/share/mingw-w64/include/poppack.h:
+
+/usr/share/mingw-w64/include/pshpack4.h:
+
+/usr/share/mingw-w64/include/pshpack2.h:
+
+/usr/share/mingw-w64/include/poppack.h:
+
+/usr/share/mingw-w64/include/pshpack2.h:
+
+/usr/share/mingw-w64/include/pshpack8.h:
+
+/usr/share/mingw-w64/include/pshpack8.h:
+
+/usr/share/mingw-w64/include/ktmtypes.h:
+
+/usr/share/mingw-w64/include/winbase.h:
+
+/usr/share/mingw-w64/include/apisetcconv.h:
+
+/usr/share/mingw-w64/include/minwinbase.h:
+
+/usr/share/mingw-w64/include/bemapiset.h:
+
+/usr/share/mingw-w64/include/debugapi.h:
+
+/usr/share/mingw-w64/include/errhandlingapi.h:
+
+/usr/share/mingw-w64/include/fibersapi.h:
+
+/usr/share/mingw-w64/include/fileapi.h:
+
+/usr/share/mingw-w64/include/handleapi.h:
+
+/usr/share/mingw-w64/include/heapapi.h:
+
+/usr/share/mingw-w64/include/ioapiset.h:
+
+/usr/share/mingw-w64/include/interlockedapi.h:
+
+/usr/share/mingw-w64/include/jobapi.h:
+
+/usr/share/mingw-w64/include/libloaderapi.h:
+
+/usr/share/mingw-w64/include/memoryapi.h:
+
+/usr/share/mingw-w64/include/namedpipeapi.h:
+
+/usr/share/mingw-w64/include/namespaceapi.h:
+
+/usr/share/mingw-w64/include/processenv.h:
+
+/usr/share/mingw-w64/include/processthreadsapi.h:
+
+/usr/share/mingw-w64/include/processtopologyapi.h:
+
+/usr/share/mingw-w64/include/profileapi.h:
+
+/usr/share/mingw-w64/include/realtimeapiset.h:
+
+/usr/share/mingw-w64/include/securityappcontainer.h:
+
+/usr/share/mingw-w64/include/securitybaseapi.h:
+
+/usr/share/mingw-w64/include/synchapi.h:
+
+/usr/share/mingw-w64/include/sysinfoapi.h:
+
+/usr/share/mingw-w64/include/systemtopologyapi.h:
+
+/usr/share/mingw-w64/include/threadpoolapiset.h:
+
+/usr/share/mingw-w64/include/threadpoollegacyapiset.h:
+
+/usr/share/mingw-w64/include/utilapiset.h:
+
+/usr/share/mingw-w64/include/wow64apiset.h:
+
+/usr/share/mingw-w64/include/winerror.h:
+
+/usr/share/mingw-w64/include/fltwinerror.h:
+
+/usr/share/mingw-w64/include/timezoneapi.h:
+
+/usr/share/mingw-w64/include/wingdi.h:
+
+/usr/share/mingw-w64/include/pshpack1.h:
+
+/usr/share/mingw-w64/include/winuser.h:
+
+/usr/share/mingw-w64/include/tvout.h:
+
+/usr/share/mingw-w64/include/winnls.h:
+
+/usr/share/mingw-w64/include/datetimeapi.h:
+
+/usr/share/mingw-w64/include/stringapiset.h:
+
+/usr/share/mingw-w64/include/wincon.h:
+
+/usr/share/mingw-w64/include/winver.h:
+
+/usr/share/mingw-w64/include/winreg.h:
+
+/usr/share/mingw-w64/include/reason.h:
+
+/usr/share/mingw-w64/include/winnetwk.h:
+
+/usr/share/mingw-w64/include/wnnc.h:
+
+/usr/share/mingw-w64/include/virtdisk.h:
+
+/usr/share/mingw-w64/include/cderr.h:
+
+/usr/share/mingw-w64/include/dde.h:
+
+/usr/share/mingw-w64/include/ddeml.h:
+
+/usr/share/mingw-w64/include/dlgs.h:
+
+/usr/share/mingw-w64/include/lzexpand.h:
+
+/usr/share/mingw-w64/include/mmsystem.h:
+
+/usr/share/mingw-w64/include/nb30.h:
+
+/usr/share/mingw-w64/include/rpc.h:
+
+/usr/share/mingw-w64/include/rpcdce.h:
+
+/usr/share/mingw-w64/include/rpcdcep.h:
+
+/usr/share/mingw-w64/include/rpcnsi.h:
+
+/usr/share/mingw-w64/include/rpcnterr.h:
+
+/usr/share/mingw-w64/include/rpcasync.h:
+
+/usr/share/mingw-w64/include/shellapi.h:
+
+/usr/share/mingw-w64/include/winperf.h:
+
+/usr/share/mingw-w64/include/winsock.h:
+
+/usr/share/mingw-w64/include/_timeval.h:
+
+/usr/share/mingw-w64/include/_bsd_types.h:
+
+/usr/share/mingw-w64/include/inaddr.h:
+
+/usr/share/mingw-w64/include/psdk_inc/_socket_types.h:
+
+/usr/share/mingw-w64/include/psdk_inc/_fd_types.h:
+
+/usr/share/mingw-w64/include/psdk_inc/_ip_types.h:
+
+/usr/share/mingw-w64/include/psdk_inc/_ip_mreq1.h:
+
+/usr/share/mingw-w64/include/psdk_inc/_wsadata.h:
+
+/usr/share/mingw-w64/include/psdk_inc/_xmitfile.h:
+
+/usr/share/mingw-w64/include/psdk_inc/_wsa_errnos.h:
+
+/usr/share/mingw-w64/include/wincrypt.h:
+
+/usr/share/mingw-w64/include/bcrypt.h:
+
+/usr/share/mingw-w64/include/ncrypt.h:
+
+/usr/share/mingw-w64/include/winefs.h:
+
+/usr/share/mingw-w64/include/winscard.h:
+
+/usr/share/mingw-w64/include/wtypes.h:
+
+/usr/share/mingw-w64/include/rpcndr.h:
+
+/usr/share/mingw-w64/include/rpcnsip.h:
+
+/usr/share/mingw-w64/include/rpcsal.h:
+
+/usr/share/mingw-w64/include/ole2.h:
+
+/usr/share/mingw-w64/include/objbase.h:
+
+/usr/share/mingw-w64/include/combaseapi.h:
+
+/usr/share/mingw-w64/include/wtypesbase.h:
+
+/usr/share/mingw-w64/include/unknwnbase.h:
+
+/usr/share/mingw-w64/include/objidlbase.h:
+
+/usr/share/mingw-w64/include/cguid.h:
+
+/usr/share/mingw-w64/include/objidl.h:
+
+/usr/share/mingw-w64/include/unknwn.h:
+
+/usr/share/mingw-w64/include/urlmon.h:
+
+/usr/share/mingw-w64/include/oleidl.h:
+
+/usr/share/mingw-w64/include/servprov.h:
+
+/usr/share/mingw-w64/include/msxml.h:
+
+/usr/share/mingw-w64/include/oaidl.h:
+
+/usr/share/mingw-w64/include/propidl.h:
+
+/usr/share/mingw-w64/include/oleauto.h:
+
+/usr/share/mingw-w64/include/winioctl.h:
+
+/usr/share/mingw-w64/include/winsmcrd.h:
+
+/usr/share/mingw-w64/include/winspool.h:
+
+/usr/share/mingw-w64/include/prsht.h:
+
+/usr/share/mingw-w64/include/commdlg.h:
+
+/usr/share/mingw-w64/include/stralign.h:
+
+/usr/share/mingw-w64/include/sec_api/stralign_s.h:
+
+/usr/share/mingw-w64/include/winsvc.h:
+
+/usr/share/mingw-w64/include/mcx.h:
+
+/usr/share/mingw-w64/include/imm.h:
+
+/usr/include/c++/4.8/cassert:
+
+/usr/share/mingw-w64/include/assert.h:

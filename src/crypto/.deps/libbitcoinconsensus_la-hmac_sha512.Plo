@@ -1,0 +1,63 @@
+crypto/libbitcoinconsensus_la-hmac_sha512.lo: crypto/hmac_sha512.cpp \
+ crypto/hmac_sha512.h crypto/sha512.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/4.8/include/stdint.h \
+ /usr/share/mingw-w64/include/stdint.h \
+ /usr/share/mingw-w64/include/crtdefs.h \
+ /usr/share/mingw-w64/include/_mingw.h \
+ /usr/share/mingw-w64/include/_mingw_mac.h \
+ /usr/share/mingw-w64/include/_mingw_secapi.h \
+ /usr/share/mingw-w64/include/vadefs.h \
+ /usr/share/mingw-w64/include/sdks/_mingw_directx.h \
+ /usr/share/mingw-w64/include/sdks/_mingw_ddk.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/4.8/include/stddef.h \
+ /usr/share/mingw-w64/include/stddef.h \
+ /usr/share/mingw-w64/include/stdlib.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/4.8/include-fixed/limits.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/4.8/include-fixed/syslimits.h \
+ /usr/share/mingw-w64/include/limits.h \
+ /usr/share/mingw-w64/include/sec_api/stdlib_s.h \
+ /usr/share/mingw-w64/include/malloc.h \
+ /usr/share/mingw-w64/include/string.h \
+ /usr/share/mingw-w64/include/sec_api/string_s.h
+
+crypto/hmac_sha512.h:
+
+crypto/sha512.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/4.8/include/stdint.h:
+
+/usr/share/mingw-w64/include/stdint.h:
+
+/usr/share/mingw-w64/include/crtdefs.h:
+
+/usr/share/mingw-w64/include/_mingw.h:
+
+/usr/share/mingw-w64/include/_mingw_mac.h:
+
+/usr/share/mingw-w64/include/_mingw_secapi.h:
+
+/usr/share/mingw-w64/include/vadefs.h:
+
+/usr/share/mingw-w64/include/sdks/_mingw_directx.h:
+
+/usr/share/mingw-w64/include/sdks/_mingw_ddk.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/4.8/include/stddef.h:
+
+/usr/share/mingw-w64/include/stddef.h:
+
+/usr/share/mingw-w64/include/stdlib.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/4.8/include-fixed/limits.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/4.8/include-fixed/syslimits.h:
+
+/usr/share/mingw-w64/include/limits.h:
+
+/usr/share/mingw-w64/include/sec_api/stdlib_s.h:
+
+/usr/share/mingw-w64/include/malloc.h:
+
+/usr/share/mingw-w64/include/string.h:
+
+/usr/share/mingw-w64/include/sec_api/string_s.h:

@@ -1,0 +1,1 @@
+qt/qt_libbitcoinqt_a-qrc_lightning.o: qt/qrc_lightning.cpp
