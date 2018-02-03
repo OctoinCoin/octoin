@@ -6,7 +6,7 @@
 #ifndef BITCOIN_SUPPORT_PAGELOCKER_H
 #define BITCOIN_SUPPORT_PAGELOCKER_H
 
-#include "support/cleanse.h"
+#include "cleanse.h"
 
 #include <map>
 

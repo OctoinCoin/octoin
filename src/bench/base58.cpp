@@ -4,8 +4,8 @@
 
 #include "bench.h"
 
-#include "main.h"
-#include "base58.h"
+#include "../main.h"
+#include "../base58.h"
 
 #include <vector>
 #include <string>
