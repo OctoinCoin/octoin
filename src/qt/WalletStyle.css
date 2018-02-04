@@ -1,0 +1,1155 @@
+.QPushButton{
+    min-width: 120px;
+    margin-left:5px;
+    margin-right:5px;
+    border:none;
+    /*border-radius:20px;*/
+    height: 40px;
+    padding-left:7px;
+    padding-right:7px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: transparent;
+    qproperty-iconSize: 20px;
+    color: #cbfeff;/*#fff;*/ /*#6c7081;*/
+}
+
+.QPushButton:focus{
+    color: #fff;
+    background-color: transparent;
+    border:none;
+}
+
+.QPushButton:hover{
+    /*background-color: #3084ad;*/  /*#4da59e;*/
+    color: #fff;
+}
+
+.QPushButton:pressed{
+    /*background-color: #3084ad;*/ /*#6c7081;*//*#178fc1;*/
+}
+
+.QPushButton:disabled{
+    color:#bbbbbb
+}
+
+
+.QToolButton{
+    height: 80px;
+    line-height: 4px;
+    padding: 0 0px;
+/*    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;*/
+    background: transparent;
+    border-radius: 0px;
+    font: 12px;
+    text-transform: uppercase;
+    qproperty-iconSize: 50px;
+    color: #6c7081;
+    font-weight: 600;
+}
+
+.QToolButton:pressed{
+    background-color:#5db5ae;
+}
+
+.QToolButton:hover{
+    border: 1px;
+    background-color: #e3e4e8/*#4da59e;*/
+}
+
+.QToolButton:checked{
+    color: #178fc1;
+    background: transparent;
+}
+/*, #overviewMenuButton, #bonusMenuButton, #historyMenuButton*/
+#mainMenuButton{
+    background: transparent;
+    margin:0px;
+    padding:0px;
+    width:80px;
+    height:80px;
+    qproperty-iconSize: 80px;
+}
+
+#BReceive{
+    margin-top: 0px;
+}
+
+#labelWalletStatus,#labelTransactionsStatus{
+    background-color: transparent;
+    margin: 0px;
+    margin-right: -40px; /*dirty hardcode*/
+    padding:0px;
+    border-bottom:none;
+    height:16px;
+    width:16px;
+}
+#sendCoinsButton:hover{
+    backgroud-color: #3084ad;
+}
+
+#sendButton, #ExportButton, #showRequestButton, #openDebugLogfileButton, #BCreate, #BReceive, #receiveButton, .QDialogButtonBox .QPushButton, #sendButtonByEmail, #cancelButtonByEmail, #cancelButtonByKey,#sendButtonByKey,
+#closeButton, #btnClearTrafficGraph, #clear_Button, #okButton, #cancelButton,
+#PreviewCodeDialogpushButton, #signMessageButton_SM, #verifyMessageButton_VM{
+    border:none;
+    background-color: #073e75;/*#858a9e;*//*#27cfab;*/
+    color:#fff;
+}
+#ExportButton{
+    /*border-radius: 6px;*/
+    margin:0px;
+    margin-left:5px;
+}
+#sendButton:hover, #ExportButton:hover, #showRequestButton:hover, #openDebugLogfileButton:hover, #BCreate:hover, #BReceive:hover, #receiveButton:hover, .QDialogButtonBox .QPushButton:hover, #sendButtonByEmail:hover, #cancelButtonByEmail:hover, #cancelButtonByKey:hover,#sendButtonByKey:hover,
+#closeButton:hover, #btnClearTrafficGraph:hover, #clear_Button:hover, #okButton:hover, #cancelButton:hover,
+#PreviewCodeDialogpushButton:hover, #signMessageButton_SM:hover, #verifyMessageButton_VM:hover{
+    background-color:#094c90;/*#606578;*//*#959aaf;*//*#37dfbb;*/
+    color:#fff;
+}
+#sendButton:disabled, #ExportButton:disabled, #showRequestButton:disabled, #openDebugLogfileButton:disabled, #BCreate:disabled, #receiveButton:disabled, #BReceive:disabled, .QDialogButtonBox .QPushButton:disabled, #sendButtonByEmail:disabled, #cancelButtonByEmail:disabled, #cancelButtonByKey:disabled, #sendButtonByKey:disabled,
+#closeButton:disabled, #btnClearTrafficGraph:disabled, #clear_Button:disabled, #okButton:disabled, #cancelButton:disabled,
+#PreviewCodeDialogpushButton:disabled, #signMessageButton_SM:disabled, #verifyMessageButton_VM:disabled{
+    background-color:#9095a9;/*#0b3669;*/ /*#07af8b;*/
+    color:#fff;
+    border-bottom:0px solid #38785e;
+}
+#sendButton:pressed,#showRequestButton:pressed,#openDebugLogfileButton:pressed,
+#showRequestButton:pressed,#BCreate:pressed,#receiveButton:pressed,#BReceive:pressed,
+.QDialogButtonBox .QPushButton:pressed,#sendButtonByEmail:pressed,#cancelButtonByEmail:pressed,
+#cancelButtonByKey:pressed,#sendButtonByKey:pressed,
+#closeButton:pressed, #btnClearTrafficGraph:pressed, #clear_Button:pressed, #okButton:pressed, #cancelButton:pressed,
+#PreviewCodeDialogpushButton:pressed, #signMessageButton_SM:pressed, #verifyMessageButton_VM:pressed{
+    background-color: #094c90;/*#606578;*/ /*#17bf9b;*/
+    color: #fff;/*#9cbbb0;*/
+}
+
+/*new buttons*/
+#removeRequestButton, #clearButton, #addButton, #copyAddress, #newAddress,
+#deleteAddress, #exportButton, #ellipsisButton, #selectFileButton, #resetButton,
+#PreviewCodeDialogCopy, #clearButton_SM, #clearButton_VM, #addressBookButton_SM,
+#pasteButton_SM, #copySignatureButton_SM, #addressBookButton_VM, #btnCopyURI,
+#btnCopyAddress, #btnSaveAs{
+    border:none;
+    background-color: #3084ad;/*#858a9e;*/
+    color:#fff;
+}
+#removeRequestButton:hover, #clearButton:hover, #addButton:hover, #copyAddress:hover, #newAddress:hover,
+#deleteAddress:hover, #exportButton:hover, #ellipsisButton:hover, #selectFileButton:hover, #resetButton:hover,
+#PreviewCodeDialogCopy:hover, #clearButton_SM:hover, #clearButton_VM:hover, #addressBookButton_SM:hover,
+#pasteButton_SM:hover, #copySignatureButton_SM:hover, #addressBookButton_VM:hover, #btnCopyURI:hover,
+#btnCopyAddress:hover, #btnSaveAs:hover{
+    background-color: #479ec8;/*#606578;*/
+    color:#fff;
+}
+#removeRequestButton:pressed, #clearButton:pressed, #addButton:pressed, #copyAddress:pressed, #newAddress:pressed,
+#deleteAddress:pressed, #exportButton:pressed, #ellipsisButton:pressed, #selectFileButton:pressed, #resetButton:pressed,
+#PreviewCodeDialogCopy:pressed, #clearButton_SM:pressed, #clearButton_VM:pressed, #addressBookButton_SM:pressed,
+#pasteButton_SM:pressed, #copySignatureButton_SM:pressed, #addressBookButton_VM:pressed, #btnCopyURI:pressed,
+#btnCopyAddress:pressed, #btnSaveAs:pressed{
+    background-color: #606578;
+    color: #fff;
+}
+#removeRequestButton:disabled, #clearButton:disabled, #addButton:disabled, #copyAddress:disabled, #newAddress:disabled,
+#deleteAddress:disabled, #exportButton:disabled, #ellipsisButton:disabled, #selectFileButton:disabled, #resetButton:disabled,
+#PreviewCodeDialogCopy:disabled, #clearButton_SM:disabled, #clearButton_VM:disabled, #addressBookButton_SM:disabled,
+#pasteButton_SM:disabled, #copySignatureButton_SM:disabled, #addressBookButton_VM:disabled, #btnCopyURI:disabled,
+#btnCopyAddress:disabled, #btnSaveAs:disabled{
+    background-color: #9095a9;/*#5ec8bd;*/
+    color:#fff;
+    border-bottom:0px solid #38785e;
+}
+
+
+#addressBookButton, #deleteButton, #pasteButton, #toolButton, #BClearAmount, #BClearKey, #promptIcon, #fontSmallerButton, #fontBiggerButton, #clear_Button{
+    background-color: transparent;
+    border: 1px solid #bbbbc3;
+    border-radius: 0px;
+    padding: 0px;
+    margin:1px;
+    height: 38px;
+    width: 38px;
+    qproperty-iconSize: 20px;
+    max-width: 38px;
+}
+
+#addressBookButton:hover, #deleteButton:hover, #pasteButton:hover, #BClearAmount:hover, #BClearKey:hover, #fontSmallerButton:hover, #fontBiggerButton:hover, #clear_Button:hover{
+    background-color: #606578;/*#39d2ae;*/
+}
+
+.QLabel{
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+}
+#labelBalanceText, #labelPendingText, #labelImmatureText, #labelStakeText, #labelTotalText{
+    font-weight: 700;
+}
+#Receive_Head{
+    color: #023b73;/*#bce9e4;*/
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align:center;
+}
+#reuseAddress{
+    color: #000;
+    font-size:10px;
+/*    font-weight: 550;
+    margin:1px;*/
+}
+#InfFon{
+    background:#d3d4d9;/*#304a3f;*/
+    /*border-radius:0px;*/
+}
+#InfAmmount{
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+}
+#InfMessage{
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}
+#InfKey{
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;/*#49a37f;*/
+}
+#TableHeader{
+    margin:0px;
+    color: #000;
+    font-size: 13px;
+    /*font-weight: 800;*/
+}
+QToolTip{
+    background-color: #363845;/*#4faa9c;*/
+    /*border-radius: 4px;*/
+    border: 1px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+}
+/*#unitDisplayControl{
+    color: #3d8065;
+}*/
+#InfoReceiveCoupon{
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+}
+#CouponId,#CouponId_2{
+    margin-left:30px;
+    font-size: 14px;
+    /*font-weight:700;*/
+    color: #363642;
+    text-transform: uppercase;
+}
+#CreatedCouponsFrame, #RedeemedCouponsFrame{
+    background-color: #e3e4e8;
+}
+#CreatedCoupons,#RedeemedCoupons{
+    /*margin: 0px;*/
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left:10px;
+    font-size: 14px;
+    /*font-weight:700;*/
+    color: #023b73;/*#fff;*/
+    background-color: #e3e4e8;
+    text-transform: uppercase;
+}
+#RecenTransactions{
+    margin-left:10px;
+    font: 14px;
+    /*font-weight:bold;*/
+    text-transform: uppercase;
+    letter-spacing:2px;
+    color: #023b73;
+}
+#listTransactionsFrame{
+    background-color: #e7e8eb;
+    margin-right: 0px;
+}
+#OverViewBalances{
+    /*font:bold;*/
+    text-transform: uppercase;
+}
+#labelImmature, #labelStake, #payToLabel, #messageTextLabel, #messageLabel, #labellLabel, #amountLabel, #Receive_Amount, #Receive_Label, #Receive_Message{
+    /*font:bold;*/
+    margin-left: 0px;
+    text-transform: uppercase;
+    color: #000;
+}
+#labelBalance, #labelUnconfirmed{
+    font-size: 16px;
+    font:bold;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #fff;
+}
+#labelTotal{
+    font-size: 48px;
+    font:bold;
+    color: #fff;
+}
+
+#labelBalanceThin, #labelUnconfirmedThin{
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #fff;
+}
+#labelTotalThin{
+    font-size: 16px;
+    font:bold;
+    margin-left: 5px;
+    margin-right: 20px;
+    color: #fff;
+}
+#CouponInfo{
+    font-size: 15px;
+    font-weight: 500;
+    color: #ddd;
+}
+
+
+.QCheckBox{
+    height: 29px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #000;/*#fff;*/
+    text-align: center;
+    vertical-align: middle;
+    margin: 5px;
+}
+.QCheckBox::indicator{
+    height: 20px;
+    width: 20px;
+    /*border-radius: 2px;*/
+    background: #858a9e;/*#50ab9d;*/
+    border: none;
+    margin: 5px;
+}
+.QCheckBox::indicator:disabled{
+    background: #9095a9;/*#208b7d;*/
+}
+.QCheckBox::indicator:unchecked {
+    background: #858a9e;/*#50ab9d;*/
+    color: #fff;
+}
+
+.QCheckBox::indicator:checked {
+    background: #000;/*#858a9e;*//*#50ab9d;*/
+    image: url(:/icons/checkbox);
+}
+.QCheckBox::indicator:checked:disabled
+{
+    background: #8c91a4;/*#208b7d;*/
+    image: url(:/icons/checkbox);
+}
+.QCheckBox::indicator:unchecked:disabled
+{
+    background: #8c91a4;/*#208b7d;*/
+}
+#checkboxSubtractFeeFromAmount{
+    font-size:13px;
+    color: #000;/*#99ccc7;*/
+}
+QFrame[frameShape="4"]{/*HLine*/
+    border-color: #989ba6;/*#fff;*/
+    border-radius: 0px;
+    border-top:  1px dashed #989ba6;/*#fff;*/
+    background: transparent;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+QFrame[frameShape="5"], #vlineSendReceive/*VLine*/
+{
+    border-color: #cbfeff;/*#71bfaf;*/
+    margin-top:30px;
+    margin-bottom:30px;
+    border-radius: 0px;
+    border-left:  1px solid #fff;
+    background: transparent;
+}
+
+
+#frameFee,#frameCoinControl{
+    margin-left: 30px;
+    margin-right: 30px;/*245px;*/
+    /*margin-bottom: 20px;*/
+    margin-top:0px;
+    min-width:200px;
+    padding:0px;
+    /*border-radius:6px;*/
+    border: 1px solid #bbbbc3;
+    /*border:none;*/
+}
+#frameCoinControl{
+    margin-right: 45px;
+}
+#frameFee QLabel{
+    color: #000;/*#9de3e1;*/
+    font-size:12px;
+}
+#labelSmartFee{
+    max-width:140px;
+}
+#labelSmartFee2,
+#labelMinFeeWarning{
+    font-size:11px;
+    margin-right:10px;
+}
+#frameFee #BalanceSend,#frameFee #labelBalance{
+    /*font-weight: 700;*/
+    color: #000;/*#fff;*/
+}
+#InfoFrame{
+/*    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;*/
+    margin-top: 0px;
+    min-height: 105px;
+    padding:5px;
+    background: #e3e4e8;/*#4ba27e;*/
+    color: #000;/*#eeeeee;*/
+    margin-top:0px;
+}
+#frameFeeSelection,#frameCoinControl{
+    /*border-radius:6px;*/
+    border: 1px solid #bbbbc3;/*#6aafaa;*/
+}
+#ReceivCouponFrame{
+    min-height: 135px;
+    margin-bottom:0px;
+    /*border-radius:0px;*/
+    background: transparent;
+}
+#buttonMinimizeFee,#buttonChooseFee{
+    margin:0px;
+    /*border-radius:6px;*/
+    padding:0px;
+    font-size:11px;
+    height:38px;
+    min-width:0px;
+    max-width:40px;
+    width:70px;
+    text-transform: none;
+    qproperty-iconSize: 24px;
+    color: #000;/*#99ccc7;*/
+}
+#buttonMinimizeFee{
+    margin-right: -15px;/*hardcode*/
+}
+#buttonMinimizeFee::text,#buttonChooseFee::text{
+    margin:0px;
+    padding:0px;
+}
+#headerFeeFrame{
+    border: 1px solid #bbbbc3;
+    margin: 0px;
+    padding: 0px;
+}
+.QRadioButton{
+    font-size: 14px;
+    /*font-weight: 600;*/
+    color:#000;/*#fff;*/
+    margin-left:5px;
+}
+.QRadioButton:disabled{
+    color:#9095a9;/*#4da49b;*/
+}
+.QRadioButton::indicator{
+    width:                  8px;
+    height:                 8px;
+    /*border-radius:          4px;*/
+    border:                 4px solid #bbbbc3;/*white;*/
+}
+.QRadioButton::indicator::checked{
+    background-color:#e3e4e8;/*#49a37f;*/
+}
+.QRadioButton::indicator::unchecked{
+    background-color:#fff;
+}
+.QRadioButton::indicator::unchecked:disabled,
+.QRadioButton::indicator::checked:disabled{
+    background-color: #9095a9;/*#208b7d;*/
+    border:          4px solid #9095a9;/*#208b7d;*/
+}
+#radioCustomFee,#radioSmartFee{
+    margin: 10px;
+}
+QScrollBar:vertical {
+    border: 1px solid #bbbbc3;/*#73b2b7;*/
+    background: transparent;
+/*    border-top-right-radius:6px;
+    border-bottom-right-radius:6px;*/
+    width: 22px;
+}
+QScrollBar::handle:vertical {
+    background: #a3a6b5;/*#73b2b7;*/
+/*    border-radius:3px;*/
+    margin-left:2px;
+    margin-right:2px;
+    min-height: 20px;
+}
+QScrollBar::add-line:vertical,
+QScrollBar::sub-line:vertical {
+    border: none;
+    background: transparent;
+    height: 0px;
+}
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background: transparent;
+}
+QScrollBar:horizontal {
+    border: 1px solid #bbbbc3;/*#73b2b7;*/
+    background: transparent;
+/*    border-bottom-left-radius:6px;
+    border-bottom-right-radius:6px;*/
+    height: 22px;
+}
+QScrollBar::handle:horizontal {
+    background: #a3a6b5;/*#73b2b7;*/
+    /*border-radius:3px;*/
+    margin-top:2px;
+    margin-bottom:2px;
+    min-width: 20px;
+}
+QScrollBar::add-line:horizontal,
+QScrollBar::sub-line:horizontal {
+    border: none;
+    background: transparent;
+    width: 0px;
+}
+
+QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
+    background: transparent;
+}
+QLineEdit::text, QValidatedLineEdit::text, QSpinBox::text, QDoubleSpinBox::text, AmountSpinBox::text,QComboBox::text,QValueComboBox::text,#labelFeeHeadline{
+    margin-left: 10px;
+}
+QSpinBox::text,QDoubleSpinBox::text, AmountSpinBox::text{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+QLineEdit,QValidatedLineEdit{
+    height: 40px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #000;
+    padding-left: 10px;
+    background: #e3e4e8;/*#4ea69d;*/
+    /*border: none;*/
+    border-style: solid;
+    border-color: #bbbbc3;
+    border-width: 1px;
+/*    border-radius:20px;*/
+    min-width:120px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 1px;
+}
+#payTo,#addAsLabel{
+    margin-right: 10px;
+}
+
+#amountWidget, #addressWidget,#rpclineEdit{
+    /*border-radius:6px;*/
+    margin:0px;
+    margin-left:5px;
+}
+#rpclineEdit{
+    margin: 10px;
+    margin-bottom: 0px;
+}
+/*#EKey{
+    margin-bottom:5px;
+}*/
+
+QDateTimeEdit, QSpinBox, QDoubleSpinBox, AmountSpinBox, QComboBox, QValueComboBox, QComboBox, QValueComboBox{
+    margin-left:5px;
+    height: 38px;
+    font-size: 13px;
+    font-weight: 500;
+    padding-left: 10px;
+    text-indent:10px;
+    color: #000;
+    text-align:center;
+    background: #e3e4e8;/*#4ea69d;*/
+    border-style: solid;
+    border-color: #bbbbc3;
+    border-width: 1px;
+    /*border-radius:20px;*/
+    width: 224px;
+    position: relative;
+}
+QSpinBox,QDoubleSpinBox, AmountSpinBox{
+    min-width:190px;
+    width:190px;
+    text-align: center;
+}
+QDateTimeEdit,QComboBox,QValueComboBox{
+    /*border-radius:6px;*/
+    width: 60px;
+}
+QSpinBox:disabled, QDoubleSpinBox:disabled, AmountSpinBox:disabled, QComboBox:disabled, QValueComboBox:disabled{
+    background: #9095a9;/*#2e867d;*/
+}
+
+QSpinBox::up-button,QDoubleSpinBox::up-button,AmountSpinBox::up-button{
+    subcontrol-position: center right;
+    /*border-radius: 13px;*/
+    margin-right: 3px;
+    background-color: #858a9e;/*#fff;*/
+    color: #fff;
+    height: 33px;
+    width: 33px;
+    border:none;
+}
+
+QSpinBox::down-button,QDoubleSpinBox::down-button,AmountSpinBox::down-button{
+    subcontrol-position: center left;
+    /*border-radius: 13px;*/
+    margin-left: 3px;
+    background-color: #858a9e;/*#fff;*/
+    color: #fff;
+    height: 33px;
+    width: 33px;
+    border:none;
+}
+
+
+QSpinBox::up-button:disabled, QDoubleSpinBox::up-button:disabled, AmountSpinBox::up-button:disabled, QSpinBox::down-button:disabled, QDoubleSpinBox::down-button:disabled, AmountSpinBox::down-button:disabled{
+    background-color: #9095a9;/*#5ec8bd;*/
+}
+
+QSpinBox::up-button:hover, QSpinBox::up-button:pressed, QSpinBox::down-button:hover, QSpinBox::down-button:pressed, QDoubleSpinBox::up-button:hover, QDoubleSpinBox::up-button:pressed, QDoubleSpinBox::down-button:hover, QDoubleSpinBox::down-button:pressed, AmountSpinBox::up-button:hover, AmountSpinBox::up-button:pressed, AmountSpinBox::down-button:hover, AmountSpinBox::down-button:pressed
+{
+    background-color: #606578;/*#959aaf;*//*#158786;*/
+}
+
+
+QSpinBox::up-arrow,QDoubleSpinBox::up-arrow ,AmountSpinBox::up-arrow{
+    image: url(:/icons/spinUp);
+    subcontrol-origin: border;
+    subcontrol-position: center center;
+    margin-right: 0px;
+    margin-top: 0px;
+    width: 8px;
+    height: 8px;
+}
+
+QSpinBox::down-arrow,QDoubleSpinBox::down-arrow ,AmountSpinBox::down-arrow {
+    image: url(:/icons/spinDown);
+    subcontrol-origin: border;
+    subcontrol-position: center center;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    width: 8px;
+    height:8px;
+}
+
+#customFee AmountSpinBox,QSpinBox,QDateTimeEdit
+{
+    min-width:145px;
+    width:145px;
+    /*border-radius:4px;*/
+}
+QDateTimeEdit{
+    background: #5ba69b;
+}
+#customFee AmountSpinBox::up-arrow,
+QSpinBox::up-arrow,
+QDateTimeEdit::up-arrow{
+    image: url(:/icons/Up);
+    margin: 0px;
+    /*margin-bottom:4px;*/
+    padding:0px;
+    subcontrol-position: center center;
+}
+#customFee AmountSpinBox::up-button,
+QSpinBox::up-button,
+QDateTimeEdit::up-button{
+    /*border-radius:0px;*/
+    background: #858a9e;/*#4ea69d;*/
+    /*border: 4px solid #fff;*//*#118381;*/
+/*    border-top: 0px;*/
+    width:30px;
+    margin:0px;
+    padding:0px;
+    height:19px;
+    subcontrol-position: top right;
+}
+
+#customFee AmountSpinBox::down-arrow,
+QSpinBox::down-arrow,
+QDateTimeEdit::down-arrow{
+    image: url(:/icons/Down);
+    margin: 0px;
+    /*margin-top:4px;*/
+    padding:0px;
+    subcontrol-position: center center;
+}
+#customFee AmountSpinBox::down-button,
+QSpinBox::down-button,
+QDateTimeEdit::down-button{
+    /*border-radius:px;*/
+    background: #858a9e;/*#4ea69d;*/
+    /*border: 4px solid #858a9e;*//*#118381;*/
+/*    border-bottom: 0px;*/
+    margin:0px;
+    padding:0px;
+    width:30px;
+    height:19px;
+    subcontrol-position: bottom right;
+}
+QSpinBox::down-button,QSpinBox::up-button,
+QDateTimeEdit::up-button,
+QDateTimeEdit::down-button{
+    background: #858a9e;
+    border: none;
+}
+#customFee AmountSpinBox::up-button:hover,
+#customFee AmountSpinBox::down-button:hover,
+QSpinBox::up-button:hover,
+QSpinBox::down-button:hover,
+QDateTimeEdit::up-button:hover,
+QDateTimeEdit::down-button:hover{
+    background: #606578;/*#168986;*/
+}
+#customFee AmountSpinBox::up-button:pressed,
+#customFee AmountSpinBox::down-button:pressed,
+QSpinBox::up-button:pressed,
+QSpinBox::down-button:pressed,
+QDateTimeEdit::up-button:pressed,
+QDateTimeEdit::down-button:pressed{
+    background: #606578;/*#3e968d;*/
+}
+#customFee AmountSpinBox::up-button:disabled,
+#customFee AmountSpinBox::down-button:disabled,
+QSpinBox::up-button:disabled,
+QSpinBox::down-button:disabled,
+QDateTimeEdit::up-button:disabled,
+QDateTimeEdit::down-button:disabled{
+    background: #9095a9;/*#158785;*/
+}
+QDateTimeEdit{
+    background:#4ea69d;
+    font-size: 13px;
+    font-weight:500;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    min-width:70px;
+    width:110px;
+    max-width:130px;
+}
+QComboBox::drop-down, QValueComboBox::drop-down{
+    subcontrol-position: center right;
+    /*border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;*/
+    background-color: transparent;
+    height: 26px;
+    width: 26px;
+    color: #000;
+    font-weight:600;
+    border:none;
+}
+
+QComboBox QListView,QValueComboBox QListView{
+    background: #e3e4e8;/*#46a799;*/
+    color:#000;
+    width: 60px;
+}
+QComboBox::down-arrow, QValueComboBox::down-arrow{
+    image: url(:/icons/Down);
+    subcontrol-origin: border;
+    subcontrol-position: center right;
+    margin-right: 7px;
+    margin-bottom: 2px;
+    width: 12px;
+    height: 7px;
+}
+QDateTimeEdit::up-arrow:disabled,QSpinBox::up-arrow:disabled, QSpinBox::up-arrow:off, QDoubleSpinBox::up-arrow:disabled, QDoubleSpinBox::up-arrow:off, AmountSpinBox::up-arrow:disabled, AmountSpinBox::up-arrow:off{
+   image: url(:/icons/spinUp);
+}
+
+QDateTimeEdit::down-arrow:disabled,QSpinBox::down-arrow:disabled, QSpinBox::down-arrow:off, QDoubleSpinBox::down-arrow:disabled, QDoubleSpinBox::down-arrow:off, AmountSpinBox::down-arrow:disabled, AmountSpinBox::down-arrow:off,QComboBox::down-arrow:disabled, QValueComboBox::down-arrow:disabled, QComboBox::down-arrow:off, QValueComboBox::down-arrow:off{
+   image: url(:/icons/spinDown);
+}
+QDateTimeEdit::down-button,QDateTimeEdit::up-button{
+    border:none;
+    background:transparent;
+    /*border-radius:6px;*/
+}
+QDateTimeEdit::down-arrow,QDateTimeEdit::up-arrow{
+    width:13px;
+    height:13px;
+}
+QComboBox QAbstractItemView,QValueComboBox QAbstractItemView
+{
+    color: #000;
+    background-color: #e3e4e8;/*#5ba69b;*/
+    /*border:none;*/
+    border-style: solid;
+    border-color: #bbbbc3;
+    border-width: 1px;
+}
+QDateTimeEdit:item,QComboBox:item,QValueComboBox:item,
+QComboBox QAbstractItemView::item,QValueComboBox QAbstractItemView::item{
+    /*border-radius: 3px;*/
+    border-style: solid;
+    border-color: #bbbbc3;
+    border-width: 1px;
+
+    background-color: #e3e4e8;/*#5ba69b;*/
+    color: #000;
+    font-size: 9pt;
+    padding-left:15px;
+    height:40px;
+}
+
+QComboBox:item:selected,QValueComboBox:item:selected,
+QComboBox QAbstractItemView::item:selected,QValueComboBox QAbstractItemView:item:selected{
+    background-color:#606577;/*#64f1ec;*/
+}
+QComboBox:item:checked,QValueComboBox:item:checked,
+QComboBox QAbstractItemView::item:checked,QValueComboBox QAbstractItemView:item:checked{
+    background-color:#606577;/*#64f1ec;*/
+}
+QComboBox:item:hover,QValueComboBox:item:hover,
+QComboBox QAbstractItemView::item:hover,QValueComboBox QAbstractItemView:item:hover{
+    background-color: #606577;/*#64f1ec;*/
+}
+
+.QProgressBar {
+    border: none;
+    background: transparent;
+    border-radius: 22px;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 12px;
+    height: 22px;
+    color:#000;
+    /*max-width:240px;*/
+    text-align: center;
+}
+.QProgressBar::chunk {
+    background: #bcbecd;/*#60bac1;*/
+    border-radius: 11px;
+    margin: 0px;
+}
+.QStatusBar{
+    border-top: none;/*1px solid #4ba27e;*/
+    height:50px;
+    color: #000; /*#4ba27e;*/
+    background:  #3e414f; /*#fff;*/
+    /*margin-left: 138px;*/
+    margin-right: 0px;
+}
+#progressBarLabel{
+    color: #bcbecd;/*#60bac1;*/
+}
+
+.QSlider::groove:horizontal {
+    border: none;
+    background: transparent;
+    height: 8px;
+/*    border-radius: 4px;*/
+}
+
+.QSlider::handle:horizontal {
+    background: #073e75;/*transparent;*/
+    border: 4px solid #606577;/*#fff;*/
+    width: 8px;
+    margin-top: -4px;
+    margin-bottom: -4px;
+/*    border-radius: 6px;*/
+}
+.QSlider::handle:horizontal:disabled,
+.QSlider::groove:horizontal:disabled {
+    background:  #cccccc;
+}
+QSlider::add-page:horizontal {
+    height: 4px;
+    background: #cccccc;
+}
+
+QSlider::sub-page:horizontal {
+    height: 4px;
+    background: #073e75;/*#a4e501;*/
+}
+
+
+QTableView,QTreeView{
+    font-size: 12px;
+    /*font-weight: 800;*/
+    border: 2px solid #c2c3c7;/*#7cc0af;*/
+    /*border-radius:6px;*/
+    overflow: hidden;
+    /*margin: 20px 0 25px;*/
+    color: #34738f; /*#fff;*/
+    background-color: #e3e4e8;/*transparent;*/
+    alternate-background-color: transparent;
+    selection-background-color: transparent;
+    selection-color:#fff;
+}
+QTableView::item,QTreeView::item{
+    border: 1px solid #c2c3c7;/*#7cc0af;*/
+    /*border-radius:0px;*/
+    color: #000;
+    padding: 0px;
+    margin: 0px;
+    padding-left: -1px;
+}
+
+QHeaderView{
+    background: #46a799;
+}
+QHeaderView::section {
+    height:38px;
+    background: #e3e4e8;/*#46a799;*/
+    border: 1px solid #c2c3c7;/*#7cc0af;*/
+    border-top:none;
+    text-transform: uppercase;
+    alternate-background-color: transparent;
+    color: #34738f;/*#364d5d;*//*#fff;*/
+    /*font-weight: 600;*/
+    font-size: 12px;
+    font: bold;
+}
+.QTabWidget::pane {
+    border-top: none;/*0px solid #72bda8;*/
+}
+#trafficGraph{
+    background:#fff;
+}
+.QTabWidget::tab-bar {
+    alignment: center;
+}
+
+.QTabBar::tab {
+    background: #d3d4d9;/*transparent;*/
+    /*border-top-left-radius: 4px;
+    border-top-right-radius: 4px;*/
+    font:14px;
+    min-width: 100px;
+    height: 25px;
+    color: #023b73;/*#72bda8;*/
+    /*font-weight: 600;*/
+    margin: 0px;
+}
+
+.QTabBar::tab:selected{
+    color: #023b73;/*#72bda8;*/
+    /*border: 0px solid #72bda8;
+    border-top: 1px solid #72bda8;*/
+    /*border-right: 1px solid #72bda8;*/
+    /*border-left: 1px solid #72bda8;*/
+    /*border-bottom: 0px solid #72bda8;*/
+    /*background: #d3d4d9;*/
+}
+
+.QTabBar::tab:!selected {
+    color:#023b73;/*#72bda8;*/
+    /*border: 0px solid #72bda8;
+    border-bottom: 1px solid #72bda8;*/
+    background: #b5b7c4;
+}
+.QTabBar::tab:!selected:hover{
+    color:     #023b73;/* #72bda8;*/
+    background: #606578;/*#4da59e;*/
+}
+#BonusCodeTab QTabBar::tab/*, #tabWidgetFee QTabBar::tab */{
+    height: 38px;
+    min-width: 100px;
+    text-transform: uppercase;
+}
+#tabWidgetFee QTabBar::tab {
+    height: 38px;
+    width: 200px;
+    color: #000;
+}
+.QFrame{
+    background:transparent;
+    border: none;
+}
+QDialog, QMainWindow,RPCConsole{
+    background: #d3d4d9;/*#e7e8eb;*/ /*qlineargradient(x1:0, y1:0, x2:0.5, y2:1,
+    stop:0 #19a37e, stop:1 #0e7882);*/
+    padding: 0px;
+}
+#OverviewPage, #scrollAreaWidgetContents,#scrollArea, #SendCoinsDialog {
+    background-color: transparent;
+    margin:0px;
+    margin-right:0px;
+    border: none;
+}
+#scrollArea{
+    margin-right:30px;
+}
+
+#verticalFrame{
+    background-image: url(:/icons/balanceImage);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-color: #013a72;
+}
+
+#thinFrame{
+    background-image: url(:/icons/balanceImageThin);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-color: #013a72;
+}
+
+QToolBar{
+    background-color: #fff;
+    margin:0px;
+    /*margin-top:10px;*/
+    border: none;
+    width: 150px;
+}
+
+QMenuBar {
+    padding-left:32px;
+    background-color: #3e414f; /* #45a698;*/
+    color: #b7b7b7; /* #6a6970;*/
+}
+
+QMenuBar::item {
+    spacing: 3px; /* spacing between menu bar items */
+    padding: 1px 4px;
+    color: #b7b7b7;/*#fff;*/
+    background: transparent;
+/*    border-radius: 0px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;*/
+}
+
+QMenuBar::item:selected { /* when selected using mouse or keyboard */
+    color: #fff;
+    background: #606577;/*#45a698;*/
+}
+
+
+QMenu {
+    font-family: sans-serif;
+    background-color: #3e414f;/*#45a698;*/
+    /*border-radius: 2px;*/
+    color: #b7b7b7;/*#fff;*/
+    margin: 2px; /* some spacing around the menu */
+}
+
+QMenu::item {
+    font-family: sans-serif;
+    /*border-radius: 3px;*/
+    background-color: transparent;
+    color: #b7b7b7;/*#fff;*/
+    font-size: 10pt;
+    padding-left:35px;
+    max-height:400px;
+    height:40px;
+}
+
+QMenu::item:selected {
+    background-color: #606578;/*#64f1ec;*/
+
+}
+QMenu::item:disabled {
+    background-color: #8c91a4;/*#5ba69b;*/
+}
+QMenu::icon{
+    margin-left: 15px;
+}
+QMenu::icon:checked,
+QMenu::icon:hover { /* appearance of a 'checked' icon */
+    background-color: #c7ccdf;/*#64f1ec;*/
+}
+QMenu::disabled{
+    color: #c0c0c0;
+}
+QMenu::icon:disabled { /* appearance of a 'checked' icon */
+    background: transparent;
+}
+QMenu::separator {
+    height: 1px;
+    background: #6a6f82;/*#65c6b8;*/
+    /*margin-left: 10px;
+    margin-right: 5px;*/
+}
+
+QMenu::indicator {
+    width: 13px;
+    height: 13px;
+    margin-right:2px;
+}
+QStackedWidget{
+    margin-top:0px;
+}
+#shutdownWindow,#SignIn{
+    color:#000;
+    background-color:#d3d4d9;/*#304a3f;*/
+}
+#shutdownWindow QLabel,#SignIn QLabel{
+    color:#fff;
+    font-weight:600;
+}
+#recentRequestsView{
+    margin:0px;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+#ReceiveCoinsDialog{
+    background: transparent;
+}
+#OverViewHead{
+    margin-right:0px;
+    margin-top:12px;
+    min-height:50px;
+    color: #023b72;
+}
+TransactionDescDialog,#PreviewCodeDialog{
+    background: #b5b7c4;/*#83d8bf;*/
+}
+TransactionDescDialog #detailText,
+#PreviewCodeDialogframe{
+    color: #OOO;/*#a8ddd7;*/
+    /*border-radius:6px;*/
+    background: #e3e4e8;/*#38a196;*/
+}
+
+#AmountFirst,#CodeFirst,#HashFirst,#DateFirst{
+    max-width:120px;
+    /*font-weight:600;*/
+    color:#000;/*#a8ddd7;*/
+    text-align:right;
+}
+#AmountSecond,#CodeSecond,#HashSecond,#DateSecond{
+    /*font-weight:600;*/
+    color:#000;/*#fff;*/
+}
+#widgetCoinControl QLabel{
+    font-size: 12px;
+}
+#checkBoxCoinControlChange{
+    margin-top: 10px;
+    margin-top: 10px;
+}
+
+
+#CoinControlDialog QCheckBox{
+    margin:0px;
+}
+
+#CoinControlDialog QCheckBox::indicator{
+    margin: 0px;
+}
+
+#treeWidget *{
+    margin:0px;
+}

@@ -1,0 +1,4 @@
+[submodule "lightning"]
+	path = src/qt/lightning
+	url = https://github.com/segwit/octoin-eclair-lightning.git
+

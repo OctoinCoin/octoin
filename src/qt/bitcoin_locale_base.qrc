@@ -1,0 +1,46 @@
+<RCC>
+    <qresource prefix="/locale">
+        <file alias="qt_zh_TW">../../depends/translations/qt_zh_TW.qm</file>
+        <file alias="qt_zh_CN">../../depends/translations/qt_zh_CN.qm</file>
+        <file alias="qt_uk">../../depends/translations/qt_uk.qm</file>
+        <file alias="qt_sv">../../depends/translations/qt_sv.qm</file>
+        <file alias="qt_sl">../../depends/translations/qt_sl.qm</file>
+        <file alias="qt_sk">../../depends/translations/qt_sk.qm</file>
+        <file alias="qt_ru">../../depends/translations/qt_ru.qm</file>
+        <file alias="qt_pt">../../depends/translations/qt_pt.qm</file>
+        <file alias="qt_pl">../../depends/translations/qt_pl.qm</file>
+        <file alias="qt_lt">../../depends/translations/qt_lt.qm</file>
+        <file alias="qt_ko">../../depends/translations/qt_ko.qm</file>
+        <file alias="qt_ja">../../depends/translations/qt_ja.qm</file>
+        <file alias="qt_it">../../depends/translations/qt_it.qm</file>
+        <file alias="qt_hu">../../depends/translations/qt_hu.qm</file>
+        <file alias="qt_he">../../depends/translations/qt_he.qm</file>
+        <file alias="qt_gl">../../depends/translations/qt_gl.qm</file>
+        <file alias="qt_fr">../../depends/translations/qt_fr.qm</file>
+        <file alias="qt_fi">../../depends/translations/qt_fi.qm</file>
+        <file alias="qt_fa">../../depends/translations/qt_fa.qm</file>
+        <file alias="qt_es">../../depends/translations/qt_es.qm</file>
+        <file alias="qt_en">../../depends/translations/qt_en.qm</file>
+        <file alias="qt_de">../../depends/translations/qt_de.qm</file>
+        <file alias="qt_da">../../depends/translations/qt_da.qm</file>
+        <file alias="qt_cs">../../depends/translations/qt_cs.qm</file>
+        <file alias="qt_ca">../../depends/translations/qt_ca.qm</file>
+        <file alias="qtbase_uk">../../depends/translations/qtbase_uk.qm</file>
+        <file alias="qtbase_sk">../../depends/translations/qtbase_sk.qm</file>
+        <file alias="qtbase_ru">../../depends/translations/qtbase_ru.qm</file>
+        <file alias="qtbase_pl">../../depends/translations/qtbase_pl.qm</file>
+        <file alias="qtbase_lv">../../depends/translations/qtbase_lv.qm</file>
+        <file alias="qtbase_ko">../../depends/translations/qtbase_ko.qm</file>
+        <file alias="qtbase_ja">../../depends/translations/qtbase_ja.qm</file>
+        <file alias="qtbase_it">../../depends/translations/qtbase_it.qm</file>
+        <file alias="qtbase_hu">../../depends/translations/qtbase_hu.qm</file>
+        <file alias="qtbase_he">../../depends/translations/qtbase_he.qm</file>
+        <file alias="qtbase_fr">../../depends/translations/qtbase_fr.qm</file>
+        <file alias="qtbase_fi">../../depends/translations/qtbase_fi.qm</file>
+        <file alias="qtbase_en">../../depends/translations/qtbase_en.qm</file>
+        <file alias="qtbase_de">../../depends/translations/qtbase_de.qm</file>
+        <file alias="qtbase_cs">../../depends/translations/qtbase_cs.qm</file>
+        <file alias="qtbase_ca">../../depends/translations/qtbase_ca.qm</file>
+        <file alias="qt_ar">../../depends/translations/qt_ar.qm</file>
+    </qresource>
+</RCC>
