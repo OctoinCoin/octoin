@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+ "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd">
+<section id="sr_CS.UTF-8">
+<title>Xlib Compose Keys for sr_CS.UTF-8</title>
+<para>Applications using Xlib input handling should recognize
+ these compose key sequences in locales using the
+ sr_CS.UTF-8 compose table.</para>
+
+<para>This compose table includes the non-conflicting entries from: /usr/src/octoin/depends/x86_64-pc-linux-gnu/share/X11/locale/en_US.UTF-8/Compose.  Those entries are not shown here - see those charts for the included key sequences.</para>
+<table><title>Compose Key Sequences for sr_CS.UTF-8</title>
+<tgroup cols='2'>
+ <colspec colname='seq' /><colspec colname='action' />
+ <thead><row>
+  <entry>Key Sequence</entry><entry>Action</entry>
+ </row></thead>
+ <tbody>
+<row><entry><keycombo action='seq'><keysym>dead_grave</keysym><keysym>Cyrillic_a</keysym></keycombo></entry><entry>"а̀"</entry></row>
+<row><entry><keycombo action='seq'><keysym>combining_grave</keysym><keysym>Cyrillic_a</keysym></keycombo></entry><entry>"а̀"</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>grave</keysym><keysym>Cyrillic_a</keysym></keycombo></entry><entry>"а̀"</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_grave</keysym><keysym>Cyrillic_A</keysym></keycombo></entry><entry>"А̀"</entry></row>
+<row><entry><keycombo action='seq'><keysym>combining_grave</keysym><keysym>Cyrillic_A</keysym></keycombo></entry><entry>"А̀"</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>grave</keysym><keysym>Cyrillic_A</keysym></keycombo></entry><entry>"А̀"</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_grave</keysym><keysym>Cyrillic_e</keysym></keycombo></entry><entry>"ѐ"</entry></row>
+<row><entry><keycombo action='seq'><keysym>combining_grave</keysym><keysym>Cyrillic_e</keysym></keycombo></entry><entry>"ѐ"</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>grave</keysym><keysym>Cyrillic_e</keysym></keycombo></entry><entry>"ѐ"</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_grave</keysym><keysym>Cyrillic_E</keysym></keycombo></entry><entry>"Ѐ"</entry></row>
+<row><entry><keycombo action='seq'><keysym>combining_grave</keysym><keysym>Cyrillic_E</keysym></keycombo></entry><entry>"Ѐ"</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>grave</keysym><keysym>Cyrillic_E</keysym></keycombo></entry><entry>"Ѐ"</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_grave</keysym><keysym>Cyrillic_i</keysym></keycombo></entry><entry>"ѝ"</entry></row>
+<row><entry><keycombo action='seq'><keysym>combining_grave</keysym><keysym>Cyrillic_i</keysym></keycombo></entry><entry>"ѝ"</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>grave</keysym><keysym>Cyrillic_i</keysym></keycombo></entry><entry>"ѝ"</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_grave</keysym><keysym>Cyrillic_I</keysym></keycombo></entry><entry>"Ѝ"</entry></row>
+<row><entry><keycombo action='seq'><keysym>combining_grave</keysym><keysym>Cyrillic_I</keysym></keycombo></entry><entry>"Ѝ"</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>grave</keysym><keysym>Cyrillic_I</keysym></keycombo></entry><entry>"Ѝ"</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_grave</keysym><keysym>Cyrillic_o</keysym></keycombo></entry><entry>"о̀"</entry></row>
+<row><entry><keycombo action='seq'><keysym>combining_grave</keysym><keysym>Cyrillic_o</keysym></keycombo></entry><entry>"о̀"</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>grave</keysym><keysym>Cyrillic_o</keysym></keycombo></entry><entry>"о̀"</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_grave</keysym><keysym>Cyrillic_O</keysym></keycombo></entry><entry>"О̀"</entry></row>
+<row><entry><keycombo action='seq'><keysym>combining_grave</keysym><keysym>Cyrillic_O</keysym></keycombo></entry><entry>"О̀"</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>grave</keysym><keysym>Cyrillic_O</keysym></keycombo></entry><entry>"О̀"</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_grave</keysym><keysym>Cyrillic_u</keysym></keycombo></entry><entry>"у̀"</entry></row>
+<row><entry><keycombo action='seq'><keysym>combining_grave</keysym><keysym>Cyrillic_u</keysym></keycombo></entry><entry>"у̀"</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>grave</keysym><keysym>Cyrillic_u</keysym></keycombo></entry><entry>"у̀"</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_grave</keysym><keysym>Cyrillic_U</keysym></keycombo></entry><entry>"У̀"</entry></row>
+<row><entry><keycombo action='seq'><keysym>combining_grave</keysym><keysym>Cyrillic_U</keysym></keycombo></entry><entry>"У̀"</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>grave</keysym><keysym>Cyrillic_U</keysym></keycombo></entry><entry>"У̀"</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_acute</keysym><keysym>Cyrillic_a</keysym></keycombo></entry><entry>"а́"</entry></row>
+<row><entry><keycombo action='seq'><keysym>combining_acute</keysym><keysym>Cyrillic_a</keysym></keycombo></entry><entry>"а́"</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>acute</keysym><keysym>Cyrillic_a</keysym></keycombo></entry><entry>"а́"</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>apostrophe</keysym><keysym>Cyrillic_a</keysym></keycombo></entry><entry>"а́"</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_acute</keysym><keysym>Cyrillic_A</keysym></keycombo></entry><entry>"А́"</entry></row>
+<row><entry><keycombo action='seq'><keysym>combining_acute</keysym><keysym>Cyrillic_A</keysym></keycombo></entry><entry>"А́"</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>acute</keysym><keysym>Cyrillic_A</keysym></keycombo></entry><entry>"А́"</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>apostrophe</keysym><keysym>Cyrillic_A</keysym></keycombo></entry><entry>"А́"</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_acute</keysym><keysym>Cyrillic_e</keysym></keycombo></entry><entry>"е́"</entry></row>
+<row><entry><keycombo action='seq'><keysym>combining_acute</keysym><keysym>Cyrillic_e</keysym></keycombo></entry><entry>"е́"</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>acute</keysym><keysym>Cyrillic_e</keysym></keycombo></entry><entry>"е́"</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>apostrophe</keysym><keysym>Cyrillic_e</keysym></keycombo></entry><entry>"е́"</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_acute</keysym><keysym>Cyrillic_E</keysym></keycombo></entry><entry>"Е́"</entry></row>
+<row><entry><keycombo action='seq'><keysym>combining_acute</keysym><keysym>Cyrillic_E</keysym></keycombo></entry><entry>"Е́"</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>acute</keysym><keysym>Cyrillic_E</keysym></keycombo></entry><entry>"Е́"</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>apostrophe</keysym><keysym>Cyrillic_E</keysym></keycombo></entry><entry>"Е́"</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_acute</keysym><keysym>Cyrillic_i</keysym></keycombo></entry><entry>"и́"</entry></row>
+<row><entry><keycombo action='seq'><keysym>combining_acute</keysym><keysym>Cyrillic_i</keysym></keycombo></entry><entry>"и́"</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>acute</keysym><keysym>Cyrillic_i</keysym></keycombo></entry><entry>"и́"</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>apostrophe</keysym><keysym>Cyrillic_i</keysym></keycombo></entry><entry>"и́"</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_acute</keysym><keysym>Cyrillic_I</keysym></keycombo></entry><entry>"И́"</entry></row>
+<row><entry><keycombo action='seq'><keysym>combining_acute</keysym><keysym>Cyrillic_I</keysym></keycombo></entry><entry>"И́"</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>acute</keysym><keysym>Cyrillic_I</keysym></keycombo></entry><entry>"И́"</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>apostrophe</keysym><keysym>Cyrillic_I</keysym></keycombo></entry><entry>"И́"</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_acute</keysym><keysym>Cyrillic_o</keysym></keycombo></entry><entry>"о́"</entry></row>
+<row><entry><keycombo action='seq'><keysym>combining_acute</keysym><keysym>Cyrillic_o</keysym></keycombo></entry><entry>"о́"</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>acute</keysym><keysym>Cyrillic_o</keysym></keycombo></entry><entry>"о́"</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>apostrophe</keysym><keysym>Cyrillic_o</keysym></keycombo></entry><entry>"о́"</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_acute</keysym><keysym>Cyrillic_O</keysym></keycombo></entry><entry>"О́"</entry></row>
+<row><entry><keycombo action='seq'><keysym>combining_acute</keysym><keysym>Cyrillic_O</keysym></keycombo></entry><entry>"О́"</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>acute</keysym><keysym>Cyrillic_O</keysym></keycombo></entry><entry>"О́"</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>apostrophe</keysym><keysym>Cyrillic_O</keysym></keycombo></entry><entry>"О́"</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_acute</keysym><keysym>Cyrillic_u</keysym></keycombo></entry><entry>"у́"</entry></row>
+<row><entry><keycombo action='seq'><keysym>combining_acute</keysym><keysym>Cyrillic_u</keysym></keycombo></entry><entry>"у́"</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>acute</keysym><keysym>Cyrillic_u</keysym></keycombo></entry><entry>"у́"</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>apostrophe</keysym><keysym>Cyrillic_u</keysym></keycombo></entry><entry>"у́"</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_acute</keysym><keysym>Cyrillic_U</keysym></keycombo></entry><entry>"У́"</entry></row>
+<row><entry><keycombo action='seq'><keysym>combining_acute</keysym><keysym>Cyrillic_U</keysym></keycombo></entry><entry>"У́"</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>acute</keysym><keysym>Cyrillic_U</keysym></keycombo></entry><entry>"У́"</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>apostrophe</keysym><keysym>Cyrillic_U</keysym></keycombo></entry><entry>"У́"</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_circumflex</keysym><keysym>Cyrillic_a</keysym></keycombo></entry><entry>"а̂"</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>asciicircum</keysym><keysym>Cyrillic_a</keysym></keycombo></entry><entry>"а̂"</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_circumflex</keysym><keysym>Cyrillic_A</keysym></keycombo></entry><entry>"А̂"</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>asciicircum</keysym><keysym>Cyrillic_A</keysym></keycombo></entry><entry>"А̂"</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_circumflex</keysym><keysym>Cyrillic_e</keysym></keycombo></entry><entry>"е̂"</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>asciicircum</keysym><keysym>Cyrillic_e</keysym></keycombo></entry><entry>"е̂"</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_circumflex</keysym><keysym>Cyrillic_E</keysym></keycombo></entry><entry>"Е̂"</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>asciicircum</keysym><keysym>Cyrillic_E</keysym></keycombo></entry><entry>"Е̂"</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_circumflex</keysym><keysym>Cyrillic_i</keysym></keycombo></entry><entry>"и̂"</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>asciicircum</keysym><keysym>Cyrillic_i</keysym></keycombo></entry><entry>"и̂"</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_circumflex</keysym><keysym>Cyrillic_I</keysym></keycombo></entry><entry>"И̂"</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>asciicircum</keysym><keysym>Cyrillic_I</keysym></keycombo></entry><entry>"И̂"</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_circumflex</keysym><keysym>Cyrillic_o</keysym></keycombo></entry><entry>"о̂"</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>asciicircum</keysym><keysym>Cyrillic_o</keysym></keycombo></entry><entry>"о̂"</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_circumflex</keysym><keysym>Cyrillic_O</keysym></keycombo></entry><entry>"О̂"</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>asciicircum</keysym><keysym>Cyrillic_O</keysym></keycombo></entry><entry>"О̂"</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_circumflex</keysym><keysym>Cyrillic_u</keysym></keycombo></entry><entry>"у̂"</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>asciicircum</keysym><keysym>Cyrillic_u</keysym></keycombo></entry><entry>"у̂"</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_circumflex</keysym><keysym>Cyrillic_U</keysym></keycombo></entry><entry>"У̂"</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>asciicircum</keysym><keysym>Cyrillic_U</keysym></keycombo></entry><entry>"У̂"</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_diaeresis</keysym><keysym>Cyrillic_a</keysym></keycombo></entry><entry>"а̏"</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_doubleacute</keysym><keysym>Cyrillic_a</keysym></keycombo></entry><entry>"а̏"</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_diaeresis</keysym><keysym>Cyrillic_A</keysym></keycombo></entry><entry>"А̏"</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_doubleacute</keysym><keysym>Cyrillic_A</keysym></keycombo></entry><entry>"А̏"</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_diaeresis</keysym><keysym>Cyrillic_e</keysym></keycombo></entry><entry>"е̏"</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_doubleacute</keysym><keysym>Cyrillic_e</keysym></keycombo></entry><entry>"е̏"</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_diaeresis</keysym><keysym>Cyrillic_E</keysym></keycombo></entry><entry>"Е̏"</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_doubleacute</keysym><keysym>Cyrillic_E</keysym></keycombo></entry><entry>"Е̏"</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_diaeresis</keysym><keysym>Cyrillic_i</keysym></keycombo></entry><entry>"и̏"</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_doubleacute</keysym><keysym>Cyrillic_i</keysym></keycombo></entry><entry>"и̏"</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_diaeresis</keysym><keysym>Cyrillic_I</keysym></keycombo></entry><entry>"И̏"</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_doubleacute</keysym><keysym>Cyrillic_I</keysym></keycombo></entry><entry>"И̏"</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_diaeresis</keysym><keysym>Cyrillic_o</keysym></keycombo></entry><entry>"о̏"</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_doubleacute</keysym><keysym>Cyrillic_o</keysym></keycombo></entry><entry>"о̏"</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_diaeresis</keysym><keysym>Cyrillic_O</keysym></keycombo></entry><entry>"О̏"</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_doubleacute</keysym><keysym>Cyrillic_O</keysym></keycombo></entry><entry>"О̏"</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_diaeresis</keysym><keysym>Cyrillic_u</keysym></keycombo></entry><entry>"у̏"</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_doubleacute</keysym><keysym>Cyrillic_u</keysym></keycombo></entry><entry>"у̏"</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_diaeresis</keysym><keysym>Cyrillic_U</keysym></keycombo></entry><entry>"У̏"</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_doubleacute</keysym><keysym>Cyrillic_U</keysym></keycombo></entry><entry>"У̏"</entry></row>
+</tbody>
+</tgroup>
+</table>
+</section>

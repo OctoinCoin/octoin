@@ -1,0 +1,3 @@
+qt/qt_libbitcoinqt_a-moc_css.o: qt/moc_css.cpp /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:

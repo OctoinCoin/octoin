@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+ "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd">
+<section id="vi_VN.tcvn">
+<title>Xlib Compose Keys for vi_VN.tcvn</title>
+<para>Applications using Xlib input handling should recognize
+ these compose key sequences in locales using the
+ vi_VN.tcvn compose table.</para>
+
+<para>1998/12/18 Le Hong Boi $  TCVN 5712-2 Compose Sequences  Sequence Definition  dead key accent keysyms Special Character</para>
+<table><title>Compose Key Sequences for vi_VN.tcvn</title>
+<tgroup cols='2'>
+ <colspec colname='seq' /><colspec colname='action' />
+ <thead><row>
+  <entry>Key Sequence</entry><entry>Action</entry>
+ </row></thead>
+ <tbody>
+<row><entry><keycombo action='seq'><keysym>dead_grave</keysym><keysym>space</keysym></keycombo></entry><entry>"`"	grave</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_hook</keysym><keysym>space</keysym></keycombo></entry><entry>" "	space</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_tilde</keysym><keysym>space</keysym></keycombo></entry><entry>"~"	asciitilde</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_acute</keysym><keysym>space</keysym></keycombo></entry><entry>"'"	apostrophe</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_acute</keysym><keysym>apostrophe</keysym></keycombo></entry><entry>"&#180;"	acute</entry></row>
+<row><entry namest='seq' nameend='action'>Accented Alphabet</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_grave</keysym><keysym>A</keysym></keycombo></entry><entry>"&#128;"	Agrave</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_grave</keysym><keysym>a</keysym></keycombo></entry><entry>"&#181;"	agrave</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_hook</keysym><keysym>A</keysym></keycombo></entry><entry>"&#182;"	Ahook</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_hook</keysym><keysym>a</keysym></keycombo></entry><entry>"&#182;"	ahook</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_tilde</keysym><keysym>A</keysym></keycombo></entry><entry>"&#130;"	Atilde</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_tilde</keysym><keysym>a</keysym></keycombo></entry><entry>"&#183;"	atilde</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_acute</keysym><keysym>A</keysym></keycombo></entry><entry>"&#131;"	Aacute</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_acute</keysym><keysym>a</keysym></keycombo></entry><entry>"&#184;"	aacute</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_belowdot</keysym><keysym>A</keysym></keycombo></entry><entry>"&#185;"	Abelowdot</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_belowdot</keysym><keysym>a</keysym></keycombo></entry><entry>"&#185;"	abelowdot</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_grave</keysym><keysym>Abreve</keysym></keycombo></entry><entry>"&#187;"	Abrevegrave</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_grave</keysym><keysym>abreve</keysym></keycombo></entry><entry>"&#187;"	abrevegrave</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_hook</keysym><keysym>Abreve</keysym></keycombo></entry><entry>"&#188;"	Abrevehook</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_hook</keysym><keysym>abreve</keysym></keycombo></entry><entry>"&#188;"	abrevehook</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_tilde</keysym><keysym>Abreve</keysym></keycombo></entry><entry>"&#189;"	Abrevetilde</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_tilde</keysym><keysym>abreve</keysym></keycombo></entry><entry>"&#189;"	abrevetilde</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_acute</keysym><keysym>Abreve</keysym></keycombo></entry><entry>"&#190;"	Abreveacute</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_acute</keysym><keysym>abreve</keysym></keycombo></entry><entry>"&#190;"	abreveacute</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_belowdot</keysym><keysym>Abreve</keysym></keycombo></entry><entry>"&#198;"	Abrevebelowdot</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_belowdot</keysym><keysym>abreve</keysym></keycombo></entry><entry>"&#198;"	abrevebelowdot</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_grave</keysym><keysym>Acircumflex</keysym></keycombo></entry><entry>"&#199;"	Acircumflexgrave</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_grave</keysym><keysym>acircumflex</keysym></keycombo></entry><entry>"&#199;"	acircumflexgrave</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_hook</keysym><keysym>Acircumflex</keysym></keycombo></entry><entry>"&#200;"	Acircumflexhook</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_hook</keysym><keysym>acircumflex</keysym></keycombo></entry><entry>"&#200;"	acircumflexhook</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_tilde</keysym><keysym>Acircumflex</keysym></keycombo></entry><entry>"&#201;"	Acircumflextilde</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_tilde</keysym><keysym>acircumflex</keysym></keycombo></entry><entry>"&#201;"	acircumflextilde</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_acute</keysym><keysym>Acircumflex</keysym></keycombo></entry><entry>"&#202;"	Acircumflexacute</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_acute</keysym><keysym>acircumflex</keysym></keycombo></entry><entry>"&#202;"	acircumflexacute</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_belowdot</keysym><keysym>Acircumflex</keysym></keycombo></entry><entry>"&#203;"	Acircumflexbelowdot</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_belowdot</keysym><keysym>acircumflex</keysym></keycombo></entry><entry>"&#203;"	acircumflexbelowdot</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_grave</keysym><keysym>E</keysym></keycombo></entry><entry>"&#135;"	Egrave</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_grave</keysym><keysym>e</keysym></keycombo></entry><entry>"&#204;"	egrave</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_hook</keysym><keysym>E</keysym></keycombo></entry><entry>"&#206;"	Ehook</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_hook</keysym><keysym>e</keysym></keycombo></entry><entry>"&#206;"	ehook</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_tilde</keysym><keysym>E</keysym></keycombo></entry><entry>"&#207;"	Etilde</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_tilde</keysym><keysym>e</keysym></keycombo></entry><entry>"&#207;"	etilde</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_acute</keysym><keysym>E</keysym></keycombo></entry><entry>"&#138;"	Eacute</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_acute</keysym><keysym>e</keysym></keycombo></entry><entry>"&#208;"	eacute</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_belowdot</keysym><keysym>E</keysym></keycombo></entry><entry>"&#209;"	Ebelowdot</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_belowdot</keysym><keysym>e</keysym></keycombo></entry><entry>"&#209;"	ebelowdot</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_grave</keysym><keysym>Ecircumflex</keysym></keycombo></entry><entry>"&#210;"	Ecircumflexgrave</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_grave</keysym><keysym>ecircumflex</keysym></keycombo></entry><entry>"&#210;"	ecircumflexgrave</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_hook</keysym><keysym>Ecircumflex</keysym></keycombo></entry><entry>"&#211;"	Ecircumflexhook</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_hook</keysym><keysym>ecircumflex</keysym></keycombo></entry><entry>"&#211;"	ecircumflexhook</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_tilde</keysym><keysym>Ecircumflex</keysym></keycombo></entry><entry>"&#212;"	Ecircumflextilde</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_tilde</keysym><keysym>ecircumflex</keysym></keycombo></entry><entry>"&#212;"	ecircumflextilde</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_acute</keysym><keysym>Ecircumflex</keysym></keycombo></entry><entry>"&#213;"	Ecircumflexacute</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_acute</keysym><keysym>ecircumflex</keysym></keycombo></entry><entry>"&#213;"	ecircumflexacute</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_belowdot</keysym><keysym>Ecircumflex</keysym></keycombo></entry><entry>"&#214;"	Ecircumflexbelowdot</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_belowdot</keysym><keysym>ecircumflex</keysym></keycombo></entry><entry>"&#214;"	ecircumflexbelowdot</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_grave</keysym><keysym>I</keysym></keycombo></entry><entry>"&#141;"	Igrave</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_grave</keysym><keysym>i</keysym></keycombo></entry><entry>"&#215;"	igrave</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_hook</keysym><keysym>I</keysym></keycombo></entry><entry>"&#216;"	Ihook</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_hook</keysym><keysym>i</keysym></keycombo></entry><entry>"&#216;"	ihook</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_tilde</keysym><keysym>I</keysym></keycombo></entry><entry>"&#143;"	Itilde</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_tilde</keysym><keysym>i</keysym></keycombo></entry><entry>"&#220;"	itilde</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_acute</keysym><keysym>I</keysym></keycombo></entry><entry>"&#144;"	Iacute</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_acute</keysym><keysym>i</keysym></keycombo></entry><entry>"&#221;"	iacute</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_belowdot</keysym><keysym>I</keysym></keycombo></entry><entry>"&#222;"	Ibelowdot</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_belowdot</keysym><keysym>i</keysym></keycombo></entry><entry>"&#222;"	ibelowdot</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_grave</keysym><keysym>O</keysym></keycombo></entry><entry>"&#146;"	Ograve</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_grave</keysym><keysym>o</keysym></keycombo></entry><entry>"&#223;"	ograve</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_hook</keysym><keysym>O</keysym></keycombo></entry><entry>"&#225;"	Ohook</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_hook</keysym><keysym>o</keysym></keycombo></entry><entry>"&#225;"	ohook</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_tilde</keysym><keysym>O</keysym></keycombo></entry><entry>"&#148;"	Otilde</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_tilde</keysym><keysym>o</keysym></keycombo></entry><entry>"&#226;"	otilde</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_acute</keysym><keysym>O</keysym></keycombo></entry><entry>"&#149;"	Oacute</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_acute</keysym><keysym>o</keysym></keycombo></entry><entry>"&#227;"	oacute</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_belowdot</keysym><keysym>O</keysym></keycombo></entry><entry>"&#228;"	Obelowdot</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_belowdot</keysym><keysym>o</keysym></keycombo></entry><entry>"&#228;"	obelowdot</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_grave</keysym><keysym>Ocircumflex</keysym></keycombo></entry><entry>"&#229;"	Ocircumflexgrave</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_grave</keysym><keysym>ocircumflex</keysym></keycombo></entry><entry>"&#229;"	ocircumflexgrave</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_hook</keysym><keysym>Ocircumflex</keysym></keycombo></entry><entry>"&#230;"	Ocircumflexhook</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_hook</keysym><keysym>ocircumflex</keysym></keycombo></entry><entry>"&#230;"	ocircumflexhook</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_tilde</keysym><keysym>Ocircumflex</keysym></keycombo></entry><entry>"&#231;"	Ocircumflextilde</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_tilde</keysym><keysym>ocircumflex</keysym></keycombo></entry><entry>"&#231;"	ocircumflextilde</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_acute</keysym><keysym>Ocircumflex</keysym></keycombo></entry><entry>"&#232;"	Ocircumflexacute</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_acute</keysym><keysym>ocircumflex</keysym></keycombo></entry><entry>"&#232;"	ocircumflexacute</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_belowdot</keysym><keysym>Ocircumflex</keysym></keycombo></entry><entry>"&#233;"	Ocircumflexbelowdot</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_belowdot</keysym><keysym>ocircumflex</keysym></keycombo></entry><entry>"&#233;"	ocircumflexbelowdot</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_grave</keysym><keysym>Ohorn</keysym></keycombo></entry><entry>"&#234;"	Ohorngrave</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_grave</keysym><keysym>ohorn</keysym></keycombo></entry><entry>"&#234;"	ohorngrave</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_hook</keysym><keysym>Ohorn</keysym></keycombo></entry><entry>"&#235;"	Ohornhook</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_hook</keysym><keysym>ohorn</keysym></keycombo></entry><entry>"&#235;"	ohornhook</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_tilde</keysym><keysym>Ohorn</keysym></keycombo></entry><entry>"&#236;"	Ohorntilde</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_tilde</keysym><keysym>ohorn</keysym></keycombo></entry><entry>"&#236;"	ohorntilde</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_acute</keysym><keysym>Ohorn</keysym></keycombo></entry><entry>"&#237;"	Ohornacute</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_acute</keysym><keysym>ohorn</keysym></keycombo></entry><entry>"&#237;"	ohornacute</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_belowdot</keysym><keysym>Ohorn</keysym></keycombo></entry><entry>"&#238;"	Ohornbelowdot</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_belowdot</keysym><keysym>ohorn</keysym></keycombo></entry><entry>"&#238;"	ohornbelowdot</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_grave</keysym><keysym>U</keysym></keycombo></entry><entry>"&#157;"	Ugrave</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_grave</keysym><keysym>u</keysym></keycombo></entry><entry>"&#239;"	ugrave</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_hook</keysym><keysym>U</keysym></keycombo></entry><entry>"&#241;"	Uhook</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_hook</keysym><keysym>u</keysym></keycombo></entry><entry>"&#241;"	uhook</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_tilde</keysym><keysym>U</keysym></keycombo></entry><entry>"&#159;"	Utilde</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_tilde</keysym><keysym>u</keysym></keycombo></entry><entry>"&#242;"	utilde</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_acute</keysym><keysym>U</keysym></keycombo></entry><entry>"\001"	Uacute</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_acute</keysym><keysym>u</keysym></keycombo></entry><entry>"&#243;"	uacute</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_belowdot</keysym><keysym>U</keysym></keycombo></entry><entry>"&#244;"	Ubelowdot</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_belowdot</keysym><keysym>u</keysym></keycombo></entry><entry>"&#244;"	ubelowdot</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_grave</keysym><keysym>Uhorn</keysym></keycombo></entry><entry>"&#245;"	Uhorngrave</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_grave</keysym><keysym>uhorn</keysym></keycombo></entry><entry>"&#245;"	uhorngrave</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_hook</keysym><keysym>Uhorn</keysym></keycombo></entry><entry>"&#246;"	Uhornhook</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_hook</keysym><keysym>uhorn</keysym></keycombo></entry><entry>"&#246;"	uhornhook</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_tilde</keysym><keysym>Uhorn</keysym></keycombo></entry><entry>"&#247;"	Uhorntilde</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_tilde</keysym><keysym>uhorn</keysym></keycombo></entry><entry>"&#247;"	uhorntilde</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_acute</keysym><keysym>Uhorn</keysym></keycombo></entry><entry>"&#248;"	Uhornacute</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_acute</keysym><keysym>uhorn</keysym></keycombo></entry><entry>"&#248;"	uhornacute</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_belowdot</keysym><keysym>Uhorn</keysym></keycombo></entry><entry>"&#249;"	Uhornbelowdot</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_belowdot</keysym><keysym>uhorn</keysym></keycombo></entry><entry>"&#249;"	uhornbelowdot</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_grave</keysym><keysym>Y</keysym></keycombo></entry><entry>"\023"	Ygrave</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_grave</keysym><keysym>y</keysym></keycombo></entry><entry>"&#250;"	ygrave</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_hook</keysym><keysym>Y</keysym></keycombo></entry><entry>"&#251;"	Yhook</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_hook</keysym><keysym>y</keysym></keycombo></entry><entry>"&#251;"	yhook</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_tilde</keysym><keysym>Y</keysym></keycombo></entry><entry>"&#252;"	Ytilde</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_tilde</keysym><keysym>y</keysym></keycombo></entry><entry>"&#252;"	ytilde</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_acute</keysym><keysym>Y</keysym></keycombo></entry><entry>"\026"	Yacute</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_acute</keysym><keysym>y</keysym></keycombo></entry><entry>"&#253;"	yacute</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_belowdot</keysym><keysym>Y</keysym></keycombo></entry><entry>"&#254;"	Ybelowdot</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_belowdot</keysym><keysym>y</keysym></keycombo></entry><entry>"&#254;"	ybelowdot</entry></row>
+<row><entry namest='seq' nameend='action'>End of Sequence Definition</entry></row>
+</tbody>
+</tgroup>
+</table>
+</section>

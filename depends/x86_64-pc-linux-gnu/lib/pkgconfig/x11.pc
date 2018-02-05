@@ -1,0 +1,15 @@
+prefix=/usr/src/octoin/depends/x86_64-pc-linux-gnu
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+xthreadlib=-lpthread
+
+Name: X11
+Description: X Library
+Version: 1.6.2
+Requires: xproto 
+Requires.private: xcb >= 1.1.92
+Cflags: -I${includedir} 
+Libs: -L${libdir} -lX11
+Libs.private: -lpthread

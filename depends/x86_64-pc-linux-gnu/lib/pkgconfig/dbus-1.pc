@@ -1,0 +1,17 @@
+prefix=/usr/src/octoin/depends/x86_64-pc-linux-gnu
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+system_bus_default_address=unix:path=/usr/src/octoin/depends/x86_64-pc-linux-gnu/var/run/dbus/system_bus_socket
+sysconfdir=/usr/src/octoin/depends/x86_64-pc-linux-gnu/etc
+session_bus_services_dir=/usr/src/octoin/depends/x86_64-pc-linux-gnu/share/dbus-1/services
+system_bus_services_dir=/usr/src/octoin/depends/x86_64-pc-linux-gnu/share/dbus-1/system-services
+interfaces_dir=/usr/src/octoin/depends/x86_64-pc-linux-gnu/share/dbus-1/interfaces
+daemondir=/usr/src/octoin/depends/x86_64-pc-linux-gnu/bin
+
+Name: dbus
+Description: Free desktop message bus
+Version: 1.8.6
+Libs: -L${libdir} -ldbus-1
+Libs.private: -lpthread   
+Cflags: -I${includedir}/dbus-1.0 -I${libdir}/dbus-1.0/include 

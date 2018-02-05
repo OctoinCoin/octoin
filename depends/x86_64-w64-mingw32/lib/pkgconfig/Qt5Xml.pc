@@ -1,0 +1,14 @@
+prefix=/usr/src/octoin/depends/x86_64-w64-mingw32
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qt5 Xml
+Description: Qt Xml module
+Version: 5.6.1
+Libs: -L${libdir} -lQt5Xmld 
+Libs.private: -L/usr/src/octoin/depends/x86_64-w64-mingw32/lib /usr/src/octoin/depends/x86_64-w64-mingw32/lib/libQt5Cored.a -lole32 -luuid -lws2_32 -ladvapi32 -lshell32 -luser32 -lkernel32 -lmpr /usr/src/octoin/depends/x86_64-w64-mingw32/lib/libqtpcred.a   
+Cflags: -I${includedir}/QtXml 
+Requires: Qt5Core
+

@@ -1,0 +1,2062 @@
+<!DOCTYPE html >
+<html>
+        <head>
+          <title>MainController - eclair-node-gui 0.2-SNAPSHOT API - fr.acinq.eclair.gui.controllers.MainController</title>
+          <meta name="description" content="MainController - eclair - node - gui 0.2 - SNAPSHOT API - fr.acinq.eclair.gui.controllers.MainController" />
+          <meta name="keywords" content="MainController eclair node gui 0.2 SNAPSHOT API fr.acinq.eclair.gui.controllers.MainController" />
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link href="../../../../../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../../../../../lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
+      <script type="text/javascript" src="../../../../../lib/jquery.js" id="jquery-js"></script>
+      <script type="text/javascript" src="../../../../../lib/jquery-ui.js"></script>
+      <script type="text/javascript" src="../../../../../lib/template.js"></script>
+      <script type="text/javascript" src="../../../../../lib/tools.tooltip.js"></script>
+      
+      <script type="text/javascript">
+         if(top === self) {
+            var url = '../../../../../index.html';
+            var hash = 'fr.acinq.eclair.gui.controllers.MainController';
+            var anchor = window.location.hash;
+            var anchor_opt = '';
+            if (anchor.length >= 1)
+              anchor_opt = '@' + anchor.substring(1);
+            window.location.href = url + '#' + hash + anchor_opt;
+         }
+   	  </script>
+    
+        </head>
+        <body class="type">
+      <div id="definition">
+        <img alt="Class" src="../../../../../lib/class_big.png" />
+        <p id="owner"><a href="../../../../package.html" class="extype" name="fr">fr</a>.<a href="../../../package.html" class="extype" name="fr.acinq">acinq</a>.<a href="../../package.html" class="extype" name="fr.acinq.eclair">eclair</a>.<a href="../package.html" class="extype" name="fr.acinq.eclair.gui">gui</a>.<a href="package.html" class="extype" name="fr.acinq.eclair.gui.controllers">controllers</a></p>
+        <h1>MainController</h1><h3><span class="morelinks"><div>Related Doc:
+            <a href="package.html" class="extype" name="fr.acinq.eclair.gui.controllers">package controllers</a>
+          </div></span></h3><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      </div>
+
+      <h4 id="signature" class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <span class="name">MainController</span><span class="result"> extends <span class="extype" name="grizzled.slf4j.Logging">Logging</span></span>
+      </span>
+      </h4>
+      
+          <div id="comment" class="fullcommenttop"><div class="comment cmt"><p>Created by DPA on 22/09/2016.
+</p></div><div class="toggleContainer block">
+          <span class="toggle">Linear Supertypes</span>
+          <div class="superTypes hiddenContent"><span class="extype" name="grizzled.slf4j.Logging">Logging</span>, <span class="extype" name="scala.AnyRef">AnyRef</span>, <span class="extype" name="scala.Any">Any</span></div>
+        </div></div>
+        
+
+      <div id="mbrsel">
+        <div id="textfilter"><span class="pre"></span><span class="input"><input id="mbrsel-input" type="text" accesskey="/" /></span><span class="post"></span></div>
+        <div id="order">
+              <span class="filtertype">Ordering</span>
+              <ol>
+                
+                <li class="alpha in"><span>Alphabetic</span></li>
+                <li class="inherit out"><span>By Inheritance</span></li>
+              </ol>
+            </div>
+        <div id="ancestors">
+                <span class="filtertype">Inherited<br />
+                </span>
+                <ol id="linearization">
+                  <li class="in" name="fr.acinq.eclair.gui.controllers.MainController"><span>MainController</span></li><li class="in" name="grizzled.slf4j.Logging"><span>Logging</span></li><li class="in" name="scala.AnyRef"><span>AnyRef</span></li><li class="in" name="scala.Any"><span>Any</span></li>
+                </ol>
+              </div><div id="ancestors">
+            <span class="filtertype"></span>
+            <ol>
+              <li class="hideall out"><span>Hide All</span></li>
+              <li class="showall in"><span>Show All</span></li>
+            </ol>
+          </div>
+        <div id="visbl">
+            <span class="filtertype">Visibility</span>
+            <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+          </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        <div id="constructors" class="members">
+              <h3>Instance Constructors</h3>
+              <ol><li name="fr.acinq.eclair.gui.controllers.MainController#&lt;init&gt;" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="&lt;init&gt;(handlers:fr.acinq.eclair.gui.Handlers,hostServices:javafx.application.HostServices):fr.acinq.eclair.gui.controllers.MainController"></a>
+      <a id="&lt;init&gt;:MainController"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">new</span>
+      </span>
+      <span class="symbol">
+        <span class="name">MainController</span><span class="params">(<span name="handlers">handlers: <a href="../Handlers.html" class="extype" name="fr.acinq.eclair.gui.Handlers">Handlers</a></span>, <span name="hostServices">hostServices: <span class="extype" name="javafx.application.HostServices">HostServices</span></span>)</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@&lt;init&gt;(handlers:fr.acinq.eclair.gui.Handlers,hostServices:javafx.application.HostServices):fr.acinq.eclair.gui.controllers.MainController" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li></ol>
+            </div>
+
+        
+
+        
+
+        <div id="values" class="values members">
+              <h3>Value Members</h3>
+              <ol><li name="scala.AnyRef#!=" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="!=(x$1:Any):Boolean"></a>
+      <a id="!=(Any):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $bang$eq" class="name">!=</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@!=(x$1:Any):Boolean" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li name="scala.AnyRef###" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="##():Int"></a>
+      <a id="##():Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $hash$hash" class="name">##</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@##():Int" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li name="scala.AnyRef#==" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="==(x$1:Any):Boolean"></a>
+      <a id="==(Any):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $eq$eq" class="name">==</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@==(x$1:Any):Boolean" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#PAYMENT_DATE_FORMAT" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="PAYMENT_DATE_FORMAT:java.time.format.DateTimeFormatter"></a>
+      <a id="PAYMENT_DATE_FORMAT:DateTimeFormatter"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">PAYMENT_DATE_FORMAT</span><span class="result">: <span class="extype" name="java.time.format.DateTimeFormatter">DateTimeFormatter</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@PAYMENT_DATE_FORMAT:java.time.format.DateTimeFormatter" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="scala.Any#asInstanceOf" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="asInstanceOf[T0]:T0"></a>
+      <a id="asInstanceOf[T0]:T0"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">asInstanceOf</span><span class="tparams">[<span name="T0">T0</span>]</span><span class="result">: <span class="extype" name="scala.Any.asInstanceOf.T0">T0</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@asInstanceOf[T0]:T0" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Any</dd></dl></div>
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#bitcoinChain" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="bitcoinChain:javafx.scene.control.Label"></a>
+      <a id="bitcoinChain:Label"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">bitcoinChain</span><span class="result">: <span class="extype" name="javafx.scene.control.Label">Label</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@bitcoinChain:javafx.scene.control.Label" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#bitcoinVersion" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="bitcoinVersion:javafx.scene.control.Label"></a>
+      <a id="bitcoinVersion:Label"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">bitcoinVersion</span><span class="result">: <span class="extype" name="javafx.scene.control.Label">Label</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@bitcoinVersion:javafx.scene.control.Label" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#blocker" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="blocker:javafx.scene.layout.StackPane"></a>
+      <a id="blocker:StackPane"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">blocker</span><span class="result">: <span class="extype" name="javafx.scene.layout.StackPane">StackPane</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@blocker:javafx.scene.layout.StackPane" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#blockerDialog" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="blockerDialog:javafx.scene.layout.HBox"></a>
+      <a id="blockerDialog:HBox"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">blockerDialog</span><span class="result">: <span class="extype" name="javafx.scene.layout.HBox">HBox</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@blockerDialog:javafx.scene.layout.HBox" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#blockerDialogTitleEngineName" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="blockerDialogTitleEngineName:javafx.scene.text.Text"></a>
+      <a id="blockerDialogTitleEngineName:Text"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">blockerDialogTitleEngineName</span><span class="result">: <span class="extype" name="javafx.scene.text.Text">Text</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@blockerDialogTitleEngineName:javafx.scene.text.Text" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#channelBox" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="channelBox:javafx.scene.layout.VBox"></a>
+      <a id="channelBox:VBox"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">channelBox</span><span class="result">: <span class="extype" name="javafx.scene.layout.VBox">VBox</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@channelBox:javafx.scene.layout.VBox" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#channelInfo" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="channelInfo:javafx.scene.layout.VBox"></a>
+      <a id="channelInfo:VBox"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">channelInfo</span><span class="result">: <span class="extype" name="javafx.scene.layout.VBox">VBox</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@channelInfo:javafx.scene.layout.VBox" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#channelsTab" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="channelsTab:javafx.scene.control.Tab"></a>
+      <a id="channelsTab:Tab"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">channelsTab</span><span class="result">: <span class="extype" name="javafx.scene.control.Tab">Tab</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@channelsTab:javafx.scene.control.Tab" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="scala.AnyRef#clone" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="clone():Object"></a>
+      <a id="clone():AnyRef"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">clone</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@clone():Object" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="../../../../../java$lang.html" class="extype" name="java.lang">java.lang</a>] </dd><dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">(<span>
+      
+      <span class="defval" name="classOf[java.lang.CloneNotSupportedException]">...</span>
+    </span>)</span>
+              
+        </dd></dl></div>
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#contextMenu" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="contextMenu:javafx.scene.control.ContextMenu"></a>
+      <a id="contextMenu:ContextMenu"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">contextMenu</span><span class="result">: <span class="extype" name="javafx.scene.control.ContextMenu">ContextMenu</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@contextMenu:javafx.scene.control.ContextMenu" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="grizzled.slf4j.Logging#debug" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="debug(mkr:org.slf4j.Marker,msg:=&gt;Any,t:=&gt;Throwable):Unit"></a>
+      <a id="debug(Marker,⇒Any,⇒Throwable):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">debug</span><span class="params">(<span name="mkr">mkr: <span class="extype" name="org.slf4j.Marker">Marker</span></span>, <span name="msg">msg: ⇒ <span class="extype" name="scala.Any">Any</span></span>, <span name="t">t: ⇒ <span class="extype" name="scala.Throwable">Throwable</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@debug(mkr:org.slf4j.Marker,msg:=&gt;Any,t:=&gt;Throwable):Unit" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>Logging</dd></dl></div>
+    </li><li name="grizzled.slf4j.Logging#debug" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="debug(msg:=&gt;Any,t:=&gt;Throwable):Unit"></a>
+      <a id="debug(⇒Any,⇒Throwable):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">debug</span><span class="params">(<span name="msg">msg: ⇒ <span class="extype" name="scala.Any">Any</span></span>, <span name="t">t: ⇒ <span class="extype" name="scala.Throwable">Throwable</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@debug(msg:=&gt;Any,t:=&gt;Throwable):Unit" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>Logging</dd></dl></div>
+    </li><li name="grizzled.slf4j.Logging#debug" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="debug(msg:=&gt;Any):Unit"></a>
+      <a id="debug(⇒Any):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">debug</span><span class="params">(<span name="msg">msg: ⇒ <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@debug(msg:=&gt;Any):Unit" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>Logging</dd></dl></div>
+    </li><li name="scala.AnyRef#eq" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="eq(x$1:AnyRef):Boolean"></a>
+      <a id="eq(AnyRef):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">eq</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.AnyRef">AnyRef</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@eq(x$1:AnyRef):Boolean" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="scala.AnyRef#equals" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="equals(x$1:Any):Boolean"></a>
+      <a id="equals(Any):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">equals</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@equals(x$1:Any):Boolean" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li name="grizzled.slf4j.Logging#error" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="error(mkr:org.slf4j.Marker,msg:=&gt;Any,t:=&gt;Throwable):Unit"></a>
+      <a id="error(Marker,⇒Any,⇒Throwable):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">error</span><span class="params">(<span name="mkr">mkr: <span class="extype" name="org.slf4j.Marker">Marker</span></span>, <span name="msg">msg: ⇒ <span class="extype" name="scala.Any">Any</span></span>, <span name="t">t: ⇒ <span class="extype" name="scala.Throwable">Throwable</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@error(mkr:org.slf4j.Marker,msg:=&gt;Any,t:=&gt;Throwable):Unit" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>Logging</dd></dl></div>
+    </li><li name="grizzled.slf4j.Logging#error" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="error(msg:=&gt;Any,t:=&gt;Throwable):Unit"></a>
+      <a id="error(⇒Any,⇒Throwable):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">error</span><span class="params">(<span name="msg">msg: ⇒ <span class="extype" name="scala.Any">Any</span></span>, <span name="t">t: ⇒ <span class="extype" name="scala.Throwable">Throwable</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@error(msg:=&gt;Any,t:=&gt;Throwable):Unit" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>Logging</dd></dl></div>
+    </li><li name="grizzled.slf4j.Logging#error" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="error(msg:=&gt;Any):Unit"></a>
+      <a id="error(⇒Any):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">error</span><span class="params">(<span name="msg">msg: ⇒ <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@error(msg:=&gt;Any):Unit" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>Logging</dd></dl></div>
+    </li><li name="scala.AnyRef#finalize" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="finalize():Unit"></a>
+      <a id="finalize():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">finalize</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@finalize():Unit" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="../../../../../java$lang.html" class="extype" name="java.lang">java.lang</a>] </dd><dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">(<span>
+      
+      <span class="symbol">classOf[java.lang.Throwable]</span>
+    </span>)</span>
+              
+        </dd></dl></div>
+    </li><li name="scala.AnyRef#getClass" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="getClass():Class[_]"></a>
+      <a id="getClass():Class[_]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">getClass</span><span class="params">()</span><span class="result">: <span class="extype" name="java.lang.Class">Class</span>[_]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@getClass():Class[_]" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#handleCloseRequest" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="handleCloseRequest:Option[Unit]"></a>
+      <a id="handleCloseRequest:Option[Unit]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">handleCloseRequest</span><span class="result">: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Unit">Unit</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@handleCloseRequest:Option[Unit]" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@FXML</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#handleExportDot" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="handleExportDot:Any"></a>
+      <a id="handleExportDot:Any"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">handleExportDot</span><span class="result">: <span class="extype" name="scala.Any">Any</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@handleExportDot:Any" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@FXML</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#handleOpenAbout" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="handleOpenAbout:Unit"></a>
+      <a id="handleOpenAbout:Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">handleOpenAbout</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@handleOpenAbout:Unit" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@FXML</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#handleOpenChannel" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="handleOpenChannel:Unit"></a>
+      <a id="handleOpenChannel:Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">handleOpenChannel</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@handleOpenChannel:Unit" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@FXML</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#handleReceivePayment" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="handleReceivePayment:Unit"></a>
+      <a id="handleReceivePayment:Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">handleReceivePayment</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@handleReceivePayment:Unit" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@FXML</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#handleSendPayment" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="handleSendPayment:Unit"></a>
+      <a id="handleSendPayment:Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">handleSendPayment</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@handleSendPayment:Unit" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@FXML</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#handlers" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="handlers:fr.acinq.eclair.gui.Handlers"></a>
+      <a id="handlers:Handlers"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">handlers</span><span class="result">: <a href="../Handlers.html" class="extype" name="fr.acinq.eclair.gui.Handlers">Handlers</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@handlers:fr.acinq.eclair.gui.Handlers" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="scala.AnyRef#hashCode" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="hashCode():Int"></a>
+      <a id="hashCode():Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">hashCode</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@hashCode():Int" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#hideBlockerModal" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="hideBlockerModal:Unit"></a>
+      <a id="hideBlockerModal:Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">hideBlockerModal</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@hideBlockerModal:Unit" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#hostServices" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="hostServices:javafx.application.HostServices"></a>
+      <a id="hostServices:HostServices"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">hostServices</span><span class="result">: <span class="extype" name="javafx.application.HostServices">HostServices</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@hostServices:javafx.application.HostServices" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="grizzled.slf4j.Logging#info" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="info(mkr:org.slf4j.Marker,msg:=&gt;Any,t:=&gt;Throwable):Unit"></a>
+      <a id="info(Marker,⇒Any,⇒Throwable):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">info</span><span class="params">(<span name="mkr">mkr: <span class="extype" name="org.slf4j.Marker">Marker</span></span>, <span name="msg">msg: ⇒ <span class="extype" name="scala.Any">Any</span></span>, <span name="t">t: ⇒ <span class="extype" name="scala.Throwable">Throwable</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@info(mkr:org.slf4j.Marker,msg:=&gt;Any,t:=&gt;Throwable):Unit" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>Logging</dd></dl></div>
+    </li><li name="grizzled.slf4j.Logging#info" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="info(msg:=&gt;Any,t:=&gt;Throwable):Unit"></a>
+      <a id="info(⇒Any,⇒Throwable):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">info</span><span class="params">(<span name="msg">msg: ⇒ <span class="extype" name="scala.Any">Any</span></span>, <span name="t">t: ⇒ <span class="extype" name="scala.Throwable">Throwable</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@info(msg:=&gt;Any,t:=&gt;Throwable):Unit" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>Logging</dd></dl></div>
+    </li><li name="grizzled.slf4j.Logging#info" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="info(msg:=&gt;Any):Unit"></a>
+      <a id="info(⇒Any):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">info</span><span class="params">(<span name="msg">msg: ⇒ <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@info(msg:=&gt;Any):Unit" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>Logging</dd></dl></div>
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#initInfoFields" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="initInfoFields(setup:fr.acinq.eclair.Setup):Unit"></a>
+      <a id="initInfoFields(Setup):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">initInfoFields</span><span class="params">(<span name="setup">setup: <span class="extype" name="fr.acinq.eclair.Setup">Setup</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@initInfoFields(setup:fr.acinq.eclair.Setup):Unit" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#initialize" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="initialize:Unit"></a>
+      <a id="initialize:Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">initialize</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@initialize:Unit" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Initialize the main window.</p><div class="fullcomment"><div class="comment cmt"><p>Initialize the main window.</p><p>- Set content in status bar labels (node id, host, ...)
+- init the channels tab with a 'No channels found' message
+- init the 'nodes in network' and 'channels in network' tables
+</p></div><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@FXML</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="grizzled.slf4j.Logging#isDebugEnabled" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="isDebugEnabled:Boolean"></a>
+      <a id="isDebugEnabled:Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">isDebugEnabled</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@isDebugEnabled:Boolean" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>Logging</dd></dl></div>
+    </li><li name="grizzled.slf4j.Logging#isErrorEnabled" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="isErrorEnabled:Boolean"></a>
+      <a id="isErrorEnabled:Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">isErrorEnabled</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@isErrorEnabled:Boolean" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>Logging</dd></dl></div>
+    </li><li name="grizzled.slf4j.Logging#isInfoEnabled" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="isInfoEnabled:Boolean"></a>
+      <a id="isInfoEnabled:Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">isInfoEnabled</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@isInfoEnabled:Boolean" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>Logging</dd></dl></div>
+    </li><li name="scala.Any#isInstanceOf" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="isInstanceOf[T0]:Boolean"></a>
+      <a id="isInstanceOf[T0]:Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">isInstanceOf</span><span class="tparams">[<span name="T0">T0</span>]</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@isInstanceOf[T0]:Boolean" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Any</dd></dl></div>
+    </li><li name="grizzled.slf4j.Logging#isTraceEnabled" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="isTraceEnabled:Boolean"></a>
+      <a id="isTraceEnabled:Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">isTraceEnabled</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@isTraceEnabled:Boolean" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>Logging</dd></dl></div>
+    </li><li name="grizzled.slf4j.Logging#isWarnEnabled" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="isWarnEnabled:Boolean"></a>
+      <a id="isWarnEnabled:Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">isWarnEnabled</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@isWarnEnabled:Boolean" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>Logging</dd></dl></div>
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#labelAlias" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="labelAlias:javafx.scene.control.Label"></a>
+      <a id="labelAlias:Label"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">labelAlias</span><span class="result">: <span class="extype" name="javafx.scene.control.Label">Label</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@labelAlias:javafx.scene.control.Label" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#labelApi" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="labelApi:javafx.scene.control.Label"></a>
+      <a id="labelApi:Label"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">labelApi</span><span class="result">: <span class="extype" name="javafx.scene.control.Label">Label</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@labelApi:javafx.scene.control.Label" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#labelNodeId" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="labelNodeId:javafx.scene.control.Label"></a>
+      <a id="labelNodeId:Label"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">labelNodeId</span><span class="result">: <span class="extype" name="javafx.scene.control.Label">Label</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@labelNodeId:javafx.scene.control.Label" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#labelServer" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="labelServer:javafx.scene.control.Label"></a>
+      <a id="labelServer:Label"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">labelServer</span><span class="result">: <span class="extype" name="javafx.scene.control.Label">Label</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@labelServer:javafx.scene.control.Label" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="grizzled.slf4j.Logging#logger" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="logger:grizzled.slf4j.Logger"></a>
+      <a id="logger:Logger"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">logger</span><span class="result">: <span class="extype" name="grizzled.slf4j.Logger">Logger</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@logger:grizzled.slf4j.Logger" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>Logging</dd></dl></div>
+    </li><li name="grizzled.slf4j.Logging#loggerName" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="loggerName:String"></a>
+      <a id="loggerName:String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">loggerName</span><span class="result">: <span class="extype" name="java.lang.String">String</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@loggerName:String" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>Logging</dd></dl></div>
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#menuOpen" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="menuOpen:javafx.scene.control.MenuItem"></a>
+      <a id="menuOpen:MenuItem"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">menuOpen</span><span class="result">: <span class="extype" name="javafx.scene.control.MenuItem">MenuItem</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@menuOpen:javafx.scene.control.MenuItem" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#menuReceive" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="menuReceive:javafx.scene.control.MenuItem"></a>
+      <a id="menuReceive:MenuItem"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">menuReceive</span><span class="result">: <span class="extype" name="javafx.scene.control.MenuItem">MenuItem</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@menuReceive:javafx.scene.control.MenuItem" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#menuSend" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="menuSend:javafx.scene.control.MenuItem"></a>
+      <a id="menuSend:MenuItem"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">menuSend</span><span class="result">: <span class="extype" name="javafx.scene.control.MenuItem">MenuItem</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@menuSend:javafx.scene.control.MenuItem" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#moneyFormatter" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="moneyFormatter:java.text.NumberFormat"></a>
+      <a id="moneyFormatter:NumberFormat"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">moneyFormatter</span><span class="result">: <span class="extype" name="java.text.NumberFormat">NumberFormat</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@moneyFormatter:java.text.NumberFormat" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="scala.AnyRef#ne" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="ne(x$1:AnyRef):Boolean"></a>
+      <a id="ne(AnyRef):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">ne</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.AnyRef">AnyRef</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@ne(x$1:AnyRef):Boolean" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#networkChannelsDirectionsColumn" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="networkChannelsDirectionsColumn:javafx.scene.control.TableColumn[fr.acinq.eclair.gui.controllers.ChannelInfo,fr.acinq.eclair.gui.controllers.ChannelInfo]"></a>
+      <a id="networkChannelsDirectionsColumn:TableColumn[ChannelInfo,ChannelInfo]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">networkChannelsDirectionsColumn</span><span class="result">: <span class="extype" name="javafx.scene.control.TableColumn">TableColumn</span>[<a href="ChannelInfo.html" class="extype" name="fr.acinq.eclair.gui.controllers.ChannelInfo">ChannelInfo</a>, <a href="ChannelInfo.html" class="extype" name="fr.acinq.eclair.gui.controllers.ChannelInfo">ChannelInfo</a>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@networkChannelsDirectionsColumn:javafx.scene.control.TableColumn[fr.acinq.eclair.gui.controllers.ChannelInfo,fr.acinq.eclair.gui.controllers.ChannelInfo]" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#networkChannelsIdColumn" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="networkChannelsIdColumn:javafx.scene.control.TableColumn[fr.acinq.eclair.gui.controllers.ChannelInfo,String]"></a>
+      <a id="networkChannelsIdColumn:TableColumn[ChannelInfo,String]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">networkChannelsIdColumn</span><span class="result">: <span class="extype" name="javafx.scene.control.TableColumn">TableColumn</span>[<a href="ChannelInfo.html" class="extype" name="fr.acinq.eclair.gui.controllers.ChannelInfo">ChannelInfo</a>, <span class="extype" name="scala.Predef.String">String</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@networkChannelsIdColumn:javafx.scene.control.TableColumn[fr.acinq.eclair.gui.controllers.ChannelInfo,String]" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#networkChannelsList" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="networkChannelsList:javafx.collections.ObservableList[fr.acinq.eclair.gui.controllers.ChannelInfo]"></a>
+      <a id="networkChannelsList:ObservableList[ChannelInfo]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">networkChannelsList</span><span class="result">: <span class="extype" name="javafx.collections.ObservableList">ObservableList</span>[<a href="ChannelInfo.html" class="extype" name="fr.acinq.eclair.gui.controllers.ChannelInfo">ChannelInfo</a>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@networkChannelsList:javafx.collections.ObservableList[fr.acinq.eclair.gui.controllers.ChannelInfo]" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#networkChannelsNode1Column" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="networkChannelsNode1Column:javafx.scene.control.TableColumn[fr.acinq.eclair.gui.controllers.ChannelInfo,String]"></a>
+      <a id="networkChannelsNode1Column:TableColumn[ChannelInfo,String]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">networkChannelsNode1Column</span><span class="result">: <span class="extype" name="javafx.scene.control.TableColumn">TableColumn</span>[<a href="ChannelInfo.html" class="extype" name="fr.acinq.eclair.gui.controllers.ChannelInfo">ChannelInfo</a>, <span class="extype" name="scala.Predef.String">String</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@networkChannelsNode1Column:javafx.scene.control.TableColumn[fr.acinq.eclair.gui.controllers.ChannelInfo,String]" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#networkChannelsNode2Column" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="networkChannelsNode2Column:javafx.scene.control.TableColumn[fr.acinq.eclair.gui.controllers.ChannelInfo,String]"></a>
+      <a id="networkChannelsNode2Column:TableColumn[ChannelInfo,String]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">networkChannelsNode2Column</span><span class="result">: <span class="extype" name="javafx.scene.control.TableColumn">TableColumn</span>[<a href="ChannelInfo.html" class="extype" name="fr.acinq.eclair.gui.controllers.ChannelInfo">ChannelInfo</a>, <span class="extype" name="scala.Predef.String">String</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@networkChannelsNode2Column:javafx.scene.control.TableColumn[fr.acinq.eclair.gui.controllers.ChannelInfo,String]" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#networkChannelsTab" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="networkChannelsTab:javafx.scene.control.Tab"></a>
+      <a id="networkChannelsTab:Tab"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">networkChannelsTab</span><span class="result">: <span class="extype" name="javafx.scene.control.Tab">Tab</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@networkChannelsTab:javafx.scene.control.Tab" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#networkChannelsTable" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="networkChannelsTable:javafx.scene.control.TableView[fr.acinq.eclair.gui.controllers.ChannelInfo]"></a>
+      <a id="networkChannelsTable:TableView[ChannelInfo]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">networkChannelsTable</span><span class="result">: <span class="extype" name="javafx.scene.control.TableView">TableView</span>[<a href="ChannelInfo.html" class="extype" name="fr.acinq.eclair.gui.controllers.ChannelInfo">ChannelInfo</a>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@networkChannelsTable:javafx.scene.control.TableView[fr.acinq.eclair.gui.controllers.ChannelInfo]" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#networkNodesAliasColumn" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="networkNodesAliasColumn:javafx.scene.control.TableColumn[fr.acinq.eclair.wire.NodeAnnouncement,String]"></a>
+      <a id="networkNodesAliasColumn:TableColumn[NodeAnnouncement,String]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">networkNodesAliasColumn</span><span class="result">: <span class="extype" name="javafx.scene.control.TableColumn">TableColumn</span>[<span class="extype" name="fr.acinq.eclair.wire.NodeAnnouncement">NodeAnnouncement</span>, <span class="extype" name="scala.Predef.String">String</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@networkNodesAliasColumn:javafx.scene.control.TableColumn[fr.acinq.eclair.wire.NodeAnnouncement,String]" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#networkNodesIPColumn" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="networkNodesIPColumn:javafx.scene.control.TableColumn[fr.acinq.eclair.wire.NodeAnnouncement,String]"></a>
+      <a id="networkNodesIPColumn:TableColumn[NodeAnnouncement,String]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">networkNodesIPColumn</span><span class="result">: <span class="extype" name="javafx.scene.control.TableColumn">TableColumn</span>[<span class="extype" name="fr.acinq.eclair.wire.NodeAnnouncement">NodeAnnouncement</span>, <span class="extype" name="scala.Predef.String">String</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@networkNodesIPColumn:javafx.scene.control.TableColumn[fr.acinq.eclair.wire.NodeAnnouncement,String]" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#networkNodesIdColumn" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="networkNodesIdColumn:javafx.scene.control.TableColumn[fr.acinq.eclair.wire.NodeAnnouncement,String]"></a>
+      <a id="networkNodesIdColumn:TableColumn[NodeAnnouncement,String]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">networkNodesIdColumn</span><span class="result">: <span class="extype" name="javafx.scene.control.TableColumn">TableColumn</span>[<span class="extype" name="fr.acinq.eclair.wire.NodeAnnouncement">NodeAnnouncement</span>, <span class="extype" name="scala.Predef.String">String</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@networkNodesIdColumn:javafx.scene.control.TableColumn[fr.acinq.eclair.wire.NodeAnnouncement,String]" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#networkNodesList" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="networkNodesList:javafx.collections.ObservableList[fr.acinq.eclair.wire.NodeAnnouncement]"></a>
+      <a id="networkNodesList:ObservableList[NodeAnnouncement]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">networkNodesList</span><span class="result">: <span class="extype" name="javafx.collections.ObservableList">ObservableList</span>[<span class="extype" name="fr.acinq.eclair.wire.NodeAnnouncement">NodeAnnouncement</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@networkNodesList:javafx.collections.ObservableList[fr.acinq.eclair.wire.NodeAnnouncement]" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#networkNodesRGBColumn" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="networkNodesRGBColumn:javafx.scene.control.TableColumn[fr.acinq.eclair.wire.NodeAnnouncement,String]"></a>
+      <a id="networkNodesRGBColumn:TableColumn[NodeAnnouncement,String]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">networkNodesRGBColumn</span><span class="result">: <span class="extype" name="javafx.scene.control.TableColumn">TableColumn</span>[<span class="extype" name="fr.acinq.eclair.wire.NodeAnnouncement">NodeAnnouncement</span>, <span class="extype" name="scala.Predef.String">String</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@networkNodesRGBColumn:javafx.scene.control.TableColumn[fr.acinq.eclair.wire.NodeAnnouncement,String]" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#networkNodesTab" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="networkNodesTab:javafx.scene.control.Tab"></a>
+      <a id="networkNodesTab:Tab"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">networkNodesTab</span><span class="result">: <span class="extype" name="javafx.scene.control.Tab">Tab</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@networkNodesTab:javafx.scene.control.Tab" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#networkNodesTable" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="networkNodesTable:javafx.scene.control.TableView[fr.acinq.eclair.wire.NodeAnnouncement]"></a>
+      <a id="networkNodesTable:TableView[NodeAnnouncement]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">networkNodesTable</span><span class="result">: <span class="extype" name="javafx.scene.control.TableView">TableView</span>[<span class="extype" name="fr.acinq.eclair.wire.NodeAnnouncement">NodeAnnouncement</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@networkNodesTable:javafx.scene.control.TableView[fr.acinq.eclair.wire.NodeAnnouncement]" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="scala.AnyRef#notify" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="notify():Unit"></a>
+      <a id="notify():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">notify</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@notify():Unit" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="scala.AnyRef#notifyAll" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="notifyAll():Unit"></a>
+      <a id="notifyAll():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">notifyAll</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@notifyAll():Unit" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#openNodeIdContext" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="openNodeIdContext(event:javafx.scene.input.ContextMenuEvent):Unit"></a>
+      <a id="openNodeIdContext(ContextMenuEvent):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">openNodeIdContext</span><span class="params">(<span name="event">event: <span class="extype" name="javafx.scene.input.ContextMenuEvent">ContextMenuEvent</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@openNodeIdContext(event:javafx.scene.input.ContextMenuEvent):Unit" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@FXML</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#paymentReceivedAmountColumn" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="paymentReceivedAmountColumn:javafx.scene.control.TableColumn[fr.acinq.eclair.gui.controllers.PaymentReceivedRecord,Number]"></a>
+      <a id="paymentReceivedAmountColumn:TableColumn[PaymentReceivedRecord,Number]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">paymentReceivedAmountColumn</span><span class="result">: <span class="extype" name="javafx.scene.control.TableColumn">TableColumn</span>[<a href="PaymentReceivedRecord.html" class="extype" name="fr.acinq.eclair.gui.controllers.PaymentReceivedRecord">PaymentReceivedRecord</a>, <span class="extype" name="java.lang.Number">Number</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@paymentReceivedAmountColumn:javafx.scene.control.TableColumn[fr.acinq.eclair.gui.controllers.PaymentReceivedRecord,Number]" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#paymentReceivedDateColumn" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="paymentReceivedDateColumn:javafx.scene.control.TableColumn[fr.acinq.eclair.gui.controllers.PaymentReceivedRecord,String]"></a>
+      <a id="paymentReceivedDateColumn:TableColumn[PaymentReceivedRecord,String]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">paymentReceivedDateColumn</span><span class="result">: <span class="extype" name="javafx.scene.control.TableColumn">TableColumn</span>[<a href="PaymentReceivedRecord.html" class="extype" name="fr.acinq.eclair.gui.controllers.PaymentReceivedRecord">PaymentReceivedRecord</a>, <span class="extype" name="scala.Predef.String">String</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@paymentReceivedDateColumn:javafx.scene.control.TableColumn[fr.acinq.eclair.gui.controllers.PaymentReceivedRecord,String]" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#paymentReceivedHashColumn" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="paymentReceivedHashColumn:javafx.scene.control.TableColumn[fr.acinq.eclair.gui.controllers.PaymentReceivedRecord,String]"></a>
+      <a id="paymentReceivedHashColumn:TableColumn[PaymentReceivedRecord,String]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">paymentReceivedHashColumn</span><span class="result">: <span class="extype" name="javafx.scene.control.TableColumn">TableColumn</span>[<a href="PaymentReceivedRecord.html" class="extype" name="fr.acinq.eclair.gui.controllers.PaymentReceivedRecord">PaymentReceivedRecord</a>, <span class="extype" name="scala.Predef.String">String</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@paymentReceivedHashColumn:javafx.scene.control.TableColumn[fr.acinq.eclair.gui.controllers.PaymentReceivedRecord,String]" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#paymentReceivedList" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="paymentReceivedList:javafx.collections.ObservableList[fr.acinq.eclair.gui.controllers.PaymentReceivedRecord]"></a>
+      <a id="paymentReceivedList:ObservableList[PaymentReceivedRecord]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">paymentReceivedList</span><span class="result">: <span class="extype" name="javafx.collections.ObservableList">ObservableList</span>[<a href="PaymentReceivedRecord.html" class="extype" name="fr.acinq.eclair.gui.controllers.PaymentReceivedRecord">PaymentReceivedRecord</a>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@paymentReceivedList:javafx.collections.ObservableList[fr.acinq.eclair.gui.controllers.PaymentReceivedRecord]" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#paymentReceivedTab" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="paymentReceivedTab:javafx.scene.control.Tab"></a>
+      <a id="paymentReceivedTab:Tab"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">paymentReceivedTab</span><span class="result">: <span class="extype" name="javafx.scene.control.Tab">Tab</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@paymentReceivedTab:javafx.scene.control.Tab" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#paymentReceivedTable" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="paymentReceivedTable:javafx.scene.control.TableView[fr.acinq.eclair.gui.controllers.PaymentReceivedRecord]"></a>
+      <a id="paymentReceivedTable:TableView[PaymentReceivedRecord]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">paymentReceivedTable</span><span class="result">: <span class="extype" name="javafx.scene.control.TableView">TableView</span>[<a href="PaymentReceivedRecord.html" class="extype" name="fr.acinq.eclair.gui.controllers.PaymentReceivedRecord">PaymentReceivedRecord</a>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@paymentReceivedTable:javafx.scene.control.TableView[fr.acinq.eclair.gui.controllers.PaymentReceivedRecord]" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#paymentRelayedAmountColumn" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="paymentRelayedAmountColumn:javafx.scene.control.TableColumn[fr.acinq.eclair.gui.controllers.PaymentRelayedRecord,Number]"></a>
+      <a id="paymentRelayedAmountColumn:TableColumn[PaymentRelayedRecord,Number]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">paymentRelayedAmountColumn</span><span class="result">: <span class="extype" name="javafx.scene.control.TableColumn">TableColumn</span>[<a href="PaymentRelayedRecord.html" class="extype" name="fr.acinq.eclair.gui.controllers.PaymentRelayedRecord">PaymentRelayedRecord</a>, <span class="extype" name="java.lang.Number">Number</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@paymentRelayedAmountColumn:javafx.scene.control.TableColumn[fr.acinq.eclair.gui.controllers.PaymentRelayedRecord,Number]" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#paymentRelayedDateColumn" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="paymentRelayedDateColumn:javafx.scene.control.TableColumn[fr.acinq.eclair.gui.controllers.PaymentRelayedRecord,String]"></a>
+      <a id="paymentRelayedDateColumn:TableColumn[PaymentRelayedRecord,String]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">paymentRelayedDateColumn</span><span class="result">: <span class="extype" name="javafx.scene.control.TableColumn">TableColumn</span>[<a href="PaymentRelayedRecord.html" class="extype" name="fr.acinq.eclair.gui.controllers.PaymentRelayedRecord">PaymentRelayedRecord</a>, <span class="extype" name="scala.Predef.String">String</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@paymentRelayedDateColumn:javafx.scene.control.TableColumn[fr.acinq.eclair.gui.controllers.PaymentRelayedRecord,String]" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#paymentRelayedFeesColumn" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="paymentRelayedFeesColumn:javafx.scene.control.TableColumn[fr.acinq.eclair.gui.controllers.PaymentRelayedRecord,Number]"></a>
+      <a id="paymentRelayedFeesColumn:TableColumn[PaymentRelayedRecord,Number]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">paymentRelayedFeesColumn</span><span class="result">: <span class="extype" name="javafx.scene.control.TableColumn">TableColumn</span>[<a href="PaymentRelayedRecord.html" class="extype" name="fr.acinq.eclair.gui.controllers.PaymentRelayedRecord">PaymentRelayedRecord</a>, <span class="extype" name="java.lang.Number">Number</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@paymentRelayedFeesColumn:javafx.scene.control.TableColumn[fr.acinq.eclair.gui.controllers.PaymentRelayedRecord,Number]" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#paymentRelayedHashColumn" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="paymentRelayedHashColumn:javafx.scene.control.TableColumn[fr.acinq.eclair.gui.controllers.PaymentRelayedRecord,String]"></a>
+      <a id="paymentRelayedHashColumn:TableColumn[PaymentRelayedRecord,String]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">paymentRelayedHashColumn</span><span class="result">: <span class="extype" name="javafx.scene.control.TableColumn">TableColumn</span>[<a href="PaymentRelayedRecord.html" class="extype" name="fr.acinq.eclair.gui.controllers.PaymentRelayedRecord">PaymentRelayedRecord</a>, <span class="extype" name="scala.Predef.String">String</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@paymentRelayedHashColumn:javafx.scene.control.TableColumn[fr.acinq.eclair.gui.controllers.PaymentRelayedRecord,String]" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#paymentRelayedList" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="paymentRelayedList:javafx.collections.ObservableList[fr.acinq.eclair.gui.controllers.PaymentRelayedRecord]"></a>
+      <a id="paymentRelayedList:ObservableList[PaymentRelayedRecord]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">paymentRelayedList</span><span class="result">: <span class="extype" name="javafx.collections.ObservableList">ObservableList</span>[<a href="PaymentRelayedRecord.html" class="extype" name="fr.acinq.eclair.gui.controllers.PaymentRelayedRecord">PaymentRelayedRecord</a>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@paymentRelayedList:javafx.collections.ObservableList[fr.acinq.eclair.gui.controllers.PaymentRelayedRecord]" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#paymentRelayedTab" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="paymentRelayedTab:javafx.scene.control.Tab"></a>
+      <a id="paymentRelayedTab:Tab"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">paymentRelayedTab</span><span class="result">: <span class="extype" name="javafx.scene.control.Tab">Tab</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@paymentRelayedTab:javafx.scene.control.Tab" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#paymentRelayedTable" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="paymentRelayedTable:javafx.scene.control.TableView[fr.acinq.eclair.gui.controllers.PaymentRelayedRecord]"></a>
+      <a id="paymentRelayedTable:TableView[PaymentRelayedRecord]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">paymentRelayedTable</span><span class="result">: <span class="extype" name="javafx.scene.control.TableView">TableView</span>[<a href="PaymentRelayedRecord.html" class="extype" name="fr.acinq.eclair.gui.controllers.PaymentRelayedRecord">PaymentRelayedRecord</a>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@paymentRelayedTable:javafx.scene.control.TableView[fr.acinq.eclair.gui.controllers.PaymentRelayedRecord]" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#paymentSentAmountColumn" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="paymentSentAmountColumn:javafx.scene.control.TableColumn[fr.acinq.eclair.gui.controllers.PaymentSentRecord,Number]"></a>
+      <a id="paymentSentAmountColumn:TableColumn[PaymentSentRecord,Number]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">paymentSentAmountColumn</span><span class="result">: <span class="extype" name="javafx.scene.control.TableColumn">TableColumn</span>[<a href="PaymentSentRecord.html" class="extype" name="fr.acinq.eclair.gui.controllers.PaymentSentRecord">PaymentSentRecord</a>, <span class="extype" name="java.lang.Number">Number</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@paymentSentAmountColumn:javafx.scene.control.TableColumn[fr.acinq.eclair.gui.controllers.PaymentSentRecord,Number]" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#paymentSentDateColumn" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="paymentSentDateColumn:javafx.scene.control.TableColumn[fr.acinq.eclair.gui.controllers.PaymentSentRecord,String]"></a>
+      <a id="paymentSentDateColumn:TableColumn[PaymentSentRecord,String]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">paymentSentDateColumn</span><span class="result">: <span class="extype" name="javafx.scene.control.TableColumn">TableColumn</span>[<a href="PaymentSentRecord.html" class="extype" name="fr.acinq.eclair.gui.controllers.PaymentSentRecord">PaymentSentRecord</a>, <span class="extype" name="scala.Predef.String">String</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@paymentSentDateColumn:javafx.scene.control.TableColumn[fr.acinq.eclair.gui.controllers.PaymentSentRecord,String]" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#paymentSentFeesColumn" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="paymentSentFeesColumn:javafx.scene.control.TableColumn[fr.acinq.eclair.gui.controllers.PaymentSentRecord,Number]"></a>
+      <a id="paymentSentFeesColumn:TableColumn[PaymentSentRecord,Number]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">paymentSentFeesColumn</span><span class="result">: <span class="extype" name="javafx.scene.control.TableColumn">TableColumn</span>[<a href="PaymentSentRecord.html" class="extype" name="fr.acinq.eclair.gui.controllers.PaymentSentRecord">PaymentSentRecord</a>, <span class="extype" name="java.lang.Number">Number</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@paymentSentFeesColumn:javafx.scene.control.TableColumn[fr.acinq.eclair.gui.controllers.PaymentSentRecord,Number]" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#paymentSentHashColumn" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="paymentSentHashColumn:javafx.scene.control.TableColumn[fr.acinq.eclair.gui.controllers.PaymentSentRecord,String]"></a>
+      <a id="paymentSentHashColumn:TableColumn[PaymentSentRecord,String]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">paymentSentHashColumn</span><span class="result">: <span class="extype" name="javafx.scene.control.TableColumn">TableColumn</span>[<a href="PaymentSentRecord.html" class="extype" name="fr.acinq.eclair.gui.controllers.PaymentSentRecord">PaymentSentRecord</a>, <span class="extype" name="scala.Predef.String">String</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@paymentSentHashColumn:javafx.scene.control.TableColumn[fr.acinq.eclair.gui.controllers.PaymentSentRecord,String]" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#paymentSentList" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="paymentSentList:javafx.collections.ObservableList[fr.acinq.eclair.gui.controllers.PaymentSentRecord]"></a>
+      <a id="paymentSentList:ObservableList[PaymentSentRecord]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">paymentSentList</span><span class="result">: <span class="extype" name="javafx.collections.ObservableList">ObservableList</span>[<a href="PaymentSentRecord.html" class="extype" name="fr.acinq.eclair.gui.controllers.PaymentSentRecord">PaymentSentRecord</a>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@paymentSentList:javafx.collections.ObservableList[fr.acinq.eclair.gui.controllers.PaymentSentRecord]" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#paymentSentTab" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="paymentSentTab:javafx.scene.control.Tab"></a>
+      <a id="paymentSentTab:Tab"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">paymentSentTab</span><span class="result">: <span class="extype" name="javafx.scene.control.Tab">Tab</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@paymentSentTab:javafx.scene.control.Tab" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#paymentSentTable" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="paymentSentTable:javafx.scene.control.TableView[fr.acinq.eclair.gui.controllers.PaymentSentRecord]"></a>
+      <a id="paymentSentTable:TableView[PaymentSentRecord]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">paymentSentTable</span><span class="result">: <span class="extype" name="javafx.scene.control.TableView">TableView</span>[<a href="PaymentSentRecord.html" class="extype" name="fr.acinq.eclair.gui.controllers.PaymentSentRecord">PaymentSentRecord</a>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@paymentSentTable:javafx.scene.control.TableView[fr.acinq.eclair.gui.controllers.PaymentSentRecord]" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#positionAtCenter" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="positionAtCenter(childStage:javafx.stage.Stage):Unit"></a>
+      <a id="positionAtCenter(Stage):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">positionAtCenter</span><span class="params">(<span name="childStage">childStage: <span class="extype" name="javafx.stage.Stage">Stage</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@positionAtCenter(childStage:javafx.stage.Stage):Unit" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#rectRGB" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="rectRGB:javafx.scene.shape.Rectangle"></a>
+      <a id="rectRGB:Rectangle"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">rectRGB</span><span class="result">: <span class="extype" name="javafx.scene.shape.Rectangle">Rectangle</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@rectRGB:javafx.scene.shape.Rectangle" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#root" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="root:javafx.scene.layout.AnchorPane"></a>
+      <a id="root:AnchorPane"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">root</span><span class="result">: <span class="extype" name="javafx.scene.layout.AnchorPane">AnchorPane</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@root:javafx.scene.layout.AnchorPane" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.gui.controllers.MainController#showBlockerModal" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="showBlockerModal(backendName:String):Unit"></a>
+      <a id="showBlockerModal(String):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">showBlockerModal</span><span class="params">(<span name="backendName">backendName: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@showBlockerModal(backendName:String):Unit" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="scala.AnyRef#synchronized" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="synchronized[T0](x$1:=&gt;T0):T0"></a>
+      <a id="synchronized[T0](⇒T0):T0"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">synchronized</span><span class="tparams">[<span name="T0">T0</span>]</span><span class="params">(<span name="arg0">arg0: ⇒ <span class="extype" name="java.lang.AnyRef.synchronized.T0">T0</span></span>)</span><span class="result">: <span class="extype" name="java.lang.AnyRef.synchronized.T0">T0</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@synchronized[T0](x$1:=&gt;T0):T0" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="scala.AnyRef#toString" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="toString():String"></a>
+      <a id="toString():String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">toString</span><span class="params">()</span><span class="result">: <span class="extype" name="java.lang.String">String</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@toString():String" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li name="grizzled.slf4j.Logging#trace" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="trace(mkr:org.slf4j.Marker,msg:=&gt;Any,t:=&gt;Throwable):Unit"></a>
+      <a id="trace(Marker,⇒Any,⇒Throwable):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">trace</span><span class="params">(<span name="mkr">mkr: <span class="extype" name="org.slf4j.Marker">Marker</span></span>, <span name="msg">msg: ⇒ <span class="extype" name="scala.Any">Any</span></span>, <span name="t">t: ⇒ <span class="extype" name="scala.Throwable">Throwable</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@trace(mkr:org.slf4j.Marker,msg:=&gt;Any,t:=&gt;Throwable):Unit" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>Logging</dd></dl></div>
+    </li><li name="grizzled.slf4j.Logging#trace" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="trace(msg:=&gt;Any,t:=&gt;Throwable):Unit"></a>
+      <a id="trace(⇒Any,⇒Throwable):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">trace</span><span class="params">(<span name="msg">msg: ⇒ <span class="extype" name="scala.Any">Any</span></span>, <span name="t">t: ⇒ <span class="extype" name="scala.Throwable">Throwable</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@trace(msg:=&gt;Any,t:=&gt;Throwable):Unit" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>Logging</dd></dl></div>
+    </li><li name="grizzled.slf4j.Logging#trace" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="trace(msg:=&gt;Any):Unit"></a>
+      <a id="trace(⇒Any):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">trace</span><span class="params">(<span name="msg">msg: ⇒ <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@trace(msg:=&gt;Any):Unit" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>Logging</dd></dl></div>
+    </li><li name="scala.AnyRef#wait" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="wait():Unit"></a>
+      <a id="wait():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">wait</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@wait():Unit" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">(<span>
+      
+      <span class="defval" name="classOf[java.lang.InterruptedException]">...</span>
+    </span>)</span>
+              
+        </dd></dl></div>
+    </li><li name="scala.AnyRef#wait" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="wait(x$1:Long,x$2:Int):Unit"></a>
+      <a id="wait(Long,Int):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">wait</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.Long">Long</span></span>, <span name="arg1">arg1: <span class="extype" name="scala.Int">Int</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@wait(x$1:Long,x$2:Int):Unit" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">(<span>
+      
+      <span class="defval" name="classOf[java.lang.InterruptedException]">...</span>
+    </span>)</span>
+              
+        </dd></dl></div>
+    </li><li name="scala.AnyRef#wait" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="wait(x$1:Long):Unit"></a>
+      <a id="wait(Long):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">wait</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.Long">Long</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@wait(x$1:Long):Unit" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">(<span>
+      
+      <span class="defval" name="classOf[java.lang.InterruptedException]">...</span>
+    </span>)</span>
+              
+        </dd></dl></div>
+    </li><li name="grizzled.slf4j.Logging#warn" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="warn(mkr:org.slf4j.Marker,msg:=&gt;Any,t:=&gt;Throwable):Unit"></a>
+      <a id="warn(Marker,⇒Any,⇒Throwable):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">warn</span><span class="params">(<span name="mkr">mkr: <span class="extype" name="org.slf4j.Marker">Marker</span></span>, <span name="msg">msg: ⇒ <span class="extype" name="scala.Any">Any</span></span>, <span name="t">t: ⇒ <span class="extype" name="scala.Throwable">Throwable</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@warn(mkr:org.slf4j.Marker,msg:=&gt;Any,t:=&gt;Throwable):Unit" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>Logging</dd></dl></div>
+    </li><li name="grizzled.slf4j.Logging#warn" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="warn(msg:=&gt;Any,t:=&gt;Throwable):Unit"></a>
+      <a id="warn(⇒Any,⇒Throwable):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">warn</span><span class="params">(<span name="msg">msg: ⇒ <span class="extype" name="scala.Any">Any</span></span>, <span name="t">t: ⇒ <span class="extype" name="scala.Throwable">Throwable</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@warn(msg:=&gt;Any,t:=&gt;Throwable):Unit" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>Logging</dd></dl></div>
+    </li><li name="grizzled.slf4j.Logging#warn" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="warn(msg:=&gt;Any):Unit"></a>
+      <a id="warn(⇒Any):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">warn</span><span class="params">(<span name="msg">msg: ⇒ <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#fr.acinq.eclair.gui.controllers.MainController@warn(msg:=&gt;Any):Unit" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>Logging</dd></dl></div>
+    </li></ol>
+            </div>
+
+        
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        <div class="parent" name="grizzled.slf4j.Logging">
+              <h3>Inherited from <span class="extype" name="grizzled.slf4j.Logging">Logging</span></h3>
+            </div><div class="parent" name="scala.AnyRef">
+              <h3>Inherited from <span class="extype" name="scala.AnyRef">AnyRef</span></h3>
+            </div><div class="parent" name="scala.Any">
+              <h3>Inherited from <span class="extype" name="scala.Any">Any</span></h3>
+            </div>
+        
+        </div>
+
+        <div id="groupedMembers">
+        <div class="group" name="Ungrouped">
+              <h3>Ungrouped</h3>
+              
+            </div>
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">  </div>
+
+
+    </body>
+      </html>

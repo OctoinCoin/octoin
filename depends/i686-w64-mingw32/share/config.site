@@ -1,0 +1,103 @@
+depends_prefix="`dirname ${ac_site_file}`/.."
+
+cross_compiling=maybe
+host_alias=i686-w64-mingw32
+ac_tool_prefix=${host_alias}-
+
+if test -z $with_boost; then
+  with_boost=$depends_prefix
+fi
+if test -z $with_qt_plugindir; then
+  with_qt_plugindir=$depends_prefix/plugins
+fi
+if test -z $with_qt_translationdir; then
+  with_qt_translationdir=$depends_prefix/translations
+fi
+if test -z $with_qt_bindir; then
+  with_qt_bindir=$depends_prefix/native/bin
+fi
+if test -z $with_protoc_bindir; then
+  with_protoc_bindir=$depends_prefix/native/bin
+fi
+if test -z $with_comparison_tool; then
+  with_comparison_tool=$depends_prefix/native/share/BitcoindComparisonTool_jar/BitcoindComparisonTool.jar
+fi
+
+
+if test -z $enable_wallet && test -n ""; then
+  enable_wallet=no
+fi
+
+if test -z $with_miniupnpc && test -n ""; then
+  with_miniupnpc=no
+fi
+
+if test -z $with_gui && test -n ""; then
+  with_gui=no
+fi
+
+if test xmingw32 = xdarwin; then
+  BREW=no
+  PORT=no
+fi
+
+if test xmingw32 = xmingw32; then
+  if test -z $with_qt_incdir; then
+    with_qt_incdir=$depends_prefix/include
+  fi
+  if test -z $with_qt_libdir; then
+    with_qt_libdir=$depends_prefix/lib
+  fi
+fi
+
+PATH=$depends_prefix/native/bin:$PATH
+PKG_CONFIG="`which pkg-config` --static"
+
+# These two need to remain exported because pkg-config does not see them
+# otherwise. That means they must be unexported at the end of configure.ac to
+# avoid ruining the cache. Sigh.
+
+export PKG_CONFIG_LIBDIR=$depends_prefix/lib/pkgconfig
+export PKG_CONFIG_PATH=$depends_prefix/share/pkgconfig
+
+CPPFLAGS="-I$depends_prefix/include/ $CPPFLAGS"
+LDFLAGS="-L$depends_prefix/lib $LDFLAGS"
+
+CC="i686-w64-mingw32-gcc"
+CXX="i686-w64-mingw32-g++"
+OBJC="${CC}"
+OBJCXX="${CXX}"
+CCACHE=$depends_prefix/native/bin/ccache
+PYTHONPATH=$depends_prefix/native/lib/python/dist-packages:$PYTHONPATH
+
+if test -n "i686-w64-mingw32-ar"; then
+  AR=i686-w64-mingw32-ar
+  ac_cv_path_ac_pt_AR=${AR}
+fi
+
+if test -n "i686-w64-mingw32-ranlib"; then
+  RANLIB=i686-w64-mingw32-ranlib
+  ac_cv_path_ac_pt_RANLIB=${RANLIB}
+fi
+
+if test -n "i686-w64-mingw32-nm"; then
+  NM=i686-w64-mingw32-nm
+  ac_cv_path_ac_pt_NM=${NM}
+fi
+
+if test -n ""; then
+  enable_reduce_exports=no
+fi
+
+if test -n "-pipe -O2"; then
+  CFLAGS="-pipe -O2 $CFLAGS"
+fi
+if test -n "-pipe -O2"; then
+  CXXFLAGS="-pipe -O2 $CXXFLAGS"
+fi
+if test -n ""; then
+  CPPFLAGS=" $CPPFLAGS"
+fi
+if test -n ""; then
+  LDFLAGS=" $LDFLAGS"
+fi

@@ -1,0 +1,14 @@
+prefix=/usr/src/octoin/depends/x86_64-pc-linux-gnu
+exec_prefix=/usr/src/octoin/depends/x86_64-pc-linux-gnu
+libdir=/usr/src/octoin/depends/x86_64-pc-linux-gnu/lib
+includedir=/usr/src/octoin/depends/x86_64-pc-linux-gnu/include
+
+Name: FreeType 2
+URL: http://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 18.3.12
+Requires:
+Requires.private: 
+Libs: -L${libdir} -lfreetype
+Libs.private: 
+Cflags: -I${includedir}/freetype2

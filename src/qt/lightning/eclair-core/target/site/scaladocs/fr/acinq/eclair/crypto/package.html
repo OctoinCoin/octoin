@@ -1,0 +1,366 @@
+<!DOCTYPE html >
+<html>
+        <head>
+          <title>crypto - eclair-core_2.11 0.2-SNAPSHOT API - fr.acinq.eclair.crypto</title>
+          <meta name="description" content="crypto - eclair - core 2.11 0.2 - SNAPSHOT API - fr.acinq.eclair.crypto" />
+          <meta name="keywords" content="crypto eclair core 2.11 0.2 SNAPSHOT API fr.acinq.eclair.crypto" />
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link href="../../../../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../../../../lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
+      <script type="text/javascript" src="../../../../lib/jquery.js" id="jquery-js"></script>
+      <script type="text/javascript" src="../../../../lib/jquery-ui.js"></script>
+      <script type="text/javascript" src="../../../../lib/template.js"></script>
+      <script type="text/javascript" src="../../../../lib/tools.tooltip.js"></script>
+      
+      <script type="text/javascript">
+         if(top === self) {
+            var url = '../../../../index.html';
+            var hash = 'fr.acinq.eclair.crypto.package';
+            var anchor = window.location.hash;
+            var anchor_opt = '';
+            if (anchor.length >= 1)
+              anchor_opt = '@' + anchor.substring(1);
+            window.location.href = url + '#' + hash + anchor_opt;
+         }
+   	  </script>
+    
+        </head>
+        <body class="value">
+      <div id="definition">
+        <img alt="Package" src="../../../../lib/package_big.png" />
+        <p id="owner"><a href="../../../package.html" class="extype" name="fr">fr</a>.<a href="../../package.html" class="extype" name="fr.acinq">acinq</a>.<a href="../package.html" class="extype" name="fr.acinq.eclair">eclair</a></p>
+        <h1>crypto</h1><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.crypto.package" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      </div>
+
+      <h4 id="signature" class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <span class="name">crypto</span>
+      </span>
+      </h4>
+      
+          <div id="comment" class="fullcommenttop"></div>
+        
+
+      <div id="mbrsel">
+        <div id="textfilter"><span class="pre"></span><span class="input"><input id="mbrsel-input" type="text" accesskey="/" /></span><span class="post"></span></div>
+        
+        
+        <div id="visbl">
+            <span class="filtertype">Visibility</span>
+            <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+          </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        
+
+        <div id="types" class="types members">
+              <h3>Type Members</h3>
+              <ol><li name="fr.acinq.eclair.crypto.BitStream" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="BitStreamextendsProductwithSerializable"></a>
+      <a id="BitStream:BitStream"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="BitStream.html"><span class="name">BitStream</span></a><span class="params">(<span name="bytes">bytes: <span class="extype" name="scala.Vector">Vector</span>[<span class="extype" name="scala.Byte">Byte</span>]</span>, <span name="offstart">offstart: <span class="extype" name="scala.Int">Int</span></span>, <span name="offend">offend: <span class="extype" name="scala.Int">Int</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.crypto.package@BitStreamextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Bit stream that can be written to and read at both ends (i.e.</p><div class="fullcomment"><div class="comment cmt"><p>Bit stream that can be written to and read at both ends (i.e. you can read from the end or the beginning of the stream)
+</p></div><dl class="paramcmts block"><dt class="param">bytes</dt><dd class="cmt"><p>bits packed as bytes, the last byte is padded with 0s</p></dd><dt class="param">offstart</dt><dd class="cmt"><p>offset at which the first bit is in the first byte</p></dd><dt class="param">offend</dt><dd class="cmt"><p>offset at which the last bit is in the last byte</p></dd></dl></div>
+    </li><li name="fr.acinq.eclair.crypto.ShaChain" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="ShaChainextendsProductwithSerializable"></a>
+      <a id="ShaChain:ShaChain"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="ShaChain.html"><span class="name">ShaChain</span></a><span class="params">(<span name="knownHashes">knownHashes: <span class="extype" name="scala.Predef.Map">Map</span>[<span class="extype" name="scala.Vector">Vector</span>[<span class="extype" name="scala.Boolean">Boolean</span>], <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span>]</span>, <span name="lastIndex">lastIndex: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Long">Long</span>] = <span class="symbol">None</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.crypto.package@ShaChainextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Structure used to intelligently store unguessable hashes.</p><div class="fullcomment"><div class="comment cmt"><p>Structure used to intelligently store unguessable hashes.
+</p></div><dl class="paramcmts block"><dt class="param">knownHashes</dt><dd class="cmt"><p>know hashes</p></dd><dt class="param">lastIndex</dt><dd class="cmt"><p>index of the last known hash. Hashes are supposed to be added in reverse order i.e.
+                   from 0xFFFFFFFFFFFFFFFF down to 0</p></dd></dl></div>
+    </li><li name="fr.acinq.eclair.crypto.TransportHandler" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="TransportHandler[T]extendsActorwithFSM[fr.acinq.eclair.crypto.TransportHandler.State,fr.acinq.eclair.crypto.TransportHandler.Data]"></a>
+      <a id="TransportHandler[T]:TransportHandler[T]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="TransportHandler.html"><span class="name">TransportHandler</span></a><span class="tparams">[<span name="T">T</span>]</span><span class="result"> extends <span class="extype" name="akka.actor.Actor">Actor</span> with <span class="extype" name="akka.actor.FSM">FSM</span>[<a href="TransportHandler$$State.html" class="extype" name="fr.acinq.eclair.crypto.TransportHandler.State">State</a>, <a href="TransportHandler$$Data.html" class="extype" name="fr.acinq.eclair.crypto.TransportHandler.Data">Data</a>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.crypto.package@TransportHandler[T]extendsActorwithFSM[fr.acinq.eclair.crypto.TransportHandler.State,fr.acinq.eclair.crypto.TransportHandler.Data]" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">see BOLT #8
+This class handles the transport layer:
+- initial handshake.</p><div class="fullcomment"><div class="comment cmt"><p>see BOLT #8
+This class handles the transport layer:
+- initial handshake. upon completion we will have  a pair of cipher states (one for encryption, one for decryption)
+- encryption/decryption of messages</p><p>Once the initial handshake has been completed successfully, the handler will create a listener actor with the
+provided factory, and will forward it all decrypted messages
+</p></div></div>
+    </li></ol>
+            </div>
+
+        
+
+        <div id="values" class="values members">
+              <h3>Value Members</h3>
+              <ol><li name="fr.acinq.eclair.crypto.BitStream" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="BitStream"></a>
+      <a id="BitStream:BitStream"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="BitStream$.html"><span class="name">BitStream</span></a><span class="result"> extends <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.crypto.package@BitStream" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.crypto.ChaCha20" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ChaCha20"></a>
+      <a id="ChaCha20:ChaCha20"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="ChaCha20$.html"><span class="name">ChaCha20</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.crypto.package@ChaCha20" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">ChaCha20 block cipher
+see https://tools.ietf.org/html/rfc7539#section-2.5
+</p>
+    </li><li name="fr.acinq.eclair.crypto.ChaCha20Legacy" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ChaCha20Legacy"></a>
+      <a id="ChaCha20Legacy:ChaCha20Legacy"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="ChaCha20Legacy$.html"><span class="name">ChaCha20Legacy</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.crypto.package@ChaCha20Legacy" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.crypto.ChaCha20Poly1305" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="ChaCha20Poly1305"></a>
+      <a id="ChaCha20Poly1305:ChaCha20Poly1305"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="ChaCha20Poly1305$.html"><span class="name">ChaCha20Poly1305</span></a><span class="result"> extends <span class="extype" name="grizzled.slf4j.Logging">Logging</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.crypto.package@ChaCha20Poly1305" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">ChaCha20Poly1305 AEAD (Authenticated Encryption with Additional Data) algorithm
+see https://tools.ietf.org/html/rfc7539#section-2.5</p><div class="fullcomment"><div class="comment cmt"><p>ChaCha20Poly1305 AEAD (Authenticated Encryption with Additional Data) algorithm
+see https://tools.ietf.org/html/rfc7539#section-2.5</p><p>This what we should be using (see BOLT #8)
+</p></div></div>
+    </li><li name="fr.acinq.eclair.crypto.Chacha20Poly1305Legacy" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="Chacha20Poly1305Legacy"></a>
+      <a id="Chacha20Poly1305Legacy:Chacha20Poly1305Legacy"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Chacha20Poly1305Legacy$.html"><span class="name">Chacha20Poly1305Legacy</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.crypto.package@Chacha20Poly1305Legacy" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Legacy implementation of ChaCha20Poly1305
+Nonce is 8 bytes instead of 12 and the output tag computation is different</p><div class="fullcomment"><div class="comment cmt"><p>Legacy implementation of ChaCha20Poly1305
+Nonce is 8 bytes instead of 12 and the output tag computation is different</p><p>Used in our first interop tests with lightning-c, should not be needed anymore
+</p></div></div>
+    </li><li name="fr.acinq.eclair.crypto.Generators" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Generators"></a>
+      <a id="Generators:Generators"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Generators$.html"><span class="name">Generators</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.crypto.package@Generators" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Created by PM on 07/12/2016.</p>
+    </li><li name="fr.acinq.eclair.crypto.Noise" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Noise"></a>
+      <a id="Noise:Noise"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Noise$.html"><span class="name">Noise</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.crypto.package@Noise" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">see http://noiseprotocol.org/
+</p>
+    </li><li name="fr.acinq.eclair.crypto.Poly1305" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Poly1305"></a>
+      <a id="Poly1305:Poly1305"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Poly1305$.html"><span class="name">Poly1305</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.crypto.package@Poly1305" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Poly1305 authenticator
+see https://tools.ietf.org/html/rfc7539#section-2.5
+</p>
+    </li><li name="fr.acinq.eclair.crypto.ShaChain" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ShaChain"></a>
+      <a id="ShaChain:ShaChain"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="ShaChain$.html"><span class="name">ShaChain</span></a><span class="result"> extends <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.crypto.package@ShaChain" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">see https://github.com/rustyrussell/lightning-rfc/blob/master/early-drafts/shachain.txt
+</p>
+    </li><li name="fr.acinq.eclair.crypto.Sphinx" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="Sphinx"></a>
+      <a id="Sphinx:Sphinx"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Sphinx$.html"><span class="name">Sphinx</span></a><span class="result"> extends <span class="extype" name="grizzled.slf4j.Logging">Logging</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.crypto.package@Sphinx" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Created by fabrice on 13/01/17.</p><div class="fullcomment"><div class="comment cmt"><p>Created by fabrice on 13/01/17.
+see https://github.com/lightningnetwork/lightning-rfc/blob/master/04-onion-routing.md
+</p></div></div>
+    </li><li name="fr.acinq.eclair.crypto.TransportHandler" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="TransportHandler"></a>
+      <a id="TransportHandler:TransportHandler"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="TransportHandler$.html"><span class="name">TransportHandler</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.crypto.package@TransportHandler" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li></ol>
+            </div>
+
+        
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        
+        
+        </div>
+
+        <div id="groupedMembers">
+        <div class="group" name="Ungrouped">
+              <h3>Ungrouped</h3>
+              
+            </div>
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">  </div>
+
+
+    </body>
+      </html>

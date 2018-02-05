@@ -1,0 +1,11 @@
+prefix=/usr/src/octoin/depends/x86_64-pc-linux-gnu
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: OctoinCoin Core consensus library
+Description: Library for the Bitcoin consensus protocol.
+Version: 1.2.1
+Libs: -L${libdir} -lbitcoinconsensus
+Cflags: -I${includedir}
+Requires.private: libcrypto

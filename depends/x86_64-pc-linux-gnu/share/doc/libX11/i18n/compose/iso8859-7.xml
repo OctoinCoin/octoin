@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="iso-8859-7" ?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+ "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd">
+<section id="iso8859-7">
+<title>Xlib Compose Keys for iso8859-7</title>
+<para>Applications using Xlib input handling should recognize
+ these compose key sequences in locales using the
+ iso8859-7 compose table.</para>
+
+<para> ISO 8859-7 (Greek) Compose Sequence    Sequence Definition  &lt;Multi_key&gt; Means &lt;Compose&gt; Special Character</para>
+<table><title>Compose Key Sequences for iso8859-7</title>
+<tgroup cols='2'>
+ <colspec colname='seq' /><colspec colname='action' />
+ <thead><row>
+  <entry>Key Sequence</entry><entry>Action</entry>
+ </row></thead>
+ <tbody>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>plus</keysym><keysym>plus</keysym></keycombo></entry><entry>"#"	numbersign</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>apostrophe</keysym><keysym>space</keysym></keycombo></entry><entry>"'"	apostrophe</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>space</keysym><keysym>apostrophe</keysym></keycombo></entry><entry>"'"	apostrophe</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>A</keysym><keysym>T</keysym></keycombo></entry><entry>"@"	at</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>parenleft</keysym><keysym>parenleft</keysym></keycombo></entry><entry>"["	bracketleft</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>slash</keysym><keysym>slash</keysym></keycombo></entry><entry>"\\"	backslash</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>slash</keysym><keysym>less</keysym></keycombo></entry><entry>"\\"	backslash</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>less</keysym><keysym>slash</keysym></keycombo></entry><entry>"\\"	backslash</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>parenright</keysym><keysym>parenright</keysym></keycombo></entry><entry>"]"	bracketright</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>asciicircum</keysym><keysym>space</keysym></keycombo></entry><entry>"^"	asciicircum</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>space</keysym><keysym>asciicircum</keysym></keycombo></entry><entry>"^"	asciicircum</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>greater</keysym><keysym>space</keysym></keycombo></entry><entry>"^"	asciicircum</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>space</keysym><keysym>greater</keysym></keycombo></entry><entry>"^"	asciicircum</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>grave</keysym><keysym>space</keysym></keycombo></entry><entry>"`"	grave</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>space</keysym><keysym>grave</keysym></keycombo></entry><entry>"`"	grave</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>parenleft</keysym><keysym>minus</keysym></keycombo></entry><entry>"{"	braceleft</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>minus</keysym><keysym>parenleft</keysym></keycombo></entry><entry>"{"	braceleft</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>slash</keysym><keysym>asciicircum</keysym></keycombo></entry><entry>"|"	bar</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>asciicircum</keysym><keysym>slash</keysym></keycombo></entry><entry>"|"	bar</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>V</keysym><keysym>L</keysym></keycombo></entry><entry>"|"	bar</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>L</keysym><keysym>V</keysym></keycombo></entry><entry>"|"	bar</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>v</keysym><keysym>l</keysym></keycombo></entry><entry>"|"	bar</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>l</keysym><keysym>v</keysym></keycombo></entry><entry>"|"	bar</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>parenright</keysym><keysym>minus</keysym></keycombo></entry><entry>"}"	braceright</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>minus</keysym><keysym>parenright</keysym></keycombo></entry><entry>"}"	braceright</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>asciitilde</keysym><keysym>space</keysym></keycombo></entry><entry>"~"	asciitilde</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>space</keysym><keysym>asciitilde</keysym></keycombo></entry><entry>"~"	asciitilde</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>minus</keysym><keysym>space</keysym></keycombo></entry><entry>"~"	asciitilde</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>space</keysym><keysym>minus</keysym></keycombo></entry><entry>"~"	asciitilde</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>l</keysym><keysym>minus</keysym></keycombo></entry><entry>"&#163;"	sterling</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>minus</keysym><keysym>l</keysym></keycombo></entry><entry>"&#163;"	sterling</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>L</keysym><keysym>minus</keysym></keycombo></entry><entry>"&#163;"	sterling</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>minus</keysym><keysym>L</keysym></keycombo></entry><entry>"&#163;"	sterling</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>l</keysym><keysym>equal</keysym></keycombo></entry><entry>"&#163;"	sterling</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>equal</keysym><keysym>l</keysym></keycombo></entry><entry>"&#163;"	sterling</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>L</keysym><keysym>equal</keysym></keycombo></entry><entry>"&#163;"	sterling</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>equal</keysym><keysym>L</keysym></keycombo></entry><entry>"&#163;"	sterling</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>s</keysym><keysym>o</keysym></keycombo></entry><entry>"&#167;"	section</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>o</keysym><keysym>s</keysym></keycombo></entry><entry>"&#167;"	section</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>S</keysym><keysym>O</keysym></keycombo></entry><entry>"&#167;"	section</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>O</keysym><keysym>S</keysym></keycombo></entry><entry>"&#167;"	section</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>S</keysym><keysym>exclam</keysym></keycombo></entry><entry>"&#167;"	section</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>exclam</keysym><keysym>S</keysym></keycombo></entry><entry>"&#167;"	section</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>s</keysym><keysym>exclam</keysym></keycombo></entry><entry>"&#167;"	section</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>exclam</keysym><keysym>s</keysym></keycombo></entry><entry>"&#167;"	section</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>S</keysym><keysym>0</keysym></keycombo></entry><entry>"&#167;"	section</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>0</keysym><keysym>S</keysym></keycombo></entry><entry>"&#167;"	section</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>s</keysym><keysym>0</keysym></keycombo></entry><entry>"&#167;"	section</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>0</keysym><keysym>s</keysym></keycombo></entry><entry>"&#167;"	section</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>c</keysym><keysym>o</keysym></keycombo></entry><entry>"&#169;"	copyright</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>o</keysym><keysym>c</keysym></keycombo></entry><entry>"&#169;"	copyright</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>C</keysym><keysym>O</keysym></keycombo></entry><entry>"&#169;"	copyright</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>O</keysym><keysym>C</keysym></keycombo></entry><entry>"&#169;"	copyright</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>c</keysym><keysym>O</keysym></keycombo></entry><entry>"&#169;"	copyright</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>O</keysym><keysym>c</keysym></keycombo></entry><entry>"&#169;"	copyright</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>C</keysym><keysym>o</keysym></keycombo></entry><entry>"&#169;"	copyright</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>o</keysym><keysym>C</keysym></keycombo></entry><entry>"&#169;"	copyright</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>c</keysym><keysym>0</keysym></keycombo></entry><entry>"&#169;"	copyright</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>0</keysym><keysym>c</keysym></keycombo></entry><entry>"&#169;"	copyright</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>C</keysym><keysym>0</keysym></keycombo></entry><entry>"&#169;"	copyright</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>0</keysym><keysym>C</keysym></keycombo></entry><entry>"&#169;"	copyright</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>parenleft</keysym><keysym>c</keysym></keycombo></entry><entry>"&#169;"	copyright</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>less</keysym><keysym>less</keysym></keycombo></entry><entry>"&#171;"	guillemotleft</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>greater</keysym><keysym>greater</keysym></keycombo></entry><entry>"&#187;"	guillemotright</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>0</keysym><keysym>asciicircum</keysym></keycombo></entry><entry>"&#176;"	degree</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>asciicircum</keysym><keysym>0</keysym></keycombo></entry><entry>"&#176;"	degree</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>0</keysym><keysym>asterisk</keysym></keycombo></entry><entry>"&#176;"	degree</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>asterisk</keysym><keysym>0</keysym></keycombo></entry><entry>"&#176;"	degree</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>plus</keysym><keysym>minus</keysym></keycombo></entry><entry>"&#177;"	plusminus</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>minus</keysym><keysym>plus</keysym></keycombo></entry><entry>"&#177;"	plusminus</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>2</keysym><keysym>asciicircum</keysym></keycombo></entry><entry>"&#178;"	twosuperior</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>asciicircum</keysym><keysym>2</keysym></keycombo></entry><entry>"&#178;"	twosuperior</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>S</keysym><keysym>2</keysym></keycombo></entry><entry>"&#178;"	twosuperior</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>2</keysym><keysym>S</keysym></keycombo></entry><entry>"&#178;"	twosuperior</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>s</keysym><keysym>2</keysym></keycombo></entry><entry>"&#178;"	twosuperior</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>2</keysym><keysym>s</keysym></keycombo></entry><entry>"&#178;"	twosuperior</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>3</keysym><keysym>asciicircum</keysym></keycombo></entry><entry>"&#179;"	threesuperior</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>asciicircum</keysym><keysym>3</keysym></keycombo></entry><entry>"&#179;"	threesuperior</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>S</keysym><keysym>3</keysym></keycombo></entry><entry>"&#179;"	threesuperior</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>3</keysym><keysym>S</keysym></keycombo></entry><entry>"&#179;"	threesuperior</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>s</keysym><keysym>3</keysym></keycombo></entry><entry>"&#179;"	threesuperior</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>3</keysym><keysym>s</keysym></keycombo></entry><entry>"&#179;"	threesuperior</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>period</keysym><keysym>asciicircum</keysym></keycombo></entry><entry>"&#183;"	periodcentered</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>asciicircum</keysym><keysym>period</keysym></keycombo></entry><entry>"&#183;"	periodcentered</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>period</keysym><keysym>period</keysym></keycombo></entry><entry>"&#183;"	periodcentered</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>1</keysym><keysym>2</keysym></keycombo></entry><entry>"&#189;"	onehalf</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>space</keysym><keysym>space</keysym></keycombo></entry><entry>"&#160;"	nobreakspace</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>bar</keysym><keysym>bar</keysym></keycombo></entry><entry>"&#166;"	brokenbar</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>exclam</keysym><keysym>asciicircum</keysym></keycombo></entry><entry>"&#166;"	brokenbar</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>asciicircum</keysym><keysym>exclam</keysym></keycombo></entry><entry>"&#166;"	brokenbar</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>V</keysym><keysym>B</keysym></keycombo></entry><entry>"&#166;"	brokenbar</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>B</keysym><keysym>V</keysym></keycombo></entry><entry>"&#166;"	brokenbar</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>v</keysym><keysym>b</keysym></keycombo></entry><entry>"&#166;"	brokenbar</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>b</keysym><keysym>v</keysym></keycombo></entry><entry>"&#166;"	brokenbar</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>minus</keysym><keysym>comma</keysym></keycombo></entry><entry>"&#172;"	notsign</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>comma</keysym><keysym>minus</keysym></keycombo></entry><entry>"&#172;"	notsign</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>minus</keysym><keysym>minus</keysym></keycombo></entry><entry>"&#173;"	hyphen</entry></row>
+<row><entry namest='seq' nameend='action'>should be Greek tonos but not defined in X11</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>apostrophe</keysym><keysym>apostrophe</keysym></keycombo></entry><entry>"&#180;"	acute</entry></row>
+<row><entry namest='seq' nameend='action'>should be Greek dialytika but not defined in X11</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>quotedbl</keysym><keysym>quotedbl</keysym></keycombo></entry><entry>"&#168;"	diaeresis</entry></row>
+<row><entry namest='seq' nameend='action'>special characters that don't exist in Latin-1</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>less</keysym><keysym>apostrophe</keysym></keycombo></entry><entry>"&#161;"	leftsinglequotemark</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>apostrophe</keysym><keysym>less</keysym></keycombo></entry><entry>"&#161;"	leftsinglequotemark</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>greater</keysym><keysym>apostrophe</keysym></keycombo></entry><entry>"&#162;"	rightsinglequotemark</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>apostrophe</keysym><keysym>greater</keysym></keycombo></entry><entry>"&#162;"	rightsinglequotemark</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>asciitilde</keysym><keysym>asciitilde</keysym></keycombo></entry><entry>"&#175;"	Greek_horizbar</entry></row>
+<row><entry namest='seq' nameend='action'>Accented Alphabet</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Greek_ALPHA</keysym><keysym>apostrophe</keysym></keycombo></entry><entry>"&#182;" Greek_ALPHAaccent</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>apostrophe</keysym><keysym>Greek_ALPHA</keysym></keycombo></entry><entry>"&#182;" Greek_ALPHAaccent</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Greek_EPSILON</keysym><keysym>apostrophe</keysym></keycombo></entry><entry>"&#184;" Greek_EPSILONaccent</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>apostrophe</keysym><keysym>Greek_EPSILON</keysym></keycombo></entry><entry>"&#184;" Greek_EPSILONaccent</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Greek_ETA</keysym><keysym>apostrophe</keysym></keycombo></entry><entry>"&#185;" Greek_ETAaccent</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>apostrophe</keysym><keysym>Greek_ETA</keysym></keycombo></entry><entry>"&#185;" Greek_ETAaccent</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Greek_IOTA</keysym><keysym>apostrophe</keysym></keycombo></entry><entry>"&#186;" Greek_IOTAaccent</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>apostrophe</keysym><keysym>Greek_IOTA</keysym></keycombo></entry><entry>"&#186;" Greek_IOTAaccent</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Greek_OMICRON</keysym><keysym>apostrophe</keysym></keycombo></entry><entry>"&#188;" Greek_OMICRONaccent</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>apostrophe</keysym><keysym>Greek_OMICRON</keysym></keycombo></entry><entry>"&#188;" Greek_OMICRONaccent</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Greek_UPSILON</keysym><keysym>apostrophe</keysym></keycombo></entry><entry>"&#190;" Greek_UPSILONaccent</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>apostrophe</keysym><keysym>Greek_UPSILON</keysym></keycombo></entry><entry>"&#190;" Greek_UPSILONaccent</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Greek_OMEGA</keysym><keysym>apostrophe</keysym></keycombo></entry><entry>"&#191;" Greek_OMEGAaccent</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>apostrophe</keysym><keysym>Greek_OMEGA</keysym></keycombo></entry><entry>"&#191;" Greek_OMEGAaccent</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Greek_IOTA</keysym><keysym>quotedbl</keysym></keycombo></entry><entry>"&#218;" Greek_IOTAdieresis</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>quotedbl</keysym><keysym>Greek_IOTA</keysym></keycombo></entry><entry>"&#218;" Greek_IOTAdieresis</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Greek_UPSILON</keysym><keysym>quotedbl</keysym></keycombo></entry><entry>"&#219;" Greek_UPSILONdieresis</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>quotedbl</keysym><keysym>Greek_UPSILON</keysym></keycombo></entry><entry>"&#219;" Greek_UPSILONdieresis</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Greek_alpha</keysym><keysym>apostrophe</keysym></keycombo></entry><entry>"&#220;" Greek_alphaaccent</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>apostrophe</keysym><keysym>Greek_alpha</keysym></keycombo></entry><entry>"&#220;" Greek_alphaaccent</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Greek_epsilon</keysym><keysym>apostrophe</keysym></keycombo></entry><entry>"&#221;" Greek_epsilonaccent</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>apostrophe</keysym><keysym>Greek_epsilon</keysym></keycombo></entry><entry>"&#221;" Greek_epsilonaccent</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Greek_eta</keysym><keysym>apostrophe</keysym></keycombo></entry><entry>"&#222;" Greek_etaaccent</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>apostrophe</keysym><keysym>Greek_eta</keysym></keycombo></entry><entry>"&#222;" Greek_etaaccent</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Greek_iota</keysym><keysym>apostrophe</keysym></keycombo></entry><entry>"&#223;" Greek_iotaaccent</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>apostrophe</keysym><keysym>Greek_iota</keysym></keycombo></entry><entry>"&#223;" Greek_iotaaccent</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Greek_omicron</keysym><keysym>apostrophe</keysym></keycombo></entry><entry>"&#252;" Greek_omicronaccent</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>apostrophe</keysym><keysym>Greek_omicron</keysym></keycombo></entry><entry>"&#252;" Greek_omicronaccent</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Greek_upsilon</keysym><keysym>apostrophe</keysym></keycombo></entry><entry>"&#253;" Greek_upsilonaccent</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>apostrophe</keysym><keysym>Greek_upsilon</keysym></keycombo></entry><entry>"&#253;" Greek_upsilonaccent</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Greek_omega</keysym><keysym>apostrophe</keysym></keycombo></entry><entry>"&#254;" Greek_omegaaccent</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>apostrophe</keysym><keysym>Greek_omega</keysym></keycombo></entry><entry>"&#254;" Greek_omegaaccent</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Greek_iota</keysym><keysym>quotedbl</keysym></keycombo></entry><entry>"&#250;" Greek_iotadieresis</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>quotedbl</keysym><keysym>Greek_iota</keysym></keycombo></entry><entry>"&#250;" Greek_iotadieresis</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Greek_upsilon</keysym><keysym>quotedbl</keysym></keycombo></entry><entry>"&#251;" Greek_upsilondieresis</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>quotedbl</keysym><keysym>Greek_upsilon</keysym></keycombo></entry><entry>"&#251;" Greek_upsilondieresis</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>apostrophe</keysym><keysym>quotedbl</keysym><keysym>Greek_iota</keysym></keycombo></entry><entry>"&#192;" Greek_iotaaccentdieresis</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>quotedbl</keysym><keysym>apostrophe</keysym><keysym>Greek_iota</keysym></keycombo></entry><entry>"&#192;" Greek_iotaaccentdieresis</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>apostrophe</keysym><keysym>quotedbl</keysym><keysym>Greek_upsilon</keysym></keycombo></entry><entry>"&#224;" Greek_upsilonaccentdieresis</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>quotedbl</keysym><keysym>apostrophe</keysym><keysym>Greek_upsilon</keysym></keycombo></entry><entry>"&#224;" Greek_upsilonaccentdieresis</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>apostrophe</keysym><keysym>quotedbl</keysym><keysym>space</keysym></keycombo></entry><entry>"&#181;" Greek_accentdieresis</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>quotedbl</keysym><keysym>apostrophe</keysym><keysym>space</keysym></keycombo></entry><entry>"&#181;" Greek_accentdieresis</entry></row>
+<row><entry namest='seq' nameend='action'>  dead key accent keysyms Special Character</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_circumflex</keysym><keysym>slash</keysym></keycombo></entry><entry>"|"	bar</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_grave</keysym><keysym>space</keysym></keycombo></entry><entry>"`"	grave</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_diaeresis</keysym><keysym>space</keysym></keycombo></entry><entry>"&#168;"	diaeresis</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_circumflex</keysym><keysym>space</keysym></keycombo></entry><entry>"^"	asciicircum</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_tilde</keysym><keysym>space</keysym></keycombo></entry><entry>"~"	asciitilde</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_doubleacute</keysym><keysym>space</keysym></keycombo></entry><entry>"\""	quotedbl</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_abovering</keysym><keysym>space</keysym></keycombo></entry><entry>"&#176;"	degree</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_abovering</keysym><keysym>dead_abovering</keysym></keycombo></entry><entry>"&#176;"	degree</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_circumflex</keysym><keysym>0</keysym></keycombo></entry><entry>"&#176;"	degree</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_circumflex</keysym><keysym>2</keysym></keycombo></entry><entry>"&#178;"	twosuperior</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_circumflex</keysym><keysym>3</keysym></keycombo></entry><entry>"&#179;"	threesuperior</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_circumflex</keysym><keysym>period</keysym></keycombo></entry><entry>"&#183;"	periodcentered</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_circumflex</keysym><keysym>exclam</keysym></keycombo></entry><entry>"&#166;"	brokenbar</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_cedilla</keysym><keysym>minus</keysym></keycombo></entry><entry>"&#172;"	notsign</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_acute</keysym><keysym>apostrophe</keysym></keycombo></entry><entry>"&#180;"	acute</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_diaeresis</keysym><keysym>quotedbl</keysym></keycombo></entry><entry>"&#168;"	diaeresis</entry></row>
+<row><entry namest='seq' nameend='action'>Accented Alphabet (plus some more symbols)</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_acute</keysym><keysym>Greek_alpha</keysym></keycombo></entry><entry>"&#220;"	Greek_alphaaccent</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_acute</keysym><keysym>Greek_epsilon</keysym></keycombo></entry><entry>"&#221;"	Greek_epsilonaccent</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_acute</keysym><keysym>Greek_eta</keysym></keycombo></entry><entry>"&#222;"	Greek_etaaccent</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_acute</keysym><keysym>Greek_iota</keysym></keycombo></entry><entry>"&#223;"	Greek_iotaaccent</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_acute</keysym><keysym>Greek_omicron</keysym></keycombo></entry><entry>"&#252;"	Greek_omicronaccent</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_acute</keysym><keysym>Greek_upsilon</keysym></keycombo></entry><entry>"&#253;"	Greek_upsilonaccent</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_acute</keysym><keysym>Greek_omega</keysym></keycombo></entry><entry>"&#254;"	Greek_omegaaccent</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_acute</keysym><keysym>Greek_ALPHA</keysym></keycombo></entry><entry>"&#182;"	Greek_ALPHAaccent</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_acute</keysym><keysym>Greek_EPSILON</keysym></keycombo></entry><entry>"&#184;"	Greek_EPSILONaccent</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_acute</keysym><keysym>Greek_ETA</keysym></keycombo></entry><entry>"&#185;"	Greek_ETAaccent</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_acute</keysym><keysym>Greek_IOTA</keysym></keycombo></entry><entry>"&#186;"	Greek_IOTAaccent</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_acute</keysym><keysym>Greek_OMICRON</keysym></keycombo></entry><entry>"&#188;"	Greek_OMICRONaccent</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_acute</keysym><keysym>Greek_UPSILON</keysym></keycombo></entry><entry>"&#190;"	Greek_UPSILONaccent</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_acute</keysym><keysym>Greek_OMEGA</keysym></keycombo></entry><entry>"&#191;"	Greek_OMEGAaccent</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_acute</keysym><keysym>space</keysym></keycombo></entry><entry>"&#180;"	acute</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_acute</keysym><keysym>dead_acute</keysym></keycombo></entry><entry>"&#180;"	acute</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_acute</keysym><keysym>period</keysym></keycombo></entry><entry>"&#183;"	periodcentered</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_acute</keysym><keysym>less</keysym></keycombo></entry><entry>"&#171;"	guillemotleft</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_acute</keysym><keysym>greater</keysym></keycombo></entry><entry>"&#187;"	guillemotright</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_diaeresis</keysym><keysym>Greek_iota</keysym></keycombo></entry><entry>"&#250;"	Greek_iotadieresis</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_diaeresis</keysym><keysym>Greek_upsilon</keysym></keycombo></entry><entry>"&#251;"	Greek_upsilondieresis</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_diaeresis</keysym><keysym>Greek_IOTA</keysym></keycombo></entry><entry>"&#218;"	Greek_IOTAdieresis</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_diaeresis</keysym><keysym>Greek_UPSILON</keysym></keycombo></entry><entry>"&#219;"	Greek_UPSILONdieresis</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_diaeresis</keysym><keysym>dead_diaeresis</keysym></keycombo></entry><entry>"&#168;"	diaeresis</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_diaeresis</keysym><keysym>period</keysym></keycombo></entry><entry>"&#183;"	periodcentered</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_diaeresis</keysym><keysym>less</keysym></keycombo></entry><entry>"&#171;"	guillemotleft</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_diaeresis</keysym><keysym>greater</keysym></keycombo></entry><entry>"&#187;"	guillemotright</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_acute</keysym><keysym>dead_diaeresis</keysym><keysym>Greek_iota</keysym></keycombo></entry><entry>"&#192;"	Greek_iotaaccentdieresis</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_acute</keysym><keysym>dead_diaeresis</keysym><keysym>Greek_upsilon</keysym></keycombo></entry><entry>"&#224;"	Greek_upsilonaccentdieresis</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_acute</keysym><keysym>dead_diaeresis</keysym><keysym>space</keysym></keycombo></entry><entry>"&#181;"	Greek_accentdieresis</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_diaeresis</keysym><keysym>dead_acute</keysym><keysym>Greek_iota</keysym></keycombo></entry><entry>"&#192;"	Greek_iotaaccentdieresis</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_diaeresis</keysym><keysym>dead_acute</keysym><keysym>Greek_upsilon</keysym></keycombo></entry><entry>"&#224;"	Greek_upsilonaccentdieresis</entry></row>
+<row><entry><keycombo action='seq'><keysym>dead_diaeresis</keysym><keysym>dead_acute</keysym><keysym>space</keysym></keycombo></entry><entry>"&#181;"	Greek_accentdieresis</entry></row>
+</tbody>
+</tgroup>
+</table>
+</section>

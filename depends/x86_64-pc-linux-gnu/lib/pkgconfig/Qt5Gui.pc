@@ -1,0 +1,14 @@
+prefix=/usr/src/octoin/depends/x86_64-pc-linux-gnu
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qt5 Gui
+Description: Qt Gui module
+Version: 5.6.1
+Libs: -L${libdir} -lQt5Gui 
+Libs.private: -L/usr/src/octoin/depends/x86_64-pc-linux-gnu/lib -lQt5Core -lqtpcre -lm -ldl -lrt -lpthread -lqtharfbuzzng -lQt5Core -lpthread -L/usr/src/octoin/depends/x86_64-pc-linux-gnu/lib -lqtpcre -lm -ldl -lrt  
+Cflags: -I${includedir}/QtGui 
+Requires: Qt5Core
+

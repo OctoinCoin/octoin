@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+ "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd">
+<section id="koi8-c">
+<title>Xlib Compose Keys for koi8-c</title>
+<para>Applications using Xlib input handling should recognize
+ these compose key sequences in locales using the
+ koi8-c compose table.</para>
+
+<para> koi8-c Compose Sequence  Sequence Definition  </para>
+<table><title>Compose Key Sequences for koi8-c</title>
+<tgroup cols='2'>
+ <colspec colname='seq' /><colspec colname='action' />
+ <thead><row>
+  <entry>Key Sequence</entry><entry>Action</entry>
+ </row></thead>
+ <tbody>
+<row><entry namest='seq' nameend='action'>&lt;Multi_key&gt; Means &lt;Compose&gt; Special Character</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>plus</keysym><keysym>plus</keysym></keycombo></entry><entry>"#"   numbersign</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>apostrophe</keysym><keysym>space</keysym></keycombo></entry><entry>"'"   apostrophe</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>space</keysym><keysym>apostrophe</keysym></keycombo></entry><entry>"'"   apostrophe</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>A</keysym><keysym>T</keysym></keycombo></entry><entry>"@"   at</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>parenleft</keysym><keysym>parenleft</keysym></keycombo></entry><entry>"["   bracketleft</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>slash</keysym><keysym>slash</keysym></keycombo></entry><entry>"\\"  backslash</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>slash</keysym><keysym>less</keysym></keycombo></entry><entry>"\\"  backslash</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>less</keysym><keysym>slash</keysym></keycombo></entry><entry>"\\"  backslash</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>parenright</keysym><keysym>parenright</keysym></keycombo></entry><entry>"]"   bracketright</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>asciicircum</keysym><keysym>space</keysym></keycombo></entry><entry>"^"   asciicircum</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>space</keysym><keysym>asciicircum</keysym></keycombo></entry><entry>"^"   asciicircum</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>greater</keysym><keysym>space</keysym></keycombo></entry><entry>"^"   asciicircum</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>space</keysym><keysym>greater</keysym></keycombo></entry><entry>"^"   asciicircum</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>grave</keysym><keysym>space</keysym></keycombo></entry><entry>"`"   grave</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>space</keysym><keysym>grave</keysym></keycombo></entry><entry>"`"   grave</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>parenleft</keysym><keysym>minus</keysym></keycombo></entry><entry>"{"   braceleft</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>minus</keysym><keysym>parenleft</keysym></keycombo></entry><entry>"{"   braceleft</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>slash</keysym><keysym>asciicircum</keysym></keycombo></entry><entry>"|"   bar</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>asciicircum</keysym><keysym>slash</keysym></keycombo></entry><entry>"|"   bar</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>V</keysym><keysym>L</keysym></keycombo></entry><entry>"|"   bar</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>L</keysym><keysym>V</keysym></keycombo></entry><entry>"|"   bar</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>v</keysym><keysym>l</keysym></keycombo></entry><entry>"|"   bar</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>l</keysym><keysym>v</keysym></keycombo></entry><entry>"|"   bar</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>parenright</keysym><keysym>minus</keysym></keycombo></entry><entry>"}"   braceright</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>minus</keysym><keysym>parenright</keysym></keycombo></entry><entry>"}"   braceright</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>asciitilde</keysym><keysym>space</keysym></keycombo></entry><entry>"~"   asciitilde</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>space</keysym><keysym>asciitilde</keysym></keycombo></entry><entry>"~"   asciitilde</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>minus</keysym><keysym>space</keysym></keycombo></entry><entry>"~"   asciitilde</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>space</keysym><keysym>minus</keysym></keycombo></entry><entry>"~"   asciitilde</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>space</keysym><keysym>space</keysym></keycombo></entry><entry>"&#160;"	nobreakspace</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_ghe</keysym><keysym>minus</keysym></keycombo></entry><entry>"&#128;"	Cyrillic_ghe_bar</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_GHE</keysym><keysym>minus</keysym></keycombo></entry><entry>"&#144;"	Cyrillic_GHE_bar</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_zhe</keysym><keysym>comma</keysym></keycombo></entry><entry>"&#129;"	Cyrillic_zhe_descender</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_ZHE</keysym><keysym>comma</keysym></keycombo></entry><entry>"&#145;"	Cyrillic_ZHE_descender</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_ka</keysym><keysym>comma</keysym></keycombo></entry><entry>"&#130;"	Cyrillic_ka_descender</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_KA</keysym><keysym>comma</keysym></keycombo></entry><entry>"&#146;"	Cyrillic_KA_descender</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_ka</keysym><keysym>slash</keysym></keycombo></entry><entry>"&#131;"	Cyrillic_ka_vertstroke</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_KA</keysym><keysym>slash</keysym></keycombo></entry><entry>"&#147;"	Cyrillic_KA_vertstroke</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_ka</keysym><keysym>bar</keysym></keycombo></entry><entry>"&#131;"	Cyrillic_ka_vertstroke</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_KA</keysym><keysym>bar</keysym></keycombo></entry><entry>"&#147;"	Cyrillic_KA_vertstroke</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_en</keysym><keysym>comma</keysym></keycombo></entry><entry>"&#132;"	Cyrillic_en_descender</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_EN</keysym><keysym>comma</keysym></keycombo></entry><entry>"&#148;"	Cyrillic_EN_descender</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_u</keysym><keysym>apostrophe</keysym></keycombo></entry><entry>"&#133;"	Cyrillic_u_straight</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_U</keysym><keysym>apostrophe</keysym></keycombo></entry><entry>"&#149;"	Cyrillic_U_straight</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_u</keysym><keysym>bar</keysym></keycombo></entry><entry>"&#133;"	Cyrillic_u_straight</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_U</keysym><keysym>bar</keysym></keycombo></entry><entry>"&#149;"	Cyrillic_U_straight</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_u</keysym><keysym>comma</keysym></keycombo></entry><entry>"&#134;"	Cyrillic_u_straight_bar</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_U</keysym><keysym>comma</keysym></keycombo></entry><entry>"&#150;"	Cyrillic_U_straight_bat</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_u</keysym><keysym>slash</keysym></keycombo></entry><entry>"&#134;"	Cyrillic_u_straight_bar</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_U</keysym><keysym>slash</keysym></keycombo></entry><entry>"&#150;"	Cyrillic_U_straight_bat</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_ha</keysym><keysym>comma</keysym></keycombo></entry><entry>"&#135;"	Cyrillic_ha_descender</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_HA</keysym><keysym>comma</keysym></keycombo></entry><entry>"&#151;"	Cyrillic_HA_descender</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_che</keysym><keysym>comma</keysym></keycombo></entry><entry>"&#136;"	Cyrillic_che_descender</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_CHE</keysym><keysym>comma</keysym></keycombo></entry><entry>"&#152;"	Cyrillic_CHE_descender</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_che</keysym><keysym>slash</keysym></keycombo></entry><entry>"&#137;"	Cyrillic_che_vertstroke</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_CHE</keysym><keysym>slash</keysym></keycombo></entry><entry>"&#153;"	Cyrillic_CHE_vertstroke</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_che</keysym><keysym>bar</keysym></keycombo></entry><entry>"&#137;"	Cyrillic_che_vertstroke</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_CHE</keysym><keysym>bar</keysym></keycombo></entry><entry>"&#153;"	Cyrillic_CHE_vertstroke</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_ha</keysym><keysym>apostrophe</keysym></keycombo></entry><entry>"&#138;"	Cyrillic_shha</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_HA</keysym><keysym>apostrophe</keysym></keycombo></entry><entry>"&#154;"	Cyrillic_SHHA</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>h</keysym><keysym>apostrophe</keysym></keycombo></entry><entry>"&#138;"	Cyrillic_shha</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>H</keysym><keysym>apostrophe</keysym></keycombo></entry><entry>"&#154;"	Cyrillic_SHHA</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>h</keysym><keysym>h</keysym></keycombo></entry><entry>"&#138;"	Cyrillic_shha</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>H</keysym><keysym>H</keysym></keycombo></entry><entry>"&#154;"	Cyrillic_SHHA</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_ie</keysym><keysym>Cyrillic_ie</keysym></keycombo></entry><entry>"&#139;"	Cyrillic_schwa</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_IE</keysym><keysym>Cyrillic_IE</keysym></keycombo></entry><entry>"&#155;"	Cyrillic_SCHWA</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>e</keysym><keysym>e</keysym></keycombo></entry><entry>"&#139;"	Cyrillic_schwa</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>E</keysym><keysym>E</keysym></keycombo></entry><entry>"&#155;"	Cyrillic_SCHWA</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_i</keysym><keysym>minus</keysym></keycombo></entry><entry>"&#140;"	Cyrillic_i_macron</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_I</keysym><keysym>minus</keysym></keycombo></entry><entry>"&#156;"	Cyrillic_I_macron</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_o</keysym><keysym>minus</keysym></keycombo></entry><entry>"&#141;"	Cyrillic_o_bar</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_O</keysym><keysym>minus</keysym></keycombo></entry><entry>"&#157;"	Cyrillic_O_bar</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_u</keysym><keysym>minus</keysym></keycombo></entry><entry>"&#142;"	Cyrillic_u_macron</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_U</keysym><keysym>minus</keysym></keycombo></entry><entry>"&#158;"	Cyrillic_U_macron</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_de</keysym><keysym>Cyrillic_je</keysym></keycombo></entry><entry>"&#161;"	Serbian_dje</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_DE</keysym><keysym>Cyrillic_JE</keysym></keycombo></entry><entry>"&#177;"	Serbian_DJE</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_ghe</keysym><keysym>Cyrillic_je</keysym></keycombo></entry><entry>"&#162;"	Macedonia_gje</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_GHE</keysym><keysym>Cyrillic_JE</keysym></keycombo></entry><entry>"&#178;"	Macedonia_GJE</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_shorti</keysym><keysym>Cyrillic_o</keysym></keycombo></entry><entry>"&#163;"	Cyrillic_io</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_SHORTI</keysym><keysym>Cyrillic_O</keysym></keycombo></entry><entry>"&#179;"	Cyrillic_IO</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_je</keysym><keysym>Cyrillic_o</keysym></keycombo></entry><entry>"&#163;"	Cyrillic_io</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_JE</keysym><keysym>Cyrillic_O</keysym></keycombo></entry><entry>"&#179;"	Cyrillic_IO</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_ie</keysym><keysym>colon</keysym></keycombo></entry><entry>"&#163;"	Cyrillic_io</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_IE</keysym><keysym>colon</keysym></keycombo></entry><entry>"&#179;"	Cyrillic_IO</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_el</keysym><keysym>Cyrillic_je</keysym></keycombo></entry><entry>"&#169;"	Cyrillic_lje</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_EL</keysym><keysym>Cyrillic_JE</keysym></keycombo></entry><entry>"&#185;"	Cyrillic_LJE</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_en</keysym><keysym>Cyrillic_je</keysym></keycombo></entry><entry>"&#170;"	Cyrillic_nje</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_EN</keysym><keysym>Cyrillic_JE</keysym></keycombo></entry><entry>"&#186;"	Cyrillic_NJE</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_shorti</keysym><keysym>Cyrillic_u</keysym></keycombo></entry><entry>"&#192;"	Cyrillic_yu</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_SHORTI</keysym><keysym>Cyrillic_U</keysym></keycombo></entry><entry>"&#224;"	Cyrillic_YU</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_je</keysym><keysym>Cyrillic_u</keysym></keycombo></entry><entry>"&#192;"	Cyrillic_yu</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_JE</keysym><keysym>Cyrillic_U</keysym></keycombo></entry><entry>"&#224;"	Cyrillic_YU</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_te</keysym><keysym>Cyrillic_es</keysym></keycombo></entry><entry>"&#195;"	Cyrillic_tse</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_TE</keysym><keysym>Cyrillic_ES</keysym></keycombo></entry><entry>"&#227;"	Cyrillic_TSE</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_shorti</keysym><keysym>Cyrillic_a</keysym></keycombo></entry><entry>"&#209;"	Cyrillic_ya</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_SHORTI</keysym><keysym>Cyrillic_A</keysym></keycombo></entry><entry>"&#241;"	Cyrillic_YA</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_je</keysym><keysym>Cyrillic_a</keysym></keycombo></entry><entry>"&#209;"	Cyrillic_ya</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_JE</keysym><keysym>Cyrillic_A</keysym></keycombo></entry><entry>"&#241;"	Cyrillic_YA</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_sha</keysym><keysym>comma</keysym></keycombo></entry><entry>"&#221;"	Cyrillic_shcha</entry></row>
+<row><entry><keycombo action='seq'><keysym>Multi_key</keysym><keysym>Cyrillic_SHA</keysym><keysym>comma</keysym></keycombo></entry><entry>"&#253;"	Cyrillic_SHCHA</entry></row>
+<row><entry namest='seq' nameend='action'>End of Sequence Definition</entry></row>
+</tbody>
+</tgroup>
+</table>
+</section>

@@ -1,0 +1,13 @@
+prefix=/usr/src/octoin/depends/x86_64-pc-linux-gnu
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=/usr/src/octoin/depends/x86_64-pc-linux-gnu/include/xcb-shared
+xcbproto_version=1.10
+
+Name: XCB
+Description: X-protocol C Binding
+Version: 1.10
+Requires.private:  xau >= 0.99.2
+Libs: -L${libdir} -lxcb
+Libs.private: 
+Cflags: -I${includedir}

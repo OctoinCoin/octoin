@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+ "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd">
+<article id="libX11-keys">
+  <articleinfo>
+    <title>Xlib Compose Key Charts</title>
+  </articleinfo>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="am_ET.UTF-8.xml">
+    <xi:fallback><section><title>am_ET.UTF-8</title><para></para></section></xi:fallback>
+  </xi:include>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="armscii-8.xml">
+    <xi:fallback><section><title>armscii-8</title><para></para></section></xi:fallback>
+  </xi:include>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="C.xml">
+    <xi:fallback><section><title>C</title><para></para></section></xi:fallback>
+  </xi:include>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="el_GR.UTF-8.xml">
+    <xi:fallback><section><title>el_GR.UTF-8</title><para></para></section></xi:fallback>
+  </xi:include>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="en_US.UTF-8.xml">
+    <xi:fallback><section><title>en_US.UTF-8</title><para></para></section></xi:fallback>
+  </xi:include>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="fi_FI.UTF-8.xml">
+    <xi:fallback><section><title>fi_FI.UTF-8</title><para></para></section></xi:fallback>
+  </xi:include>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="georgian-academy.xml">
+    <xi:fallback><section><title>georgian-academy</title><para></para></section></xi:fallback>
+  </xi:include>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="georgian-ps.xml">
+    <xi:fallback><section><title>georgian-ps</title><para></para></section></xi:fallback>
+  </xi:include>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="ibm-cp1133.xml">
+    <xi:fallback><section><title>ibm-cp1133</title><para></para></section></xi:fallback>
+  </xi:include>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="iscii-dev.xml">
+    <xi:fallback><section><title>iscii-dev</title><para></para></section></xi:fallback>
+  </xi:include>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="isiri-3342.xml">
+    <xi:fallback><section><title>isiri-3342</title><para></para></section></xi:fallback>
+  </xi:include>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="iso8859-1.xml">
+    <xi:fallback><section><title>iso8859-1</title><para></para></section></xi:fallback>
+  </xi:include>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="iso8859-10.xml">
+    <xi:fallback><section><title>iso8859-10</title><para></para></section></xi:fallback>
+  </xi:include>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="iso8859-11.xml">
+    <xi:fallback><section><title>iso8859-11</title><para></para></section></xi:fallback>
+  </xi:include>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="iso8859-13.xml">
+    <xi:fallback><section><title>iso8859-13</title><para></para></section></xi:fallback>
+  </xi:include>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="iso8859-14.xml">
+    <xi:fallback><section><title>iso8859-14</title><para></para></section></xi:fallback>
+  </xi:include>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="iso8859-15.xml">
+    <xi:fallback><section><title>iso8859-15</title><para></para></section></xi:fallback>
+  </xi:include>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="iso8859-2.xml">
+    <xi:fallback><section><title>iso8859-2</title><para></para></section></xi:fallback>
+  </xi:include>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="iso8859-3.xml">
+    <xi:fallback><section><title>iso8859-3</title><para></para></section></xi:fallback>
+  </xi:include>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="iso8859-4.xml">
+    <xi:fallback><section><title>iso8859-4</title><para></para></section></xi:fallback>
+  </xi:include>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="iso8859-5.xml">
+    <xi:fallback><section><title>iso8859-5</title><para></para></section></xi:fallback>
+  </xi:include>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="iso8859-6.xml">
+    <xi:fallback><section><title>iso8859-6</title><para></para></section></xi:fallback>
+  </xi:include>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="iso8859-7.xml">
+    <xi:fallback><section><title>iso8859-7</title><para></para></section></xi:fallback>
+  </xi:include>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="iso8859-8.xml">
+    <xi:fallback><section><title>iso8859-8</title><para></para></section></xi:fallback>
+  </xi:include>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="iso8859-9.xml">
+    <xi:fallback><section><title>iso8859-9</title><para></para></section></xi:fallback>
+  </xi:include>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="iso8859-9e.xml">
+    <xi:fallback><section><title>iso8859-9e</title><para></para></section></xi:fallback>
+  </xi:include>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="ja.xml">
+    <xi:fallback><section><title>ja</title><para></para></section></xi:fallback>
+  </xi:include>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="ja.JIS.xml">
+    <xi:fallback><section><title>ja.JIS</title><para></para></section></xi:fallback>
+  </xi:include>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="ja_JP.UTF-8.xml">
+    <xi:fallback><section><title>ja_JP.UTF-8</title><para></para></section></xi:fallback>
+  </xi:include>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="ja.SJIS.xml">
+    <xi:fallback><section><title>ja.SJIS</title><para></para></section></xi:fallback>
+  </xi:include>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="km_KH.UTF-8.xml">
+    <xi:fallback><section><title>km_KH.UTF-8</title><para></para></section></xi:fallback>
+  </xi:include>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="ko.xml">
+    <xi:fallback><section><title>ko</title><para></para></section></xi:fallback>
+  </xi:include>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="koi8-c.xml">
+    <xi:fallback><section><title>koi8-c</title><para></para></section></xi:fallback>
+  </xi:include>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="koi8-r.xml">
+    <xi:fallback><section><title>koi8-r</title><para></para></section></xi:fallback>
+  </xi:include>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="koi8-u.xml">
+    <xi:fallback><section><title>koi8-u</title><para></para></section></xi:fallback>
+  </xi:include>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="ko_KR.UTF-8.xml">
+    <xi:fallback><section><title>ko_KR.UTF-8</title><para></para></section></xi:fallback>
+  </xi:include>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="microsoft-cp1251.xml">
+    <xi:fallback><section><title>microsoft-cp1251</title><para></para></section></xi:fallback>
+  </xi:include>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="microsoft-cp1255.xml">
+    <xi:fallback><section><title>microsoft-cp1255</title><para></para></section></xi:fallback>
+  </xi:include>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="microsoft-cp1256.xml">
+    <xi:fallback><section><title>microsoft-cp1256</title><para></para></section></xi:fallback>
+  </xi:include>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="mulelao-1.xml">
+    <xi:fallback><section><title>mulelao-1</title><para></para></section></xi:fallback>
+  </xi:include>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="nokhchi-1.xml">
+    <xi:fallback><section><title>nokhchi-1</title><para></para></section></xi:fallback>
+  </xi:include>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="pt_BR.UTF-8.xml">
+    <xi:fallback><section><title>pt_BR.UTF-8</title><para></para></section></xi:fallback>
+  </xi:include>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="ru_RU.UTF-8.xml">
+    <xi:fallback><section><title>ru_RU.UTF-8</title><para></para></section></xi:fallback>
+  </xi:include>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="sr_CS.UTF-8.xml">
+    <xi:fallback><section><title>sr_CS.UTF-8</title><para></para></section></xi:fallback>
+  </xi:include>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="tatar-cyr.xml">
+    <xi:fallback><section><title>tatar-cyr</title><para></para></section></xi:fallback>
+  </xi:include>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="th_TH.xml">
+    <xi:fallback><section><title>th_TH</title><para></para></section></xi:fallback>
+  </xi:include>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="th_TH.UTF-8.xml">
+    <xi:fallback><section><title>th_TH.UTF-8</title><para></para></section></xi:fallback>
+  </xi:include>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="tscii-0.xml">
+    <xi:fallback><section><title>tscii-0</title><para></para></section></xi:fallback>
+  </xi:include>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="vi_VN.tcvn.xml">
+    <xi:fallback><section><title>vi_VN.tcvn</title><para></para></section></xi:fallback>
+  </xi:include>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="vi_VN.viscii.xml">
+    <xi:fallback><section><title>vi_VN.viscii</title><para></para></section></xi:fallback>
+  </xi:include>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="zh_CN.xml">
+    <xi:fallback><section><title>zh_CN</title><para></para></section></xi:fallback>
+  </xi:include>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="zh_CN.gb18030.xml">
+    <xi:fallback><section><title>zh_CN.gb18030</title><para></para></section></xi:fallback>
+  </xi:include>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="zh_CN.gbk.xml">
+    <xi:fallback><section><title>zh_CN.gbk</title><para></para></section></xi:fallback>
+  </xi:include>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="zh_CN.UTF-8.xml">
+    <xi:fallback><section><title>zh_CN.UTF-8</title><para></para></section></xi:fallback>
+  </xi:include>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="zh_HK.big5.xml">
+    <xi:fallback><section><title>zh_HK.big5</title><para></para></section></xi:fallback>
+  </xi:include>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="zh_HK.big5hkscs.xml">
+    <xi:fallback><section><title>zh_HK.big5hkscs</title><para></para></section></xi:fallback>
+  </xi:include>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="zh_HK.UTF-8.xml">
+    <xi:fallback><section><title>zh_HK.UTF-8</title><para></para></section></xi:fallback>
+  </xi:include>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="zh_TW.xml">
+    <xi:fallback><section><title>zh_TW</title><para></para></section></xi:fallback>
+  </xi:include>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="zh_TW.big5.xml">
+    <xi:fallback><section><title>zh_TW.big5</title><para></para></section></xi:fallback>
+  </xi:include>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"  href="zh_TW.UTF-8.xml">
+    <xi:fallback><section><title>zh_TW.UTF-8</title><para></para></section></xi:fallback>
+  </xi:include>
+</article>
+

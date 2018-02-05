@@ -1,0 +1,11 @@
+prefix=/usr/src/octoin/depends/x86_64-pc-linux-gnu
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=/usr/src/octoin/depends/x86_64-pc-linux-gnu/include/xcb-shared
+
+Name: XCB Sync
+Description: XCB Sync Extension
+Version: 1.10
+Requires: xcb
+Libs: -L${libdir} -lxcb-sync
+Cflags: -I${includedir}

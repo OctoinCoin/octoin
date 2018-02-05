@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+ "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd">
+<section id="microsoft-cp1251">
+<title>Xlib Compose Keys for microsoft-cp1251</title>
+<para>Applications using Xlib input handling should recognize
+ these compose key sequences in locales using the
+ microsoft-cp1251 compose table.</para>
+
+<para><emphasis>This compose table defines no sequences of its own.</emphasis></para>
+</section>

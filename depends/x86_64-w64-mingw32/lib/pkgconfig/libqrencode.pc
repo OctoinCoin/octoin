@@ -1,0 +1,11 @@
+prefix=/usr/src/octoin/depends/x86_64-w64-mingw32
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libqrencode
+Description: A QR Code encoding library
+Version: 3.4.4
+Libs: -L${libdir} -lqrencode
+Libs.private: -lpthread
+Cflags: -I${includedir}

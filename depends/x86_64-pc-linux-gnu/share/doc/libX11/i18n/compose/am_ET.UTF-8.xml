@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+ "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd">
+<section id="am_ET.UTF-8">
+<title>Xlib Compose Keys for am_ET.UTF-8</title>
+<para>Applications using Xlib input handling should recognize
+ these compose key sequences in locales using the
+ am_ET.UTF-8 compose table.</para>
+
+<para> UTF-8 (Unicode) compose sequence for Ethiopean layout. Designed as a part of OLPC project  2007 Sergey Udaltsov &lt;svu@gnome.org&gt; </para>
+<table><title>Compose Key Sequences for am_ET.UTF-8</title>
+<tgroup cols='2'>
+ <colspec colname='seq' /><colspec colname='action' />
+ <thead><row>
+  <entry>Key Sequence</entry><entry>Action</entry>
+ </row></thead>
+ <tbody>
+<row><entry namest='seq' nameend='action'> Group I </entry></row>
+<row><entry namest='seq' nameend='action'>Modifier: /u/</entry></row>
+<row><entry><keycombo action='seq'><keysym>u</keysym><keysym>U1200</keysym></keycombo></entry><entry>"ሁ" U1201 # key h (base character ሀ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>u</keysym><keysym>U1208</keysym></keycombo></entry><entry>"ሉ" U1209 # key l (base character ለ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>u</keysym><keysym>U1218</keysym></keycombo></entry><entry>"ሙ" U1219 # key m (base character መ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>u</keysym><keysym>U1228</keysym></keycombo></entry><entry>"ሩ" U1229 # key r (base character ረ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>u</keysym><keysym>U1230</keysym></keycombo></entry><entry>"ሱ" U1231 # key s (base character ሰ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>u</keysym><keysym>U1240</keysym></keycombo></entry><entry>"ቁ" U1241 # key q (base character ቀ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>u</keysym><keysym>U1260</keysym></keycombo></entry><entry>"ቡ" U1261 # key b (base character በ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>u</keysym><keysym>U1270</keysym></keycombo></entry><entry>"ቱ" U1271 # key t (base character ተ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>u</keysym><keysym>U1290</keysym></keycombo></entry><entry>"ኑ" U1291 # key n (base character ነ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>u</keysym><keysym>U12A0</keysym></keycombo></entry><entry>"ኡ" U12A1 # key x (base character አ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>u</keysym><keysym>U12A8</keysym></keycombo></entry><entry>"ኩ" U12A9 # key k (base character ከ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>u</keysym><keysym>U12C8</keysym></keycombo></entry><entry>"ዉ" U12C9 # key w (base character ወ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>u</keysym><keysym>U12D8</keysym></keycombo></entry><entry>"ዙ" U12D9 # key z (base character ዘ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>u</keysym><keysym>U12E8</keysym></keycombo></entry><entry>"ዩ" U12E9 # key y (base character የ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>u</keysym><keysym>U12F0</keysym></keycombo></entry><entry>"ዱ" U12F1 # key d (base character ደ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>u</keysym><keysym>U1300</keysym></keycombo></entry><entry>"ጁ" U1301 # key j (base character ጀ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>u</keysym><keysym>U1308</keysym></keycombo></entry><entry>"ጉ" U1309 # key g (base character ገ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>u</keysym><keysym>U1340</keysym></keycombo></entry><entry>"ፁ" U1341 # key [ (base character ፀ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>u</keysym><keysym>U1348</keysym></keycombo></entry><entry>"ፉ" U1349 # key f (base character ፈ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>u</keysym><keysym>U1350</keysym></keycombo></entry><entry>"ፑ" U1351 # key p (base character ፐ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>u</keysym><keysym>U1238</keysym></keycombo></entry><entry>"ሹ" U1239 # key v (base character ሸ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>u</keysym><keysym>U1328</keysym></keycombo></entry><entry>"ጩ" U1329 # key ] (base character ጨ)</entry></row>
+<row><entry namest='seq' nameend='action'>Modifier: /i/</entry></row>
+<row><entry><keycombo action='seq'><keysym>i</keysym><keysym>U1200</keysym></keycombo></entry><entry>"ሂ" U1202 # key h (base character ሀ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>i</keysym><keysym>U1208</keysym></keycombo></entry><entry>"ሊ" U120A # key l (base character ለ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>i</keysym><keysym>U1218</keysym></keycombo></entry><entry>"ሚ" U121A # key m (base character መ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>i</keysym><keysym>U1228</keysym></keycombo></entry><entry>"ሪ" U122A # key r (base character ረ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>i</keysym><keysym>U1230</keysym></keycombo></entry><entry>"ሲ" U1232 # key s (base character ሰ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>i</keysym><keysym>U1240</keysym></keycombo></entry><entry>"ቂ" U1242 # key q (base character ቀ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>i</keysym><keysym>U1260</keysym></keycombo></entry><entry>"ቢ" U1262 # key b (base character በ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>i</keysym><keysym>U1270</keysym></keycombo></entry><entry>"ቲ" U1272 # key t (base character ተ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>i</keysym><keysym>U1290</keysym></keycombo></entry><entry>"ኒ" U1292 # key n (base character ነ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>i</keysym><keysym>U12A0</keysym></keycombo></entry><entry>"ኢ" U12A2 # key x (base character አ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>i</keysym><keysym>U12A8</keysym></keycombo></entry><entry>"ኪ" U12AA # key k (base character ከ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>i</keysym><keysym>U12C8</keysym></keycombo></entry><entry>"ዊ" U12CA # key w (base character ወ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>i</keysym><keysym>U12D8</keysym></keycombo></entry><entry>"ዚ" U12DA # key z (base character ዘ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>i</keysym><keysym>U12E8</keysym></keycombo></entry><entry>"ዪ" U12EA # key y (base character የ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>i</keysym><keysym>U12F0</keysym></keycombo></entry><entry>"ዲ" U12F2 # key d (base character ደ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>i</keysym><keysym>U1300</keysym></keycombo></entry><entry>"ጂ" U1302 # key j (base character ጀ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>i</keysym><keysym>U1308</keysym></keycombo></entry><entry>"ጊ" U130A # key g (base character ገ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>i</keysym><keysym>U1340</keysym></keycombo></entry><entry>"ፂ" U1342 # key [ (base character ፀ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>i</keysym><keysym>U1348</keysym></keycombo></entry><entry>"ፊ" U134A # key f (base character ፈ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>i</keysym><keysym>U1350</keysym></keycombo></entry><entry>"ፒ" U1352 # key p (base character ፐ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>i</keysym><keysym>U1238</keysym></keycombo></entry><entry>"ሺ" U123A # key v (base character ሸ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>i</keysym><keysym>U1328</keysym></keycombo></entry><entry>"ጪ" U132A # key ] (base character ጨ)</entry></row>
+<row><entry namest='seq' nameend='action'>Modifier: /a/</entry></row>
+<row><entry><keycombo action='seq'><keysym>a</keysym><keysym>U1200</keysym></keycombo></entry><entry>"ሃ" U1203 # key h (base character ሀ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>a</keysym><keysym>U1208</keysym></keycombo></entry><entry>"ላ" U120B # key l (base character ለ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>a</keysym><keysym>U1218</keysym></keycombo></entry><entry>"ማ" U121B # key m (base character መ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>a</keysym><keysym>U1228</keysym></keycombo></entry><entry>"ራ" U122B # key r (base character ረ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>a</keysym><keysym>U1230</keysym></keycombo></entry><entry>"ሳ" U1233 # key s (base character ሰ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>a</keysym><keysym>U1240</keysym></keycombo></entry><entry>"ቃ" U1243 # key q (base character ቀ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>a</keysym><keysym>U1260</keysym></keycombo></entry><entry>"ባ" U1263 # key b (base character በ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>a</keysym><keysym>U1270</keysym></keycombo></entry><entry>"ታ" U1273 # key t (base character ተ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>a</keysym><keysym>U1290</keysym></keycombo></entry><entry>"ና" U1293 # key n (base character ነ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>a</keysym><keysym>U12A0</keysym></keycombo></entry><entry>"ኣ" U12A3 # key x (base character አ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>a</keysym><keysym>U12A8</keysym></keycombo></entry><entry>"ካ" U12AB # key k (base character ከ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>a</keysym><keysym>U12C8</keysym></keycombo></entry><entry>"ዋ" U12CB # key w (base character ወ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>a</keysym><keysym>U12D8</keysym></keycombo></entry><entry>"ዛ" U12DB # key z (base character ዘ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>a</keysym><keysym>U12E8</keysym></keycombo></entry><entry>"ያ" U12EB # key y (base character የ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>a</keysym><keysym>U12F0</keysym></keycombo></entry><entry>"ዳ" U12F3 # key d (base character ደ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>a</keysym><keysym>U1300</keysym></keycombo></entry><entry>"ጃ" U1303 # key j (base character ጀ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>a</keysym><keysym>U1308</keysym></keycombo></entry><entry>"ጋ" U130B # key g (base character ገ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>a</keysym><keysym>U1340</keysym></keycombo></entry><entry>"ፃ" U1343 # key [ (base character ፀ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>a</keysym><keysym>U1348</keysym></keycombo></entry><entry>"ፋ" U134B # key f (base character ፈ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>a</keysym><keysym>U1350</keysym></keycombo></entry><entry>"ፓ" U1353 # key p (base character ፐ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>a</keysym><keysym>U1238</keysym></keycombo></entry><entry>"ሻ" U123B # key v (base character ሸ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>a</keysym><keysym>U1328</keysym></keycombo></entry><entry>"ጫ" U132B # key ] (base character ጨ)</entry></row>
+<row><entry namest='seq' nameend='action'>Modifier: /e/</entry></row>
+<row><entry><keycombo action='seq'><keysym>e</keysym><keysym>U1200</keysym></keycombo></entry><entry>"ሄ" U1204 # key h (base character ሀ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>e</keysym><keysym>U1208</keysym></keycombo></entry><entry>"ሌ" U120C # key l (base character ለ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>e</keysym><keysym>U1218</keysym></keycombo></entry><entry>"ሜ" U121C # key m (base character መ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>e</keysym><keysym>U1228</keysym></keycombo></entry><entry>"ሬ" U122C # key r (base character ረ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>e</keysym><keysym>U1230</keysym></keycombo></entry><entry>"ሴ" U1234 # key s (base character ሰ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>e</keysym><keysym>U1240</keysym></keycombo></entry><entry>"ቄ" U1244 # key q (base character ቀ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>e</keysym><keysym>U1260</keysym></keycombo></entry><entry>"ቤ" U1264 # key b (base character በ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>e</keysym><keysym>U1270</keysym></keycombo></entry><entry>"ቴ" U1274 # key t (base character ተ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>e</keysym><keysym>U1290</keysym></keycombo></entry><entry>"ኔ" U1294 # key n (base character ነ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>e</keysym><keysym>U12A0</keysym></keycombo></entry><entry>"ኤ" U12A4 # key x (base character አ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>e</keysym><keysym>U12A8</keysym></keycombo></entry><entry>"ኬ" U12AC # key k (base character ከ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>e</keysym><keysym>U12C8</keysym></keycombo></entry><entry>"ዌ" U12CC # key w (base character ወ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>e</keysym><keysym>U12D8</keysym></keycombo></entry><entry>"ዜ" U12DC # key z (base character ዘ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>e</keysym><keysym>U12E8</keysym></keycombo></entry><entry>"ዬ" U12EC # key y (base character የ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>e</keysym><keysym>U12F0</keysym></keycombo></entry><entry>"ዴ" U12F4 # key d (base character ደ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>e</keysym><keysym>U1300</keysym></keycombo></entry><entry>"ጄ" U1304 # key j (base character ጀ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>e</keysym><keysym>U1308</keysym></keycombo></entry><entry>"ጌ" U130C # key g (base character ገ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>e</keysym><keysym>U1340</keysym></keycombo></entry><entry>"ፄ" U1344 # key [ (base character ፀ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>e</keysym><keysym>U1348</keysym></keycombo></entry><entry>"ፌ" U134C # key f (base character ፈ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>e</keysym><keysym>U1350</keysym></keycombo></entry><entry>"ፔ" U1354 # key p (base character ፐ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>e</keysym><keysym>U1238</keysym></keycombo></entry><entry>"ሼ" U123C # key v (base character ሸ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>e</keysym><keysym>U1328</keysym></keycombo></entry><entry>"ጬ" U132C # key ] (base character ጨ)</entry></row>
+<row><entry namest='seq' nameend='action'>Modifier: /c/</entry></row>
+<row><entry><keycombo action='seq'><keysym>c</keysym><keysym>U1200</keysym></keycombo></entry><entry>"ህ" U1205 # key h (base character ሀ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>c</keysym><keysym>U1208</keysym></keycombo></entry><entry>"ል" U120D # key l (base character ለ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>c</keysym><keysym>U1218</keysym></keycombo></entry><entry>"ም" U121D # key m (base character መ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>c</keysym><keysym>U1228</keysym></keycombo></entry><entry>"ር" U122D # key r (base character ረ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>c</keysym><keysym>U1230</keysym></keycombo></entry><entry>"ስ" U1235 # key s (base character ሰ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>c</keysym><keysym>U1240</keysym></keycombo></entry><entry>"ቅ" U1245 # key q (base character ቀ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>c</keysym><keysym>U1260</keysym></keycombo></entry><entry>"ብ" U1265 # key b (base character በ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>c</keysym><keysym>U1270</keysym></keycombo></entry><entry>"ት" U1275 # key t (base character ተ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>c</keysym><keysym>U1290</keysym></keycombo></entry><entry>"ን" U1295 # key n (base character ነ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>c</keysym><keysym>U12A0</keysym></keycombo></entry><entry>"እ" U12A5 # key x (base character አ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>c</keysym><keysym>U12A8</keysym></keycombo></entry><entry>"ክ" U12AD # key k (base character ከ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>c</keysym><keysym>U12C8</keysym></keycombo></entry><entry>"ው" U12CD # key w (base character ወ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>c</keysym><keysym>U12D8</keysym></keycombo></entry><entry>"ዝ" U12DD # key z (base character ዘ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>c</keysym><keysym>U12E8</keysym></keycombo></entry><entry>"ይ" U12ED # key y (base character የ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>c</keysym><keysym>U12F0</keysym></keycombo></entry><entry>"ድ" U12F5 # key d (base character ደ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>c</keysym><keysym>U1300</keysym></keycombo></entry><entry>"ጅ" U1305 # key j (base character ጀ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>c</keysym><keysym>U1308</keysym></keycombo></entry><entry>"ግ" U130D # key g (base character ገ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>c</keysym><keysym>U1340</keysym></keycombo></entry><entry>"ፅ" U1345 # key [ (base character ፀ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>c</keysym><keysym>U1348</keysym></keycombo></entry><entry>"ፍ" U134D # key f (base character ፈ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>c</keysym><keysym>U1350</keysym></keycombo></entry><entry>"ፕ" U1355 # key p (base character ፐ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>c</keysym><keysym>U1238</keysym></keycombo></entry><entry>"ሽ" U123D # key v (base character ሸ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>c</keysym><keysym>U1328</keysym></keycombo></entry><entry>"ጭ" U132D # key ] (base character ጨ)</entry></row>
+<row><entry namest='seq' nameend='action'>Modifier: /o/</entry></row>
+<row><entry><keycombo action='seq'><keysym>o</keysym><keysym>U1200</keysym></keycombo></entry><entry>"ሆ" U1206 # key h (base character ሀ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>o</keysym><keysym>U1208</keysym></keycombo></entry><entry>"ሎ" U120E # key l (base character ለ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>o</keysym><keysym>U1218</keysym></keycombo></entry><entry>"ሞ" U121E # key m (base character መ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>o</keysym><keysym>U1228</keysym></keycombo></entry><entry>"ሮ" U122E # key r (base character ረ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>o</keysym><keysym>U1230</keysym></keycombo></entry><entry>"ሶ" U1236 # key s (base character ሰ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>o</keysym><keysym>U1240</keysym></keycombo></entry><entry>"ቆ" U1246 # key q (base character ቀ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>o</keysym><keysym>U1260</keysym></keycombo></entry><entry>"ቦ" U1266 # key b (base character በ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>o</keysym><keysym>U1270</keysym></keycombo></entry><entry>"ቶ" U1276 # key t (base character ተ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>o</keysym><keysym>U1290</keysym></keycombo></entry><entry>"ኖ" U1296 # key n (base character ነ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>o</keysym><keysym>U12A0</keysym></keycombo></entry><entry>"ኦ" U12A6 # key x (base character አ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>o</keysym><keysym>U12A8</keysym></keycombo></entry><entry>"ኮ" U12AE # key k (base character ከ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>o</keysym><keysym>U12C8</keysym></keycombo></entry><entry>"ዎ" U12CE # key w (base character ወ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>o</keysym><keysym>U12D8</keysym></keycombo></entry><entry>"ዞ" U12DE # key z (base character ዘ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>o</keysym><keysym>U12E8</keysym></keycombo></entry><entry>"ዮ" U12EE # key y (base character የ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>o</keysym><keysym>U12F0</keysym></keycombo></entry><entry>"ዶ" U12F6 # key d (base character ደ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>o</keysym><keysym>U1300</keysym></keycombo></entry><entry>"ጆ" U1306 # key j (base character ጀ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>o</keysym><keysym>U1308</keysym></keycombo></entry><entry>"ጎ" U130E # key g (base character ገ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>o</keysym><keysym>U1340</keysym></keycombo></entry><entry>"ፆ" U1346 # key [ (base character ፀ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>o</keysym><keysym>U1348</keysym></keycombo></entry><entry>"ፎ" U134E # key f (base character ፈ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>o</keysym><keysym>U1350</keysym></keycombo></entry><entry>"ፖ" U1356 # key p (base character ፐ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>o</keysym><keysym>U1238</keysym></keycombo></entry><entry>"ሾ" U123E # key v (base character ሸ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>o</keysym><keysym>U1328</keysym></keycombo></entry><entry>"ጮ" U132E # key ] (base character ጨ)</entry></row>
+<row><entry namest='seq' nameend='action'>Modifier: /A/</entry></row>
+<row><entry><keycombo action='seq'><keysym>A</keysym><keysym>U1208</keysym></keycombo></entry><entry>"ሏ" U120F # key l (base character ለ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>A</keysym><keysym>U1218</keysym></keycombo></entry><entry>"ሟ" U121F # key m (base character መ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>A</keysym><keysym>U1228</keysym></keycombo></entry><entry>"ሯ" U122F # key r (base character ረ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>A</keysym><keysym>U1230</keysym></keycombo></entry><entry>"ሷ" U1237 # key s (base character ሰ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>A</keysym><keysym>U1240</keysym></keycombo></entry><entry>"ቋ" U124B # key q (base character ቀ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>A</keysym><keysym>U1260</keysym></keycombo></entry><entry>"ቧ" U1267 # key b (base character በ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>A</keysym><keysym>U1270</keysym></keycombo></entry><entry>"ቷ" U1277 # key t (base character ተ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>A</keysym><keysym>U1290</keysym></keycombo></entry><entry>"ኗ" U1297 # key n (base character ነ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>A</keysym><keysym>U12A0</keysym></keycombo></entry><entry>"ኧ" U12A7 # key x (base character አ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>A</keysym><keysym>U12A8</keysym></keycombo></entry><entry>"ኳ" U12B3 # key k (base character ከ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>A</keysym><keysym>U12D8</keysym></keycombo></entry><entry>"ዟ" U12DF # key z (base character ዘ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>A</keysym><keysym>U12F0</keysym></keycombo></entry><entry>"ዷ" U12F7 # key d (base character ደ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>A</keysym><keysym>U1300</keysym></keycombo></entry><entry>"ጇ" U1307 # key j (base character ጀ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>A</keysym><keysym>U1308</keysym></keycombo></entry><entry>"ጓ" U1313 # key g (base character ገ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>A</keysym><keysym>U1348</keysym></keycombo></entry><entry>"ፏ" U134F # key f (base character ፈ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>A</keysym><keysym>U1350</keysym></keycombo></entry><entry>"ፗ" U1357 # key p (base character ፐ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>A</keysym><keysym>U1238</keysym></keycombo></entry><entry>"ሿ" U123F # key v (base character ሸ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>A</keysym><keysym>U1328</keysym></keycombo></entry><entry>"ጯ" U132F # key ] (base character ጨ)</entry></row>
+<row><entry namest='seq' nameend='action'>Modifier: /U/</entry></row>
+<row><entry><keycombo action='seq'><keysym>U</keysym><keysym>U1240</keysym></keycombo></entry><entry>"ቍ" U124D # key q (base character ቀ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>U</keysym><keysym>U12A8</keysym></keycombo></entry><entry>"ኵ" U12B5 # key k (base character ከ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>U</keysym><keysym>U1308</keysym></keycombo></entry><entry>"ጕ" U1315 # key g (base character ገ)</entry></row>
+<row><entry namest='seq' nameend='action'>Modifier: /I/</entry></row>
+<row><entry><keycombo action='seq'><keysym>I</keysym><keysym>U1240</keysym></keycombo></entry><entry>"ቊ" U124A # key q (base character ቀ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>I</keysym><keysym>U12A8</keysym></keycombo></entry><entry>"ኲ" U12B2 # key k (base character ከ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>I</keysym><keysym>U1308</keysym></keycombo></entry><entry>"ጒ" U1312 # key g (base character ገ)</entry></row>
+<row><entry namest='seq' nameend='action'>Modifier: /E/</entry></row>
+<row><entry><keycombo action='seq'><keysym>E</keysym><keysym>U1240</keysym></keycombo></entry><entry>"ቌ" U124C # key q (base character ቀ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>E</keysym><keysym>U12A8</keysym></keycombo></entry><entry>"ኴ" U12B4 # key k (base character ከ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>E</keysym><keysym>U1308</keysym></keycombo></entry><entry>"ጔ" U1314 # key g (base character ገ)</entry></row>
+<row><entry namest='seq' nameend='action'>Modifier: /O/</entry></row>
+<row><entry><keycombo action='seq'><keysym>O</keysym><keysym>U1240</keysym></keycombo></entry><entry>"ቈ" U1248 # key q (base character ቀ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>O</keysym><keysym>U12A8</keysym></keycombo></entry><entry>"ኰ" U12B0 # key k (base character ከ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>O</keysym><keysym>U1308</keysym></keycombo></entry><entry>"ጐ" U1310 # key g (base character ገ)</entry></row>
+<row><entry namest='seq' nameend='action'> Group II  Modifier: /u/</entry></row>
+<row><entry><keycombo action='seq'><keysym>u</keysym><keysym>U1210</keysym></keycombo></entry><entry>"ሑ" U1211 # key h (base character ሐ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>u</keysym><keysym>U1220</keysym></keycombo></entry><entry>"ሡ" U1221 # key s (base character ሠ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>u</keysym><keysym>U1250</keysym></keycombo></entry><entry>"ቑ" U1251 # key q (base character ቐ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>u</keysym><keysym>U1278</keysym></keycombo></entry><entry>"ቹ" U1279 # key c (base character ቸ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>u</keysym><keysym>U1320</keysym></keycombo></entry><entry>"ጡ" U1321 # key t (base character ጠ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>u</keysym><keysym>U1298</keysym></keycombo></entry><entry>"ኙ" U1299 # key n (base character ኘ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>u</keysym><keysym>U12D0</keysym></keycombo></entry><entry>"ዑ" U12D1 # key x (base character ዐ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>u</keysym><keysym>U12B8</keysym></keycombo></entry><entry>"ኹ" U12B9 # key k (base character ኸ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>u</keysym><keysym>U12E0</keysym></keycombo></entry><entry>"ዡ" U12E1 # key z (base character ዠ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>u</keysym><keysym>U12F8</keysym></keycombo></entry><entry>"ዹ" U12F9 # key d (base character ዸ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>u</keysym><keysym>U1318</keysym></keycombo></entry><entry>"ጙ" U1319 # key g (base character ጘ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>u</keysym><keysym>U1338</keysym></keycombo></entry><entry>"ጹ" U1339 # key [ (base character ጸ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>u</keysym><keysym>U1330</keysym></keycombo></entry><entry>"ጱ" U1331 # key p (base character ጰ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>u</keysym><keysym>U1280</keysym></keycombo></entry><entry>"ኁ" U1281 # key ] (base character ኀ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>u</keysym><keysym>U1268</keysym></keycombo></entry><entry>"ቩ" U1269 # key v (base character ቨ)</entry></row>
+<row><entry namest='seq' nameend='action'>Modifier: /i/</entry></row>
+<row><entry><keycombo action='seq'><keysym>i</keysym><keysym>U1210</keysym></keycombo></entry><entry>"ሒ" U1212 # key h (base character ሐ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>i</keysym><keysym>U1220</keysym></keycombo></entry><entry>"ሢ" U1222 # key s (base character ሠ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>i</keysym><keysym>U1250</keysym></keycombo></entry><entry>"ቒ" U1252 # key q (base character ቐ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>i</keysym><keysym>U1278</keysym></keycombo></entry><entry>"ቺ" U127A # key c (base character ቸ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>i</keysym><keysym>U1320</keysym></keycombo></entry><entry>"ጢ" U1322 # key t (base character ጠ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>i</keysym><keysym>U1298</keysym></keycombo></entry><entry>"ኚ" U129A # key n (base character ኘ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>i</keysym><keysym>U12D0</keysym></keycombo></entry><entry>"ዒ" U12D2 # key x (base character ዐ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>i</keysym><keysym>U12B8</keysym></keycombo></entry><entry>"ኺ" U12BA # key k (base character ኸ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>i</keysym><keysym>U12E0</keysym></keycombo></entry><entry>"ዢ" U12E2 # key z (base character ዠ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>i</keysym><keysym>U12F8</keysym></keycombo></entry><entry>"ዺ" U12FA # key d (base character ዸ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>i</keysym><keysym>U1318</keysym></keycombo></entry><entry>"ጚ" U131A # key g (base character ጘ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>i</keysym><keysym>U1338</keysym></keycombo></entry><entry>"ጺ" U133A # key [ (base character ጸ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>i</keysym><keysym>U1330</keysym></keycombo></entry><entry>"ጲ" U1332 # key p (base character ጰ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>i</keysym><keysym>U1280</keysym></keycombo></entry><entry>"ኂ" U1282 # key ] (base character ኀ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>i</keysym><keysym>U1268</keysym></keycombo></entry><entry>"ቪ" U126A # key v (base character ቨ)</entry></row>
+<row><entry namest='seq' nameend='action'>Modifier: /a/</entry></row>
+<row><entry><keycombo action='seq'><keysym>a</keysym><keysym>U1210</keysym></keycombo></entry><entry>"ሓ" U1213 # key h (base character ሐ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>a</keysym><keysym>U1220</keysym></keycombo></entry><entry>"ሣ" U1223 # key s (base character ሠ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>a</keysym><keysym>U1250</keysym></keycombo></entry><entry>"ቓ" U1253 # key q (base character ቐ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>a</keysym><keysym>U1278</keysym></keycombo></entry><entry>"ቻ" U127B # key c (base character ቸ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>a</keysym><keysym>U1320</keysym></keycombo></entry><entry>"ጣ" U1323 # key t (base character ጠ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>a</keysym><keysym>U1298</keysym></keycombo></entry><entry>"ኛ" U129B # key n (base character ኘ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>a</keysym><keysym>U12D0</keysym></keycombo></entry><entry>"ዓ" U12D3 # key x (base character ዐ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>a</keysym><keysym>U12B8</keysym></keycombo></entry><entry>"ኻ" U12BB # key k (base character ኸ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>a</keysym><keysym>U12E0</keysym></keycombo></entry><entry>"ዣ" U12E3 # key z (base character ዠ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>a</keysym><keysym>U12F8</keysym></keycombo></entry><entry>"ዻ" U12FB # key d (base character ዸ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>a</keysym><keysym>U1318</keysym></keycombo></entry><entry>"ጛ" U131B # key g (base character ጘ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>a</keysym><keysym>U1338</keysym></keycombo></entry><entry>"ጻ" U133B # key [ (base character ጸ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>a</keysym><keysym>U1330</keysym></keycombo></entry><entry>"ጳ" U1333 # key p (base character ጰ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>a</keysym><keysym>U1280</keysym></keycombo></entry><entry>"ኃ" U1283 # key ] (base character ኀ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>a</keysym><keysym>U1268</keysym></keycombo></entry><entry>"ቫ" U126B # key v (base character ቨ)</entry></row>
+<row><entry namest='seq' nameend='action'>Modifier: /e/</entry></row>
+<row><entry><keycombo action='seq'><keysym>e</keysym><keysym>U1210</keysym></keycombo></entry><entry>"ሔ" U1214 # key h (base character ሐ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>e</keysym><keysym>U1220</keysym></keycombo></entry><entry>"ሤ" U1224 # key s (base character ሠ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>e</keysym><keysym>U1250</keysym></keycombo></entry><entry>"ቔ" U1254 # key q (base character ቐ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>e</keysym><keysym>U1278</keysym></keycombo></entry><entry>"ቼ" U127C # key c (base character ቸ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>e</keysym><keysym>U1320</keysym></keycombo></entry><entry>"ጤ" U1324 # key t (base character ጠ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>e</keysym><keysym>U1298</keysym></keycombo></entry><entry>"ኜ" U129C # key n (base character ኘ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>e</keysym><keysym>U12D0</keysym></keycombo></entry><entry>"ዔ" U12D4 # key x (base character ዐ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>e</keysym><keysym>U12B8</keysym></keycombo></entry><entry>"ኼ" U12BC # key k (base character ኸ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>e</keysym><keysym>U12E0</keysym></keycombo></entry><entry>"ዤ" U12E4 # key z (base character ዠ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>e</keysym><keysym>U12F8</keysym></keycombo></entry><entry>"ዼ" U12FC # key d (base character ዸ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>e</keysym><keysym>U1318</keysym></keycombo></entry><entry>"ጜ" U131C # key g (base character ጘ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>e</keysym><keysym>U1338</keysym></keycombo></entry><entry>"ጼ" U133C # key [ (base character ጸ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>e</keysym><keysym>U1330</keysym></keycombo></entry><entry>"ጴ" U1334 # key p (base character ጰ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>e</keysym><keysym>U1280</keysym></keycombo></entry><entry>"ኄ" U1284 # key ] (base character ኀ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>e</keysym><keysym>U1268</keysym></keycombo></entry><entry>"ቬ" U126C # key v (base character ቨ)</entry></row>
+<row><entry namest='seq' nameend='action'>Modifier: /c/</entry></row>
+<row><entry><keycombo action='seq'><keysym>c</keysym><keysym>U1210</keysym></keycombo></entry><entry>"ሕ" U1215 # key h (base character ሐ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>c</keysym><keysym>U1220</keysym></keycombo></entry><entry>"ሥ" U1225 # key s (base character ሠ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>c</keysym><keysym>U1250</keysym></keycombo></entry><entry>"ቕ" U1255 # key q (base character ቐ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>c</keysym><keysym>U1278</keysym></keycombo></entry><entry>"ች" U127D # key c (base character ቸ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>c</keysym><keysym>U1320</keysym></keycombo></entry><entry>"ጥ" U1325 # key t (base character ጠ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>c</keysym><keysym>U1298</keysym></keycombo></entry><entry>"ኝ" U129D # key n (base character ኘ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>c</keysym><keysym>U12D0</keysym></keycombo></entry><entry>"ዕ" U12D5 # key x (base character ዐ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>c</keysym><keysym>U12B8</keysym></keycombo></entry><entry>"ኽ" U12BD # key k (base character ኸ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>c</keysym><keysym>U12E0</keysym></keycombo></entry><entry>"ዥ" U12E5 # key z (base character ዠ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>c</keysym><keysym>U12F8</keysym></keycombo></entry><entry>"ዽ" U12FD # key d (base character ዸ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>c</keysym><keysym>U1318</keysym></keycombo></entry><entry>"ጝ" U131D # key g (base character ጘ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>c</keysym><keysym>U1338</keysym></keycombo></entry><entry>"ጽ" U133D # key [ (base character ጸ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>c</keysym><keysym>U1330</keysym></keycombo></entry><entry>"ጵ" U1335 # key p (base character ጰ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>c</keysym><keysym>U1280</keysym></keycombo></entry><entry>"ኅ" U1285 # key ] (base character ኀ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>c</keysym><keysym>U1268</keysym></keycombo></entry><entry>"ቭ" U126D # key v (base character ቨ)</entry></row>
+<row><entry namest='seq' nameend='action'>Modifier: /o/</entry></row>
+<row><entry><keycombo action='seq'><keysym>o</keysym><keysym>U1210</keysym></keycombo></entry><entry>"ሖ" U1216 # key h (base character ሐ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>o</keysym><keysym>U1220</keysym></keycombo></entry><entry>"ሦ" U1226 # key s (base character ሠ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>o</keysym><keysym>U1250</keysym></keycombo></entry><entry>"ቖ" U1256 # key q (base character ቐ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>o</keysym><keysym>U1278</keysym></keycombo></entry><entry>"ቾ" U127E # key c (base character ቸ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>o</keysym><keysym>U1320</keysym></keycombo></entry><entry>"ጦ" U1326 # key t (base character ጠ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>o</keysym><keysym>U1298</keysym></keycombo></entry><entry>"ኞ" U129E # key n (base character ኘ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>o</keysym><keysym>U12D0</keysym></keycombo></entry><entry>"ዖ" U12D6 # key x (base character ዐ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>o</keysym><keysym>U12B8</keysym></keycombo></entry><entry>"ኾ" U12BE # key k (base character ኸ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>o</keysym><keysym>U12E0</keysym></keycombo></entry><entry>"ዦ" U12E6 # key z (base character ዠ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>o</keysym><keysym>U12F8</keysym></keycombo></entry><entry>"ዾ" U12FE # key d (base character ዸ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>o</keysym><keysym>U1318</keysym></keycombo></entry><entry>"ጞ" U131E # key g (base character ጘ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>o</keysym><keysym>U1338</keysym></keycombo></entry><entry>"ጾ" U133E # key [ (base character ጸ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>o</keysym><keysym>U1330</keysym></keycombo></entry><entry>"ጶ" U1336 # key p (base character ጰ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>o</keysym><keysym>U1280</keysym></keycombo></entry><entry>"ኆ" U1286 # key ] (base character ኀ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>o</keysym><keysym>U1268</keysym></keycombo></entry><entry>"ቮ" U126E # key v (base character ቨ)</entry></row>
+<row><entry namest='seq' nameend='action'>Modifier: /A/</entry></row>
+<row><entry><keycombo action='seq'><keysym>A</keysym><keysym>U1210</keysym></keycombo></entry><entry>"ሗ" U1217 # key h (base character ሐ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>A</keysym><keysym>U1220</keysym></keycombo></entry><entry>"ሧ" U1227 # key s (base character ሠ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>A</keysym><keysym>U1250</keysym></keycombo></entry><entry>"ቛ" U125B # key q (base character ቐ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>A</keysym><keysym>U1278</keysym></keycombo></entry><entry>"ቿ" U127F # key c (base character ቸ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>A</keysym><keysym>U1320</keysym></keycombo></entry><entry>"ጧ" U1327 # key t (base character ጠ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>A</keysym><keysym>U1298</keysym></keycombo></entry><entry>"ኟ" U129F # key n (base character ኘ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>A</keysym><keysym>U12B8</keysym></keycombo></entry><entry>"ዃ" U12C3 # key k (base character ኸ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>A</keysym><keysym>U12E0</keysym></keycombo></entry><entry>"ዧ" U12E7 # key z (base character ዠ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>A</keysym><keysym>U12F8</keysym></keycombo></entry><entry>"ዿ" U12FF # key d (base character ዸ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>A</keysym><keysym>U1338</keysym></keycombo></entry><entry>"ጿ" U133F # key [ (base character ጸ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>A</keysym><keysym>U1330</keysym></keycombo></entry><entry>"ጷ" U1337 # key p (base character ጰ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>A</keysym><keysym>U1280</keysym></keycombo></entry><entry>"ኋ" U128B # key ] (base character ኀ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>A</keysym><keysym>U1268</keysym></keycombo></entry><entry>"ቯ" U126F # key v (base character ቨ)</entry></row>
+<row><entry namest='seq' nameend='action'>Modifier: /U/</entry></row>
+<row><entry><keycombo action='seq'><keysym>U</keysym><keysym>U1250</keysym></keycombo></entry><entry>"ቝ" U125D # key q (base character ቐ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>U</keysym><keysym>U12B8</keysym></keycombo></entry><entry>"ዅ" U12C5 # key k (base character ኸ)</entry></row>
+<row><entry namest='seq' nameend='action'>Modifier: /I/</entry></row>
+<row><entry><keycombo action='seq'><keysym>I</keysym><keysym>U1250</keysym></keycombo></entry><entry>"ቚ" U125A # key q (base character ቐ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>I</keysym><keysym>U12B8</keysym></keycombo></entry><entry>"ዂ" U12C2 # key k (base character ኸ)</entry></row>
+<row><entry namest='seq' nameend='action'>Modifier: /E/</entry></row>
+<row><entry><keycombo action='seq'><keysym>E</keysym><keysym>U1250</keysym></keycombo></entry><entry>"ቜ" U125C # key q (base character ቐ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>E</keysym><keysym>U12B8</keysym></keycombo></entry><entry>"ዄ" U12C4 # key k (base character ኸ)</entry></row>
+<row><entry namest='seq' nameend='action'>Modifier: /O/</entry></row>
+<row><entry><keycombo action='seq'><keysym>O</keysym><keysym>U1250</keysym></keycombo></entry><entry>"ቘ" U1258 # key q (base character ቐ)</entry></row>
+<row><entry><keycombo action='seq'><keysym>O</keysym><keysym>U12B8</keysym></keycombo></entry><entry>"ዀ" U12C0 # key k (base character ኸ)</entry></row>
+<row><entry namest='seq' nameend='action'> Group III </entry></row>
+<row><entry><keycombo action='seq'><keysym>backslash</keysym><keysym>quotedbl</keysym></keycombo></entry><entry>"፥" U1365 # key "</entry></row>
+<row><entry><keycombo action='seq'><keysym>backslash</keysym><keysym>apostrophe</keysym></keycombo></entry><entry>"፦" U1366 # key "</entry></row>
+<row><entry><keycombo action='seq'><keysym>backslash</keysym><keysym>minus</keysym></keycombo></entry><entry>"|" U007C # key -</entry></row>
+<row><entry><keycombo action='seq'><keysym>backslash</keysym><keysym>underscore</keysym></keycombo></entry><entry>"¥" U00A5 # key _</entry></row>
+<row><entry><keycombo action='seq'><keysym>backslash</keysym><keysym>question</keysym></keycombo></entry><entry>"፧" U1367 # key ?</entry></row>
+<row><entry namest='seq' nameend='action'> Khmer digraphs </entry></row>
+<row><entry><keycombo action='seq'><keysym>U17ff</keysym></keycombo></entry><entry>"ាំ"</entry></row>
+<row><entry><keycombo action='seq'><keysym>U17fe</keysym></keycombo></entry><entry>"ោះ"</entry></row>
+<row><entry><keycombo action='seq'><keysym>U17fd</keysym></keycombo></entry><entry>"េះ"</entry></row>
+<row><entry><keycombo action='seq'><keysym>U17fc</keysym></keycombo></entry><entry>"ុំ"</entry></row>
+<row><entry><keycombo action='seq'><keysym>U17fb</keysym></keycombo></entry><entry>"ុះ"</entry></row>
+<row><entry namest='seq' nameend='action'> Arabic Lam-Alef ligatures </entry></row>
+<row><entry><keycombo action='seq'><keysym>UFEFB</keysym></keycombo></entry><entry>"لا" # ARABIC LIGATURE LAM WITH ALEF</entry></row>
+<row><entry><keycombo action='seq'><keysym>UFEF7</keysym></keycombo></entry><entry>"لأ" # ARABIC LIGATURE LAM WITH ALEF WITH HAMZA ABOVE</entry></row>
+<row><entry><keycombo action='seq'><keysym>UFEF9</keysym></keycombo></entry><entry>"لإ" # ARABIC LIGATURE LAM WITH ALEF WITH HAMZA BELOW</entry></row>
+<row><entry><keycombo action='seq'><keysym>UFEF5</keysym></keycombo></entry><entry>"لآ" # ARABIC LIGATURE LAM WITH ALEF WITH MADDA ABOVE</entry></row>
+</tbody>
+</tgroup>
+</table>
+</section>

@@ -1,0 +1,14 @@
+prefix=/usr/src/octoin/depends/x86_64-pc-linux-gnu
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qt5 Network
+Description: Qt Network module
+Version: 5.6.1
+Libs: -L${libdir} -lQt5Network 
+Libs.private: -L/usr/src/octoin/depends/x86_64-pc-linux-gnu/lib -lQt5Core -lqtpcre -lm -ldl -lrt -lpthread -lssl -lcrypto -lQt5Core -lpthread -L/usr/src/octoin/depends/x86_64-pc-linux-gnu/lib -lqtpcre -lm -ldl -lrt  
+Cflags: -I${includedir}/QtNetwork 
+Requires: Qt5Core
+

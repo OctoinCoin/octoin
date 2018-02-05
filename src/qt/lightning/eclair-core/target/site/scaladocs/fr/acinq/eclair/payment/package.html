@@ -1,0 +1,856 @@
+<!DOCTYPE html >
+<html>
+        <head>
+          <title>payment - eclair-core_2.11 0.2-SNAPSHOT API - fr.acinq.eclair.payment</title>
+          <meta name="description" content="payment - eclair - core 2.11 0.2 - SNAPSHOT API - fr.acinq.eclair.payment" />
+          <meta name="keywords" content="payment eclair core 2.11 0.2 SNAPSHOT API fr.acinq.eclair.payment" />
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link href="../../../../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../../../../lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
+      <script type="text/javascript" src="../../../../lib/jquery.js" id="jquery-js"></script>
+      <script type="text/javascript" src="../../../../lib/jquery-ui.js"></script>
+      <script type="text/javascript" src="../../../../lib/template.js"></script>
+      <script type="text/javascript" src="../../../../lib/tools.tooltip.js"></script>
+      
+      <script type="text/javascript">
+         if(top === self) {
+            var url = '../../../../index.html';
+            var hash = 'fr.acinq.eclair.payment.package';
+            var anchor = window.location.hash;
+            var anchor_opt = '';
+            if (anchor.length >= 1)
+              anchor_opt = '@' + anchor.substring(1);
+            window.location.href = url + '#' + hash + anchor_opt;
+         }
+   	  </script>
+    
+        </head>
+        <body class="value">
+      <div id="definition">
+        <img alt="Package" src="../../../../lib/package_big.png" />
+        <p id="owner"><a href="../../../package.html" class="extype" name="fr">fr</a>.<a href="../../package.html" class="extype" name="fr.acinq">acinq</a>.<a href="../package.html" class="extype" name="fr.acinq.eclair">eclair</a></p>
+        <h1>payment</h1><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.payment.package" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      </div>
+
+      <h4 id="signature" class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <span class="name">payment</span>
+      </span>
+      </h4>
+      
+          <div id="comment" class="fullcommenttop"></div>
+        
+
+      <div id="mbrsel">
+        <div id="textfilter"><span class="pre"></span><span class="input"><input id="mbrsel-input" type="text" accesskey="/" /></span><span class="post"></span></div>
+        
+        
+        <div id="visbl">
+            <span class="filtertype">Visibility</span>
+            <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+          </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        
+
+        <div id="types" class="types members">
+              <h3>Type Members</h3>
+              <ol><li name="fr.acinq.eclair.payment.AckFulfillCmd" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="AckFulfillCmdextendsProductwithSerializable"></a>
+      <a id="AckFulfillCmd:AckFulfillCmd"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="AckFulfillCmd.html"><span class="name">AckFulfillCmd</span></a><span class="params">(<span name="channelId">channelId: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>, <span name="htlcId">htlcId: <span class="extype" name="scala.Long">Long</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.payment.package@AckFulfillCmdextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.payment.Data" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="DataextendsAnyRef"></a>
+      <a id="Data:Data"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">sealed </span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="Data.html"><span class="name">Data</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.payment.package@DataextendsAnyRef" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.payment.ForwardAdd" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ForwardAddextendsProductwithSerializable"></a>
+      <a id="ForwardAdd:ForwardAdd"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="ForwardAdd.html"><span class="name">ForwardAdd</span></a><span class="params">(<span name="add">add: <a href="../wire/UpdateAddHtlc.html" class="extype" name="fr.acinq.eclair.wire.UpdateAddHtlc">UpdateAddHtlc</a></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.payment.package@ForwardAddextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.payment.ForwardFail" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ForwardFailextendsProductwithSerializable"></a>
+      <a id="ForwardFail:ForwardFail"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="ForwardFail.html"><span class="name">ForwardFail</span></a><span class="params">(<span name="fail">fail: <a href="../wire/UpdateFailHtlc.html" class="extype" name="fr.acinq.eclair.wire.UpdateFailHtlc">UpdateFailHtlc</a></span>, <span name="to">to: <a href="Origin.html" class="extype" name="fr.acinq.eclair.payment.Origin">Origin</a></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.payment.package@ForwardFailextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.payment.ForwardFailMalformed" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ForwardFailMalformedextendsProductwithSerializable"></a>
+      <a id="ForwardFailMalformed:ForwardFailMalformed"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="ForwardFailMalformed.html"><span class="name">ForwardFailMalformed</span></a><span class="params">(<span name="fail">fail: <a href="../wire/UpdateFailMalformedHtlc.html" class="extype" name="fr.acinq.eclair.wire.UpdateFailMalformedHtlc">UpdateFailMalformedHtlc</a></span>, <span name="to">to: <a href="Origin.html" class="extype" name="fr.acinq.eclair.payment.Origin">Origin</a></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.payment.package@ForwardFailMalformedextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.payment.ForwardFulfill" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ForwardFulfillextendsProductwithSerializable"></a>
+      <a id="ForwardFulfill:ForwardFulfill"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="ForwardFulfill.html"><span class="name">ForwardFulfill</span></a><span class="params">(<span name="fulfill">fulfill: <a href="../wire/UpdateFulfillHtlc.html" class="extype" name="fr.acinq.eclair.wire.UpdateFulfillHtlc">UpdateFulfillHtlc</a></span>, <span name="to">to: <a href="Origin.html" class="extype" name="fr.acinq.eclair.payment.Origin">Origin</a></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.payment.package@ForwardFulfillextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.payment.ForwardLocalFail" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ForwardLocalFailextendsProductwithSerializable"></a>
+      <a id="ForwardLocalFail:ForwardLocalFail"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="ForwardLocalFail.html"><span class="name">ForwardLocalFail</span></a><span class="params">(<span name="error">error: <span class="extype" name="scala.Throwable">Throwable</span></span>, <span name="to">to: <a href="Origin.html" class="extype" name="fr.acinq.eclair.payment.Origin">Origin</a></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.payment.package@ForwardLocalFailextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.payment.Hop" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="HopextendsPaymentHopwithProductwithSerializable"></a>
+      <a id="Hop:Hop"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Hop.html"><span class="name">Hop</span></a><span class="params">(<span name="nodeId">nodeId: <span class="extype" name="fr.acinq.bitcoin.Crypto.PublicKey">PublicKey</span></span>, <span name="nextNodeId">nextNodeId: <span class="extype" name="fr.acinq.bitcoin.Crypto.PublicKey">PublicKey</span></span>, <span name="lastUpdate">lastUpdate: <a href="../wire/ChannelUpdate.html" class="extype" name="fr.acinq.eclair.wire.ChannelUpdate">ChannelUpdate</a></span>)</span><span class="result"> extends <a href="PaymentHop.html" class="extype" name="fr.acinq.eclair.payment.PaymentHop">PaymentHop</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.payment.package@HopextendsPaymentHopwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.payment.Local" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="LocalextendsOriginwithProductwithSerializable"></a>
+      <a id="Local:Local"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Local.html"><span class="name">Local</span></a><span class="params">(<span name="sender">sender: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="akka.actor.ActorRef">ActorRef</span>]</span>)</span><span class="result"> extends <a href="Origin.html" class="extype" name="fr.acinq.eclair.payment.Origin">Origin</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.payment.package@LocalextendsOriginwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.payment.LocalFailure" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="LocalFailureextendsPaymentFailurewithProductwithSerializable"></a>
+      <a id="LocalFailure:LocalFailure"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="LocalFailure.html"><span class="name">LocalFailure</span></a><span class="params">(<span name="t">t: <span class="extype" name="scala.Throwable">Throwable</span></span>)</span><span class="result"> extends <a href="PaymentFailure.html" class="extype" name="fr.acinq.eclair.payment.PaymentFailure">PaymentFailure</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.payment.package@LocalFailureextendsPaymentFailurewithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.payment.LocalPaymentHandler" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="LocalPaymentHandlerextendsActorwithActorLogging"></a>
+      <a id="LocalPaymentHandler:LocalPaymentHandler"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="LocalPaymentHandler.html"><span class="name">LocalPaymentHandler</span></a><span class="result"> extends <span class="extype" name="akka.actor.Actor">Actor</span> with <span class="extype" name="akka.actor.ActorLogging">ActorLogging</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.payment.package@LocalPaymentHandlerextendsActorwithActorLogging" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Created by PM on 17/06/2016.</p>
+    </li><li name="fr.acinq.eclair.payment.NoopPaymentHandler" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="NoopPaymentHandlerextendsActorwithActorLogging"></a>
+      <a id="NoopPaymentHandler:NoopPaymentHandler"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="NoopPaymentHandler.html"><span class="name">NoopPaymentHandler</span></a><span class="result"> extends <span class="extype" name="akka.actor.Actor">Actor</span> with <span class="extype" name="akka.actor.ActorLogging">ActorLogging</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.payment.package@NoopPaymentHandlerextendsActorwithActorLogging" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Created by PM on 16/06/2016.</p>
+    </li><li name="fr.acinq.eclair.payment.Origin" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="OriginextendsAnyRef"></a>
+      <a id="Origin:Origin"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">sealed </span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="Origin.html"><span class="name">Origin</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.payment.package@OriginextendsAnyRef" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.payment.PaymentEvent" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="PaymentEventextendsAnyRef"></a>
+      <a id="PaymentEvent:PaymentEvent"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">sealed </span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="PaymentEvent.html"><span class="name">PaymentEvent</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.payment.package@PaymentEventextendsAnyRef" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Created by PM on 01/02/2017.</p>
+    </li><li name="fr.acinq.eclair.payment.PaymentFailed" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="PaymentFailedextendsPaymentResultwithProductwithSerializable"></a>
+      <a id="PaymentFailed:PaymentFailed"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="PaymentFailed.html"><span class="name">PaymentFailed</span></a><span class="params">(<span name="paymentHash">paymentHash: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>, <span name="failures">failures: <span class="extype" name="scala.Seq">Seq</span>[<a href="PaymentFailure.html" class="extype" name="fr.acinq.eclair.payment.PaymentFailure">PaymentFailure</a>]</span>)</span><span class="result"> extends <a href="PaymentResult.html" class="extype" name="fr.acinq.eclair.payment.PaymentResult">PaymentResult</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.payment.package@PaymentFailedextendsPaymentResultwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.payment.PaymentFailure" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="PaymentFailureextendsAnyRef"></a>
+      <a id="PaymentFailure:PaymentFailure"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">sealed </span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="PaymentFailure.html"><span class="name">PaymentFailure</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.payment.package@PaymentFailureextendsAnyRef" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.payment.PaymentHop" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="PaymentHopextendsAnyRef"></a>
+      <a id="PaymentHop:PaymentHop"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="PaymentHop.html"><span class="name">PaymentHop</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.payment.package@PaymentHopextendsAnyRef" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.payment.PaymentInitiator" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="PaymentInitiatorextendsActorwithActorLogging"></a>
+      <a id="PaymentInitiator:PaymentInitiator"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="PaymentInitiator.html"><span class="name">PaymentInitiator</span></a><span class="result"> extends <span class="extype" name="akka.actor.Actor">Actor</span> with <span class="extype" name="akka.actor.ActorLogging">ActorLogging</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.payment.package@PaymentInitiatorextendsActorwithActorLogging" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Created by PM on 29/08/2016.</p>
+    </li><li name="fr.acinq.eclair.payment.PaymentLifecycle" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="PaymentLifecycleextendsLoggingFSM[fr.acinq.eclair.payment.State,fr.acinq.eclair.payment.Data]"></a>
+      <a id="PaymentLifecycle:PaymentLifecycle"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="PaymentLifecycle.html"><span class="name">PaymentLifecycle</span></a><span class="result"> extends <span class="extype" name="akka.actor.LoggingFSM">LoggingFSM</span>[<a href="State.html" class="extype" name="fr.acinq.eclair.payment.State">State</a>, <a href="Data.html" class="extype" name="fr.acinq.eclair.payment.Data">Data</a>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.payment.package@PaymentLifecycleextendsLoggingFSM[fr.acinq.eclair.payment.State,fr.acinq.eclair.payment.Data]" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Created by PM on 26/08/2016.</p>
+    </li><li name="fr.acinq.eclair.payment.PaymentReceived" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="PaymentReceivedextendsPaymentEventwithProductwithSerializable"></a>
+      <a id="PaymentReceived:PaymentReceived"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="PaymentReceived.html"><span class="name">PaymentReceived</span></a><span class="params">(<span name="amount">amount: <span class="extype" name="fr.acinq.bitcoin.Satoshi">Satoshi</span></span>, <span name="paymentHash">paymentHash: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>)</span><span class="result"> extends <a href="PaymentEvent.html" class="extype" name="fr.acinq.eclair.payment.PaymentEvent">PaymentEvent</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.payment.package@PaymentReceivedextendsPaymentEventwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.payment.PaymentRelayed" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="PaymentRelayedextendsPaymentEventwithProductwithSerializable"></a>
+      <a id="PaymentRelayed:PaymentRelayed"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="PaymentRelayed.html"><span class="name">PaymentRelayed</span></a><span class="params">(<span name="amountIn">amountIn: <span class="extype" name="fr.acinq.bitcoin.Satoshi">Satoshi</span></span>, <span name="amountOut">amountOut: <span class="extype" name="fr.acinq.bitcoin.Satoshi">Satoshi</span></span>, <span name="paymentHash">paymentHash: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>)</span><span class="result"> extends <a href="PaymentEvent.html" class="extype" name="fr.acinq.eclair.payment.PaymentEvent">PaymentEvent</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.payment.package@PaymentRelayedextendsPaymentEventwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.payment.PaymentRequest" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="PaymentRequestextendsProductwithSerializable"></a>
+      <a id="PaymentRequest:PaymentRequest"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="PaymentRequest.html"><span class="name">PaymentRequest</span></a><span class="params">(<span name="prefix">prefix: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="amount">amount: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="fr.acinq.bitcoin.MilliSatoshi">MilliSatoshi</span>]</span>, <span name="timestamp">timestamp: <span class="extype" name="scala.Long">Long</span></span>, <span name="nodeId">nodeId: <span class="extype" name="fr.acinq.bitcoin.Crypto.PublicKey">PublicKey</span></span>, <span name="tags">tags: <span class="extype" name="scala.List">List</span>[<a href="PaymentRequest$$Tag.html" class="extype" name="fr.acinq.eclair.payment.PaymentRequest.Tag">Tag</a>]</span>, <span name="signature">signature: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.payment.package@PaymentRequestextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Lightning Payment Request
+see https://github.com/lightningnetwork/lightning-rfc/pull/183
+</p><div class="fullcomment"><div class="comment cmt"><p>Lightning Payment Request
+see https://github.com/lightningnetwork/lightning-rfc/pull/183
+</p></div><dl class="paramcmts block"><dt class="param">prefix</dt><dd class="cmt"><p>currency prefix; lnbc for bitcoin, lntb for bitcoin testnet</p></dd><dt class="param">amount</dt><dd class="cmt"><p>amount to pay (empty string means no amount is specified)</p></dd><dt class="param">timestamp</dt><dd class="cmt"><p>request timestamp (UNIX format)</p></dd><dt class="param">nodeId</dt><dd class="cmt"><p>id of the node emitting the payment request</p></dd><dt class="param">tags</dt><dd class="cmt"><p>payment tags; must include a single PaymentHash tag</p></dd><dt class="param">signature</dt><dd class="cmt"><p>request signature that will be checked against node id</p></dd></dl></div>
+    </li><li name="fr.acinq.eclair.payment.PaymentResult" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="PaymentResultextendsAnyRef"></a>
+      <a id="PaymentResult:PaymentResult"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">sealed </span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="PaymentResult.html"><span class="name">PaymentResult</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.payment.package@PaymentResultextendsAnyRef" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.payment.PaymentSent" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="PaymentSentextendsPaymentEventwithProductwithSerializable"></a>
+      <a id="PaymentSent:PaymentSent"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="PaymentSent.html"><span class="name">PaymentSent</span></a><span class="params">(<span name="amount">amount: <span class="extype" name="fr.acinq.bitcoin.Satoshi">Satoshi</span></span>, <span name="feesPaid">feesPaid: <span class="extype" name="fr.acinq.bitcoin.Satoshi">Satoshi</span></span>, <span name="paymentHash">paymentHash: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>)</span><span class="result"> extends <a href="PaymentEvent.html" class="extype" name="fr.acinq.eclair.payment.PaymentEvent">PaymentEvent</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.payment.package@PaymentSentextendsPaymentEventwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.payment.PaymentSucceeded" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="PaymentSucceededextendsPaymentResultwithProductwithSerializable"></a>
+      <a id="PaymentSucceeded:PaymentSucceeded"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="PaymentSucceeded.html"><span class="name">PaymentSucceeded</span></a><span class="params">(<span name="route">route: <span class="extype" name="scala.Seq">Seq</span>[<a href="Hop.html" class="extype" name="fr.acinq.eclair.payment.Hop">Hop</a>]</span>, <span name="paymentPreimage">paymentPreimage: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>)</span><span class="result"> extends <a href="PaymentResult.html" class="extype" name="fr.acinq.eclair.payment.PaymentResult">PaymentResult</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.payment.package@PaymentSucceededextendsPaymentResultwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.payment.ReceivePayment" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ReceivePaymentextendsProductwithSerializable"></a>
+      <a id="ReceivePayment:ReceivePayment"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="ReceivePayment.html"><span class="name">ReceivePayment</span></a><span class="params">(<span name="amountMsat">amountMsat: <span class="extype" name="fr.acinq.bitcoin.MilliSatoshi">MilliSatoshi</span></span>, <span name="description">description: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.payment.package@ReceivePaymentextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.payment.Relayed" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RelayedextendsOriginwithProductwithSerializable"></a>
+      <a id="Relayed:Relayed"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Relayed.html"><span class="name">Relayed</span></a><span class="params">(<span name="originChannelId">originChannelId: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>, <span name="originHtlcId">originHtlcId: <span class="extype" name="scala.Long">Long</span></span>, <span name="amountMsatIn">amountMsatIn: <span class="extype" name="scala.Long">Long</span></span>, <span name="amountMsatOut">amountMsatOut: <span class="extype" name="scala.Long">Long</span></span>)</span><span class="result"> extends <a href="Origin.html" class="extype" name="fr.acinq.eclair.payment.Origin">Origin</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.payment.package@RelayedextendsOriginwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.payment.Relayer" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RelayerextendsActorwithActorLogging"></a>
+      <a id="Relayer:Relayer"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="Relayer.html"><span class="name">Relayer</span></a><span class="result"> extends <span class="extype" name="akka.actor.Actor">Actor</span> with <span class="extype" name="akka.actor.ActorLogging">ActorLogging</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.payment.package@RelayerextendsActorwithActorLogging" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Created by PM on 01/02/2017.</p>
+    </li><li name="fr.acinq.eclair.payment.RemoteFailure" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RemoteFailureextendsPaymentFailurewithProductwithSerializable"></a>
+      <a id="RemoteFailure:RemoteFailure"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="RemoteFailure.html"><span class="name">RemoteFailure</span></a><span class="params">(<span name="route">route: <span class="extype" name="scala.Seq">Seq</span>[<a href="Hop.html" class="extype" name="fr.acinq.eclair.payment.Hop">Hop</a>]</span>, <span name="e">e: <a href="../crypto/Sphinx$$ErrorPacket.html" class="extype" name="fr.acinq.eclair.crypto.Sphinx.ErrorPacket">ErrorPacket</a></span>)</span><span class="result"> extends <a href="PaymentFailure.html" class="extype" name="fr.acinq.eclair.payment.PaymentFailure">PaymentFailure</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.payment.package@RemoteFailureextendsPaymentFailurewithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.payment.SendPayment" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="SendPaymentextendsProductwithSerializable"></a>
+      <a id="SendPayment:SendPayment"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="SendPayment.html"><span class="name">SendPayment</span></a><span class="params">(<span name="amountMsat">amountMsat: <span class="extype" name="scala.Long">Long</span></span>, <span name="paymentHash">paymentHash: <span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span></span>, <span name="targetNodeId">targetNodeId: <span class="extype" name="fr.acinq.bitcoin.Crypto.PublicKey">PublicKey</span></span>, <span name="minFinalCltvExpiry">minFinalCltvExpiry: <span class="extype" name="scala.Long">Long</span> = <span class="defval" name='<span class="name"><a href="PaymentLifecycle$.html">PaymentLifecycle.defaultMinFinalCltvExpiry</a></span>'>...</span></span>, <span name="maxAttempts">maxAttempts: <span class="extype" name="scala.Int">Int</span> = <span class="symbol">5</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.payment.package@SendPaymentextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.payment.State" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="StateextendsAnyRef"></a>
+      <a id="State:State"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">sealed </span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="State.html"><span class="name">State</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.payment.package@StateextendsAnyRef" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.payment.UnreadableRemoteFailure" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="UnreadableRemoteFailureextendsPaymentFailurewithProductwithSerializable"></a>
+      <a id="UnreadableRemoteFailure:UnreadableRemoteFailure"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="UnreadableRemoteFailure.html"><span class="name">UnreadableRemoteFailure</span></a><span class="params">(<span name="route">route: <span class="extype" name="scala.Seq">Seq</span>[<a href="Hop.html" class="extype" name="fr.acinq.eclair.payment.Hop">Hop</a>]</span>)</span><span class="result"> extends <a href="PaymentFailure.html" class="extype" name="fr.acinq.eclair.payment.PaymentFailure">PaymentFailure</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.payment.package@UnreadableRemoteFailureextendsPaymentFailurewithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.payment.WaitingForComplete" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="WaitingForCompleteextendsDatawithProductwithSerializable"></a>
+      <a id="WaitingForComplete:WaitingForComplete"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="WaitingForComplete.html"><span class="name">WaitingForComplete</span></a><span class="params">(<span name="sender">sender: <span class="extype" name="akka.actor.ActorRef">ActorRef</span></span>, <span name="c">c: <a href="SendPayment.html" class="extype" name="fr.acinq.eclair.payment.SendPayment">SendPayment</a></span>, <span name="cmd">cmd: <a href="../channel/CMD_ADD_HTLC.html" class="extype" name="fr.acinq.eclair.channel.CMD_ADD_HTLC">CMD_ADD_HTLC</a></span>, <span name="failures">failures: <span class="extype" name="scala.Seq">Seq</span>[<a href="PaymentFailure.html" class="extype" name="fr.acinq.eclair.payment.PaymentFailure">PaymentFailure</a>]</span>, <span name="sharedSecrets">sharedSecrets: <span class="extype" name="scala.Seq">Seq</span>[(<span class="extype" name="fr.acinq.bitcoin.BinaryData">BinaryData</span>, <span class="extype" name="fr.acinq.bitcoin.Crypto.PublicKey">PublicKey</span>)]</span>, <span name="ignoreNodes">ignoreNodes: <span class="extype" name="scala.Predef.Set">Set</span>[<span class="extype" name="fr.acinq.bitcoin.Crypto.PublicKey">PublicKey</span>]</span>, <span name="ignoreChannels">ignoreChannels: <span class="extype" name="scala.Predef.Set">Set</span>[<span class="extype" name="scala.Long">Long</span>]</span>, <span name="hops">hops: <span class="extype" name="scala.Seq">Seq</span>[<a href="Hop.html" class="extype" name="fr.acinq.eclair.payment.Hop">Hop</a>]</span>)</span><span class="result"> extends <a href="Data.html" class="extype" name="fr.acinq.eclair.payment.Data">Data</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.payment.package@WaitingForCompleteextendsDatawithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.payment.WaitingForRoute" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="WaitingForRouteextendsDatawithProductwithSerializable"></a>
+      <a id="WaitingForRoute:WaitingForRoute"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="WaitingForRoute.html"><span class="name">WaitingForRoute</span></a><span class="params">(<span name="sender">sender: <span class="extype" name="akka.actor.ActorRef">ActorRef</span></span>, <span name="c">c: <a href="SendPayment.html" class="extype" name="fr.acinq.eclair.payment.SendPayment">SendPayment</a></span>, <span name="failures">failures: <span class="extype" name="scala.Seq">Seq</span>[<a href="PaymentFailure.html" class="extype" name="fr.acinq.eclair.payment.PaymentFailure">PaymentFailure</a>]</span>)</span><span class="result"> extends <a href="Data.html" class="extype" name="fr.acinq.eclair.payment.Data">Data</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.payment.package@WaitingForRouteextendsDatawithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li></ol>
+            </div>
+
+        
+
+        <div id="values" class="values members">
+              <h3>Value Members</h3>
+              <ol><li name="fr.acinq.eclair.payment.LocalPaymentHandler" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="LocalPaymentHandler"></a>
+      <a id="LocalPaymentHandler:LocalPaymentHandler"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="LocalPaymentHandler$.html"><span class="name">LocalPaymentHandler</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.payment.package@LocalPaymentHandler" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.payment.PaymentHop" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="PaymentHop"></a>
+      <a id="PaymentHop:PaymentHop"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="PaymentHop$.html"><span class="name">PaymentHop</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.payment.package@PaymentHop" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.payment.PaymentInitiator" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="PaymentInitiator"></a>
+      <a id="PaymentInitiator:PaymentInitiator"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="PaymentInitiator$.html"><span class="name">PaymentInitiator</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.payment.package@PaymentInitiator" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.payment.PaymentLifecycle" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="PaymentLifecycle"></a>
+      <a id="PaymentLifecycle:PaymentLifecycle"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="PaymentLifecycle$.html"><span class="name">PaymentLifecycle</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.payment.package@PaymentLifecycle" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.payment.PaymentRequest" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="PaymentRequest"></a>
+      <a id="PaymentRequest:PaymentRequest"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="PaymentRequest$.html"><span class="name">PaymentRequest</span></a><span class="result"> extends <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.payment.package@PaymentRequest" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.payment.Relayer" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Relayer"></a>
+      <a id="Relayer:Relayer"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Relayer$.html"><span class="name">Relayer</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.payment.package@Relayer" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.payment.WAITING_FOR_PAYMENT_COMPLETE" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="WAITING_FOR_PAYMENT_COMPLETE"></a>
+      <a id="WAITING_FOR_PAYMENT_COMPLETE:WAITING_FOR_PAYMENT_COMPLETE"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="WAITING_FOR_PAYMENT_COMPLETE$.html"><span class="name">WAITING_FOR_PAYMENT_COMPLETE</span></a><span class="result"> extends <a href="State.html" class="extype" name="fr.acinq.eclair.payment.State">State</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.payment.package@WAITING_FOR_PAYMENT_COMPLETE" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.payment.WAITING_FOR_REQUEST" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="WAITING_FOR_REQUEST"></a>
+      <a id="WAITING_FOR_REQUEST:WAITING_FOR_REQUEST"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="WAITING_FOR_REQUEST$.html"><span class="name">WAITING_FOR_REQUEST</span></a><span class="result"> extends <a href="State.html" class="extype" name="fr.acinq.eclair.payment.State">State</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.payment.package@WAITING_FOR_REQUEST" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.payment.WAITING_FOR_ROUTE" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="WAITING_FOR_ROUTE"></a>
+      <a id="WAITING_FOR_ROUTE:WAITING_FOR_ROUTE"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="WAITING_FOR_ROUTE$.html"><span class="name">WAITING_FOR_ROUTE</span></a><span class="result"> extends <a href="State.html" class="extype" name="fr.acinq.eclair.payment.State">State</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.payment.package@WAITING_FOR_ROUTE" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="fr.acinq.eclair.payment.WaitingForRequest" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="WaitingForRequest"></a>
+      <a id="WaitingForRequest:WaitingForRequest"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="WaitingForRequest$.html"><span class="name">WaitingForRequest</span></a><span class="result"> extends <a href="Data.html" class="extype" name="fr.acinq.eclair.payment.Data">Data</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#fr.acinq.eclair.payment.package@WaitingForRequest" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li></ol>
+            </div>
+
+        
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        
+        
+        </div>
+
+        <div id="groupedMembers">
+        <div class="group" name="Ungrouped">
+              <h3>Ungrouped</h3>
+              
+            </div>
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">  </div>
+
+
+    </body>
+      </html>

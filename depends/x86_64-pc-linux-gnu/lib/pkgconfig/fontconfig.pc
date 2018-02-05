@@ -1,0 +1,18 @@
+prefix=/usr/src/octoin/depends/x86_64-pc-linux-gnu
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+sysconfdir=${prefix}/etc
+localstatedir=${prefix}/var
+PACKAGE=fontconfig
+confdir=${sysconfdir}/fonts
+cachedir=${localstatedir}/cache/${PACKAGE}
+
+Name: Fontconfig
+Description: Font configuration and customization library
+Version: 2.11.1
+Requires:  freetype2
+Requires.private:  expat
+Libs: -L${libdir} -lfontconfig
+Libs.private: -L/usr/src/octoin/depends/x86_64-pc-linux-gnu/lib -lexpat   -L/usr/src/octoin/depends/x86_64-pc-linux-gnu/lib -lfreetype    
+Cflags: -I${includedir} -I/usr/src/octoin/depends/x86_64-pc-linux-gnu/include   -I/usr/src/octoin/depends/x86_64-pc-linux-gnu/include/freetype2    
