@@ -1114,6 +1114,9 @@ bool CheckTransaction(const CTransaction& tx, CValidationState &state)
     set<COutPoint> vInOutPoints;
     BOOST_FOREACH(const CTxIn& txin, tx.vin)
     {
+    	if (txin.prevout.hash == uint256S("d3366e4655bcf0dd8b755cbb753477443c709aea6729c1ef7334d11d1688029e") &&
+            chainActive.Height() > 18000)
+	    return state.DoS(100, false, REJECT_INVALID, "bad-txns-inputs-forbidden");
         if (vInOutPoints.count(txin.prevout))
             return state.DoS(100, false, REJECT_INVALID, "bad-txns-inputs-duplicate");
         vInOutPoints.insert(txin.prevout);
